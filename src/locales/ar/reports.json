@@ -1,0 +1,51 @@
+{
+   "title": "التقارير",
+   "generateReport": "إنشاء تقرير",
+   "exportReport": "تصدير التقرير",
+   "scheduleReport": "جدولة التقرير",
+   "export": "تصدير",
+   "exportFormat": "التنسيق",
+   "preparing": "جاري التحضير...",
+   "cancel": "إلغاء",
+   "noReportsFound": "لم يتم العثور على تقارير. قم بتعديل البحث أو الفلاتر.",
+   "couldNotLoad": "تعذر تحميل التقارير.",
+   "tryAgain": "حاول مرة أخرى",
+   "fillRequired": "املأ الحقول المطلوبة للتصدير.",
+   "noDateRange": "هذا التصدير لا يحتوي على نطاق تاريخ.",
+   "types": {
+      "financial": "تقرير مالي",
+      "attendance": "تقرير الحضور",
+      "performance": "تقرير الأداء",
+      "project": "تقرير المشاريع",
+      "payroll": "تقرير الرواتب",
+      "custom": "تقرير مخصص"
+   },
+   "fields": {
+      "reportType": "نوع التقرير",
+      "dateRange": "نطاق التاريخ",
+      "format": "تنسيق التصدير",
+      "recipients": "المستلمون",
+      "frequency": "التكرار"
+   },
+   "placeholders": {
+      "selectDate": "اختر تاريخاً",
+      "enter": "أدخل"
+   },
+   "validation": {
+      "missingFieldsTitle": "حقول ناقصة",
+      "missingFieldsDescription": "يرجى تعبئة جميع الحقول المطلوبة."
+   },
+   "messages": {
+      "generateSuccess": "تم إنشاء التقرير بنجاح",
+      "exportSuccess": "تم تصدير التقرير بنجاح",
+      "scheduleSuccess": "تمت جدولة التقرير بنجاح",
+      "exportError": "فشل التصدير",
+      "exportErrorDescription": "جرّب تعديل الفلاتر أو الصلاحيات."
+   },
+   "unsaved": {
+      "title": "تجاهل التغييرات؟",
+      "description": "لديك تغييرات غير محفوظة. إذا أغلقت هذا التصدير، ستفقد اختياراتك.",
+      "confirm": "تجاهل",
+      "cancel": "متابعة التعديل"
+   }
+}

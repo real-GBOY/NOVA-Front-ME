@@ -1,0 +1,34 @@
+{
+   "title": "الأدوار والصلاحيات",
+   "addRole": "إضافة دور",
+   "editRole": "تعديل الدور",
+   "deleteRole": "حذف الدور",
+   "fields": {
+      "roleName": "اسم الدور",
+      "description": "الوصف",
+      "permissions": "الصلاحيات",
+      "members": "الأعضاء بهذا الدور"
+   },
+   "permissions": {
+      "view": "عرض",
+      "create": "إنشاء",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "manage": "إدارة",
+      "all": "جميع الصلاحيات"
+   },
+   "categories": {
+      "members": "الأعضاء",
+      "projects": "المشاريع",
+      "payrolls": "الرواتب",
+      "reports": "التقارير",
+      "settings": "الإعدادات",
+      "roles": "الأدوار والصلاحيات"
+   },
+   "messages": {
+      "addSuccess": "تمت إضافة الدور بنجاح",
+      "updateSuccess": "تم تحديث الدور بنجاح",
+      "deleteSuccess": "تم حذف الدور بنجاح",
+      "deleteConfirm": "هل أنت متأكد من حذف هذا الدور؟"
+   }
+}

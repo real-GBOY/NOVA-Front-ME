@@ -1,0 +1,149 @@
+{
+   "title": "Help & Support",
+   "searchTickets": "Search tickets...",
+   "sortBy": "Sort by",
+   "export": "Export",
+   "addTicket": "Add Ticket",
+   "tabs": {
+      "incoming": "Incoming",
+      "own": "Own",
+      "initiated": "Initiated"
+   },
+   "filter": "Filter",
+   "filterTickets": "Filter Tickets",
+   "resetAll": "Reset All",
+   "reset": "Reset",
+   "dateRange": "Date Range",
+   "dateFrom": "From",
+   "dateTo": "To",
+   "selectStatus": "Select Status",
+   "selectPriority": "Select Priority",
+   "selectCategory": "Select Category",
+   "selectType": "Select Type",
+   "selectChatStatus": "Select Chat Status",
+   "statusLabel": "Status",
+   "priorityLabel": "Priority",
+   "categoryLabel": "Category",
+   "typeLabel": "Type",
+   "chatStatusLabel": "Chat Status",
+   "cancel": "Cancel",
+   "apply": "Apply",
+   "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "urgent_critical": "Urgent / Critical"
+   },
+   "category": {
+      "technical": "Technical",
+      "hr": "HR",
+      "legal": "Legal",
+      "financial": "Financial",
+      "other": "Other",
+      "technical_support": "Technical Support",
+      "account_login": "Account & Login",
+      "suggestions_feedback": "Suggestions & Feedback",
+      "complaints": "Complaints",
+      "general_inquiry": "General Inquiry"
+   },
+   "type": {
+      "support": "Support",
+      "complaint": "Complaint",
+      "suggestion": "Suggestion",
+      "bug_error": "Bug / Error",
+      "system_not_working": "System Not Working",
+      "request": "Request",
+      "question": "Question",
+      "feature_request": "Feature Request",
+      "installation_issue": "Installation Issue",
+      "performance_issue": "Performance Issue",
+      "other": "Other"
+   },
+   "table": {
+      "ticketId": "Ticket ID",
+      "subject": "Subject",
+      "category": "Category",
+      "requestedBy": "Requested By",
+      "submittedAt": "Submitted At",
+      "status": "Status",
+      "chatStatus": {
+         "taken": "Taken",
+         "waiting": "Waiting",
+         "archived": "Archived"
+      },
+      "noResults": "No results found."
+   },
+   "status": {
+      "resolved": "Resolved",
+      "inProgress": "In Progress",
+      "open": "Open"
+   },
+   "actions": {
+      "viewDetails": "View Ticket Details",
+      "openChat": "Open Chat",
+      "initiateChat": "Initiate",
+      "joinRoom": "Join Room",
+      "showChat": "Show Chat",
+      "markAsResolved": "Mark as Resolved",
+      "delete": "Delete"
+   },
+   "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "of": "of",
+      "rowsPerPage": "rows per page"
+   },
+   "modal": {
+      "title": "New Ticket",
+      "subject": "Subject",
+      "subjectPlaceholder": "Write a short title",
+      "category": "Category",
+      "categoryPlaceholder": "Select Category",
+      "priority": "Priority",
+      "priorityPlaceholder": "Select Priority",
+      "type": "Type",
+      "typePlaceholder": "Select Type",
+      "description": "Description",
+      "descriptionPlaceholder": "Write a description for your issue",
+      "cc": "CC",
+      "ccPlaceholder": "Add people to notify",
+      "loadingPeople": "Loading people...",
+      "attachDocuments": "Attach Documents",
+      "cancel": "Cancel",
+      "submit": "Submit Ticket",
+      "submitting": "Submitting...",
+      "validation": {
+         "subjectRequired": "Subject is required",
+         "subjectMin": "Subject must be at least 3 characters",
+         "categoryRequired": "Category is required",
+         "priorityRequired": "Priority is required",
+         "typeRequired": "Type is required",
+         "descriptionRequired": "Description is required",
+         "descriptionMin": "Description must be at least 5 characters"
+      }
+   },
+   "details": {
+      "title": "Ticket Details",
+      "ticketId": "Ticket ID",
+      "requestedBy": "Requested By",
+      "subject": "Subject",
+      "description": "Description",
+      "attachments": "Attachments",
+      "category": "Category",
+      "priority": "Priority",
+      "type": "Type",
+      "cc": "CC",
+      "status": "Status",
+      "cancel": "Cancel",
+      "markAsResolved": "Mark as Resolved",
+      "updating": "Updating..."
+   },
+   "chat": {
+      "ticketLabel": "Ticket",
+      "backToTickets": "Back to tickets",
+      "noChatStarted": "No chat has been started for this ticket yet.",
+      "notMember": "Another manager is reviewing this."
+   },
+   "loading": "Loading..."
+}

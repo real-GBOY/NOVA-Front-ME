@@ -1,0 +1,47 @@
+{
+   "title": "Dashboard",
+   "welcome": "Welcome back",
+   "overview": "Overview",
+   "header": {
+      "avatarAlt": "{{name}} avatar",
+      "welcome": "Welcome back, {{name}}",
+      "fallbackName": "User",
+      "newRequests": "Today you have {{count}} new requests",
+      "dateRange": "08 Dec - 15 Dec 2025",
+      "dateRangeLabel": "Select date range",
+      "dateFrom": "From Date",
+      "dateTo": "To Date",
+      "dateRangeError": "End date cannot be before start date.",
+      "dateRangeRequired": "Select a start and end date.",
+      "export": "Export"
+   },
+   "attendanceRequests": {
+      "loading": "Loading attendance requests...",
+      "error": "Failed to load attendance requests."
+   },
+   "statistics": {
+      "totalMembers": "Total Members",
+      "activeProjects": "Active Projects",
+      "pendingTasks": "Pending Tasks",
+      "completedTasks": "Completed Tasks",
+      "totalRevenue": "Total Revenue",
+      "monthlyExpenses": "Monthly Expenses"
+   },
+   "charts": {
+      "projectProgress": "Project Progress",
+      "memberActivity": "Member Activity",
+      "revenueOverview": "Revenue Overview",
+      "taskCompletion": "Task Completion Rate"
+   },
+   "quickActions": {
+      "title": "Quick Actions",
+      "addMember": "Add New Member",
+      "createProject": "Create Project",
+      "generateReport": "Generate Report",
+      "viewCalendar": "View Calendar"
+   },
+   "recentActivity": {
+      "title": "Recent Activity",
+      "noActivity": "No recent activity"
+   }
+}

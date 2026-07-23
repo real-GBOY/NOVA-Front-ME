@@ -1,0 +1,34 @@
+{
+   "title": "Roles & Permissions",
+   "addRole": "Add Role",
+   "editRole": "Edit Role",
+   "deleteRole": "Delete Role",
+   "fields": {
+      "roleName": "Role Name",
+      "description": "Description",
+      "permissions": "Permissions",
+      "members": "Members with this role"
+   },
+   "permissions": {
+      "view": "View",
+      "create": "Create",
+      "edit": "Edit",
+      "delete": "Delete",
+      "manage": "Manage",
+      "all": "All Permissions"
+   },
+   "categories": {
+      "members": "Members",
+      "projects": "Projects",
+      "payrolls": "Payrolls",
+      "reports": "Reports",
+      "settings": "Settings",
+      "roles": "Roles & Permissions"
+   },
+   "messages": {
+      "addSuccess": "Role added successfully",
+      "updateSuccess": "Role updated successfully",
+      "deleteSuccess": "Role deleted successfully",
+      "deleteConfirm": "Are you sure you want to delete this role?"
+   }
+}

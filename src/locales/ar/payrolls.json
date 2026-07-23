@@ -1,0 +1,147 @@
+{
+   "title": "الرواتب",
+   "generatePayroll": "إنشاء كشف رواتب",
+   "viewPayroll": "عرض كشف الرواتب",
+   "processPayroll": "معالجة كشف الرواتب",
+   "addPayroll": "إنشاء كشف راتب",
+   "createVoucher": "إنشاء سند",
+   "searchPlaceholder": "البحث باسم الموظف...",
+   "noPayrolls": "لا توجد رواتب",
+   "noPayrollsDesc": "لا توجد سجلات رواتب للعرض. ستظهر الرواتب هنا بمجرد إنشائها.",
+   "loading": "جاري تحميل الرواتب...",
+   "fields": {
+      "employee": "الموظف",
+      "period": "فترة الدفع",
+      "baseSalary": "الراتب الأساسي",
+      "grossTotal": "الإجمالي",
+      "allowances": "البدلات",
+      "deductions": "الاستقطاعات",
+      "netPay": "صافي الراتب",
+      "status": "الحالة",
+      "cycleType": "الدورة",
+      "createdAt": "تاريخ الإنشاء",
+      "paymentDate": "تاريخ الدفع",
+      "paymentMethod": "طريقة الدفع"
+   },
+   "details": {
+      "runType": "نوع التشغيل",
+      "financialDetails": "التفاصيل المالية",
+      "employerCost": "تكلفة صاحب العمل",
+      "notes": "ملاحظات",
+      "warnings": "تحذيرات"
+   },
+   "labels": {
+      "allEmployees": "جميع الموظفين",
+      "unknownEmployee": "موظف غير معروف"
+   },
+   "status": {
+      "Draft": "مسودة",
+      "Review": "قيد المراجعة",
+      "Approved": "معتمد",
+      "Finalized": "نهائي",
+      "pending": "قيد الانتظار",
+      "processed": "تمت المعالجة",
+      "paid": "تم الدفع",
+      "failed": "فشل"
+   },
+   "filters": {
+      "status": "الحالة",
+      "cycleType": "نوع الدورة",
+      "allStatuses": "جميع الحالات",
+      "allCycles": "جميع الدورات",
+      "Monthly": "شهري",
+      "Biweekly": "نصف شهري",
+      "Weekly": "أسبوعي"
+   },
+   "sort": {
+      "newest": "الأحدث أولاً",
+      "oldest": "الأقدم أولاً",
+      "periodStartDesc": "الفترة (الأحدث)",
+      "periodStartAsc": "الفترة (الأقدم)",
+      "createdAtDesc": "الإنشاء (الأحدث)",
+      "createdAtAsc": "الإنشاء (الأقدم)"
+   },
+   "actions": {
+      "approve": "اعتماد كشف الراتب",
+      "createVoucher": "إنشاء سند"
+   },
+   "modal": {
+      "createPayroll": {
+         "title": "إنشاء كشف راتب",
+         "selectEmployee": "اختر الموظفين",
+         "employeePlaceholder": "ابحث واختر موظفين...",
+         "periodStart": "بداية الفترة",
+         "periodEnd": "نهاية الفترة",
+         "cycleType": "نوع الدورة",
+         "notes": "ملاحظات",
+         "notesPlaceholder": "ملاحظات اختيارية لكشف الراتب",
+         "create": "إنشاء كشف الراتب",
+         "cancel": "إلغاء"
+      },
+      "createVoucher": {
+         "title": "إنشاء سند من كشف الراتب",
+         "description": "إنشاء سند دفع لسجل الراتب هذا.",
+         "accountType": "نوع الحساب",
+         "accountTypePlaceholder": "اختر نوع الحساب",
+         "accountTypeBank": "بنك",
+         "accountTypeCash": "نقداً",
+         "bankAccount": "حساب بنكي",
+         "bankAccountPlaceholder": "اختر حساباً بنكياً",
+         "cashAccount": "حساب نقدي",
+         "cashAccountPlaceholder": "اختر حساباً نقدياً",
+         "financialAccount": "الحساب المالي",
+         "accountPlaceholder": "اختر الحساب المالي...",
+         "valueDate": "تاريخ القيمة",
+         "reference": "المرجع",
+         "referencePlaceholder": "مثال: PAY-2025-02",
+         "notes": "ملاحظات",
+         "notesPlaceholder": "ملاحظات اختيارية للسند",
+         "create": "إنشاء السند",
+         "cancel": "إلغاء"
+      },
+      "confirm": {
+         "approve": "اعتماد كشف الراتب",
+         "approveDesc": "هل أنت متأكد من اعتماد كشف الراتب لـ {{name}}؟ لا يمكن التراجع عن هذا الإجراء.",
+         "confirm": "اعتماد",
+         "cancel": "إلغاء"
+      }
+   },
+   "toast": {
+      "createSuccess": "تم إنشاء كشف الراتب بنجاح",
+      "createError": "فشل إنشاء كشف الراتب",
+      "approveSuccess": "تم اعتماد كشف الراتب بنجاح",
+      "approveError": "فشل اعتماد كشف الراتب",
+      "voucherSuccess": "تم إنشاء السند بنجاح",
+      "voucherError": "فشل إنشاء السند"
+   },
+   "error": {
+      "loadFailed": "فشل تحميل الرواتب"
+   },
+   "noPermission": {
+      "title": "الوصول مقيد",
+      "description": "ليس لديك صلاحية لعرض معلومات الرواتب."
+   },
+   "messages": {
+      "generateSuccess": "تم إنشاء كشف الرواتب بنجاح",
+      "processSuccess": "تمت معالجة كشف الرواتب بنجاح",
+      "paySuccess": "تم إتمام الدفع بنجاح",
+      "autoCreateNote": "يتم إنشاء كشوف الرواتب تلقائيًا في يوم 25 من كل شهر."
+   },
+   "details": {
+      "back": "رجوع",
+      "print": "طباعة",
+      "employeeId": "رقم الموظف",
+      "runType": "نوع التشغيل",
+      "financialDetails": "التفاصيل المالية",
+      "notes": "ملاحظات",
+      "warnings": "تحذيرات",
+      "approvePayroll": "الموافقة على الراتب",
+      "status": {
+         "Draft": "مسودة",
+         "Review": "قيد المراجعة",
+         "Approved": "معتمد",
+         "Finalized": "نهائي"
+      },
+      "employerCost": "تكلفة صاحب العمل"
+   }
+}

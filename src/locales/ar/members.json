@@ -1,0 +1,991 @@
+{
+   "title": "الأعضاء",
+   "addMember": "إضافة عضو",
+   "addMember.wizard": {
+      "steps": {
+         "basic": "المعلومات الأساسية",
+         "work": "معلومات العمل",
+         "residency": "تفاصيل الإقامة",
+         "review": "المراجعة"
+      },
+      "buttons": {
+         "back": "رجوع",
+         "continue": "متابعة",
+         "addMember": "إضافة العضو",
+         "processing": "جاري المعالجة...",
+         "validating": "جاري التحقق...",
+         "uploading": "جاري الرفع...",
+         "edit": "تعديل",
+         "creatingMember": "جاري إنشاء العضو..."
+      },
+      "basicInfo": {
+         "title": "المعلومات الأساسية",
+         "subtitle": "التفاصيل الأساسية اللازمة لإنشاء ملف الموظف.",
+         "personalDetails": {
+            "title": "البيانات الشخصية",
+            "subtitle": "معلومات ديموغرافية إضافية تُستخدم لموارد البشرية والامتثال."
+         },
+         "uploadImage": {
+            "title": "رفع الصورة",
+            "description": "الحد الأدنى 400x400 بكسل، PNG أو JPEG",
+            "upload": "رفع",
+            "uploading": "جاري الرفع...",
+            "change": "تغيير",
+            "remove": "إزالة"
+         },
+         "fields": {
+            "firstName": "الاسم الأول",
+            "lastName": "اسم العائلة",
+            "email": "البريد الإلكتروني",
+            "phoneNumber": "رقم الهاتف",
+            "country": "البلد",
+            "dateOfBirth": "تاريخ الميلاد",
+            "gender": "الجنس",
+            "maritalStatus": "الحالة الاجتماعية",
+            "nationalId": "رقم الهوية الوطنية / جواز السفر",
+            "address": "العنوان",
+            "documents": "إرفاق المستندات"
+         },
+         "placeholders": {
+            "firstName": "أدخل الاسم الأول",
+            "lastName": "أدخل اسم العائلة",
+            "email": "hello@alignui.com",
+            "phoneNumber": "أدخل رقم الهاتف",
+            "country": "ابحث عن بلد...",
+            "gender": "اختر نوع الجنس",
+            "maritalStatus": "اختر الحالة الاجتماعية",
+            "nationalId": "أدخل رقم الهوية الوطنية / جواز السفر",
+            "address": "أضف العنوان"
+         },
+         "options": {
+            "gender": {
+               "Male": "ذكر",
+               "Female": "أنثى",
+               "Other": "آخر"
+            },
+            "maritalStatus": {
+               "Single": "أعزب",
+               "Married": "متزوج",
+               "Divorced": "مطلق",
+               "Widowed": "أرمل"
+            }
+         }
+      },
+      "workInfo": {
+         "title": "معلومات العمل",
+         "subtitle": "تعيين دور العضو وخط الإبلاغ وتفاصيل مكان العمل.",
+         "fields": {
+            "jobTitle": "المسمى الوظيفي",
+            "team": "الفريق",
+            "role": "الدور",
+            "manager": "المدير",
+            "workShift": "وردية العمل",
+            "employmentType": "نوع التوظيف",
+            "startDate": "تاريخ البدء",
+            "hoursPerWeek": "جدول العمل / ساعات في الأسبوع",
+            "probationPeriod": "فترة التجربة (أيام)",
+            "memberId": "رقم العضو"
+         },
+         "placeholders": {
+            "jobTitle": "اختر المسمى الوظيفي",
+            "team": "اختر الفريق",
+            "role": "اختر الدور",
+            "manager": "ابحث عن المدير",
+            "employmentType": "اختر نوع التوظيف",
+            "startDate": "اختر تاريخ البدء",
+            "hoursPerWeek": "مثال: 40",
+            "probationPeriod": "مثال: 90"
+         },
+         "options": {
+            "employmentType": {
+               "full_time": "دوام كامل",
+               "part_time": "دوام جزئي",
+               "contract": "عقد",
+               "intern": "متدرّب",
+               "temporary": "مؤقت"
+            }
+         }
+      },
+      "residency": {
+         "title": "تفاصيل الإقامة",
+         "subtitle": "تسجيل تفاصيل التأشيرة والإقامة والهوية.",
+         "fields": {
+            "status": "حالة الإقامة",
+            "country": "بلد الإقامة",
+            "type": "نوع الإقامة / التأشيرة",
+            "number": "رقم الإقامة / التأشيرة",
+            "issueDate": "تاريخ الإصدار",
+            "expiryDate": "تاريخ الانتهاء",
+            "document": "رفع بطاقة الهوية الإماراتية / مستند الإقامة"
+         },
+         "placeholders": {
+            "status": "اختر حالة الإقامة",
+            "country": "ابحث عن بلد",
+            "type": "اختر نوع الإقامة / التأشيرة",
+            "number": "أضف رقم الإقامة / التأشيرة",
+            "issueDate": "اختر تاريخ الإصدار",
+            "expiryDate": "اختر تاريخ الانتهاء"
+         },
+         "options": {
+            "status": {
+               "Active": "نشط",
+               "Expired": "منتهي",
+               "Pending": "قيد الانتظار",
+               "Cancelled": "ملغي"
+            },
+            "type": {
+               "employmentVisa": "تأشيرة عمل",
+               "visitVisa": "تأشيرة زيارة",
+               "goldenVisa": "تأشيرة ذهبية",
+               "studentVisa": "تأشيرة طالب",
+               "dependentVisa": "تأشيرة معال"
+            }
+         }
+      },
+      "review": {
+         "title": "المراجعة والتأكيد",
+         "subtitle": "تحقق من ملخص هذا العضو وقم بتحديث أي شيء إذا لزم الأمر.",
+         "sections": {
+            "basicInfo": "المعلومات الأساسية",
+            "workInfo": "معلومات العمل",
+            "residencyDetails": "تفاصيل الإقامة"
+         },
+         "fields": {
+            "memberName": "اسم العضو",
+            "email": "البريد الإلكتروني",
+            "phoneNumber": "رقم الهاتف",
+            "country": "البلد",
+            "dateOfBirth": "تاريخ الميلاد",
+            "gender": "الجنس",
+            "maritalStatus": "الحالة الاجتماعية",
+            "nationalId": "رقم الهوية الوطنية / جواز السفر",
+            "address": "العنوان",
+            "attachedDocuments": "المستندات المرفقة",
+            "jobTitle": "المسمى الوظيفي",
+            "teams": "الفرق",
+            "role": "الدور",
+            "manager": "المدير",
+            "employmentType": "نوع التوظيف",
+            "startDate": "تاريخ البدء",
+            "hoursPerWeek": "جدول العمل / ساعات في الأسبوع",
+            "memberId": "رقم العضو",
+            "residencyStatus": "حالة الإقامة",
+            "residencyCountry": "بلد الإقامة",
+            "residencyType": "نوع الإقامة / التأشيرة",
+            "residencyNumber": "رقم الإقامة / التأشيرة",
+            "issueDate": "تاريخ الإصدار",
+            "expiryDate": "تاريخ الانتهاء",
+            "residencyDocument": "بطاقة الهوية الإماراتية / مستند الإقامة"
+         },
+         "notProvided": "غير مزود",
+         "noDocuments": "لا توجد مستندات مرفقة"
+      }
+   },
+   "addMember.shift": {
+      "label": "وردية العمل",
+      "placeholder": "اختر وردية (اختياري)",
+      "loading": "جاري تحميل الورديات...",
+      "noShifts": "لا توجد ورديات متاحة",
+      "schedule": "الجدول"
+   },
+   "editMember": "تعديل العضو",
+   "deleteMember": "حذف العضو",
+   "memberDetails": "تفاصيل العضو",
+   "searchMembers": "البحث بالاسم، البريد الإلكتروني، المسمى الوظيفي…",
+   "filters": {
+      "all": "جميع الأعضاء",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "role": "تصفية حسب الدور",
+      "department": "تصفية حسب القسم",
+      "filter": "تصفية",
+      "sortBy": "ترتيب حسب",
+      "title": "تصفية",
+      "resetAll": "إعادة تعيين الكل",
+      "jobTitle": "المسمى الوظيفي",
+      "reset": "إعادة تعيين",
+      "selectJobTitle": "اختر المسمى الوظيفي",
+      "dateRange": "نطاق التاريخ",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "issueDate": "تاريخ الإصدار",
+      "permissions": "الصلاحيات",
+      "selectPermissionType": "اختر نوع الصلاحية",
+      "status": "الحالة",
+      "selectStatus": "اختر الحالة",
+      "selectRole": "اختر الدور",
+      "datePlaceholder": "يوم / شهر / سنة",
+      "invited": "مدعو",
+      "override": "معدل",
+      "default": "افتراضي"
+   },
+   "sort": {
+      "recentlyAdded": "الأحدث أولاً",
+      "recentlyAddedDescription": "إظهار الأعضاء المنضمين حديثاً في الأعلى",
+      "nameAsc": "الاسم (أ-ي)",
+      "nameAscDescription": "ترتيب أبجدي حسب الاسم",
+      "nameDesc": "الاسم (ي-أ)",
+      "nameDescDescription": "ترتيب أبجدي عكسي",
+      "role": "الدور",
+      "roleDescription": "ترتيب حسب المسمى الوظيفي",
+      "status": "الحالة (نشط أولاً)",
+      "statusDescription": "عرض الأعضاء النشطين قبل غير النشطين"
+   },
+   "options": {
+      "gender": {
+         "male": "ذكر",
+         "female": "أنثى"
+      },
+      "maritalStatus": {
+         "single": "أعزب",
+         "married": "متزوج"
+      },
+      "religion": {
+         "muslim": "مسلم",
+         "christian": "مسيحي"
+      },
+      "contractType": {
+         "fullTime": "دوام كامل",
+         "partTime": "دوام جزئي"
+      }
+   },
+   "fields": {
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "fullName": "الاسم الكامل",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "mobile": "رقم الجوال",
+      "role": "الدور",
+      "department": "القسم",
+      "position": "المنصب",
+      "jobTitle": "المسمى الوظيفي",
+      "contact": "جهة الاتصال",
+      "contactNumber": "رقم الاتصال",
+      "joiningDate": "تاريخ الانضمام",
+      "joinedAt": "تاريخ الانضمام",
+      "joinedDate": "تاريخ الانضمام",
+      "status": "الحالة",
+      "salary": "الراتب",
+      "avatar": "الصورة الشخصية",
+      "permissions": "الصلاحيات",
+      "permissionsStatus": "حالة الصلاحيات",
+      "employmentStatus": "حالة التوظيف (نشط/غير نشط)",
+      "gender": "الجنس",
+      "dob": "تاريخ الميلاد",
+      "age": "العمر",
+      "nationality": "الجنسية",
+      "maritalStatus": "الحالة الاجتماعية",
+      "location": "البلد/المدينة",
+      "religion": "الديانة",
+      "team": "الفريق",
+      "manager": "المدير",
+      "memberId": "رقم العضو",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "issueDate": "تاريخ الإصدار",
+      "address": "عنوان الشارع",
+      "city": "المدينة",
+      "state": "الولاية / المقاطعة / المنطقة",
+      "country": "البلد",
+      "zipCode": "الرمز البريدي",
+      "secondaryAddress": "العنوان الثانوي",
+      "notProvided": "غير مزود",
+      "contractType": "نوع العقد",
+      "employmentType": "نوع التوظيف",
+      "probationPeriod": "فترة التجربة",
+      "workHours": "ساعات العمل في الأسبوع"
+   },
+   "table": {
+      "memberName": "اسم العضو",
+      "jobTitle": "المسمى الوظيفي",
+      "contact": "جهة الاتصال",
+      "joinedAt": "تاريخ الانضمام",
+      "permissions": "الصلاحيات",
+      "status": "الحالة",
+      "role": "الدور",
+      "actions": "الإجراءات",
+      "membersSelected": "أعضاء محددون",
+      "noResults": "لا توجد نتائج"
+   },
+   "kpi": {
+      "totalMembers": "إجمالي الأعضاء",
+      "totalTeams": "إجمالي الفرق",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "overridden": "معدّل",
+      "overriddenTooltip": "عدد المستخدمين ذوي الصلاحيات المخصصة"
+   },
+   "permissions": {
+      "default": "افتراضي",
+      "override": "معدّل",
+      "resetPermissions": "إعادة تعيين الصلاحيات",
+      "resetConfirm": "هل أنت متأكد من إعادة تعيين صلاحيات {{name}}؟",
+      "resetSuccess": "تمت إعادة تعيين الصلاحيات بنجاح",
+      "overridePermissions": "تعديل الصلاحيات",
+      "overrideTitle": "تعديل صلاحيات العضو",
+      "overrideDescription": "تخصيص صلاحيات {{name}}. التغييرات تُلغي الصلاحيات الافتراضية للدور.",
+      "searchPermissions": "البحث في الصلاحيات...",
+      "loadingPermissions": "جاري تحميل الصلاحيات...",
+      "noPermissionsFound": "لا توجد صلاحيات",
+      "saveChanges": "حفظ التغييرات",
+      "resetToDefault": "إعادة تعيين للافتراضي",
+      "resetting": "جاري إعادة التعيين...",
+      "updateSuccess": "تم تحديث الصلاحيات بنجاح",
+      "updateError": "فشل تحديث الصلاحيات",
+      "resetError": "فشل إعادة تعيين الصلاحيات"
+   },
+   "actions": {
+      "editDetails": "تعديل التفاصيل",
+      "sendMessage": "إرسال رسالة",
+      "resetPermissions": "إعادة تعيين الصلاحيات",
+      "overridePermissions": "تعديل الصلاحيات",
+      "delete": "حذف",
+      "deactivate": "إلغاء التفعيل",
+      "moreOptions": "خيارات إضافية",
+      "viewProfile": "عرض الملف الشخصي",
+      "deleteMembers": "حذف الأعضاء",
+      "cancel": "إلغاء"
+   },
+   "pagination": {
+      "page": "صفحة",
+      "of": "من",
+      "perPage": "/ صفحة"
+   },
+   "modals": {
+      "resetPermissions": {
+         "title": "إعادة تعيين صلاحيات العضو؟",
+         "description": "سيؤدي هذا إلى إزالة جميع الصلاحيات المخصصة أو المعدّلة واستعادة الوصول الافتراضي للعضو بناءً على دوره.",
+         "confirmButton": "إعادة تعيين الصلاحيات",
+         "cancelButton": "إلغاء"
+      },
+      "deleteMember": {
+         "title": "إزالة العضو من المنظمة؟",
+         "description": "سيؤدي هذا إلى حذف حساب العضو نهائياً وإلغاء جميع صلاحيات الوصول إلى النظام. قد يبقى سجل نشاطه لأغراض التدقيق.",
+         "confirmButton": "حذف العضو",
+         "cancelButton": "إلغاء"
+      }
+   },
+   "export": {
+      "title": "تصدير بيانات الأعضاء",
+      "scope": {
+         "title": "نطاق التصدير",
+         "selected": "الأعضاء المحددون",
+         "selectedDesc": "تصدير الأعضاء المحددين حالياً في الجدول فقط.",
+         "all": "جميع الأعضاء",
+         "allDesc": "تصدير قائمة الدليل الكاملة."
+      },
+      "dataIncluded": {
+         "title": "البيانات المضمنة",
+         "subtitle": "سيتم دائماً عرض الاسم والمسمى الوظيفي"
+      },
+      "fileFormat": {
+         "title": "تنسيق الملف"
+      }
+   },
+   "noResults": {
+      "title": "لا توجد نتائج",
+      "description": "لم نجد أي أعضاء يطابقون بحثك. حاول تعديل الكلمات المفتاحية أو عوامل التصفية."
+   },
+   "emptyState": {
+      "title": "لا يوجد أعضاء بعد",
+      "description": "ابدأ ببناء مساحة عملك بإضافة أول عضو. بعد إضافته يمكنك تعيين المسميات الوظيفية والأدوار والصلاحيات."
+   },
+   "messages": {
+      "addSuccess": "تمت إضافة العضو بنجاح",
+      "updateSuccess": "تم تحديث العضو بنجاح",
+      "deleteSuccess": "تم حذف العضو بنجاح",
+      "deleteConfirm": "هل أنت متأكد من حذف {{name}}؟",
+      "noMembers": "لا يوجد أعضاء",
+      "loadingMembers": "جاري تحميل الأعضاء..."
+   },
+   "error": "فشل تحميل بيانات العضو. يرجى المحاولة مرة أخرى.",
+   "memberNotFound": "العضو غير موجود",
+   "backToMembers": "العودة إلى الأعضاء",
+   "payroll": {
+      "title": "الرواتب",
+      "searchPlaceholder": "بحث في عناصر الراتب",
+      "addPayItem": "إضافة بند راتب",
+      "editPayItem": "تعديل بند الراتب",
+      "export": "تصدير",
+      "table": {
+         "payrollItem": "بند الراتب",
+         "type": "النوع",
+         "amount": "المبلغ",
+         "effectiveDate": "تاريخ السريان",
+         "notes": "ملاحظات"
+      },
+      "types": {
+         "Base": "الراتب الأساسي",
+         "Allowance": "بدل",
+         "Overtime": "عمل إضافي",
+         "Deduction": "خصم",
+         "Bonus": "مكافأة",
+         "Base Salary": "الراتب الأساسي",
+         "Over-Time": "عمل إضافي"
+      },
+      "form": {
+         "itemName": "اسم البند",
+         "componentType": "النوع",
+         "amount": "المبلغ",
+         "effectiveDate": "تاريخ السريان",
+         "notes": "ملاحظات",
+         "selectType": "اختر النوع",
+         "reason": "السبب",
+         "reasonPlaceholder": "اشرح سبب تعديل هذا البند"
+      },
+      "actions": {
+         "edit": "تعديل",
+         "delete": "حذف",
+         "save": "حفظ",
+         "cancel": "إلغاء",
+         "add": "إضافة",
+         "update": "تحديث"
+      },
+      "messages": {
+         "addSuccess": "تمت إضافة بند الراتب بنجاح",
+         "updateSuccess": "تم تحديث بند الراتب بنجاح",
+         "deleteSuccess": "تم حذف بند الراتب بنجاح",
+         "deleteConfirmTitle": "حذف بند الراتب؟",
+         "deleteConfirmDescription": "هل أنت متأكد من حذف هذا البند؟ لا يمكن التراجع عن هذا الإجراء.",
+         "confirmDelete": "حذف"
+      },
+      "tooltips": {
+         "systemItem": "لا يمكنك تعديل البنود التي أضافها النظام"
+      },
+      "sort": {
+         "newest": "الأحدث أولاً",
+         "oldest": "الأقدم أولاً",
+         "amountHighToLow": "المبلغ (من الأعلى إلى الأدنى)",
+         "amountLowToHigh": "المبلغ (من الأدنى إلى الأعلى)"
+      }
+   },
+   "profile": {
+      "contractStatusValues": {
+         "active": "نشط",
+         "expired": "منتهي",
+         "terminated": "تم إنهاؤه"
+      },
+      "breadcrumb": {
+         "members": "الأعضاء",
+         "memberProfile": "الملف الشخصي للعضو"
+      },
+      "hero": {
+         "backToMembers": "العودة إلى الأعضاء",
+         "lastUpdated": "آخر تحديث",
+         "lastUpdatedValue": "منذ ثوانٍ قليلة",
+         "pagination": "{{current}} من {{total}}",
+         "sendMessage": "إرسال رسالة",
+         "previousMember": "العضو السابق",
+         "nextMember": "العضو التالي"
+      },
+      "summary": {
+         "absenceDays": "أيام الغياب",
+         "overtime": "الوقت الإضافي",
+         "lateArrivals": "التأخيرات",
+         "pendingRequests": "الطلبات المعلقة",
+         "contractStatus": "حالة العقد",
+         "noContractYet": "لا يوجد عقد بعد",
+         "pendingRequestsValue": "{{count}} طلب",
+         "overtimeValue": "{{hours}} ساعة",
+         "lateArrivalsValue": "{{count}} مرة",
+         "badges": {
+            "low": "منخفض",
+            "medium": "متوسط",
+            "high": "مرتفع",
+            "endsIn": "ينتهي خلال {{days}} يوم"
+         },
+         "contract": {
+            "extendDuration": "تمديد المدة"
+         }
+      },
+      "tabs": {
+         "profile": "معلومات الملف الشخصي",
+         "contract": "العقد",
+         "shift": "الوردية",
+         "time": "إدارة الوقت",
+         "documents": "المستندات",
+         "assets": "الأصول",
+         "residency": "الإقامة",
+         "payroll": "الرواتب"
+      },
+      "payroll": {
+         "title": "الرواتب",
+         "searchPlaceholder": "بحث في عناصر الراتب",
+         "addPayItem": "إضافة بند راتب",
+         "editPayItem": "تعديل بند الراتب",
+         "export": "تصدير",
+         "table": {
+            "payrollItem": "بند الراتب",
+            "type": "النوع",
+            "amount": "المبلغ",
+            "effectiveDate": "تاريخ السريان",
+            "notes": "ملاحظات"
+         },
+         "types": {
+            "Base Salary": "الراتب الأساسي",
+            "Bonus": "مكافأة",
+            "Deduction": "خصم",
+            "Over-Time": "عمل إضافي"
+         },
+         "form": {
+            "itemName": "اسم البند",
+            "componentType": "النوع",
+            "amount": "المبلغ",
+            "effectiveDate": "تاريخ السريان",
+            "notes": "ملاحظات",
+            "selectType": "اختر النوع",
+            "reason": "السبب",
+            "reasonPlaceholder": "اشرح سبب تعديل هذا البند"
+         },
+         "actions": {
+            "edit": "تعديل",
+            "delete": "حذف",
+            "save": "حفظ",
+            "cancel": "إلغاء",
+            "add": "إضافة",
+            "update": "تحديث"
+         },
+         "messages": {
+            "addSuccess": "تمت إضافة بند الراتب بنجاح",
+            "updateSuccess": "تم تحديث بند الراتب بنجاح",
+            "deleteSuccess": "تم حذف بند الراتب بنجاح",
+            "deleteConfirmTitle": "حذف بند الراتب؟",
+            "deleteConfirmDescription": "هل أنت متأكد من حذف هذا البند؟ لا يمكن التراجع عن هذا الإجراء.",
+            "confirmDelete": "حذف"
+         }
+      },
+      "validation": {
+         "required": "حقل {{field}} مطلوب."
+      },
+      "contract": {
+         "noContractFound": "لم يتم العثور على عقد",
+         "duration": {
+            "title": "مدة العقد",
+            "terminate": "إنهاء",
+            "extend": "تمديد",
+            "extendDuration": "تمديد المدة",
+            "expired": "منتهي الصلاحية",
+            "terminated": "تم إنهاؤه",
+            "daysRemaining": "{{days}} يوم متبقي",
+            "contractTerminated": "العقد تم إنهاؤه، يجب عليك إنشاء عقد جديد"
+         },
+         "extendModal": {
+            "title": "تمديد مدة العقد",
+            "newEndDate": "تاريخ الانتهاء الجديد",
+            "selectNewDate": "اختر تاريخ الانتهاء الجديد",
+            "currentEndDate": "تاريخ الانتهاء الحالي",
+            "selectDate": "يرجى اختيار تاريخ انتهاء جديد",
+            "futureDateRequired": "يجب أن يكون تاريخ الانتهاء الجديد في المستقبل",
+            "afterCurrentDate": "يجب أن يكون تاريخ الانتهاء الجديد بعد تاريخ الانتهاء الحالي",
+            "success": "تم تمديد العقد بنجاح",
+            "error": "فشل تمديد العقد",
+            "cancel": "إلغاء",
+            "extend": "تمديد العقد",
+            "extending": "جاري التمديد..."
+         },
+         "clause": {
+            "title": "بنود العقد",
+            "editTitle": "تعديل بنود العقد",
+            "updateButton": "تحديث البنود",
+            "updating": "جارٍ التحديث...",
+            "updateSuccess": "تم تحديث بنود العقد بنجاح",
+            "updateError": "فشل تحديث بنود العقد",
+            "noticePeriod": "فترة الإشعار",
+            "casualLeave": "إجازة عادية",
+            "absenceLimit": "حد الغياب",
+            "absenceLimitValue": "{{days}} يوم",
+            "absenceLimitPerYear": "{{days}} يوم في السنة",
+            "sickLeave": "إجازة مرضية",
+            "annualLeave": "الإجازة السنوية",
+            "autoTermination": "الإنهاء التلقائي عند حد الغياب"
+         },
+         "documents": {
+            "title": "مستندات العقد",
+            "addFiles": "إضافة ملفات",
+            "uploadTitle": "رفع ملفات العقد",
+            "uploadLabel": "إرفاق ملفات العقد",
+            "uploadAction": "رفع الملفات",
+            "uploadingAction": "جارٍ الرفع...",
+            "uploadSuccess": "تم رفع ملفات العقد بنجاح",
+            "uploadError": "فشل رفع ملفات العقد",
+            "uploadEmptyError": "يرجى رفع ملف واحد على الأقل",
+            "fileName": "عقد {{name}} {{year}}",
+            "fileSizeSample": "2.4 ميجابايت · PDF",
+            "readyForDownload": "جاهز للتنزيل",
+            "noDocuments": "لا توجد مستندات عقد حتى الآن"
+         }
+      },
+      "details": {
+         "personal": {
+            "title": "البيانات الشخصية"
+         },
+         "work": {
+            "title": "معلومات العمل"
+         },
+         "address": {
+            "title": "العنوان"
+         },
+         "compensation": {
+            "title": "التعويضات والتوظيف"
+         },
+         "contact": {
+            "title": "معلومات الاتصال"
+         }
+      },
+      "actions": {
+         "search": "بحث",
+         "settings": "فتح الإعدادات",
+         "notifications": "الإشعارات"
+      },
+      "timeOff": {
+         "table": {
+            "startDate": "تاريخ البدء",
+            "endDate": "تاريخ الانتهاء",
+            "timeOffType": "نوع الإجازة",
+            "reason": "السبب",
+            "attachment": "المرفقات"
+         },
+         "status": {
+            "pending": "قيد الانتظار",
+            "approved": "موافق عليها",
+            "rejected": "مرفوضة",
+            "completed": "مكتملة"
+         },
+         "actions": {
+            "approve": "موافقة",
+            "reject": "رفض"
+         }
+      },
+      "overtime": {
+         "table": {
+            "requestedDate": "تاريخ الطلب",
+            "overtimeDate": "تاريخ العمل الإضافي",
+            "duration": "المدة",
+            "overtime": "العمل الإضافي",
+            "reason": "السبب"
+         },
+         "status": {
+            "pending": "قيد الانتظار",
+            "approved": "موافق عليها",
+            "rejected": "مرفوضة",
+            "completed": "مكتملة"
+         },
+         "actions": {
+            "approve": "موافقة",
+            "reject": "رفض"
+         }
+      },
+      "assets": {
+         "table": {
+            "assetName": "اسم الأصل",
+            "assignedDate": "تاريخ التعيين",
+            "assetType": "نوع الأصل",
+            "serialNumber": "الرقم التسلسلي",
+            "status": "الحالة"
+         },
+         "status": {
+            "active": "نشط",
+            "inactive": "غير نشط",
+            "returned": "تم الإرجاع",
+            "pending": "قيد الانتظار"
+         },
+         "actions": {
+            "approve": "موافقة",
+            "reject": "رفض"
+         },
+         "searchPlaceholder": "البحث في السجلات",
+         "filterTitle": "تصفية الأصول",
+         "filter": "تصفية",
+         "resetAll": "إعادة تعيين الكل",
+         "reset": "إعادة تعيين",
+         "cancel": "إلغاء",
+         "apply": "تطبيق",
+         "selectStatus": "اختر الحالة",
+         "assetType": "نوع الأصل",
+         "selectType": "اختر النوع",
+         "dateRange": "نطاق التاريخ",
+         "dateFrom": "من",
+         "dateTo": "إلى",
+         "statusOptions": {
+            "active": "نشط",
+            "inactive": "غير نشط",
+            "returned": "تم الإرجاع",
+            "pending": "قيد الانتظار"
+         }
+      },
+      "residency": {
+         "title": "تفاصيل الإقامة",
+         "permitNumber": "رقم التصريح",
+         "permitType": "نوع التصريح",
+         "issueDate": "تاريخ الإصدار",
+         "expiryDate": "تاريخ الانتهاء",
+         "country": "البلد",
+         "status": "الحالة",
+         "document": "مستند",
+         "additionalDocuments": "مستندات إضافية",
+         "attachmentsTitle": "مرفقات الإقامة",
+         "noAttachments": "لا توجد مستندات إقامة مرفوعة بعد",
+         "addFiles": "إضافة ملفات",
+         "uploadTitle": "رفع ملفات الإقامة",
+         "uploadLabel": "إرفاق ملفات الإقامة",
+         "uploadAction": "رفع الملفات",
+         "uploadingAction": "جارٍ الرفع...",
+         "uploadSuccess": "تم رفع ملفات الإقامة بنجاح",
+         "uploadError": "فشل رفع ملفات الإقامة",
+         "uploadEmptyError": "يرجى رفع ملف واحد على الأقل",
+         "noResidencyFound": "لا توجد معلومات إقامة لهذا العضو"
+      }
+   },
+   "stats": {
+      "totalMembers": "إجمالي الأعضاء",
+      "activeMembers": "الأعضاء النشطون",
+      "newThisMonth": "جديد هذا الشهر"
+   },
+   "timeManagement": {
+      "tabs": {
+         "attendance": "الحضور",
+         "timeOff": "الإجازات",
+         "overtime": "العمل الإضافي",
+         "shift": "الوردية",
+         "history": "السجل"
+      },
+      "header": {
+         "searchLogs": "البحث في السجلات",
+         "filter": "تصفية",
+         "dateRange": "01 نوفمبر - 30 نوفمبر 2025"
+      },
+      "errors": {
+         "employeeNotFound": "لم يتم العثور على رقم الموظف"
+      },
+      "addButtons": {
+         "addAttendance": "إضافة حضور",
+         "addTimeOff": "إضافة إجازة",
+         "addVacation": "إضافة إجازة يومية",
+         "addHourLeave": "إضافة إجازة بالساعات",
+         "addOvertime": "إضافة عمل إضافي"
+      },
+      "checkActions": {
+         "checkIn": "تسجيل الدخول",
+         "checkOut": "تسجيل الخروج",
+         "location": "الموقع",
+         "selectLocation": "اختر الموقع",
+         "noLocations": "لا توجد مواقع متاحة",
+         "comment": "ملاحظة",
+         "commentPlaceholder": "ملاحظة اختيارية",
+         "cancel": "إلغاء",
+         "confirm": "تأكيد",
+         "submitting": "جارٍ الإرسال...",
+         "validation": {
+            "location": "يرجى اختيار موقع"
+         },
+         "toast": {
+            "checkInSuccess": "تم تسجيل الدخول بنجاح",
+            "checkOutSuccess": "تم تسجيل الخروج بنجاح",
+            "error": "فشل تسجيل الحضور"
+         }
+      },
+      "schedule": {
+         "clockIn": "تسجيل الدخول",
+         "clockOut": "تسجيل الخروج",
+         "duration": "المدة",
+         "legendTitle": "دليل الألوان",
+         "overtimeApproved": "تمت الموافقة على العمل الإضافي",
+         "dayOffApproved": "تمت الموافقة على الإجازة",
+         "noData": "لا توجد بيانات للجدول الزمني"
+      },
+      "timeOff": {
+         "noData": "لا توجد طلبات إجازة"
+      },
+      "overtime": {
+         "noData": "لا توجد طلبات عمل إضافي"
+      },
+      "history": {
+         "summaryTitle": "ملخص الإجازات",
+         "totalAllocated": "إجمالي المخصص",
+         "totalUsed": "إجمالي المستخدم",
+         "totalRemaining": "إجمالي المتبقي",
+         "totalPending": "إجمالي المعلق",
+         "balancesTitle": "الأرصدة حسب النوع",
+         "usedAllocated": "مستخدم / مخصص",
+         "used": "مستخدم",
+         "allocated": "مخصص",
+         "noBalances": "لا توجد أرصدة متاحة",
+         "requestsTitle": "سجل الطلبات",
+         "noRequests": "لا توجد طلبات متاحة",
+         "hourCountersTitle": "عدادات إجازة الساعات",
+         "noHourCounters": "لا توجد عدادات ساعات متاحة",
+         "nursingTitle": "حالة ساعة الرضاعة",
+         "nursingActive": "نشط",
+         "nursingInactive": "غير نشط",
+         "nursingApprovedAt": "تاريخ الموافقة",
+         "nursingEndDate": "ينتهي في"
+      },
+      "attendanceModal": {
+         "title": "إضافة سجل الحضور",
+         "date": "التاريخ",
+         "clockIn": "وقت الدخول",
+         "clockOut": "وقت الخروج",
+         "attendanceType": "نوع الحضور",
+         "selectAttendanceType": "اختر نوع الحضور",
+         "cancel": "إلغاء",
+         "addLog": "إضافة السجل",
+         "datePlaceholder": "يوم / شهر / سنة",
+         "timePlaceholder": "--:--",
+         "adding": "جارٍ الإضافة...",
+         "types": {
+            "workingTime": "وقت العمل",
+            "overtime": "عمل إضافي",
+            "late": "تأخير",
+            "absence": "غياب",
+            "dayOff": "يوم إجازة",
+            "break": "استراحة",
+            "earlyLeave": "مغادرة مبكرة",
+            "requestedDayOff": "إجازة مطلوبة"
+         },
+         "validation": {
+            "date": "يرجى اختيار تاريخ",
+            "futureDate": "لا يمكن إضافة حضور لتاريخ مستقبلي",
+            "clockIn": "يرجى إدخال وقت الدخول",
+            "clockOut": "يرجى إدخال وقت الخروج",
+            "attendanceType": "يرجى اختيار نوع الحضور"
+         },
+         "toast": {
+            "success": "تمت إضافة سجل الحضور بنجاح",
+            "error": "فشل إضافة سجل الحضور"
+         }
+      },
+      "overtimeModal": {
+         "title": "إضافة ساعات إضافية",
+         "requestedDate": "تاريخ الطلب",
+         "overtimeDate": "تاريخ الساعات الإضافية",
+         "clockIn": "وقت البدء",
+         "clockOut": "وقت الانتهاء",
+         "reason": "السبب",
+         "reasonPlaceholder": "اكتب سبب الإجازة هنا",
+         "cancel": "إلغاء",
+         "addOvertime": "إضافة ساعات إضافية",
+         "datePlaceholder": "يوم / شهر / سنة",
+         "timePlaceholder": "--:--",
+         "adding": "جارٍ الإضافة...",
+         "validation": {
+            "requestedDate": "يرجى اختيار تاريخ الطلب",
+            "overtimeDate": "يرجى اختيار تاريخ العمل الإضافي",
+            "clockIn": "يرجى إدخال وقت البدء",
+            "clockOut": "يرجى إدخال وقت الانتهاء"
+         },
+         "toast": {
+            "success": "تمت إضافة العمل الإضافي بنجاح",
+            "error": "فشل إضافة العمل الإضافي"
+         }
+      },
+      "timeOffModal": {
+         "title": "إضافة طلب إجازة",
+         "vacationType": "نوع الإجازة",
+         "selectVacationType": "اختر نوع الإجازة",
+         "loadingTypes": "جاري تحميل أنواع الإجازات...",
+         "startDate": "تاريخ البدء",
+         "endDate": "تاريخ الانتهاء",
+         "requestDate": "تاريخ الطلب",
+         "startTime": "وقت البدء",
+         "endTime": "وقت الانتهاء",
+         "reason": "السبب",
+         "reasonPlaceholder": "اكتب سبب طلب الإجازة",
+         "startDatePlaceholder": "يوم / شهر / سنة",
+         "endDatePlaceholder": "يوم / شهر / سنة",
+         "requestDatePlaceholder": "يوم / شهر / سنة",
+         "cancel": "إلغاء",
+         "addRequest": "إضافة طلب",
+         "adding": "جارٍ الإضافة...",
+         "validation": {
+            "vacationType": "يرجى اختيار نوع الإجازة",
+            "startDate": "يرجى اختيار تاريخ البدء",
+            "endDate": "يرجى اختيار تاريخ الانتهاء",
+            "requestDate": "يرجى اختيار تاريخ الطلب",
+            "startTime": "يرجى إدخال وقت البدء",
+            "endTime": "يرجى إدخال وقت الانتهاء",
+            "endTimeBeforeStartTime": "يجب أن يكون وقت الانتهاء بعد وقت البدء",
+            "endDateBeforeStart": "لا يمكن أن يكون تاريخ الانتهاء قبل تاريخ البدء",
+            "reason": "يرجى تقديم سبب"
+         },
+         "toast": {
+            "success": "تمت إضافة طلب الإجازة بنجاح",
+            "error": "فشل إضافة طلب الإجازة"
+         }
+      }
+   },
+   "placeholders": {
+      "contract": {
+         "title": "معلومات العقد",
+         "description": "هذه منطقة مؤقتة لمعلومات عقد العضو. يمكنك استبدالها لاحقاً بحقول العقد الفعلية والتاريخ والإجراءات."
+      },
+      "documents": {
+         "title": "المستندات",
+         "count": "{{count}} عنصر",
+         "description": "هذه منطقة مؤقتة لقائمة مستندات العضو. أرفق العقود والهويات وأي ملفات موارد بشرية هنا لاحقاً."
+      },
+      "assets": {
+         "title": "الأصول",
+         "count": "{{count}} عنصر",
+         "description": "هذه منطقة مؤقتة للأصول المخصصة للعضو مثل أجهزة الكمبيوتر المحمولة والهواتف وبطاقات الوصول."
+      }
+   },
+   "documents": {
+      "searchPlaceholder": "البحث في المستندات",
+      "filter": "تصفية",
+      "addDocuments": "إضافة مستندات",
+      "download": "تحميل",
+      "moreOptions": "خيارات إضافية",
+      "view": "عرض",
+      "unknownSize": "حجم غير معروف",
+      "uploading": "جاري الرفع...",
+      "uploadSuccess": "تم رفع {{name}} بنجاح",
+      "uploadError": "فشل رفع {{name}}",
+      "defaultType": "مستند الموظف"
+   },
+   "loading": {
+      "general": "جاري التحميل...",
+      "members": "جاري تحميل الأعضاء...",
+      "assets": "جاري تحميل الأصول...",
+      "documents": "جاري تحميل المستندات...",
+      "contracts": "جاري تحميل معلومات العقد...",
+      "profile": "جاري تحميل الملف الشخصي..."
+   },
+   "shift": {
+      "title": "وردية العمل",
+      "description": "عرض وإدارة جدول وردية عمل الموظف",
+      "shiftName": "اسم الوردية",
+      "timezone": "المنطقة الزمنية",
+      "type": "النوع",
+      "defaultShift": "الوردية الافتراضية",
+      "weeklySchedule": "الجدول الأسبوعي",
+      "workingHours": "ساعات العمل",
+      "breakTime": "وقت الراحة",
+      "minutes": "دقيقة",
+      "noSchedule": "لا يوجد جدول متاح",
+      "noShiftAssigned": "لم يتم تعيين وردية",
+      "noShiftDescription": "هذا الموظف غير مخصص لأي وردية حالياً. قم بتعيين وردية لإدارة جدول عمله.",
+      "assignShift": "تعيين وردية",
+      "changeShift": "تغيير الوردية",
+      "changeShiftAction": "تغيير الوردية",
+      "assign": "تعيين",
+      "selectShiftError": "الرجاء اختيار وردية",
+      "assignSuccess": "تم تعيين الوردية لـ {{name}} بنجاح",
+      "assignError": "فشل تعيين الوردية لـ {{name}}",
+      "modalDescription": "اختر وردية لتعيينها لـ {{name}}",
+      "noShiftsAvailable": "لا توجد ورديات متاحة. قم بإنشاء وردية في إعدادات الشركة أولاً.",
+      "default": "افتراضي",
+      "current": "الحالي",
+      "workingDays": "أيام عمل",
+      "weekdays": {
+         "sunday": "الأحد",
+         "monday": "الاثنين",
+         "tuesday": "الثلاثاء",
+         "wednesday": "الأربعاء",
+         "thursday": "الخميس",
+         "friday": "الجمعة",
+         "saturday": "السبت"
+      }
+   }
+}

@@ -1,0 +1,51 @@
+{
+   "title": "Reports",
+   "generateReport": "Generate Report",
+   "exportReport": "Export Report",
+   "scheduleReport": "Schedule Report",
+   "export": "Export",
+   "exportFormat": "Format",
+   "preparing": "Preparing...",
+   "cancel": "Cancel",
+   "noReportsFound": "No reports found. Adjust your search or filters.",
+   "couldNotLoad": "Could not load reports.",
+   "tryAgain": "Try again",
+   "fillRequired": "Fill the required fields to export.",
+   "noDateRange": "This export doesn't have a date range.",
+   "types": {
+      "financial": "Financial Report",
+      "attendance": "Attendance Report",
+      "performance": "Performance Report",
+      "project": "Project Report",
+      "payroll": "Payroll Report",
+      "custom": "Custom Report"
+   },
+   "fields": {
+      "reportType": "Report Type",
+      "dateRange": "Date Range",
+      "format": "Export Format",
+      "recipients": "Recipients",
+      "frequency": "Frequency"
+   },
+   "placeholders": {
+      "selectDate": "Select date",
+      "enter": "Enter"
+   },
+   "validation": {
+      "missingFieldsTitle": "Missing fields",
+      "missingFieldsDescription": "Please fill all required parameters."
+   },
+   "messages": {
+      "generateSuccess": "Report generated successfully",
+      "exportSuccess": "Report exported successfully",
+      "scheduleSuccess": "Report scheduled successfully",
+      "exportError": "Export failed",
+      "exportErrorDescription": "Try adjusting filters or permissions."
+   },
+   "unsaved": {
+      "title": "Discard changes?",
+      "description": "You have unsaved changes. If you close this export, your selections will be lost.",
+      "confirm": "Discard",
+      "cancel": "Keep editing"
+   }
+}

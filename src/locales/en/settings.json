@@ -1,0 +1,2141 @@
+{
+   "title": "Settings",
+   "table": {
+      "noResults": "No results found"
+   },
+   "general": {
+      "title": "General Settings",
+      "language": "Language",
+      "theme": "Theme",
+      "timezone": "Timezone",
+      "dateFormat": "Date Format",
+      "timeFormat": "Time Format",
+      "currency": "Currency"
+   },
+   "profile": {
+      "title": "Profile Settings",
+      "personalInfo": "Personal Information",
+      "changeAvatar": "Change Avatar",
+      "updateProfile": "Update Profile"
+   },
+   "common": {
+      "cancel": "Cancel",
+      "save": "Save"
+   },
+   "generalSettingsPage": {
+      "description": "Manage your personal info, language, and security settings.",
+      "profile": {
+         "uploadTitle": "Upload Image",
+         "uploadSubtitle": "Min 400x400px, PNG or JPEG",
+         "upload": "Upload",
+         "uploading": "Uploading...",
+         "change": "Change",
+         "remove": "Remove",
+         "avatarAlt": "Profile image"
+      },
+      "name": {
+         "firstLabel": "First Name",
+         "firstPlaceholder": "First Name",
+         "lastLabel": "Last Name",
+         "lastPlaceholder": "Last Name"
+      },
+      "contact": {
+         "emailLabel": "Email Address",
+         "emailPlaceholder": "mo*******@gmail.com",
+         "phoneLabel": "Phone Number",
+         "phonePlaceholder": "54 231 8743"
+      },
+      "language": {
+         "label": "Language",
+         "placeholder": "Select a language...",
+         "enUS": "English (US)",
+         "arAE": "Arabic (UAE)"
+      },
+      "security": {
+         "title": "Security",
+         "current": "Current Password",
+         "new": "New Password",
+         "confirm": "Confirm New Password",
+         "placeholder": "••••••••"
+      }
+   },
+   "generalSettings": {
+      "emailUpdateSuccess": "Email updated successfully",
+      "phoneUpdateSuccess": "Phone number updated successfully",
+      "profileImageUpdateSuccess": "Profile image saved successfully",
+      "profileImageUpdateError": "Failed to save profile image"
+   },
+   "generalSettingsModals": {
+      "verifyIdentity": {
+         "title": "Verify your identity",
+         "emailLabel": "New Email",
+         "emailPlaceholder": "Enter Your Email Address",
+         "description": "An email will be sent to your current email with a verification code.",
+         "sendCode": "Send Verification Code",
+         "cancel": "Cancel"
+      },
+      "verifyCode": {
+         "title": "Verify current email",
+         "description": "Please enter the code we sent to you:",
+         "submit": "Submit",
+         "cancel": "Cancel",
+         "resendPrompt": "Didn't receive the code?",
+         "resend": "Resend the code",
+         "resendAfter": "Resend the code after {{time}}"
+      },
+      "newMobile": {
+         "title": "New Mobile Number",
+         "description": "An email will be sent to your current email with a verification code.",
+         "newLabel": "New Mobile Number",
+         "confirmLabel": "Confirm Mobile Number",
+         "placeholder": "(555) 000-0000",
+         "continue": "Continue",
+         "cancel": "Cancel",
+         "validation": {
+            "mismatch": "Mobile numbers do not match"
+         }
+      },
+      "confirmMobile": {
+         "title": "Confirm New Mobile Number",
+         "description": "Please enter the code we sent to you:",
+         "confirm": "Confirm Change",
+         "cancel": "Cancel",
+         "resendPrompt": "Didn't receive the code?",
+         "resend": "Resend the code",
+         "resendAfter": "Resend the code after {{time}}"
+      }
+   },
+   "account": {
+      "title": "Account Settings",
+      "changePassword": "Change Password",
+      "twoFactor": "Two-Factor Authentication",
+      "sessions": "Active Sessions",
+      "deleteAccount": "Delete Account"
+   },
+   "notifications": {
+      "title": "Notification Settings",
+      "email": "Email Notifications",
+      "push": "Push Notifications",
+      "sms": "SMS Notifications",
+      "preferences": "Notification Preferences"
+   },
+   "notificationsSettings": {
+      "title": "Notifications Settings",
+      "description": "something should be written here about the people and the access",
+      "channels": {
+         "title": "Channels",
+         "inApp": {
+            "label": "In-app notifications",
+            "description": "Show alerts inside the system (bell icon). Recommended to keep on."
+         },
+         "email": {
+            "label": "Email notifications",
+            "description": "Send notifications to the user's registered email address."
+         }
+      },
+      "events": {
+         "title": "Events",
+         "newRequest": {
+            "label": "New request submitted",
+            "description": "Notify admins when a member submits an Attendance, Time Off, or Overtime request."
+         },
+         "requestDecision": {
+            "label": "Request approved or rejected",
+            "description": "Notify the member and the admin when a request decision is made."
+         },
+         "contractEnding": {
+            "label": "Contract ending soon",
+            "description": "Notify HR/admin before a contract expires so it can be renewed or closed in time."
+         },
+         "announcement": {
+            "label": "Announcement published",
+            "description": "Notify members when a new official announcement is posted."
+         },
+         "newMessage": {
+            "label": "New message received",
+            "description": "Notify users when they receive a direct message."
+         }
+      },
+      "reminderTiming": {
+         "title": "Reminder timing",
+         "contractExpiry": {
+            "label": "Contract expiry reminder",
+            "description": "Choose when to remind admins before contract end."
+         },
+         "pendingRequest": {
+            "label": "Pending request reminder",
+            "description": "Remind admins if a request stays pending too long."
+         },
+         "7days": "7 days before",
+         "14days": "14 days before",
+         "30days": "30 days before",
+         "60days": "60 days before"
+      }
+   },
+   "privacy": {
+      "title": "Privacy Settings",
+      "dataSharing": "Data Sharing",
+      "visibility": "Profile Visibility",
+      "analytics": "Analytics"
+   },
+   "rolesPermissions": {
+      "title": "Roles & Permissions",
+      "description": "something should be written here about the people and the access",
+      "manageRoles": "Manage Roles",
+      "managePermissions": "Manage Permissions",
+      "addRole": "Add New Role",
+      "editRole": "Edit Role",
+      "deleteRole": "Delete Role",
+      "searchPlaceholder": "Search Role...",
+      "table": {
+         "roleName": "Role Name",
+         "description": "Description",
+         "jobTitles": "Job Titles",
+         "noMembers": "No. Members"
+      },
+      "actions": {
+         "edit": "Edit",
+         "duplicate": "Duplicate",
+         "delete": "Delete"
+      },
+      "modals": {
+         "addRole": "Add New Role",
+         "editRole": "Edit Role",
+         "deleteRole": "Delete Role?",
+         "deleteDescription": "This role will be permanently removed. Users assigned to it will lose all related permissions. This action cannot be undone.",
+         "deleteConfirm": "Delete Role",
+         "leaveSetup": "Leave Role Setup?",
+         "leaveDescription": "Your changes aren't saved yet. If you exit now, you'll lose your progress.",
+         "discardChanges": "Discard Changes",
+         "stayContinue": "Stay & Continue",
+         "loadingRole": "Loading role data..."
+      },
+      "messages": {
+         "deleteSuccess": "The role \"{{name}}\" has been deleted successfully"
+      }
+   },
+   "peopleAccess": {
+      "title": "People Access",
+      "jobTitles": "Job Titles",
+      "teams": "Teams",
+      "addNewRole": "Add New Role",
+      "addJobTitle": "Add Job Title",
+      "addTeam": "Add Team",
+      "searchJobTitle": "Search Job Title...",
+      "searchTeam": "Search Team...",
+      "description": "Manage job titles, teams, and roles to organize your workforce and control access permissions.",
+      "tableView": "Table view",
+      "gridView": "Grid view",
+      "modals": {
+         "leaveJobTitleSetup": "Leave Job Title Setup?",
+         "leaveTeamSetup": "Leave Team Setup?"
+      }
+   },
+   "jobTitles": {
+      "loadingJobTitles": "Loading job titles...",
+      "loadingRoles": "Loading roles...",
+      "filters": {
+         "filter": "Filter",
+         "title": "Filter",
+         "resetAll": "Reset All",
+         "reset": "Reset",
+         "roles": "Roles",
+         "selectRoles": "Select roles"
+      }
+   },
+   "roles": {
+      "loadingRoles": "Loading roles...",
+      "loadingJobTitles": "Loading job titles...",
+      "filters": {
+         "filter": "Filter",
+         "title": "Filter",
+         "resetAll": "Reset All",
+         "reset": "Reset",
+         "jobTitles": "Job Titles",
+         "selectJobTitles": "Select job titles"
+      }
+   },
+   "teams": {
+      "loadingTeams": "Loading teams...",
+      "loadingJobTitles": "Loading job titles...",
+      "filters": {
+         "filter": "Filter",
+         "title": "Filter",
+         "resetAll": "Reset All",
+         "reset": "Reset",
+         "jobTitles": "Job Titles",
+         "selectJobTitles": "Select job titles"
+      }
+   },
+   "sidebar": {
+      "title": "Settings",
+      "subtitle": "Choose between categories"
+   },
+   "headerActions": {
+      "search": "Search",
+      "quickPreferences": "Quick preferences",
+      "notifications": "Notifications",
+      "openSettings": "Open settings"
+   },
+   "wizard": {
+      "edit": "Edit",
+      "back": "Back",
+      "continue": "Continue",
+      "save": "Save",
+      "validating": "Validating...",
+      "steps": {
+         "basicInfo": "Basic Info",
+         "roleInfo": "Role Information",
+         "permissions": "Permissions",
+         "review": "Review",
+         "reviewConfirm": "Review & Confirm"
+      },
+      "validation": {
+         "roleNameRequired": "Role name is required",
+         "roleNameMin": "Role name must be at least 2 characters",
+         "roleNameMax": "Role name must be less than 50 characters",
+         "descriptionMax": "Description must be less than 200 characters",
+         "permissionIdRequired": "Permission id is required",
+         "permissionScopeRequired": "Permission scope is required",
+         "teamNameRequired": "Team name is required",
+         "teamNameMin": "Team name must be at least 2 characters",
+         "teamNameMax": "Team name must be less than 50 characters",
+         "jobTitleNameRequired": "Job title name is required",
+         "jobTitleNameMin": "Job title name must be at least 2 characters",
+         "jobTitleNameMax": "Job title name must be less than 50 characters",
+         "rolesRequired": "At least one role is required"
+      },
+      "role": {
+         "title": "Role Information",
+         "subtitle": "Define the name and basics of the new role.",
+         "roleName": "Role Name",
+         "roleNamePlaceholder": "e.g. HR Manager",
+         "roleDescription": "Role Description",
+         "roleDescriptionPlaceholder": "e.g. Manages employee data and approvals.",
+         "assignJobTitle": "Assign to Job Title",
+         "assignJobTitleSubtitle": "Add Job Titles that should belong to this role.",
+         "jobTitleLabel": "Job Title",
+         "searchJobTitles": "Search job titles"
+      },
+      "team": {
+         "title": "Team Information",
+         "subtitle": "Define the name and basics of the new team.",
+         "teamName": "Team Name",
+         "teamNamePlaceholder": "e.g. Marketing Team",
+         "teamDescription": "Team Description",
+         "teamDescriptionPlaceholder": "e.g. Drives brand growth, manages campaigns, and produces creative content.",
+         "jobTitleLabel": "Job Title",
+         "searchJobTitles": "Search job titles"
+      },
+      "jobTitle": {
+         "title": "Basic Information",
+         "subtitle": "Define the name and basics of the new Title.",
+         "jobTitleName": "Job Title Name",
+         "jobTitleNamePlaceholder": "e.g., UX Designer, Sales Lead, Senior Developer",
+         "description": "Description",
+         "descriptionPlaceholder": "e.g. Craft intuitive interfaces, conduct user research, and create wireframes",
+         "defaultRoles": "Default Roles",
+         "searchRoles": "Search & Select Roles"
+      },
+      "permissions": {
+         "title": "Permissions",
+         "subtitle": "Control what this role can view, create, edit, approve, or delete.",
+         "categoriesTitle": "Categories & Permissions",
+         "quickPresets": "Quick Presets",
+         "searchPlaceholder": "Search Permissions",
+         "loading": "Loading permissions...",
+         "noPermissions": "No permissions found",
+         "overviewTitle": "Permissions Overview",
+         "noPermissionsSelected": "No permissions selected",
+         "assignedJobTitles": "Assigned Job Titles",
+         "noJobTitlesAssigned": "No job titles assigned"
+      },
+      "review": {
+         "title": "Review & Confirm",
+         "subtitle": "Check the summary and update anything if needed.",
+         "roleSubtitle": "Check the summary of this role and update anything if needed.",
+         "teamSubtitle": "Check the summary of this team and update anything if needed.",
+         "jobTitleSubtitle": "Check the summary of this job title and update anything if needed.",
+         "basicInfo": "Basic Information",
+         "roleInfo": "Role Information",
+         "roleName": "Role Name",
+         "roleDescription": "Role Description",
+         "assignedRoles": "Roles",
+         "noRolesAssigned": "No roles assigned"
+      }
+   },
+   "messages": {
+      "saveSuccess": "Settings saved successfully",
+      "updateSuccess": "Settings updated successfully",
+      "resetSuccess": "Settings reset to default",
+      "createSuccess": "Created successfully",
+      "errorOccurred": "An error occurred. Please try again."
+   },
+   "placeholder": {
+      "defaultTab": "this tab",
+      "comingSoon": "{{tab}} content coming soon",
+      "description": "We are focusing on the People & Access experience first. Hook up your API data to replace this placeholder once the section is ready."
+   },
+   "sidebarGroups": {
+      "general": "General",
+      "company": "Company",
+      "serviceCatalog": "Service Catalog",
+      "financial": "Financial"
+   },
+   "tabs": {
+      "generalSettings": "General Settings",
+      "peopleAccess": "People & Access",
+      "notifications": "Notifications",
+      "companySettings": "Company Settings",
+      "caseTypes": "Case Types",
+      "assets": "Assets",
+      "requestsApprovals": "Requests & Approvals",
+      "serviceCatalog": "Service Catalog",
+      "invoiceProfiles": "Invoice Profiles",
+      "voucherTypes": "Voucher Types",
+      "expenseTypes": "Expense Types",
+      "incomeTypes": "Income Types",
+      "prettyCashNames": "Pretty Cash Names",
+      "banks": "Banks"
+   },
+   "companySettings": {
+      "title": "Company Information",
+      "description": "something should be written here about the people and the access",
+      "tabs": {
+         "companyInformation": "Company Information",
+         "holidays": "Holidays",
+         "caseTypes": "Case Types",
+         "shifts": "Shifts"
+      },
+      "caseTypes": {
+         "title": "Case Types",
+         "description": "Organize the legal case categories that your team tracks.",
+         "table": {
+            "title": "Existing Case Types",
+            "id": "ID",
+            "name": "Type Name",
+            "noResults": "No case types yet"
+         },
+         "form": {
+            "label": "Case Type Name",
+            "placeholder": "Enter a case type name",
+            "button": "Add Type",
+            "helper": "Use this field to define new case categories."
+         },
+         "helpers": {
+            "loading": "Loading case types...",
+            "empty": "Add a case type to enable this selector."
+         }
+      },
+      "assets": {
+         "categories": {
+            "laptop": "Laptop",
+            "mobile": "Mobile",
+            "tablet": "Tablet",
+            "other": "Other"
+         },
+         "conditions": {
+            "new": "New",
+            "good": "Good",
+            "fair": "Fair",
+            "poor": "Poor",
+            "damaged": "Damaged"
+         }
+      },
+      "logo": {
+         "title": "Company Logo",
+         "requirements": "Min 400x400px, PNG or JPEG",
+         "change": "Change",
+         "upload": "Upload"
+      },
+      "fields": {
+         "companyName": "Company Name",
+         "location": "Location",
+         "address": "Address",
+         "dateFormat": "Date Format",
+         "weekStartDay": "Week Start Day",
+         "timeFormat": "Time Format",
+         "defaultWorkingDays": "Default Working Days"
+      },
+      "placeholders": {
+         "companyName": "Enter Company Name",
+         "location": "Enter Company Location",
+         "address": "Enter Company Address"
+      },
+      "location": {
+         "useCurrent": "Use Current Location"
+      },
+      "locationModal": {
+         "title": "Location",
+         "locationName": "Location Name",
+         "address": "Address",
+         "latitude": "Latitude",
+         "longitude": "Longitude",
+         "allowedRadius": "Allowed Radius (meters)",
+         "confirmTitle": "Save location?",
+         "confirmMessage": "Are you sure you want to save this location?",
+         "instruction": "Click or drag marker to select location",
+         "radiusDescription": "Employees must be within this radius to submit attendance",
+         "useCurrentLocation": "Use Current Location",
+         "saveLocation": "Save Location",
+         "placeholders": {
+            "locationName": "Enter Location Name",
+            "address": "Enter Your Address Location"
+         }
+      },
+      "weekDays": {
+         "sunday": "Sunday",
+         "monday": "Monday",
+         "tuesday": "Tuesday",
+         "wednesday": "Wednesday",
+         "thursday": "Thursday",
+         "friday": "Friday",
+         "saturday": "Saturday"
+      },
+      "workingDays": {
+         "weekdays": "Weekdays",
+         "all": "All Days",
+         "custom": "Custom",
+         "selectWorkingDays": "Select Working Days",
+         "selectAtLeastOne": "Please select at least one working day",
+         "daySelected": "day selected",
+         "daysSelected": "days selected"
+      },
+      "modals": {
+         "saveChanges": {
+            "title": "Save Changes?",
+            "description": "Are you sure you want to save these changes to your company settings?",
+            "confirm": "Save Changes"
+         },
+         "discardChanges": {
+            "title": "Discard Unsaved Changes?",
+            "description": "You have unsaved changes. If you leave now, your changes will be lost.",
+            "confirm": "Discard Changes",
+            "cancel": "Keep Editing"
+         }
+      },
+      "holidays": {
+         "title": "Holidays",
+         "description": "Manage company holidays and time-off periods for your organization",
+         "comingSoon": "Holidays section coming soon",
+         "searchPlaceholder": "Search Holidays...",
+         "addButton": "Add Holiday",
+         "loading": "Loading holidays...",
+         "sort": {
+            "label": "Sort by",
+            "name": "Name",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "duration": "Duration"
+         },
+         "table": {
+            "name": "Name",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "duration": "Duration"
+         },
+         "duration": {
+            "oneDay": "1 Day",
+            "multipleDays": "{{count}} Days"
+         },
+         "actions": {
+            "edit": "Edit",
+            "delete": "Delete",
+            "more": "More options"
+         },
+         "modals": {
+            "addTitle": "Add Holiday",
+            "editTitle": "Edit Holiday",
+            "deleteTitle": "Delete Holiday?",
+            "deleteMessage": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+            "fields": {
+               "name": "Holiday Name",
+               "startDate": "Start Date",
+               "endDate": "End Date",
+               "description": "Description"
+            },
+            "placeholders": {
+               "name": "Enter holiday name",
+               "description": "Enter holiday description"
+            },
+            "validation": {
+               "name": "Holiday name is required",
+               "startDate": "Start date is required",
+               "endDate": "End date is required",
+               "endBeforeStart": "End date must be after start date"
+            }
+         },
+         "filters": {
+            "filter": "Filter",
+            "title": "Filter",
+            "resetAll": "Reset All",
+            "reset": "Reset",
+            "year": "Year",
+            "selectYear": "Select Year",
+            "month": "Month",
+            "selectMonth": "Select Month"
+         }
+      },
+      "shifts": {
+         "title": "Work Shifts",
+         "description": "Manage work shifts and schedules for your organization",
+         "searchPlaceholder": "Search Shifts...",
+         "addButton": "Add Shift",
+         "sort": {
+            "label": "Sort by",
+            "name": "Name",
+            "timezone": "Timezone",
+            "workingDays": "Working Days"
+         },
+         "table": {
+            "name": "Name",
+            "description": "Description",
+            "timezone": "Timezone",
+            "workingDays": "Working Days",
+            "day": "day",
+            "days": "days",
+            "isDefault": "Default",
+            "yes": "Yes",
+            "no": "No"
+         },
+         "actions": {
+            "viewDetails": "View Details",
+            "edit": "Edit",
+            "archive": "Archive",
+            "assignEmployees": "Assign Employees",
+            "more": "More options"
+         },
+         "modal": {
+            "title": "Add Shift",
+            "editTitle": "Edit Shift",
+            "viewTitle": "Shift Details",
+            "assignTitle": "Assign Employees to Shift",
+            "name": "Shift Name",
+            "namePlaceholder": "Enter shift name",
+            "description": "Description",
+            "descriptionPlaceholder": "Enter shift description (optional)",
+            "timezone": "Timezone",
+            "workingDays": "Working Days",
+            "workingDaysHelp": "Select the days this shift operates.",
+            "startTime": "Start Time",
+            "endTime": "End Time",
+            "breakMinutes": "Break (minutes)",
+            "schedule": "Schedule",
+            "break": "Break",
+            "minutes": "min",
+            "shiftName": "Shift",
+            "selectEmployees": "Select Employees",
+            "selectEmployeesPlaceholder": "Select employees to assign",
+            "searchEmployees": "Search employees...",
+            "assignHelp": "Selected employees will be assigned to this shift.",
+            "cancel": "Cancel",
+            "close": "Close",
+            "addButton": "Add Shift",
+            "saveButton": "Save Changes",
+            "assignButton": "Assign Employees",
+            "assignedTo": "Assigned to {{shift}}"
+         },
+         "weekdays": {
+            "sunday": "Sunday",
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday"
+         },
+         "validation": {
+            "atLeastOneDay": "Please select at least one working day",
+            "invalidTimeRange": "Start time must be before end time. End time must be 23:59 or earlier."
+         },
+         "assignmentsModal": {
+            "title": "{{shiftName}} - Assigned Employees",
+            "loading": "Loading employees...",
+            "noEmployees": "No employees assigned to this shift",
+            "noEmployeesDesc": "Assign employees to this shift using the 'Assign Employees' action."
+         },
+         "archiveModal": {
+            "title": "Archive Shift",
+            "description": "Are you sure you want to archive \"{{shiftName}}\"? This shift will no longer appear in regular listings and cannot be assigned to new employees.",
+            "confirm": "Archive Shift"
+         }
+      }
+   },
+   "assets": {
+      "title": "Assets",
+      "description": "something should be written here about the people and the access",
+      "searchPlaceholder": "Search Assets...",
+      "filter": "Filter",
+
+      "reset": "Reset",
+      "filterTitle": "Filter Assets",
+      "filterComingSoon": "Filter options coming soon",
+      "sortBy": "Sort by",
+      "addButton": "Add Assets",
+      "assign": "Assign",
+      "loading": "Loading assets...",
+      "error": "Error loading assets. Please try again.",
+      "resetAll": "Reset All",
+      "cancel": "Cancel",
+      "apply": "Apply",
+      "sort": {
+         "name": "Asset Name",
+         "nameAsc": "Name (A-Z)",
+         "nameDesc": "Name (Z-A)",
+         "category": "Category",
+         "status": "Status",
+         "condition": "Condition",
+         "serialNumber": "Serial Number"
+      },
+      "table": {
+         "assetName": "Asset Name",
+         "category": "Category",
+         "status": "Status",
+         "assignedTo": "Assigned To",
+         "condition": "Condition",
+         "serialNumber": "Serial Number"
+      },
+      "actions": {
+         "assignToMember": "Assign to Member",
+         "viewAsset": "View Asset",
+         "markAsReturned": "Mark as Returned",
+         "transferAsset": "Transfer Asset",
+         "deleteAsset": "Delete Asset"
+      },
+      "validation": {
+         "member": "Member is required",
+         "assignedDate": "Assigned date is required",
+         "condition": "Condition is required",
+         "newMember": "New member is required",
+         "returnDate": "Return date is required"
+      },
+      "errors": {
+         "invalidCategory": "Invalid category: {category}",
+         "invalidData": "Invalid asset data"
+      },
+      "deleteConfirm": {
+         "title": "Delete asset ?",
+         "description": "This asset will be permanently removed from the system. You can't undo this action.",
+         "confirmButton": "Delete Asset",
+         "cancelButton": "Cancel"
+      },
+      "returnModal": {
+         "title": "Return Asset",
+         "returnDate": "Return Date",
+         "conditionOnReturn": "Condition on Return",
+         "notes": "Notes",
+         "sendToMaintenance": "Send to Maintenance",
+         "datePlaceholder": "DD / MM / YYYY",
+         "selectCondition": "Select Condition",
+         "notesPlaceholder": "Add notes",
+         "confirmButton": "Confirm Return",
+         "cancelButton": "Cancel"
+      },
+      "conditions": {
+         "new": "New",
+         "good": "Good",
+         "fair": "Fair",
+         "poor": "Poor",
+         "damaged": "Damaged",
+         "needsRepair": "Needs Repair"
+      },
+      "transferModal": {
+         "title": "Transfer Asset",
+         "currentHolder": "Current holder",
+         "newMember": "New member",
+         "transferDate": "Transfer date",
+         "conditionAtTransfer": "Condition at transfer",
+         "notes": "Notes",
+         "selectUser": "Select a user...",
+         "selectCondition": "Select Condition",
+         "datePlaceholder": "DD / MM / YYYY",
+         "notesPlaceholder": "Add notes",
+         "confirmButton": "Transfer asset",
+         "cancelButton": "Cancel"
+      },
+      "viewModal": {
+         "addedAt": "Added at",
+         "requestReturn": "Request Return",
+         "assignedTo": "Assigned to",
+         "viewDetails": "View Details",
+         "contractName": "Contract Name",
+         "serialNumber": "#Serial Number",
+         "assignedDate": "Assigned Date",
+         "conditionAtHandover": "Condition at handover",
+         "currentCondition": "Current Condition",
+         "status": "Status",
+         "notes": "Notes"
+      },
+      "assignModal": {
+         "title": "Assign to Member",
+         "member": "Member",
+         "assignedDate": "Assigned date",
+         "conditionAtHandover": "Condition at handover",
+         "notes": "Notes",
+         "selectMember": "Select a member...",
+         "selectCondition": "Select Condition",
+         "datePlaceholder": "DD / MM / YYYY",
+         "notesPlaceholder": "Add notes",
+         "confirmButton": "Assign Asset",
+         "cancelButton": "Cancel"
+      },
+      "addWizard": {
+         "title": "Add Asset",
+         "back": "Back",
+         "continue": "Continue",
+         "save": "Save",
+         "assetInformation": {
+            "title": "Asset Information",
+            "description": "Core details needed to create the asset profile.",
+            "uploadImage": "Upload Image",
+            "imageRequirements": "Min 400x400px, PNG or JPEG",
+            "upload": "Upload",
+            "assetName": "Asset Name",
+            "assetNamePlaceholder": "Enter Asset Name",
+            "category": "Category",
+            "selectCategory": "Select Category",
+            "serialNumber": "Serial number",
+            "serialNumberPlaceholder": "Enter Serial Number",
+            "condition": "Condition",
+            "selectCondition": "Select Condition"
+         },
+         "review": {
+            "title": "Review",
+            "description": "Check the summary of this asset and update anything if needed.",
+            "assetInformation": "Asset Information",
+            "edit": "Edit",
+            "image": "Image"
+         },
+         "validation": {
+            "nameRequired": "Asset name is required",
+            "nameMin": "Asset name must be at least 2 characters",
+            "nameMax": "Asset name must be less than 50 characters",
+            "categoryRequired": "Category is required",
+            "serialRequired": "Serial number is required",
+            "conditionRequired": "Condition is required",
+            "imageRequired": "Asset image is required"
+         }
+      },
+      "emptyState": {
+         "title": "No assets yet",
+         "description": "Get started by adding your first asset to track and manage company resources."
+      },
+      "categories": {
+         "laptop": "Laptop",
+         "mobile": "Mobile",
+         "tablet": "Tablet",
+         "monitor": "Monitor",
+         "keyboard": "Keyboard",
+         "mouse": "Mouse",
+         "other": "Other"
+      },
+      "statuses": {
+         "available": "Available",
+         "assigned": "Assigned",
+         "maintenance": "Maintenance",
+         "retired": "Retired"
+      },
+      "category": "Category",
+      "selectCategory": "Select Category",
+      "status": "Status",
+      "selectStatus": "Select Status",
+      "assignedTo": "Assigned To",
+      "selectEmployee": "Select Employee"
+   },
+   "validation": {
+      "required": "This field is required",
+      "minValue": "Value must be at least {{min}}",
+      "maxValue": "Value must not exceed {{max}}",
+      "email": "Please enter a valid email address",
+      "minLength": "Text must be at least {{min}} characters",
+      "maxLength": "Text must be less than {{max}} characters",
+      "passwordLength": "Password must be at least 8 characters",
+      "passwordMatch": "Passwords do not match"
+   },
+   "serviceCatalog": {
+      "description": "something should be written here about the people and the access",
+      "validation": {
+         "codeFormat": "Code must follow format: XXX-000 (e.g., DEP-001)"
+      },
+      "validationSummary": {
+         "title": "Please fix the highlighted fields",
+         "description": "Missing or invalid entries are marked below."
+      },
+      "searchPlaceholder": {
+         "departments": "Search Department...",
+         "categories": "Search Category...",
+         "services": "Search Service..."
+      },
+      "filter": "Filter",
+      "filterTitle": "Filter",
+      "resetAll": "Reset All",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "apply": "Apply",
+      "selectStatus": "Select Status",
+      "selectCategory": "Select Category",
+      "loading": "Loading departments...",
+      "categories": {
+         "loading": "Loading categories..."
+      },
+      "services": {
+         "loading": "Loading services..."
+      },
+      "sortBy": "Sort by",
+      "sortOptions": {
+         "nameAsc": "Name (A-Z)",
+         "nameDesc": "Name (Z-A)",
+         "newest": "Newest First",
+         "oldest": "Oldest First"
+      },
+      "tabs": {
+         "departments": "Departments",
+         "categories": "Categories",
+         "services": "Services"
+      },
+      "addButton": {
+         "departments": "Add Department",
+         "categories": "Add Category",
+         "services": "Add Service"
+      },
+      "table": {
+         "departmentId": "Department - ID",
+         "departmentName": "Department Name (EN)",
+         "categoryId": "Category - ID",
+         "categoryNameEn": "Category Name (EN)",
+         "department": "Department",
+         "serviceId": "Service - ID",
+         "serviceName": "Service Name",
+         "category": "Category",
+         "serviceCharge": "Service Charge",
+         "govFees": "Gov. Fees",
+         "vat": "VAT Amount",
+         "vatPercentage": "VAT %",
+         "status": "Status",
+         "noResults": "No results found"
+      },
+      "status": {
+         "active": "Active",
+         "inactive": "Inactive"
+      },
+      "selected": "{{count}} selected",
+      "departmentsSelected": "Departments Selected",
+      "deleteDepartment": "Delete Department",
+      "deleteDepartments": "Delete Departments",
+      "editDepartment": "Edit Department",
+      "categoriesSelected": "Categories Selected",
+      "deleteCategory": "Delete Category",
+      "deleteCategories": "Delete Categories",
+      "editCategory": "Edit Category",
+      "actions": {
+         "edit": "Edit",
+         "delete": "Delete",
+         "more": "More options"
+      },
+      "pagination": {
+         "page": "Page",
+         "of": "of",
+         "perPage": "per page",
+         "pageInfo": "Page {{current}} of {{total}}"
+      },
+      "modal": {
+         "addDepartmentTitle": "Add Department",
+         "addDepartmentSuccess": "Department added successfully!",
+         "updateDepartmentSuccess": "Department updated successfully!",
+         "addDepartmentSuccessShort": "Added!",
+         "addDepartmentError": "Failed to add department. Please try again.",
+         "departmentCode": "Department Code",
+         "departmentCodePlaceholder": "Enter Department Code (e.g., DEP-001)",
+         "departmentNameEn": "Department Name (EN)",
+         "departmentNameEnPlaceholder": "Enter Department Name in English",
+         "departmentNameAr": "Department Name (AR)",
+         "departmentNameArPlaceholder": "Enter Department Name in Arabic",
+         "addCategoryTitle": "Add Category",
+         "addCategorySuccess": "Category added successfully!",
+         "updateCategorySuccess": "Category updated successfully!",
+         "addCategorySuccessShort": "Added!",
+         "addCategoryError": "Failed to add category. Please try again.",
+         "categoryCode": "Category Code",
+         "categoryCodePlaceholder": "Enter Category Code (e.g., CAT-001)",
+         "categoryNameEn": "Category Name (EN)",
+         "categoryNameEnPlaceholder": "Enter Category Name in English",
+         "categoryNameAr": "Category Name (AR)",
+         "categoryNameArPlaceholder": "Enter Category Name in Arabic",
+         "addServiceTitle": "Add Service",
+         "addServiceSuccess": "Service added successfully!",
+         "updateServiceSuccess": "Service updated successfully!",
+         "addServiceSuccessShort": "Added!",
+         "addServiceError": "Failed to add service. Please try again.",
+         "serviceNameEn": "Service Name (EN)",
+         "serviceNameEnPlaceholder": "Enter Service Name in English",
+         "serviceNameAr": "Service Name (AR)",
+         "serviceNameArPlaceholder": "Enter Service Name in Arabic",
+         "department": "Department",
+         "departmentPlaceholder": "Select Department",
+         "category": "Category",
+         "categoryPlaceholder": "Select Category",
+         "serviceCharge": "Service Charge",
+         "serviceChargePlaceholder": "Enter Service Charge",
+         "govFees": "Government Fees",
+         "govFeesPlaceholder": "Enter Government Fees",
+         "vat": "VAT Amount",
+         "vatPlaceholder": "Enter VAT Amount",
+         "vatPercentage": "VAT %",
+         "vatPercentagePlaceholder": "Enter VAT %",
+         "status": "Status",
+         "statusPlaceholder": "Select the Status",
+         "cancel": "Cancel",
+         "addDepartmentButton": "Add Department",
+         "addCategoryButton": "Add Category",
+         "addServiceButton": "Add Service",
+         "deleteDepartmentTitle": "Delete Department?",
+         "deleteDepartmentDescription": "The department will be permanently deleted, and all users associated with it will lose their permissions. Please note, this action is irreversible.",
+         "deleteDepartmentButton": "Delete Department",
+         "deleteDepartmentSuccess": "Department deleted successfully",
+         "deleteDepartmentsSuccess": "Departments deleted successfully",
+         "deleteDepartmentError": "Failed to delete department",
+         "deleteCategoryTitle": "Delete Category?",
+         "deleteCategoryDescription": "The category will be permanently removed. All associated settings and preferences will be reset to default. This action cannot be undone.",
+         "deleteCategoryButton": "Delete Category",
+         "deleteCategorySuccess": "Category deleted successfully",
+         "deleteCategoriesSuccess": "Categories deleted successfully",
+         "deleteCategoryError": "Failed to delete category",
+         "deleteServiceTitle": "Delete Service?",
+         "deleteServiceDescription": "The service will be permanently removed. All associated settings and preferences will be reset to default. This action cannot be undone.",
+         "deleteServiceButton": "Delete Service",
+         "deleteServiceSuccess": "Service deleted successfully",
+         "deleteServicesSuccess": "Services deleted successfully",
+         "deleteServiceError": "Failed to delete service"
+      },
+      "floatingBar": {
+         "selectedCount": "{{count}} selected",
+         "editDepartment": "Edit Department",
+         "deleteDepartment": "Delete Department",
+         "deleteDepartments": "Delete Departments",
+         "editCategory": "Edit Category",
+         "deleteCategory": "Delete Category",
+         "deleteCategories": "Delete Categories",
+         "editService": "Edit Service",
+         "deleteService": "Delete Service",
+         "deleteServices": "Delete Services",
+         "servicesSelected": "Services Selected"
+      },
+      "dependency": {
+         "cannotDelete": "Cannot delete - has dependencies",
+         "category": "category",
+         "categories": "categories",
+         "service": "service",
+         "services": "services"
+      }
+   },
+   "voucherTypes": {
+      "title": "Voucher Types",
+      "description": "something should be written here about the people and the access",
+      "searchPlaceholder": "Search Type...",
+      "filter": "Filter",
+      "filterTitle": "Filter",
+      "resetAll": "Reset All",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "apply": "Apply",
+      "selectStatus": "Select Status",
+      "loading": "Loading voucher types...",
+      "sortBy": "Sort by",
+      "addButton": "Add Voucher Type",
+      "sortOptions": {
+         "nameAsc": "Name (A-Z)",
+         "nameDesc": "Name (Z-A)",
+         "newest": "Newest First",
+         "oldest": "Oldest First"
+      },
+      "table": {
+         "name": "Voucher Type Name",
+         "direction": "Direction",
+         "description": "Description",
+         "status": "Status"
+      },
+      "direction": {
+         "to": "To (Receiver)",
+         "from": "From (Source)",
+         "both": "Both"
+      },
+      "status": {
+         "active": "Active",
+         "inactive": "Inactive",
+         "fullyPaid": "Fully Paid"
+      },
+      "actions": {
+         "label": "Actions",
+         "edit": "Edit Voucher Type",
+         "delete": "Delete Voucher Type"
+      },
+      "floatingBar": {
+         "selected": "Voucher Types Selected",
+         "edit": "Edit Voucher Type",
+         "delete": "Delete Voucher Type",
+         "deleteMultiple": "Delete Voucher Types"
+      },
+      "modal": {
+         "title": "Add Voucher Type",
+         "name": "Voucher Type Name",
+         "namePlaceholder": "Enter Voucher Type Name",
+         "direction": "Direction",
+         "directionPlaceholder": "Select Direction",
+         "description": "Description",
+         "descriptionPlaceholder": "Enter Description",
+         "status": "Status",
+         "statusPlaceholder": "Select Status",
+         "cancel": "Cancel",
+         "addButton": "Add Voucher Type",
+         "editTitle": "Edit Voucher Type",
+         "updateButton": "Update Voucher Type"
+      },
+      "deleteModal": {
+         "title": "Remove Voucher?",
+         "message": "Removing a voucher deletes all records, preventing further actions. A summary may be kept for reference.",
+         "confirmButton": "Delete Voucher",
+         "cancelButton": "Cancel"
+      },
+      "toast": {
+         "deleteSuccess": "Voucher type deleted successfully",
+         "deleteMultipleSuccess": "Voucher types deleted successfully",
+         "deleteError": "Failed to delete voucher type",
+         "createSuccess": "Voucher type added successfully",
+         "updateSuccess": "Voucher type updated successfully",
+         "saveError": "Failed to save voucher type"
+      }
+   },
+   "vouchers": {
+      "title": "Vouchers",
+      "loading": "Loading vouchers...",
+      "errorLoading": "Failed to load vouchers",
+      "tabs": {
+         "payment": "Payment Vouchers",
+         "receipt": "Receipt Vouchers"
+      },
+      "searchPlaceholder": "Search payment voucher...",
+      "filter": "Filter",
+      "filterTitle": "Filter",
+      "resetAll": "Reset All",
+      "reset": "Reset",
+      "sortBy": "Sort by",
+      "addPayment": "Add Payment",
+      "addReceipt": "Add Receipt",
+      "sortOptions": {
+         "dateCreated": "Date Created",
+         "lastUpdated": "Last Updated",
+         "amountHigh": "Amount (High to Low)",
+         "amountLow": "Amount (Low to High)"
+      },
+      "table": {
+         "paymentCode": "Payment Code",
+         "from": "From",
+         "to": "To",
+         "dateCreated": "Date Created",
+         "amount": "Amount",
+         "status": "Status"
+      },
+      "status": {
+         "active": "Active",
+         "inactive": "Inactive",
+         "approved": "Approved",
+         "draft": "Draft",
+         "pendingApproval": "Pending Approval",
+         "cancelled": "Cancelled"
+      },
+      "statuses": {
+         "active": "Active",
+         "inactive": "Inactive",
+         "approved": "Approved",
+         "draft": "Draft",
+         "pendingApproval": "Pending Approval",
+         "cancelled": "Cancelled",
+         "rejected": "Rejected"
+      },
+      "filters": {
+         "from": "From",
+         "to": "To",
+         "fromAccount": "From Account",
+         "toAccount": "To Account",
+         "fromCustomer": "From Customer",
+         "toCustomer": "To Customer",
+         "fromAgent": "From Agent",
+         "toAgent": "To Agent",
+         "selectAccount": "Select Account",
+         "selectCustomer": "Select Customer",
+         "selectAgent": "Select Agent",
+         "status": "Status",
+         "selectStatus": "Select Status",
+         "dateRange": "Date Range",
+         "startDate": "Start Date",
+         "endDate": "End Date",
+         "amountRange": "Amount Range",
+         "minAmount": "Min Amount",
+         "maxAmount": "Max Amount",
+         "enterMinAmount": "Enter min amount",
+         "enterMaxAmount": "Enter max amount"
+      },
+      "actions": {
+         "viewDetails": "View Details",
+         "edit": "Edit",
+         "delete": "Delete",
+         "approve": "Approve Voucher"
+      },
+      "modal": {
+         "addTitle": "Add Payment Voucher",
+         "editTitle": "Edit Payment Voucher",
+         "voucherDetails": "Voucher Details",
+         "paymentCode": "Payment Code",
+         "paymentCodePlaceholder": "Invoice-98234",
+         "amount": "Amount",
+         "amountPlaceholder": "0.00",
+         "from": "From",
+         "fromPlaceholder": "Global Mail Services",
+         "to": "To",
+         "toPlaceholder": "Global Mail Services",
+         "dateCreated": "Date Created",
+         "status": "Status",
+         "cancel": "Cancel",
+         "save": "Save Voucher",
+         "update": "Update Voucher"
+      },
+      "details": {
+         "title": "Voucher Details",
+         "print": "Print",
+         "paymentCode": "Payment Code",
+         "from": "From",
+         "to": "To",
+         "amount": "Amount",
+         "totalAmount": "Total Amount",
+         "dateCreated": "Date Created",
+         "type": "Type",
+         "paymentVoucher": "Payment Voucher",
+         "receiptVoucher": "Receipt Voucher",
+         "expenseType": "Expense Type",
+         "incomeType": "Income Type",
+         "paymentMethod": "Payment Method",
+         "referenceNumber": "Reference Number",
+         "bankName": "Bank Name",
+         "transactionDetails": "Transaction Details",
+         "customerName": "Customer Name",
+         "dueDate": "Due Date",
+         "commission": "Commission",
+         "tax": "Tax",
+         "remarks": "Remarks",
+         "linkedInvoices": "Linked Invoices",
+         "invoiceNumber": "# Invoice",
+         "pending": "Pending",
+         "pay": "Pay"
+      },
+      "deleteModal": {
+         "title": "Delete Voucher?",
+         "message": "Are you sure you want to delete this voucher? This action cannot be undone.",
+         "confirmButton": "Delete Voucher",
+         "cancelButton": "Cancel"
+      },
+      "errorModal": {
+         "title": "Error",
+         "okButton": "OK"
+      }
+   },
+   "prettyCashNames": {
+      "title": "Pretty Cash Names",
+      "description": "Manage your pretty cash names and their balances.",
+      "searchPlaceholder": "Search Name...",
+      "filter": "Filter",
+      "filterTitle": "Filter",
+      "resetAll": "Reset All",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "apply": "Apply",
+      "selectStatus": "Select Status",
+      "loading": "Loading pretty cash names...",
+      "sortBy": "Sort by",
+      "addButton": "Add Pretty Cash Name",
+      "sortOptions": {
+         "nameAsc": "Name (A-Z)",
+         "nameDesc": "Name (Z-A)",
+         "statusActive": "Active First",
+         "statusInactive": "Inactive First",
+         "newest": "Newest First",
+         "oldest": "Oldest First"
+      },
+      "table": {
+         "name": "Pretty Cash Name",
+         "balance": "Balance",
+         "status": "Status"
+      },
+      "status": {
+         "active": "Active",
+         "inactive": "Inactive",
+         "fullyPaid": "Fully Paid"
+      },
+      "actions": {
+         "label": "Actions",
+         "edit": "Edit Pretty Cash Name",
+         "delete": "Delete Pretty Cash Name",
+         "viewHistory": "View History",
+         "exportHistory": "Export History"
+      },
+      "history": {
+         "title": "Account History",
+         "loading": "Loading history...",
+         "tabs": {
+            "incoming": "Incoming",
+            "outgoing": "Outgoing",
+            "transactions": "Transactions",
+            "activityLogs": "Activity Logs"
+         },
+         "filters": {
+            "from": "From",
+            "to": "To",
+            "selectDate": "Select date",
+            "reset": "Reset Filters"
+         },
+         "sourceTypes": {
+            "allSources": "All Sources",
+            "paymentVoucher": "Payment Voucher",
+            "receiptVoucher": "Receipt Voucher",
+            "invoicePayment": "Invoice Payment"
+         },
+         "typeOptions": {
+            "allTypes": "All Types",
+            "credit": "Credit",
+            "debit": "Debit"
+         },
+         "columns": {
+            "date": "Date",
+            "source": "Source",
+            "description": "Description",
+            "amount": "Amount",
+            "type": "Type",
+            "action": "Action",
+            "performedBy": "Performed By"
+         },
+         "empty": {
+            "incoming": "No incoming transactions found",
+            "outgoing": "No outgoing transactions found",
+            "transactions": "No transactions found",
+            "transactionsHint": "Try adjusting your filters",
+            "activityLogs": "No activity logs found",
+            "activityLogsHint": "Account activities will appear here"
+         },
+         "export": {
+            "success": "History exported successfully",
+            "error": "Failed to export history"
+         }
+      },
+      "floatingBar": {
+         "selected": "Pretty Cash Names Selected",
+         "edit": "Edit Pretty Cash Name",
+         "delete": "Delete Pretty Cash Name",
+         "deleteMultiple": "Delete Pretty Cash Names"
+      },
+      "modal": {
+         "title": "Add Pretty Cash Name",
+         "name": "Pretty Cash Name",
+         "namePlaceholder": "Enter Pretty Cash Name",
+         "balance": "Balance",
+         "balancePlaceholder": "Enter Balance",
+         "status": "Status",
+         "statusPlaceholder": "Select Status",
+         "cancel": "Cancel",
+         "addButton": "Add Pretty Cash Name",
+         "editTitle": "Edit Pretty Cash Name",
+         "updateButton": "Update Pretty Cash Name"
+      },
+      "deleteModal": {
+         "title": "Delete Pretty Cash Name?",
+         "message": "The Pretty Cash Name will be permanently deleted from your account. This action will also remove all associated data and cannot be undone.",
+         "confirmButton": "Delete Pretty Cash Name",
+         "cancelButton": "Cancel"
+      },
+      "toast": {
+         "deleteSuccess": "Pretty cash name deleted successfully",
+         "deleteMultipleSuccess": "Pretty cash names deleted successfully",
+         "deleteError": "Failed to delete pretty cash name",
+         "createSuccess": "Pretty cash name added successfully",
+         "updateSuccess": "Pretty cash name updated successfully",
+         "saveError": "Failed to save pretty cash name"
+      }
+   },
+   "expenseTypes": {
+      "title": "Expense Types",
+      "description": "something should be written here about the people and the access",
+      "searchPlaceholder": "Search Expense Type...",
+      "filter": "Filter",
+      "filterTitle": "Filter",
+      "resetAll": "Reset All",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "apply": "Apply",
+      "selectStatus": "Select Status",
+      "loading": "Loading expense types...",
+      "sortBy": "Sort by",
+      "addButton": "Add Expense Type",
+      "sortOptions": {
+         "nameAsc": "Name (A-Z)",
+         "nameDesc": "Name (Z-A)",
+         "statusActive": "Active First",
+         "statusInactive": "Inactive First",
+         "newest": "Newest First",
+         "oldest": "Oldest First"
+      },
+      "table": {
+         "name": "Expense Type Name",
+         "description": "Description",
+         "status": "Status",
+         "noDescription": "No description"
+      },
+      "status": {
+         "active": "Active",
+         "inactive": "Inactive"
+      },
+      "actions": {
+         "label": "Actions",
+         "edit": "Edit Expense Type",
+         "delete": "Delete Expense Type"
+      },
+      "floatingBar": {
+         "selected": "Expense Types Selected",
+         "edit": "Edit Expense Type",
+         "delete": "Delete Expense Type",
+         "deleteMultiple": "Delete Expense Types"
+      },
+      "modal": {
+         "title": "Add Expense Type",
+         "name": "Expense Type Name",
+         "namePlaceholder": "Enter Expense Type Name",
+         "category": "Category",
+         "categoryPlaceholder": "Enter Category",
+         "description": "Description",
+         "descriptionPlaceholder": "Enter Description",
+         "status": "Status",
+         "statusPlaceholder": "Select Status",
+         "cancel": "Cancel",
+         "addButton": "Add Expense Type",
+         "editTitle": "Edit Expense Type",
+         "updateButton": "Update Expense Type"
+      },
+      "deleteModal": {
+         "title": "Delete Expense Type?",
+         "description": "Are you sure you want to delete this expense type? This action cannot be undone.",
+         "confirmButton": "Delete Expense Type"
+      },
+      "selected": "{{count}} expense type(s) selected",
+      "toast": {
+         "deleteSuccess": "Expense type deleted successfully",
+         "deleteMultipleSuccess": "Expense types deleted successfully",
+         "deleteError": "Failed to delete expense type",
+         "createSuccess": "Expense type added successfully",
+         "updateSuccess": "Expense type updated successfully",
+         "saveError": "Failed to save expense type"
+      }
+   },
+   "invoiceProfiles": {
+      "description": "Manage invoice profiles for customers and agents. Add, edit, and organize contact information and billing details.",
+      "tabs": {
+         "customers": "Customers",
+         "agents": "Agents"
+      },
+      "searchPlaceholder": {
+         "customers": "Search Customers...",
+         "agents": "Search Agents..."
+      },
+      "filter": "Filter",
+      "sortBy": "Sort by",
+      "sortOptions": {
+         "nameAsc": "Name (A-Z)",
+         "nameDesc": "Name (Z-A)",
+         "newest": "Newest First",
+         "oldest": "Oldest First"
+      },
+      "addButton": {
+         "customers": "Add Customer",
+         "agents": "Add Agent"
+      },
+      "customers": {
+         "filter": "Filter",
+         "filterTitle": "Filter",
+         "resetAll": "Reset All",
+         "reset": "Reset",
+         "cancel": "Cancel",
+         "apply": "Apply",
+         "selectStatus": "Select Status",
+         "loading": "Loading customers...",
+         "sortBy": "Sort by",
+         "table": {
+            "status": "Status"
+         },
+         "status": {
+            "active": "Active",
+            "inactive": "Inactive"
+         }
+      },
+      "agents": {
+         "filter": "Filter",
+         "filterTitle": "Filter",
+         "resetAll": "Reset All",
+         "reset": "Reset",
+         "cancel": "Cancel",
+         "apply": "Apply",
+         "selectStatus": "Select Status",
+         "loading": "Loading agents...",
+         "sortBy": "Sort by",
+         "table": {
+            "status": "Status"
+         },
+         "status": {
+            "active": "Active",
+            "inactive": "Inactive"
+         }
+      },
+      "status": {
+         "active": "Active",
+         "inactive": "Inactive"
+      },
+      "selected": "selected",
+      "customersSelected": "Customers Selected",
+      "agentsSelected": "Agents Selected",
+      "deleteCustomer": "Delete Customer",
+      "deleteCustomers": "Delete Customers",
+      "editCustomer": "Edit Customer",
+      "deleteAgent": "Delete Agent",
+      "deleteAgents": "Delete Agents",
+      "editAgent": "Edit Agent",
+      "actions": {
+         "label": "Actions",
+         "edit": "Edit",
+         "delete": "Delete"
+      },
+      "table": {
+         "customerName": "Customer Name",
+         "agentName": "Agent Name",
+         "agentCode": "Agent Code",
+         "type": "Type",
+         "trnId": "TRN/ID",
+         "contactNumber": "Contact Number",
+         "email": "Email",
+         "status": "Status",
+         "noResults": "No results found"
+      },
+      "pagination": {
+         "page": "Page",
+         "of": "of"
+      },
+      "modal": {
+         "addCustomerTitle": "Add Customer",
+         "customerName": "Customer Name",
+         "customerNamePlaceholder": "Enter Customer Name",
+         "type": "Type",
+         "typePlaceholder": "Select the Customer Type",
+         "typeIndividual": "Individual",
+         "typeCompany": "Company",
+         "trnId": "TRN/ID",
+         "trnIdPlaceholder": "Enter TRN/ID Number",
+         "contactNumber": "Contact Number",
+         "contactNumberPlaceholder": "(555) 000-0000",
+         "emailAddress": "Email Address",
+         "emailAddressPlaceholder": "hello@alignui.com",
+         "status": "Status",
+         "statusPlaceholder": "Select Status",
+         "cancel": "Cancel",
+         "addCustomerButton": "Add Customer",
+         "editCustomerTitle": "Edit Customer",
+         "updateCustomerButton": "Update Customer",
+         "addAgentTitle": "Add Agent",
+         "agentName": "Agent Name",
+         "agentNamePlaceholder": "Enter Agent Name",
+         "agentNumber": "Agent Number",
+         "agentNumberPlaceholder": "Enter Agent Number (e.g., AGT-2201)",
+         "address": "Address",
+         "addressPlaceholder": "Enter Address",
+         "notes": "Notes",
+         "notesPlaceholder": "Add Notes",
+         "addAgentButton": "Add Agent",
+         "editAgentTitle": "Edit Agent",
+         "updateAgentButton": "Update Agent"
+      },
+      "deleteModal": {
+         "customers": {
+            "singleTitle": "Delete Customer?",
+            "multipleTitle": "Delete Customers?",
+            "singleDescription": "This customer will be permanently deleted. Any related records will also be removed and this action cannot be undone.",
+            "multipleDescription": "The selected customers will be permanently deleted. Any related records will also be removed and this action cannot be undone.",
+            "confirmSingle": "Delete Customer",
+            "confirmMultiple": "Delete Customers",
+            "cancel": "Cancel"
+         },
+         "agents": {
+            "singleTitle": "Delete Agent?",
+            "multipleTitle": "Delete Agents?",
+            "singleDescription": "This agent will be permanently deleted. Any related records will also be removed and this action cannot be undone.",
+            "multipleDescription": "The selected agents will be permanently deleted. Any related records will also be removed and this action cannot be undone.",
+            "confirmSingle": "Delete Agent",
+            "confirmMultiple": "Delete Agents",
+            "cancel": "Cancel"
+         }
+      },
+      "toast": {
+         "customers": {
+            "deleteSuccess": "{{name}} deleted successfully",
+            "deleteMultipleSuccess": "{{count}} customers deleted successfully",
+            "deleteError": "Failed to delete customer",
+            "createSuccess": "{{name}} added successfully",
+            "updateSuccess": "{{name}} updated successfully",
+            "saveError": "Failed to save customer"
+         },
+         "agents": {
+            "deleteSuccess": "{{name}} deleted successfully",
+            "deleteMultipleSuccess": "{{count}} agents deleted successfully",
+            "deleteError": "Failed to delete agent",
+            "createSuccess": "{{name}} added successfully",
+            "updateSuccess": "{{name}} updated successfully",
+            "saveError": "Failed to save agent"
+         }
+      },
+      "dependency": {
+         "cannotDelete": "Cannot delete - has invoices",
+         "invoice": "invoice",
+         "invoices": "invoices",
+         "customerHasInvoices": "Customer has invoices",
+         "agentHasInvoices": "Agent has invoices"
+      }
+   },
+   "banks": {
+      "title": "Banks",
+      "description": "Manage your bank accounts and their balances.",
+      "searchPlaceholder": "Search Banks...",
+      "filter": "Filter",
+      "filterTitle": "Filter",
+      "resetAll": "Reset All",
+      "reset": "Reset",
+      "cancel": "Cancel",
+      "apply": "Apply",
+      "selectStatus": "Select Status",
+      "loading": "Loading banks...",
+      "sortBy": "Sort by",
+      "addButton": "Add Bank",
+      "sortOptions": {
+         "nameAsc": "Name (A-Z)",
+         "nameDesc": "Name (Z-A)",
+         "statusActive": "Active First",
+         "statusInactive": "Inactive First",
+         "newest": "Newest First",
+         "oldest": "Oldest First"
+      },
+      "table": {
+         "name": "Bank Name",
+         "shortCode": "Short Code",
+         "balance": "Balance",
+         "status": "Status"
+      },
+      "status": {
+         "active": "Active",
+         "inactive": "Inactive"
+      },
+      "actions": {
+         "label": "Actions",
+         "edit": "Edit Bank",
+         "delete": "Delete Bank",
+         "viewHistory": "View History",
+         "exportHistory": "Export History"
+      },
+      "history": {
+         "title": "Account History",
+         "loading": "Loading history...",
+         "tabs": {
+            "incoming": "Incoming",
+            "outgoing": "Outgoing",
+            "transactions": "Transactions",
+            "activityLogs": "Activity Logs"
+         },
+         "filters": {
+            "from": "From",
+            "to": "To",
+            "selectDate": "Select date",
+            "reset": "Reset Filters"
+         },
+         "sourceTypes": {
+            "allSources": "All Sources",
+            "paymentVoucher": "Payment Voucher",
+            "receiptVoucher": "Receipt Voucher",
+            "invoicePayment": "Invoice Payment"
+         },
+         "typeOptions": {
+            "allTypes": "All Types",
+            "credit": "Credit",
+            "debit": "Debit"
+         },
+         "columns": {
+            "date": "Date",
+            "source": "Source",
+            "description": "Description",
+            "amount": "Amount",
+            "type": "Type",
+            "action": "Action",
+            "performedBy": "Performed By"
+         },
+         "empty": {
+            "incoming": "No incoming transactions found",
+            "outgoing": "No outgoing transactions found",
+            "transactions": "No transactions found",
+            "transactionsHint": "Try adjusting your filters",
+            "activityLogs": "No activity logs found",
+            "activityLogsHint": "Account activities will appear here"
+         },
+         "export": {
+            "success": "History exported successfully",
+            "error": "Failed to export history"
+         }
+      },
+      "floatingBar": {
+         "selected": "Banks Selected",
+         "edit": "Edit Bank",
+         "delete": "Delete Bank",
+         "deleteMultiple": "Delete Banks"
+      },
+      "modal": {
+         "title": "Add Bank",
+         "name": "Bank Name",
+         "namePlaceholder": "Enter Bank Name",
+         "shortCode": "Short Code",
+         "shortCodePlaceholder": "Enter Short Code",
+         "balance": "Balance",
+         "balancePlaceholder": "Enter Balance",
+         "status": "Status",
+         "statusPlaceholder": "Select Status",
+         "cancel": "Cancel",
+         "addButton": "Add Bank",
+         "editTitle": "Edit Bank",
+         "updateButton": "Update Bank"
+      },
+      "deleteModal": {
+         "title": "Delete Bank?",
+         "message": "The bank will be permanently deleted from your account. This action will also remove all associated data and cannot be undone.",
+         "confirmButton": "Delete Bank",
+         "cancelButton": "Cancel"
+      },
+      "toast": {
+         "deleteSuccess": "Bank deleted successfully",
+         "deleteMultipleSuccess": "Banks deleted successfully",
+         "deleteError": "Failed to delete bank",
+         "createSuccess": "Bank added successfully",
+         "updateSuccess": "Bank updated successfully",
+         "saveError": "Failed to save bank"
+      }
+   },
+   "incomeTypes": {
+      "title": "Income Types",
+      "description": "Manage your income types.",
+      "searchPlaceholder": "Search income types...",
+      "sortBy": "Sort by",
+      "sortOptions": {
+         "nameAsc": "Name (A-Z)",
+         "nameDesc": "Name (Z-A)",
+         "newest": "Newest first",
+         "oldest": "Oldest first"
+      },
+      "addButton": "Add Income Type",
+      "loading": "Loading income types...",
+      "table": {
+         "name": "Income Type Name",
+         "incomeCode": "Income Code",
+         "glCode": "GL Code"
+      },
+      "actions": {
+         "label": "Actions",
+         "edit": "Edit Income Type",
+         "delete": "Delete Income Type"
+      },
+      "floatingBar": {
+         "selected": "Income Types Selected",
+         "edit": "Edit Income Type",
+         "delete": "Delete Income Type",
+         "deleteMultiple": "Delete Income Types"
+      },
+      "modal": {
+         "title": "Add Income Type",
+         "name": "Income Type Name",
+         "namePlaceholder": "Enter income type name",
+         "glCode": "GL Code",
+         "glCodePlaceholder": "Enter GL Code",
+         "cancel": "Cancel",
+         "addButton": "Add Income Type",
+         "editTitle": "Edit Income Type",
+         "updateButton": "Update Income Type"
+      },
+      "deleteModal": {
+         "title": "Delete Income Type?",
+         "message": "Are you sure you want to delete this income type? This action cannot be undone.",
+         "confirm": "Delete",
+         "cancel": "Cancel",
+         "deleting": "Deleting..."
+      },
+      "toast": {
+         "deleteSuccess": "Income Type deleted successfully",
+         "deleteMultipleSuccess": "Income Types deleted successfully",
+         "deleteError": "Error deleting Income Type",
+         "createSuccess": "Income Type created successfully",
+         "updateSuccess": "Income Type updated successfully",
+         "saveError": "Error saving Income Type"
+      }
+   },
+   "legalCases": {
+      "title": "Legal Cases & Issues",
+      "loading": "Loading legal cases...",
+      "searchPlaceholder": "Search by case title, ID, or person...",
+      "filter": "Filter",
+      "filterTitle": "Filter Cases",
+      "resetAll": "Reset All",
+      "reset": "Reset",
+      "selectStatus": "Select Status",
+      "lawyer": "Lawyer",
+      "selectLawyer": "Select Lawyer",
+      "dateRange": "Date Range",
+      "dateFrom": "From",
+      "dateTo": "To",
+      "sortBy": "Sort by",
+      "addCase": "Add Case",
+      "addNewCase": "Add New Case",
+      "noCasesFound": "No cases found.",
+      "sortOptions": {
+         "dateCreated": "Date Created",
+         "lastUpdated": "Last Updated",
+         "caseNumber": "Case Number",
+         "title": "Title"
+      },
+      "table": {
+         "caseNo": "Case No.",
+         "caseTitle": "Case Title",
+         "type": "Type",
+         "dateCreated": "Date Created",
+         "lastUpdated": "Last Updated",
+         "status": "Status"
+      },
+      "status": {
+         "open": "Open",
+         "inProgress": "In Progress",
+         "onHold": "On Hold",
+         "closed": "Closed",
+         "pending": "Pending",
+         "cancelled": "Cancelled",
+         "in_progress": "In Progress"
+      },
+      "actions": {
+         "more": "More",
+         "changeStatus": "Change Status",
+         "viewDetails": "View Details",
+         "editCase": "Edit Case",
+         "delete": "Delete"
+      },
+      "deleteModal": {
+         "title": "Delete Case?",
+         "message": "Are you sure you want to delete this case? This action cannot be undone.",
+         "bulkTitle": "Delete Cases?",
+         "bulkMessage": "Are you sure you want to delete {count} case(s)? This action cannot be undone.",
+         "confirmButton": "Delete Case",
+         "bulkConfirmButton": "Delete Cases",
+         "cancelButton": "Cancel"
+      },
+      "confirmDelete": {
+         "title": "Delete Case?",
+         "description": "Are you sure you want to delete case {caseNumber}? This action cannot be undone.",
+         "confirmButton": "Delete Case",
+         "cancelButton": "Cancel"
+      },
+      "confirmBulkDelete": {
+         "title": "Delete Cases?",
+         "description": "Are you sure you want to delete {count} case(s)? This action cannot be undone.",
+         "confirmButton": "Delete Cases",
+         "cancelButton": "Cancel"
+      },
+      "toast": {
+         "deleteSuccess": "Case deleted successfully",
+         "deleteError": "Failed to delete case",
+         "statusUpdateSuccess": "Case status updated successfully",
+         "statusUpdateError": "Failed to update case status"
+      },
+      "closeCaseModal": {
+         "title": "Close Case?",
+         "description": "Are you sure you want to close case \"{{caseTitle}}\"? This will mark the case as closed.",
+         "confirm": "Close Case",
+         "cancel": "Cancel"
+      },
+      "changeStatusModal": {
+         "title": "Change Case Status",
+         "description": "Choose a new status for case {{caseNumber}}.",
+         "fieldLabel": "Status",
+         "placeholder": "Select status",
+         "confirm": "Update Status"
+      },
+      "addCaseModal": {
+         "title": "Add New Case",
+         "editTitle": "Edit Case: {case}"
+      },
+      "addPeopleModal": {
+         "title": "Add People",
+         "cancel": "Cancel",
+         "add": "Add",
+         "remove": "Remove",
+         "searchPlaceholder": "Search by name",
+         "suggested": "Suggested People",
+         "noResults": "No people found",
+         "emptyState": "Type to search people",
+         "currentUser": "You",
+         "rolePlaceholder": "Select role",
+         "defaultRole": "Employee",
+         "validation": {
+            "required": "Please select at least one person"
+         }
+      },
+      "addDocumentModal": {
+         "title": "Add Document",
+         "fileLabel": "Document",
+         "eventLabel": "Link to Event",
+         "noEvent": "No event"
+      },
+      "editEventModal": {
+         "modalTitle": "Edit Event",
+         "title": "Title",
+         "titlePlaceholder": "Event title",
+         "date": "Date",
+         "description": "Description",
+         "descriptionPlaceholder": "Add any notes or context"
+      },
+      "editSummaryModal": {
+         "title": "Edit Case Summary",
+         "label": "Case Summary",
+         "placeholder": "Enter case summary...",
+         "previousLabel": "Previous Summary",
+         "addLabel": "Add to Summary",
+         "addPlaceholder": "Enter additional summary content...",
+         "cancel": "Cancel",
+         "update": "Update",
+         "validation": {
+            "required": "Case summary is required"
+         }
+      },
+      "editCaseModal": {
+         "modalTitle": "Edit Case Details",
+         "title": "Case Title",
+         "titlePlaceholder": "Enter case title",
+         "caseNumber": "Case Number",
+         "caseNumberPlaceholder": "Enter case number",
+         "clientName": "Client Name",
+         "clientNamePlaceholder": "Enter client name",
+         "lawyer": "Assigned Lawyer",
+         "status": "Case Status",
+         "startDate": "Start Date",
+         "endDate": "End Date"
+      },
+      "details": {
+         "back": "Back",
+         "closeCase": "Close Case",
+         "caseType": "Case Type",
+         "caseNumber": "Case Number/Year",
+         "lawyerName": "Lawyer Name",
+         "client": "Client",
+         "caseInformation": "Case Information",
+         "documents": "Documents",
+         "activityLog": "Activity Log",
+         "noActivity": "No activity recorded yet.",
+         "peopleInvolved": "People Involved",
+         "addPeople": "Add People",
+         "noPeopleAssigned": "No people assigned yet.",
+         "unknown": "Unknown",
+         "searchDocument": "Search Document",
+         "filter": "Filter",
+         "addDocuments": "Add Documents",
+         "noDocumentsAvailable": "No documents available",
+         "preview": "Preview",
+         "download": "Download"
+      }
+   },
+   "invoices": {
+      "title": "Invoices",
+      "tabs": {
+         "all": "All",
+         "draft": "Draft",
+         "pending": "Pending",
+         "partially_paid": "Partially Paid",
+         "fully_paid": "Fully Paid",
+         "cancelled": "Cancelled",
+         "void": "Void"
+      },
+      "searchPlaceholder": "Search by customer or invoice number",
+      "filters": {
+         "filter": "Filter",
+         "title": "Filter Invoices",
+         "resetAll": "Reset All",
+         "reset": "Reset",
+         "dateRange": "Date Range",
+         "dateFrom": "From Date",
+         "dateTo": "To Date",
+         "customer": "Customer",
+         "selectCustomer": "Select Customer",
+         "agent": "Agent",
+         "selectAgent": "Select Agent",
+         "status": "Status",
+         "selectStatus": "Select status"
+      },
+      "export": {
+         "title": "Export Invoices",
+         "dateRange": "Date Range",
+         "dateFrom": "From Date",
+         "dateTo": "To Date",
+         "status": "Status",
+         "selectStatus": "Select status",
+         "allStatuses": "All statuses",
+         "formatLabel": "File Format",
+         "formatPlaceholder": "Select format",
+         "formatExcel": "Excel (.xlsx)",
+         "formatCsv": "CSV (.csv)",
+         "noData": "No invoices match the selected filters",
+         "successExcel": "Excel file downloaded successfully",
+         "successCsv": "CSV file downloaded successfully",
+         "error": "Failed to export invoices"
+      },
+      "filter": "Filter",
+      "sortBy": "Sort by",
+      "addInvoice": "Add Invoice",
+      "loadingInvoices": "Loading invoices...",
+      "loadingDetails": "Loading invoice details...",
+      "errorLoadingInvoices": "Error loading invoices. Please try again.",
+      "sortOptions": {
+         "dateCreated": "Date Created",
+         "lastUpdated": "Last Updated",
+         "amountHigh": "Amount (High to Low)",
+         "amountLow": "Amount (Low to High)"
+      },
+      "kpi": {
+         "totalInvoices": "Total Invoices",
+         "totalAmount": "Total Amount",
+         "totalDue": "Total Due",
+         "paidInvoices": "Paid Invoices",
+         "pendingInvoices": "Pending Invoices",
+         "draftInvoices": "Draft Invoices",
+         "partiallyPaidInvoices": "Partially Paid"
+      },
+      "table": {
+         "invoiceNumber": "Invoice Number",
+         "customer": "Customer",
+         "dateCreated": "Date Created",
+         "lastUpdated": "Last Updated",
+         "amount": "Amount",
+         "status": "Status"
+      },
+      "status": {
+         "draft": "Draft",
+         "pending": "Pending",
+         "partiallyPaid": "Partially Paid",
+         "fullyPaid": "Fully Paid",
+         "cancelled": "Cancelled",
+         "void": "Void",
+         "refunded": "Refunded",
+         "overdue": "Overdue"
+      },
+      "actions": {
+         "viewDetails": "View Details",
+         "editInvoice": "Edit Invoice",
+         "voidInvoice": "Void Invoice",
+         "bulkPayment": "Bulk Payment",
+         "delete": "Delete"
+      },
+      "bulkPayment": {
+         "selectedLabel": "Invoices selected"
+      },
+      "paymentMethods": {
+         "cash": "Cash",
+         "bank_transfer": "Bank Transfer",
+         "card": "Card",
+         "cheque": "Cheque"
+      },
+      "bulkPaymentModal": {
+         "title": "Bulk Payment",
+         "customerLabel": "Customer",
+         "customerFallback": "Selected Customer",
+         "totalBalanceLabel": "Total balance due",
+         "invoiceCountLabel": "invoices",
+         "moreLabel": "more",
+         "amountLabel": "Payment amount",
+         "amountPlaceholder": "Enter amount",
+         "overpayHint": "Amount exceeds total balance due.",
+         "paymentDateLabel": "Payment date",
+         "paymentDatePlaceholder": "Select date",
+         "paymentMethodLabel": "Payment method",
+         "paymentMethodPlaceholder": "Select method",
+         "accountTypeLabel": "Account type",
+         "accountTypePlaceholder": "Select account type",
+         "accountLabelCash": "Cash account",
+         "accountLabelBank": "Bank account",
+         "accountPlaceholderCash": "Select cash account",
+         "accountPlaceholderBank": "Select bank account",
+         "referenceNumberLabel": "Reference number",
+         "referenceNumberPlaceholder": "Enter reference number",
+         "remarksLabel": "Remarks",
+         "remarksPlaceholder": "Add a note",
+         "payFullAmount": "Pay full amount",
+         "confirmTitle": "Confirm bulk payment?",
+         "confirmDescription": "You're about to record a payment of {{amount}} across {{count}} invoices.",
+         "confirmButton": "Record Payment",
+         "errors": {
+            "noSelection": "Select at least one invoice to apply a bulk payment.",
+            "missingCustomer": "Some selected invoices are missing customer information.",
+            "multiCustomer": "Bulk payments must be applied to invoices for a single customer.",
+            "invalidStatus": "Selected invoices include statuses that cannot receive payments.",
+            "noValidInvoices": "No valid invoices selected for bulk payment.",
+            "unknownCustomer": "Unable to determine customer for bulk payment."
+         }
+      },
+      "accountTypes": {
+         "cash": "Cash",
+         "bank": "Bank"
+      },
+      "voidModal": {
+         "title": "Void Invoice",
+         "invoiceLabel": "Invoice",
+         "invoiceFallback": "Selected Invoice",
+         "noteLabel": "Note",
+         "notePlaceholder": "Explain why this invoice is being voided.",
+         "noteCounter": "{{current}}/{{max}} characters",
+         "confirmTitle": "Void this invoice?",
+         "confirmDescription": "This action cannot be undone. The invoice will be marked as void.",
+         "confirmButton": "Void Invoice",
+         "validation": {
+            "required": "A note is required to void an invoice.",
+            "maxLength": "Note must be {{max}} characters or less."
+         }
+      },
+      "deleteModal": {
+         "title": "Remove Invoice?",
+         "message": "Removing an invoice deletes all records, preventing further actions. A summary may be kept for reference.",
+         "confirmButton": "Delete Invoice",
+         "cancelButton": "Cancel"
+      },
+      "toast": {
+         "createSuccess": "Invoice created successfully",
+         "updateSuccess": "Invoice updated successfully",
+         "deleteSuccess": "Invoice deleted successfully",
+         "saveError": "Failed to save invoice",
+         "deleteError": "Failed to delete invoice",
+         "voidSuccess": "Invoice voided successfully",
+         "voidError": "Failed to void invoice",
+         "bulkPaymentSuccess": "Bulk payment recorded successfully",
+         "bulkPaymentError": "Failed to record bulk payment"
+      }
+   },
+   "loading": {
+      "roles": "Loading roles...",
+      "jobTitles": "Loading job titles...",
+      "teams": "Loading teams...",
+      "general": "Loading settings...",
+      "assets": "Loading assets...",
+      "holidays": "Loading holidays...",
+      "services": "Loading services...",
+      "shifts": "Loading shifts...",
+      "employees": "Loading employees...",
+      "categories": "Loading categories...",
+      "departments": "Loading departments..."
+   }
+}

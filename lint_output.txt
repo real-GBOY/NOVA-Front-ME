@@ -1,0 +1,537 @@
+
+> vite-react-typescript-starter@0.0.0 lint
+> eslint .
+
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/Icons/pause.tsx
+  9:45  error  'active' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/Icons/pdf-file.tsx
+  5:2  error  'active' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/Icons/uae-flag.tsx
+  5:2  error  'active' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/Icons/us-flag.tsx
+  5:2  error  'active' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/LanguageSwitchLoader.tsx
+  4:10  error  'getCurrentLanguage' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/commandPalette/types.ts
+  61:30  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/communication/ChatErrorBoundary.tsx
+  29:34  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/communication/ChatWindowNew.tsx
+   23:26  error    'buildReplyMessage' is defined but never used                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   23:45  error    'formatFileSizeLabel' is defined but never used                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+   59:3   error    'isSending' is assigned a value but never used                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+  118:5   warning  React Hook useMemo has a missing dependency: 'room.members'. Either include it or remove the dependency array                                                                                                                                                                    react-hooks/exhaustive-deps
+  149:35  warning  The ref value 'typingTimeoutRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'typingTimeoutRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+  278:27  error    'duration' is defined but never used                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  395:5   warning  React Hook useMemo has an unnecessary dependency: 'roomId'. Either exclude it or remove the dependency array                                                                                                                                                                     react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/communication/InboxSidebar.tsx
+   42:10  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+   42:30  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  224:5   warning  React Hook useMemo has an unnecessary dependency: 'isUserOnline'. Either exclude it or remove the dependency array              react-hooks/exhaustive-deps
+  273:19  error    Unexpected any. Specify a different type                                                                                        @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/communication/group/CreateGroupDetailsModal.tsx
+  30:2  error  'selectedMembers' is defined but never used         @typescript-eslint/no-unused-vars
+  34:9  error  'selectedImage' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/communication/messageUtils.ts
+  68:8   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  71:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/contracts/ContractsTable.tsx
+  228:33  error  React Hook "useNavigate" is called in function "cell" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use"  react-hooks/rules-of-hooks
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/contracts/addContractWizard/AddContractWizard.tsx
+   39:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   40:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   41:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  110:47  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/contracts/addContractWizard/StepAssignMember.tsx
+  18:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/contracts/addContractWizard/StepCompensationAssets.tsx
+  21:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/contracts/addContractWizard/StepPolicyLimits.tsx
+  15:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/contracts/ui/ContractsFilterDropdown.tsx
+  71:3  warning  React Hook useMemo has a missing dependency: 'statusOptions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/dashboard/charts/upcoming/UpcomingChart.tsx
+   9:12  error    't' is assigned a value but never used                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  17:10  warning  The 'cases' logical expression could make the dependencies of useMemo Hook (at line 42) change on every render. Move it inside the useMemo callback. Alternatively, wrap the initialization of 'cases' in its own useMemo() Hook  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/dashboard/charts/upcoming/UpcomingList.tsx
+  9:12  error  't' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/dashboard/charts/vouchers/VoucherChart.tsx
+  29:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/help-support/HelpSupportFilterDropdown.tsx
+   90:88   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  116:86   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  117:98   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  130:90   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  131:100  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  144:90   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  145:100  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  158:82   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  159:96   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/invoices/CreateInvoiceModal.tsx
+  114:5  warning  React Hook useMemo has an unnecessary dependency: 'isOpen'. Either exclude it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/legalCases/AddCaseWizard/AddCaseWizard.tsx
+  24:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/legalCases/AddCaseWizard/StepCaseBasics.tsx
+  13:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/legalCases/LegalCaseDetailsContent.tsx
+   60:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  211:36  error  'index' is defined but never used         @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/legalCases/ui/LegalCasesFilterDropdown.tsx
+   41:12  error    'isRTL' is assigned a value but never used                                                                       @typescript-eslint/no-unused-vars
+   58:10  error    'selectedStatuses' is assigned a value but never used                                                            @typescript-eslint/no-unused-vars
+  121:7   warning  React Hook useMemo has a missing dependency: 'getStatusLabel'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/AddMemberWizard/AddMemberWizard.tsx
+  106:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  125:53  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/AddMemberWizard/StepReview.tsx
+  6:8  error  'DownloadBracket' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/memberProfile/constants/summaryCards.tsx
+  169:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/memberProfile/tabs/AssetsTab/AssetsTable.tsx
+  160:3  warning  React Hook useMemo has missing dependencies: 'handleApprove' and 'handleReject'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/memberProfile/tabs/DocumentsTab/DocumentsTab.tsx
+   47:11  error    '_title' is defined but never used                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   48:11  error    '_count' is defined but never used                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   64:10  warning  The 'documents' logical expression could make the dependencies of useMemo Hook (at line 76) change on every render. Move it inside the useMemo callback. Alternatively, wrap the initialization of 'documents' in its own useMemo() Hook  react-hooks/exhaustive-deps
+  196:10  error    'documentTypeLabel' is assigned a value but never used                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/memberProfile/tabs/DocumentsTab/UploadDocumentModal.tsx
+  74:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  78:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/memberProfile/tabs/PayrollsTab.tsx
+   60:10  warning  The 'payrollItems' logical expression could make the dependencies of useMemo Hook (at line 304) change on every render. Move it inside the useMemo callback. Alternatively, wrap the initialization of 'payrollItems' in its own useMemo() Hook  react-hooks/exhaustive-deps
+  178:10  warning  The 'handleEdit' function makes the dependencies of useMemo Hook (at line 292) change on every render. Move it inside the useMemo callback. Alternatively, wrap the definition of 'handleEdit' in its own useCallback() Hook                     react-hooks/exhaustive-deps
+  183:10  warning  The 'handleDelete' function makes the dependencies of useMemo Hook (at line 292) change on every render. Move it inside the useMemo callback. Alternatively, wrap the definition of 'handleDelete' in its own useCallback() Hook                 react-hooks/exhaustive-deps
+  406:16  error    Unexpected any. Specify a different type                                                                                                                                                                                                         @typescript-eslint/no-explicit-any
+  408:16  error    Unexpected any. Specify a different type                                                                                                                                                                                                         @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/memberProfile/tabs/TimeManagmentTab/OvertimeTable.tsx
+  111:28  error  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/memberProfile/tabs/TimeManagmentTab/TimeManagementFilterDropdown.tsx
+  60:8  warning  React Hook useEffect has a missing dependency: 'initialFilters'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/memberProfile/tabs/TimeManagmentTab/TimeOffRequestsTable.tsx
+  128:26  error  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/members/ui/MembersFilterDropdown.tsx
+  101:3  warning  React Hook useMemo has a missing dependency: 'statusOptions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/pdf/PdfPreviewModal.tsx
+   74:7  warning  React Hook useEffect has a missing dependency: 'handleClose'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  130:7  warning  React Hook useCallback has a missing dependency: 'goToPage'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+  164:7  warning  React Hook useMemo has a missing dependency: 'goToPage'. Either include it or remove the dependency array       react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/requests/RequestsContent.tsx
+  134:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  149:79  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  153:75  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  162:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  179:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  196:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/requests/RequestsTable.tsx
+  25:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/requests/utils/dateUtils.ts
+  122:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  171:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/requests/utils/mockData.ts
+   19:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+   46:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+   73:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+   93:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  122:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  152:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  198:11  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/CompanySettings/CompanySettingsView.tsx
+   69:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   91:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   92:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  110:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  121:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  122:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  134:20  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  135:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/CompanySettings/components/CompanyInformationForm/CompanyInformationForm.tsx
+   77:49  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  132:21  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  200:14  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  201:14  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  202:14  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  205:22  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  206:22  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  207:22  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  209:5   warning  React Hook useEffect has missing dependencies: 'handleCancel' and 'handleSave'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/CompanySettings/components/Holidays/HolidaysTable.tsx
+  211:3  warning  React Hook useMemo has a missing dependency: 'formatDuration'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/CompanySettings/components/Holidays/HolidaysView.tsx
+   25:9   error  'sortBy' is assigned a value but never used        @typescript-eslint/no-unused-vars
+   42:34  error  'clearFilters' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   73:13  error  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+  137:29  error  Unexpected any. Specify a different type           @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/CompanySettings/components/LocationModal.tsx
+   23:24  error    Unexpected any. Specify a different type                                                                                                          @typescript-eslint/no-explicit-any
+   24:27  error    Unexpected any. Specify a different type                                                                                                          @typescript-eslint/no-explicit-any
+   55:12  error    Unexpected any. Specify a different type                                                                                                          @typescript-eslint/no-explicit-any
+   56:15  error    Unexpected any. Specify a different type                                                                                                          @typescript-eslint/no-explicit-any
+   63:40  error    Unexpected any. Specify a different type                                                                                                          @typescript-eslint/no-explicit-any
+   90:44  error    Unexpected any. Specify a different type                                                                                                          @typescript-eslint/no-explicit-any
+   96:39  error    Unexpected any. Specify a different type                                                                                                          @typescript-eslint/no-explicit-any
+  116:5   warning  React Hook useEffect has missing dependencies: 'mapCoordinates.lat' and 'mapCoordinates.lng'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/sidebar/Generalsettings/GeneralSettingsView.tsx
+   98:3  warning  Unused eslint-disable directive (no problems were reported from 'no-console')
+  112:3  warning  Unused eslint-disable directive (no problems were reported from 'no-console')
+  121:3  warning  Unused eslint-disable directive (no problems were reported from 'no-console')
+  133:3  warning  Unused eslint-disable directive (no problems were reported from 'no-console')
+  142:3  warning  Unused eslint-disable directive (no problems were reported from 'no-console')
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/AddJobTitleWizard/AddJobTitleWizard.tsx
+  26:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/AddJobTitleWizard/BasicInfo/StepBasicInfo.tsx
+  17:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/AddRoleWizard/AddRoleWizard.tsx
+   25:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   26:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  112:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/AddRoleWizard/Permissions/StepPermissions.tsx
+  19:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/AddRoleWizard/ReviewConfirm/StepReview.tsx
+  54:47  error  '_' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/AddRoleWizard/RoleInformation/StepRoleInformation.tsx
+  17:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/AddTeamWizard/AddTeamWizard.tsx
+  22:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/AddTeamWizard/BasicInfo/StepBasicInfo.tsx
+  15:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/Assets/AddAssetWizard/AddAssetWizard.tsx
+  209:5  warning  React Hook useMemo has a missing dependency: 'isImageUploaded'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/Assets/AddAssetWizard/AssetInformation/StepAssetInformation.tsx
+  115:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/Assets/AssetsTable.tsx
+  15:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/Assets/AssetsView.tsx
+  105:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  136:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  167:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  190:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/Assets/components/AssetsFilterDropdown.tsx
+  72:3  warning  React Hook useMemo has a missing dependency: 'categoryOptions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  82:3  warning  React Hook useMemo has a missing dependency: 'statusOptions'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/Assets/components/modals/AssignAssetModal.tsx
+  28:2  error  'asset' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/Assets/components/modals/ViewAssetModal/AssetInformationCard.tsx
+  13:2  error  'condition' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/Banks/tabs/BanksTab.tsx
+  135:16  error    Unexpected lexical declaration in case block                                                             no-case-declarations
+  136:16  error    Unexpected lexical declaration in case block                                                             no-case-declarations
+  141:16  error    Unexpected lexical declaration in case block                                                             no-case-declarations
+  142:16  error    Unexpected lexical declaration in case block                                                             no-case-declarations
+  339:7   warning  React Hook useMemo has a missing dependency: 'onEdit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/ExpenseTypes/ExpenseTypes.tsx
+  12:15  error  'CreateExpenseTypeRequest' is defined but never used    @typescript-eslint/no-unused-vars
+  24:10  error  'createExpenseType' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/ExpenseTypes/tabs/ExpenseTypesTab.tsx
+  303:16  error    Unexpected lexical declaration in case block                                                                       no-case-declarations
+  304:16  error    Unexpected lexical declaration in case block                                                                       no-case-declarations
+  309:16  error    Unexpected lexical declaration in case block                                                                       no-case-declarations
+  310:16  error    Unexpected lexical declaration in case block                                                                       no-case-declarations
+  320:7   warning  React Hook useMemo has an unnecessary dependency: 'searchQuery'. Either exclude it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/InvoiceProfiles/InvoiceProfilesView.tsx
+    8:8   error  'Button' is defined but never used          @typescript-eslint/no-unused-vars
+   10:39  error  'SortDescending' is defined but never used  @typescript-eslint/no-unused-vars
+  251:30  error  Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  254:31  error  Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  255:29  error  Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/InvoiceProfiles/modals/AddAgentModal.tsx
+  180:9  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/InvoiceProfiles/modals/AddCustomerModal.tsx
+  3:19  error  'useEffect' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/InvoiceProfiles/tabs/AgentsTab.tsx
+  168:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/InvoiceProfiles/tabs/CustomersTab.tsx
+  167:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/PrettyCashNames/tabs/PrettyCashNamesTab.tsx
+  313:7  warning  React Hook useMemo has a missing dependency: 'onEdit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/ServiceCatalog/tabs/categories/CategoriesTab.tsx
+  140:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/ServiceCatalog/tabs/departments/DepartmentsTab.tsx
+  139:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/ServiceCatalog/tabs/services/ServicesTab.tsx
+  136:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/VoucherTypes/VoucherTypes.tsx
+  16:67  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/settings/views/VoucherTypes/tabs/VoucherTypesTab.tsx
+  331:7  warning  React Hook useMemo has a missing dependency: 'onEdit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/vouchers/AddPaymentVoucherModal.tsx
+  121:47  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  695:51  error  'value' is defined but never used         @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/vouchers/VoucherDetailsDrawer.tsx
+  9:8  error  'DirhamLabel' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/vouchers/VouchersContent.tsx
+  101:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  132:24  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/components/vouchers/ui/VouchersFilterDropdown.tsx
+  50:3  warning  React Hook useMemo has a missing dependency: 'statusOptions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/config/commandPaletteActions.ts
+  5:29  error  'ChatText' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/context/PdfPreviewContext.tsx
+  49:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/designSystem/GenericForm.tsx
+  49:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  52:18  error    Unnecessary escape character: \[                                                                                                no-useless-escape
+  90:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/designSystem/ui/badge.tsx
+  36:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/designSystem/ui/button.tsx
+  60:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/designSystem/ui/data-table.tsx
+  49:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/chat/useMessages.ts
+  281:5  error  '_optimistic_attachment_metadata' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  282:5  error  '_optimistic_reply' is assigned a value but never used                @typescript-eslint/no-unused-vars
+  283:5  error  'attachment_token' is assigned a value but never used                 @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/chat/useReadReceipts.ts
+  3:21  error  'useCallback' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/chat/useTypingIndicator.ts
+   72:14  warning  The ref value 'timersRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'timersRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+  104:14  warning  The ref value 'timersRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'timersRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/commandPalette/useCommandPalette.ts
+   26:55  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   39:66  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  112:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  113:52  error  '_' is defined but never used             @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/employees/employee.queries.ts
+  106:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  138:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  164:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  189:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  223:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/holidays/useHoliday.ts
+  45:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  64:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  77:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/officeLocations/useOfficeLocation.ts
+  45:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/onboarding/onboarding.mutations.ts
+  64:7  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/requests/useRequests.ts
+  14:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  30:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  46:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/table/types.ts
+  12:9   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  29:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/table/useLocalTableData.ts
+  11:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  12:53  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/table/useServerTableData.ts
+  26:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  36:27  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/table/useTableFilter.ts
+  10:57  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/useCompanyLogo.ts
+  17:13  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/usePushNotifications.ts
+   29:57  warning  React Hook useMemo has unnecessary dependencies: 'busy', 'permission', and 'supported'. Either exclude them or remove the dependency array  react-hooks/exhaustive-deps
+   78:15  error    Unexpected any. Specify a different type                                                                                                    @typescript-eslint/no-explicit-any
+   91:15  error    Unexpected any. Specify a different type                                                                                                    @typescript-eslint/no-explicit-any
+  104:15  error    Unexpected any. Specify a different type                                                                                                    @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/vouchers/paymentVoucher.queries.ts
+  7:7  error  'PaymentVoucherFilters' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/hooks/vouchers/receiptVoucher.queries.ts
+  7:7  error  'ReceiptVoucherFilters' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/agentService.ts
+  63:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/bankService.ts
+  73:30  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/chat/socketService.ts
+  192:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/chat/types.ts
+  208:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/contexts/ActiveTabContext.tsx
+  29:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/contexts/ThemeProvider.tsx
+  18:14  warning  Fast refresh only works when a file only exports components. Move your React context(s) to a separate file                      react-refresh/only-export-components
+  84:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/customerService.ts
+  71:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/employeeService.ts
+  421:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  496:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  508:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  520:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  543:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/expenseTypeService.ts
+  47:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/invoiceService.ts
+  101:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  111:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  251:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  284:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  485:51  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/legalCasesService.ts
+  135:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/payrollService.ts
+  29:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  36:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  46:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/prettyCashNameService.ts
+  54:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/push/PushNotificationsBootstrap.tsx
+  15:78  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  90:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/push/webPush.ts
+   67:12  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  144:39  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  174:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  315:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/requestsService.ts
+  22:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/roleService.ts
+  25:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  26:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/services/voucherTypeService.ts
+  81:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/types/leaflet.d.ts
+  2:11  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/utilities/tableUtils.ts
+  10:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  10:56  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  40:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  40:56  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/utils/auth.ts
+  47:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/src/utils/debugPushNotifications.ts
+   6:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  29:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  41:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  55:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  70:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  86:13  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/frey/Visual Studio Code/Work/Amer_FrontEnd/vite.config.ts
+  10:31  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  11:39  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  11:49  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  11:60  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 275 problems (227 errors, 48 warnings)
+  0 errors and 6 warnings potentially fixable with the `--fix` option.
+

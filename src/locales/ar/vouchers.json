@@ -1,0 +1,62 @@
+{
+   "title": "القسائم",
+   "paymentVouchers": "قسائم الدفع",
+   "receiptVouchers": "قسائم الاستلام",
+   "totalVouchers": "إجمالي القسائم",
+   "totalAmount": "المبلغ الإجمالي",
+   "addPayment": "إضافة دفعة",
+   "addVoucher": "إضافة قسيمة",
+   "paymentCode": "كود الدفع",
+   "from": "من",
+   "to": "إلى",
+   "dateCreated": "تاريخ الإنشاء",
+   "amount": "المبلغ",
+   "status": "الحالة",
+   "active": "نشط",
+   "inactive": "غير نشط",
+   "searchPlaceholder": "البحث عن قسيمة دفع...",
+   "viewDetails": "عرض التفاصيل",
+   "delete": "حذف",
+   "deleteTitle": "إزالة القسيمة؟",
+   "deleteDescription": "ستؤدي إزالة القسيمة إلى حذف جميع السجلات، مما يمنع أي إجراءات أخرى. قد يتم الاحتفاظ بملخص للرجوع إليه.",
+   "deleteConfirm": "حذف القسيمة",
+   "cancel": "إلغاء",
+   "saveVoucher": "حفظ القسيمة",
+   "voucherDetails": "تفاصيل القسيمة",
+   "paymentVoucher": "قسيمة دفع",
+   "receiptVoucher": "قسيمة استلام",
+   "type": "النوع",
+   "loading": "جاري تحميل القسائم...",
+   "actions": {
+      "approve": "موافقة"
+   },
+   "errorModal": {
+      "title": "خطأ",
+      "okButton": "موافق"
+   },
+   "deleteModal": {
+      "cancelButton": "إلغاء"
+   },
+   "details": {
+      "print": "طباعة",
+      "paymentCode": "كود الدفع",
+      "from": "من",
+      "to": "إلى",
+      "expenseType": "نوع المصروف",
+      "incomeType": "نوع الدخل",
+      "paymentMethod": "طريقة الدفع",
+      "referenceNumber": "الرقم المرجعي",
+      "bankName": "اسم البنك",
+      "transactionDetails": "تفاصيل المعاملة",
+      "customerName": "اسم العميل",
+      "amount": "المبلغ",
+      "totalAmount": "المبلغ الإجمالي",
+      "commission": "العمولة",
+      "tax": "الضريبة",
+      "remarks": "ملاحظات",
+      "linkedInvoices": "الفواتير المرتبطة",
+      "invoiceNumber": "رقم الفاتورة",
+      "pending": "قيد الانتظار",
+      "pay": "دفع"
+   }
+}

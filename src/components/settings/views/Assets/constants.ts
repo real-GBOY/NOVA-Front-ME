@@ -1,0 +1,95 @@
+/** @format */
+
+import type { Asset } from "@/services/assetService";
+
+// Static assets data
+export const staticAssets: Asset[] = [
+	{
+		id: 1,
+		name: "MacBook Pro 14-inch (2023)",
+		category: "laptop",
+		status: "assigned",
+		asset_condition: "good",
+		serial: "C03VX2M6JG00",
+	},
+	{
+		id: 2,
+		name: "iPhone 15 Pro Max",
+		category: "mobile",
+		status: "assigned",
+		asset_condition: "good",
+		serial: "C03VX2M6JG01",
+	},
+	{
+		id: 3,
+		name: "ThinkPad Ultra 14 (2024)",
+		category: "laptop",
+		status: "available",
+		asset_condition: "poor",
+		serial: "C03VX2M6JG02",
+	},
+	{
+		id: 4,
+		name: "Dell XPS 13 (2025)",
+		category: "laptop",
+		status: "available",
+		asset_condition: "good",
+		serial: "C03VX2M6JG03",
+	},
+	{
+		id: 5,
+		name: "Zenbook 14 OLED",
+		category: "laptop",
+		status: "assigned",
+		asset_condition: "good",
+		serial: "C03VX2M6JG04",
+	},
+	{
+		id: 6,
+		name: "Surface Laptop 5",
+		category: "laptop",
+		status: "available",
+		asset_condition: "good",
+		serial: "C03VX2M6JG05",
+	},
+	{
+		id: 7,
+		name: "Galaxy Book 3 Pro",
+		category: "laptop",
+		status: "assigned",
+		asset_condition: "good",
+		serial: "C03VX2M6JG06",
+	},
+	{
+		id: 8,
+		name: "Acer Swift 3",
+		category: "laptop",
+		status: "available",
+		asset_condition: "fair",
+		serial: "C03VX2M6JG07",
+	},
+	{
+		id: 9,
+		name: "HP Spectre x360",
+		category: "laptop",
+		status: "assigned",
+		asset_condition: "good",
+		serial: "C03VX2M6JG08",
+	},
+	{
+		id: 10,
+		name: "Razer Blade 15",
+		category: "laptop",
+		status: "available",
+		asset_condition: "good",
+		serial: "C03VX2M6JG09",
+	},
+	{
+		id: 11,
+		name: "Lenovo Yoga 9i",
+		category: "laptop",
+		status: "assigned",
+		asset_condition: "good",
+		serial: "C03VX2M6JG10",
+	},
+];

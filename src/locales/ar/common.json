@@ -1,0 +1,1001 @@
+{
+   "Invoice Profiles": "ملفات الفواتير",
+   "app": {
+      "name": "BAK",
+      "title": "نظام إدارة BAK",
+      "hrms": "نظام إدارة الموارد البشرية"
+   },
+   "appName": "BAK",
+   "nav": {
+      "dashboard": "لوحة التحكم",
+      "members": "الأعضاء",
+      "contracts": "العقود",
+      "requests": "الطلبات",
+      "projects": "المشاريع",
+      "payrolls": "الرواتب",
+      "reports": "التقارير",
+      "vouchers": "القسائم",
+      "legalCases": "قضايا ومسائل قانونية",
+      "loansAdvances": "الفواتير",
+      "communication": "الرسائل",
+      "calendar": "التقويم",
+      "settings": "الإعدادات",
+      "helpSupport": "المساعدة والدعم",
+      "documentation": "التوثيق",
+      "profile": "الملف الشخصي للعضو",
+      "roles": "الأدوار",
+      "roleDetails": "تفاصيل الدور",
+      "permissions": "الصلاحيات",
+      "documents": "المستندات",
+      "home": "الرئيسية",
+      "termsAndConditions": "الشروط والأحكام"
+   },
+   "contracts": {
+      "title": "العقود",
+      "wizard": {
+         "title": "إضافة عقد",
+         "steps": {
+            "assignMember": "تعيين عضو",
+            "compensationAssets": "التعويضات",
+            "policyLimits": "السياسات والحدود",
+            "review": "المراجعة"
+         },
+         "buttons": {
+            "back": "رجوع",
+            "continue": "متابعة",
+            "addContract": "إضافة عقد",
+            "processing": "جاري المعالجة...",
+            "validating": "جاري التحقق..."
+         },
+         "messages": {
+            "navigationError": "يرجى استخدام أزرار التنقل للانتقال بين الخطوات",
+            "validationError": "حدث خطأ أثناء التحقق",
+            "createSuccess": "تم إنشاء العقد بنجاح",
+            "terminateSuccess": "تم إنهاء العقد بنجاح",
+            "terminateError": "فشل إنهاء العقد"
+         }
+      },
+      "activeContract": "عقد نشط",
+      "contractNearExpire": "عقد شارف على الانتهاء",
+      "draftContract": "مسودة عقد",
+      "expiredContract": "عقد منتهي",
+      "terminatedContract": "عقد ملغى",
+      "id": "المعرف",
+      "contractName": "اسم العقد",
+      "assignedTo": "مسند إلى",
+      "statusLabel": "الحالة",
+      "status": {
+         "active": "نشط",
+         "nearExpired": "شارف على الانتهاء",
+         "expired": "منتهي الصلاحية"
+      },
+      "createdAt": "تاريخ الإنشاء",
+      "contractDuration": "مدة العقد",
+      "contractAmount": "قيمة العقد",
+      "searchPlaceholder": "البحث عن اسم العقد، اسم العضو",
+      "filters": {
+         "filter": "تصفية",
+         "resetAll": "إعادة تعيين الكل",
+         "reset": "إعادة تعيين",
+         "amountRange": "نطاق المبلغ",
+         "minValue": "الحد الأدنى",
+         "maxValue": "الحد الأقصى",
+         "enterMinValue": "أدخل الحد الأدنى",
+         "enterMaxValue": "أدخل الحد الأقصى",
+         "selectStatus": "اختر حالة العقد",
+         "selectMember": "اختر عضو"
+      },
+      "assignMember": {
+         "title": "تعيين عضو",
+         "description": "اختر الموظف لهذا العقد.",
+         "member": "العضو",
+         "searchMember": "البحث عن عضو",
+         "contractName": "اسم العقد",
+         "contractNamePlaceholder": "أدخل اسم العقد",
+         "contractType": "نوع العقد",
+         "selectContractType": "اختر نوع العقد",
+         "startDate": "تاريخ البدء",
+         "startDatePlaceholder": "DD / MM / YYYY",
+         "endDate": "تاريخ الانتهاء",
+         "endDatePlaceholder": "DD / MM / YYYY",
+         "attachDocuments": "إرفاق المستندات"
+      },
+      "review": {
+         "title": "المراجعة والتأكيد",
+         "description": "تحقق من ملخص هذا العقد وقم بتحديث أي شيء إذا لزم الأمر.",
+         "assignMemberSection": "تعيين عضو"
+      },
+      "compensation": {
+         "title": "التعويضات",
+         "description": "حدد الراتب ومعدل العمل الإضافي.",
+         "baseSalary": "الراتب الأساسي",
+         "baseSalaryPlaceholder": "0.00",
+         "salaryCycle": "دورة الراتب",
+         "selectSalaryCycle": "اختر دورة الراتب",
+         "overtimeRate": "معدل العمل الإضافي / ساعة",
+         "overtimeRatePlaceholder": "0.00",
+         "overtimeHint": "دفع العمل الإضافي بالساعة."
+      },
+      "assets": {
+         "title": "الأصول",
+         "description": "تعيين أي أصول مطلوبة.",
+         "asset": "الأصل",
+         "selectAsset": "اختر الأصل",
+         "addMore": "إضافة المزيد"
+      },
+      "policyLimits": {
+         "title": "السياسات والحدود",
+         "description": "حدد فترة الإشعار وسياسات الإجازات.",
+         "days": "أيام",
+         "noticePeriod": "فترة الإشعار",
+         "enterNoticePeriod": "أدخل فترة الإشعار",
+         "sickLeave": "الإجازة المرضية",
+         "enterSickLeave": "أدخل الإجازة المرضية",
+         "casualLeave": "الإجازة العرضية",
+         "enterCasualLeave": "أدخل الإجازة العرضية",
+         "annualLeave": "الإجازة السنوية",
+         "enterAnnualLeave": "أدخل الإجازة السنوية",
+         "absenceLimit": "حد الغياب",
+         "enterAbsenceLimit": "أدخل حد الغياب"
+      },
+      "exitConfirmation": {
+         "title": "الخروج من إنشاء العقد؟",
+         "description": "لم تنته من إنشاء هذا العقد. إذا غادرت الآن، لن يتم إنشاء العقد.",
+         "confirm": "تجاهل التغييرات",
+         "cancel": "البقاء والمتابعة"
+      },
+      "emptyState": {
+         "title": "لا توجد عقود بعد",
+         "description": "ابدأ بإنشاء أول عقد لأعضاء فريقك."
+      },
+      "noResults": {
+         "title": "لم يتم العثور على عقود",
+         "description": "حاول تعديل البحث أو الفلاتر للعثور على ما تبحث عنه."
+      },
+      "terminateContractTitle": "إنهاء العقد",
+      "terminateContractMessage": "هل أنت متأكد من أنك تريد إنهاء هذا العقد؟ لا يمكن التراجع عن هذا الإجراء.",
+      "terminateSuccess": "تم إنهاء العقد بنجاح",
+      "terminateError": "فشل إنهاء العقد",
+      "terminate": {
+         "description": "يرجى تقديم السبب وتاريخ السريان لإنهاء العقد.",
+         "terminationDate": "تاريخ الإنهاء",
+         "selectDate": "حدد تاريخ الإنهاء",
+         "reason": "السبب",
+         "reasonPlaceholder": "أدخل سبب الإنهاء...",
+         "reasonRequired": "السبب مطلوب",
+         "dateRequired": "تاريخ الإنهاء مطلوب",
+         "terminating": "جاري الإنهاء..."
+      },
+      "loadingContracts": "جاري تحميل العقود..."
+   },
+   "actions": {
+      "add": "إضافة",
+      "addIndividualCustomer": "+ إضافة عميل فردي",
+      "create": "إنشاء",
+      "createContract": "إنشاء عقد",
+      "creatingContract": "جاري إنشاء العقد...",
+      "edit": "تعديل",
+      "preview": "معاينة",
+      "previewAndEdit": "معاينة وتعديل",
+      "terminate": "إنهاء",
+      "delete": "حذف",
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "confirm": "تأكيد",
+      "search": "بحث",
+      "filter": "تصفية",
+      "sortBy": "ترتيب حسب",
+      "export": "تصدير",
+      "import": "استيراد",
+      "upload": "رفع",
+      "download": "تحميل",
+      "close": "إغلاق",
+      "back": "رجوع",
+      "next": "التالي",
+      "previous": "السابق",
+      "submit": "إرسال",
+      "reset": "إعادة تعيين",
+      "clear": "مسح",
+      "view": "عرض",
+      "duplicate": "نسخ",
+      "archive": "أرشفة",
+      "restore": "استعادة",
+      "custom": "مخصص",
+      "showMore": "إظهار المزيد",
+      "showLess": "إظهار أقل",
+      "refresh": "تحديث",
+      "apply": "تطبيق",
+      "applyNow": "تطبيق الآن",
+      "done": "تم",
+      "viewDetails": "عرض التفاصيل",
+      "deleteRole": "حذف الدور",
+      "optional": "اختياري",
+      "addUpdate": "إضافة تحديث",
+      "saveChanges": "حفظ التغييرات"
+   },
+   "event": {
+      "addUpdateTitle": "إضافة تحديث",
+      "title": "العنوان",
+      "titlePlaceholder": "أدخل العنوان",
+      "date": "التاريخ",
+      "description": "الوصف",
+      "descriptionPlaceholder": "أدخل الوصف"
+   },
+   "validation": {
+      "required": "هذا الحقل مطلوب",
+      "maxLength": "يجب ألا يزيد عن {length} حرفاً",
+      "dateFormat": "يجب أن يكون التاريخ بصيغة YYYY-MM-DD"
+   },
+   "companySettings": {
+      "caseTypes": {
+         "helpers": {
+            "loading": "جاري تحميل أنواع القضايا...",
+            "empty": "لا توجد أنواع قضايا متاحة"
+         }
+      }
+   },
+   "common": {
+      "yes": "نعم",
+      "no": "لا",
+      "ok": "موافق",
+      "loading": "جار التحميل...",
+      "processing": "جاري المعالجة...",
+      "noData": "لا توجد بيانات",
+      "status": {
+         "processing": "جاري المعالجة..."
+      },
+      "error": "حدث خطأ",
+      "success": "نجح",
+      "warning": "تحذير",
+      "info": "معلومات",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "address": "العنوان",
+      "date": "التاريخ",
+      "time": "الوقت",
+      "description": "الوصف",
+      "notes": "ملاحظات",
+      "total": "المجموع",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "all": "الكل",
+      "none": "لا شيء",
+      "other": "أخرى",
+      "language": "اللغة",
+      "theme": "المظهر",
+      "darkMode": "الوضع الداكن",
+      "lightMode": "الوضع الفاتح",
+      "switchingLanguage": "جاري تغيير اللغة...",
+      "pleaseWait": "يرجى الانتظار"
+   },
+   "status": {
+      "processing": "جاري المعالجة..."
+   },
+   "validationSummary": {
+      "title": "يرجى تصحيح الحقول المميزة",
+      "description": "تم تمييز الحقول الناقصة أو غير الصحيحة أدناه."
+   },
+   "unsavedChanges": {
+      "title": "تجاهل التغييرات؟",
+      "description": "لديك تغييرات غير محفوظة. إذا أغلقت هذا النموذج فستفقد تغييراتك.",
+      "confirm": "تجاهل",
+      "cancel": "متابعة التعديل"
+   },
+   "printConfirmation": {
+      "title": "هل قمت بطباعة الفاتورة؟",
+      "description": "يرجى تأكيد أنك قمت بطباعة الفاتورة قبل الإغلاق.",
+      "confirm": "نعم، إغلاق",
+      "cancel": "ليس بعد"
+   },
+   "communication": {
+      "groupDetails": {
+         "title": "إنشاء محادثة جماعية",
+         "uploadTitle": "رفع صورة",
+         "uploadSubtitle": "حد أدنى 400×400، PNG أو JPEG",
+         "upload": "رفع",
+         "uploading": "جارٍ الرفع...",
+         "create": "إنشاء",
+         "creating": "جارٍ الإنشاء...",
+         "groupNameLabel": "اسم المجموعة",
+         "groupNamePlaceholder": "أدخل اسم المجموعة",
+         "validation": {
+            "groupNameRequired": "اسم المجموعة مطلوب",
+            "fileType": "يرجى اختيار ملف صورة صالح (PNG أو JPEG)",
+            "fileSize": "يجب ألا يتجاوز حجم الصورة 10 ميجابايت",
+            "uploadError": "فشل رفع الصورة"
+         }
+      },
+      "messages": {
+         "typing": "يكتب...",
+         "voiceMessage": "رسالة صوتية",
+         "attachment": "مرفق",
+         "reply": "رد",
+         "you": "أنت",
+         "messagePlaceholder": "اكتب رسالتك هنا",
+         "attachFile": "إرفاق ملف",
+         "stopRecording": "إيقاف التسجيل",
+         "startVoiceRecording": "بدء التسجيل الصوتي",
+         "sendMessage": "إرسال رسالة"
+      }
+   },
+   "loading": {
+      "general": "جاري التحميل...",
+      "pleaseWait": "يرجى الانتظار...",
+      "loadingData": "جاري تحميل البيانات..."
+   },
+   "filters": {
+      "loadingEmployees": "جاري تحميل الموظفين...",
+      "loadingJobTitles": "جاري تحميل المسميات الوظيفية...",
+      "loadingRoles": "جاري تحميل الأدوار...",
+      "loadingTeams": "جاري تحميل الفرق..."
+   },
+	"messages": {
+		"confirmDelete": "هل أنت متأكد من حذف هذا العنصر؟",
+		"deleteSuccess": "تم حذف العنصر بنجاح",
+		"saveSuccess": "تم حفظ التغييرات بنجاح",
+		"updateSuccess": "تم التحديث بنجاح",
+		"createSuccess": "تم الإنشاء بنجاح",
+		"errorOccurred": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+		"noPermission": "ليس لديك صلاحية لتنفيذ هذا الإجراء",
+		"sessionExpired": "انتهت جلستك. يرجى تسجيل الدخول مرة أخرى.",
+		"networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+		"attachment": "مرفق",
+		"reply": "رد",
+		"voiceMessage": "رسالة صوتية"
+	},
+   "permissions": {
+      "noAccess": "الوصول مرفوض",
+      "noAccessDescription": "ليس لديك صلاحية لعرض هذا المحتوى. تواصل مع المسؤول إذا كنت تعتقد أن هذا خطأ."
+   },
+   "errors": {
+      "unauthorized": {
+         "title": "الوصول مرفوض",
+         "code": "403",
+         "message": "ليس لديك صلاحية للوصول إلى هذه الصفحة",
+         "description": "الصفحة التي تحاول الوصول إليها تتطلب صلاحيات غير متوفرة لديك حالياً. يرجى التواصل مع المسؤول إذا كنت بحاجة للوصول.",
+         "goBack": "العودة",
+         "goHome": "إلى لوحة التحكم"
+      },
+      "notFound": {
+         "title": "الصفحة غير موجودة",
+         "code": "404",
+         "message": "عذراً! لا يمكننا إيجاد هذه الصفحة",
+         "description": "الصفحة التي تبحث عنها ربما تم نقلها أو حذفها أو غير موجودة. تحقق من الرابط أو عد للصفحة الرئيسية.",
+         "goBack": "العودة",
+         "goHome": "إلى لوحة التحكم"
+      }
+   },
+   "pagination": {
+      "showing": "عرض",
+      "of": "من",
+      "results": "نتائج",
+      "page": "صفحة",
+      "rowsPerPage": "صفوف لكل صفحة",
+      "perPage": "/ صفحة",
+      "goToPage": "الذهاب إلى صفحة",
+      "firstPage": "الصفحة الأولى",
+      "lastPage": "الصفحة الأخيرة",
+      "nextPage": "الصفحة التالية",
+      "previousPage": "الصفحة السابقة",
+      "previous": "السابق",
+      "next": "التالي",
+      "pageOf": "صفحة {{current}} من {{total}}"
+   },
+   "credit": "دائن",
+   "debit": "مدين",
+   "dateTime": {
+      "today": "اليوم",
+      "yesterday": "أمس",
+      "tomorrow": "غداً",
+      "thisWeek": "هذا الأسبوع",
+      "lastWeek": "الأسبوع الماضي",
+      "thisMonth": "هذا الشهر",
+      "lastMonth": "الشهر الماضي",
+      "custom": "مخصص",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "selectDate": "اختر التاريخ",
+      "selectTime": "اختر الوقت"
+   },
+   "auth": {
+      "login": "تسجيل الدخول",
+      "logout": "تسجيل الخروج",
+      "loggingOut": "جاري تسجيل الخروج...",
+      "register": "تسجيل",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "resetPassword": "إعادة تعيين كلمة المرور",
+      "changePassword": "تغيير كلمة المرور",
+      "currentPassword": "كلمة المرور الحالية",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "rememberMe": "تذكرني",
+      "username": "اسم المستخدم",
+      "password": "كلمة المرور"
+   },
+   "comingSoon": {
+      "dashboard": "محتوى لوحة التحكم قريباً...",
+      "reports": "محتوى التقارير قريباً...",
+      "helpSupport": "محتوى المساعدة والدعم قريباً...",
+      "contracts": "محتوى العقود قريباً...",
+      "requests": "محتوى الطلبات قريباً...",
+      "legalCases": "محتوى القضايا القانونية قريباً...",
+      "loansAdvances": "محتوى الفواتير قريباً...",
+      "communication": "محتوى الرسائل قريباً..."
+   },
+   "expandable": {
+      "showMore": "عرض المزيد",
+      "showLess": "عرض أقل"
+   },
+   "user": {
+      "mohabMarwan": "مهاب مروان",
+      "hrManager": "مدير الموارد البشرية"
+   },
+   "aria": {
+      "close": "إغلاق",
+      "search": "بحث",
+      "more": "المزيد",
+      "toggleLanguage": "تبديل اللغة",
+      "selectLanguage": "اختر اللغة",
+      "breadcrumb": "مسار التنقل",
+      "notifications": "الإشعارات",
+      "logo": "الشعار",
+      "avatar": "الصورة الشخصية"
+   },
+   "table": {
+      "noResults": "لا توجد نتائج."
+   },
+   "memberPicker": {
+      "label": "الأعضاء",
+      "placeholder": "البحث عن الأعضاء...",
+      "searchPlaceholder": "البحث عن الأعضاء...."
+   },
+   "sidebarGroups": {
+      "main": "الرئيسية",
+      "company": "الشركة",
+      "operations": "العمليات",
+      "communication": "الرسائل",
+      "legal": "قانوني"
+   },
+   "charts": {
+      "invoices": {
+         "title": "الفواتير",
+         "fullyPaid": "مدفوعة بالكامل",
+         "pending": "قيد الانتظار",
+         "draft": "مسودة",
+         "vsLastMonth": "مقارنة بالشهر الماضي",
+         "vsLastWeek": "مقارنة بالأسبوع الماضي",
+         "check": "تحقق",
+         "draftMessage": "النسبة المتبقية {{percentage}}٪ من الفواتير لا تزال في المسودة"
+      },
+      "vouchers": {
+         "title": "السندات",
+         "payment": "سند صرف",
+         "receipt": "سند قبض",
+         "paymentVoucher": "سند صرف",
+         "receiptVoucher": "سند قبض"
+      },
+      "attendance": {
+         "title": "معدل الحضور",
+         "lateArrival": "تأخر",
+         "dayOff": "إجازة",
+         "onTime": "في الموعد",
+         "vsLastWeek": "مقارنة بالأسبوع الماضي"
+      },
+      "members": {
+         "title": "الأعضاء",
+         "active": "نشط",
+         "inactive": "غير نشط"
+      },
+      "requests": {
+         "title": "طلبات اليوم",
+         "attendance": "الحضور",
+         "overtime": "العمل الإضافي",
+         "timeOff": "الوقت المستقطع",
+         "total": "إجمالي الطلبات"
+      },
+      "break": {
+         "title": "عناصر التحكم بالاستراحة",
+         "start": "بدء الاستراحة",
+         "stop": "إنهاء الاستراحة",
+         "idle": "لست في استراحة",
+         "startSuccess": "تم بدء الاستراحة بنجاح",
+         "startError": "فشل بدء الاستراحة",
+         "stopSuccess": "تم إنهاء الاستراحة بنجاح",
+         "stopError": "فشل إنهاء الاستراحة"
+      },
+      "timePeriods": {
+         "thisWeek": "هذا الأسبوع",
+         "lastWeek": "الأسبوع الماضي",
+         "thisMonth": "هذا الشهر",
+         "lastMonth": "الشهر الماضي"
+      },
+      "upcomingCases": {
+         "title": "القضايا القادمة",
+         "totalCases": "إجمالي القضايا",
+         "caseLabelSingular": "قضية",
+         "caseLabelPlural": "قضايا"
+      },
+      "upcomingEvents": {
+         "title": "الأحداث القادمة",
+         "empty": "لا توجد أحداث قادمة"
+      }
+   },
+   "commandPalette": {
+      "buttonLabel": "بحث سريع...",
+      "searchPlaceholder": "اضغط Tab للبدء بالبحث...",
+      "quickActions": "الإجراءات السريعة",
+      "categories": {
+         "all": "الكل",
+         "members": "الأعضاء",
+         "invoices": "الفواتير",
+         "vouchers": "القسائم",
+         "cases": "قضايا قانونية",
+         "contracts": "العقود",
+         "settings": "الإعدادات"
+      },
+      "actions": {
+         "addNewMember": "إضافة عضو جديد",
+         "requests": "الطلبات",
+         "messages": "الرسائل",
+         "settings": "الإعدادات",
+         "dashboard": "لوحة التفاعل",
+         "members": "الأعضاء",
+         "contracts": "العقود",
+         "vouchers": "القسائم",
+         "legalCases": "قضايا قانونية",
+         "loansAdvances": "السلف والقروض",
+         "reports": "التقارير",
+         "helpSupport": "المساعدة والدعم",
+         "profile": "الملف الشخصي",
+         "generalSettings": "الإعدادات العامة",
+         "peopleAccess": "صلاحيات الأعضاء",
+         "companySettings": "إعدادات الشركة",
+         "assets": "الأصول",
+         "serviceCatalog": "دليل الخدمات",
+         "invoiceProfiles": "ملفات الفواتير",
+         "voucherTypes": "أنواع القسائم",
+         "expenseTypes": "أنواع المصاريف",
+         "incomeTypes": "أنواع الدخل",
+         "prettyCashNames": "أسماء النثرية",
+         "banks": "البنوك",
+         "createInvoice": "إنشاء فاتورة",
+         "createVoucher": "إنشاء قسيمة",
+         "createContract": "إنشاء عقد"
+      },
+      "descriptions": {
+         "viewTeamMembers": "عرض وإدارة أعضاء الفريق",
+         "manageContracts": "إدارة عقود الموظفين",
+         "viewRequests": "عرض وإدارة الطلبات",
+         "paymentReceiptVouchers": "سندات الصرف والقبض",
+         "manageLegalCases": "إدارة القضايا القانونية",
+         "employeeLoans": "سلف وقروض الموظفين",
+         "teamCommunication": "تواصل الفريق",
+         "viewReports": "عرض التحليلات والتقارير",
+         "helpSupport": "الحصول على المساعدة وتقديم التذاكر",
+         "appSettings": "إعدادات التطبيق والتفضيلات",
+         "manageRoles": "إدارة أدوار المستخدمين",
+         "configurePermissions": "تهيئة الصلاحيات",
+         "manageJobTitles": "إدارة المسميات الوظيفية",
+         "manageTeams": "إدارة الفرق",
+         "generalSettings": "الإعدادات العامة",
+         "managePermissions": "إدارة الأدوار والصلاحيات",
+         "companyDetails": "تفاصيل الشركة والتهيئة",
+         "manageAssets": "إدارة أصول الشركة",
+         "manageServices": "إدارة الخدمات",
+         "manageInvoiceProfiles": "إدارة ملفات الفواتير",
+         "manageVoucherTypes": "إدارة أنواع السندات",
+         "manageExpenseTypes": "إدارة أنواع المصاريف",
+         "manageIncomeTypes": "إدارة أنواع الدخل",
+         "managePrettyCash": "إدارة أسماء النثرية",
+         "manageBanks": "إدارة الحسابات البنكية",
+         "createMember": "إنشاء عضو فريق جديد",
+         "createInvoice": "إنشاء فاتورة جديدة",
+         "createVoucher": "إنشاء سند جديد",
+         "createContract": "إنشاء عقد جديد"
+      },
+      "footer": {
+         "navigate": "للتنقل",
+         "select": "للاختيار",
+         "close": "للإغلاق"
+      }
+   },
+   "inboxSidebar": {
+      "title": "صندوق الوارد",
+      "searchPlaceholder": "البحث في المحادثات...",
+      "createGroup": "إنشاء مجموعة",
+      "chats": "المحادثات",
+      "groups": "المجموعات",
+      "startNewChat": "بدء محادثة جديدة",
+      "noChatsFound": "لم يتم العثور على محادثات",
+      "noChatsYet": "لا توجد محادثات بعد",
+      "loadingGroups": "جاري تحميل المجموعات...",
+      "noGroupsFound": "لم يتم العثور على مجموعات",
+      "noGroupsYet": "لا توجد مجموعات بعد"
+   },
+   "months": {
+      "january": "يناير",
+      "february": "فبراير",
+      "march": "مارس",
+      "april": "أبريل",
+      "may": "مايو",
+      "june": "يونيو",
+      "july": "يوليو",
+      "august": "أغسطس",
+      "september": "سبتمبر",
+      "october": "أكتوبر",
+      "november": "نوفمبر",
+      "december": "ديسمبر",
+      "jan": "يناير",
+      "feb": "فبراير",
+      "mar": "مارس",
+      "apr": "أبريل",
+      "may": "مايو",
+      "jun": "يونيو",
+      "jul": "يوليو",
+      "aug": "أغسطس",
+      "sep": "سبتمبر",
+      "oct": "أكتوبر",
+      "nov": "نوفمبر",
+      "dec": "ديسمبر"
+   },
+   "weekdays": {
+      "su": "الأحد",
+      "mo": "الاثنين",
+      "tu": "الثلاثاء",
+      "we": "الأربعاء",
+      "th": "الخميس",
+      "fr": "الجمعة",
+      "sa": "السبت"
+   },
+   "export": {
+      "button": "تصدير",
+      "excel": "تصدير كملف Excel (.xlsx)",
+      "csv": "تصدير كملف CSV (.csv)",
+      "excelSuccess": "تم تحميل ملف Excel بنجاح",
+      "csvSuccess": "تم تحميل ملف CSV بنجاح",
+      "error": "فشل التصدير {{format}}"
+   },
+   "members": {
+      "title": "إجمالي الأعضاء",
+      "active": "الأعضاء النشطون",
+      "inactive": "الأعضاء غير النشطين",
+      "wizard": {
+         "title": "إضافة عضو",
+         "steps": {
+            "basic": "المعلومات الأساسية",
+            "work": "معلومات العمل",
+            "residency": "تفاصيل الإقامة",
+            "review": "المراجعة"
+         },
+         "buttons": {
+            "back": "رجوع",
+            "continue": "متابعة",
+            "addMember": "إضافة عضو",
+            "edit": "تعديل",
+            "processing": "جاري المعالجة...",
+            "validating": "جاري التحقق...",
+            "uploading": "جاري الرفع..."
+         },
+         "messages": {
+            "navigationError": "يرجى استخدام أزرار التنقل للانتقال بين الخطوات.",
+            "startError": "فشل بدء عملية الإدراج",
+            "saveWorkError": "فشل حفظ معلومات العمل",
+            "saveResidencyError": "فشل حفظ تفاصيل الإقامة",
+            "finalizeError": "فشل استكمال عملية الإدراج",
+            "validationError": "حدث خطأ أثناء التحقق",
+            "successFormat": "تم إضافة العضو {{firstName}} {{lastName}} بنجاح!"
+         }
+      },
+      "basicInfo": {
+         "title": "المعلومات الأساسية",
+         "subtitle": "التفاصيل الأساسية المطلوبة لإنشاء ملف الموظف",
+         "personalDetailsHeader": "البيانات الشخصية",
+         "personalDetailsSubtitle": "معلومات ديموغرافية إضافية تُستخدم لأغراض الموارد البشرية والالتزام",
+         "uploadImageHeader": "رفع الصورة",
+         "uploadImageHelper": "الحد الأدنى 400×400 بكسل، صيغة PNG أو JPEG",
+         "firstName": "الاسم الأول",
+         "firstNamePlaceholder": "أدخل الاسم الأول",
+         "lastName": "اسم العائلة",
+         "lastNamePlaceholder": "أدخل اسم العائلة",
+         "email": "عنوان البريد الإلكتروني",
+         "emailPlaceholder": "hello@alignui.com",
+         "phone": "رقم الهاتف",
+         "phonePlaceholder": "أدخل رقم الهاتف",
+         "country": "البلد",
+         "countryPlaceholder": "ابحث عن بلد",
+         "dateOfBirth": "تاريخ الميلاد",
+         "selectDate": "اختر التاريخ",
+         "gender": "الجنس",
+         "genderPlaceholder": "اختر نوع الجنس",
+         "maritalStatus": "الحالة الاجتماعية",
+         "maritalStatusPlaceholder": "اختر الحالة الاجتماعية",
+         "nationalId": "رقم الهوية / جواز السفر",
+         "nationalIdPlaceholder": "أدخل رقم الهوية / جواز السفر",
+         "address": "العنوان",
+         "addressPlaceholder": "أدخل العنوان",
+         "attachDocuments": "إرفاق المستندات",
+         "genderOptions": {
+            "male": "ذكر",
+            "female": "أنثى",
+            "other": "أخرى"
+         },
+         "maritalStatusOptions": {
+            "single": "أعزب",
+            "married": "متزوج",
+            "divorced": "مطلق",
+            "widowed": "أرمل"
+         },
+         "uploadButton": "تحميل",
+         "changeButton": "تغيير",
+         "removeButton": "إزالة"
+      },
+      "workInfo": {
+         "title": "معلومات العمل",
+         "subtitle": "حدد الدور والتقارير والتفاصيل المكتبية للعضو",
+         "jobTitle": "المسمى الوظيفي",
+         "jobTitlePlaceholder": "اختر المسمى الوظيفي",
+         "team": "الفريق",
+         "teamPlaceholder": "اختر الفريق",
+         "role": "الدور",
+         "rolePlaceholder": "اختر الدور",
+         "isManager": "تعيين مدير",
+         "manager": "المدير",
+         "managerPlaceholder": "ابحث عن المدير",
+         "hasWorkShift": "تعيين نوبة عمل",
+         "workShift": "نوبة العمل",
+         "employmentType": "نوع التوظيف",
+         "employmentTypePlaceholder": "اختر نوع التوظيف",
+         "startDate": "تاريخ البدء",
+         "startDatePlaceholder": "اختر تاريخ البدء",
+         "workSchedule": "جدول العمل / ساعات العمل في الأسبوع",
+         "workSchedulePlaceholder": "مثل: 40",
+         "probationPeriod": "فترة التجربة (أيام)",
+         "probationPeriodPlaceholder": "مثل: 90",
+         "memberId": "معرف العضو",
+         "memberIdPlaceholder": "أدخل معرف العضو",
+         "employmentTypeOptions": {
+            "fullTime": "دوام كامل",
+            "partTime": "دوام جزئي",
+            "contract": "عقد مؤقت",
+            "intern": "متدرب",
+            "temporary": "مؤقت"
+         }
+      },
+      "residencyDetails": {
+         "title": "تفاصيل الإقامة",
+         "description": "سجل بيانات التأشيرة والإقامة والهوية",
+         "residencyStatus": "حالة الإقامة",
+         "residencyStatusPlaceholder": "اختر حالة الإقامة",
+         "countryOfResidency": "دولة الإقامة",
+         "countryOfResidencyPlaceholder": "ابحث عن دولة",
+         "visaType": "نوع التأشيرة / الإقامة",
+         "visaTypePlaceholder": "اختر نوع التأشيرة / الإقامة",
+         "visaNumber": "رقم التأشيرة / الإقامة",
+         "visaNumberPlaceholder": "أدخل رقم التأشيرة",
+         "issueDate": "تاريخ الإصدار",
+         "issueDatePlaceholder": "اختر تاريخ الإصدار",
+         "expiryDate": "تاريخ الانتهاء",
+         "expiryDatePlaceholder": "اختر تاريخ الانتهاء",
+         "emiratesIdUpload": "رفع الهوية / وثيقة الإقامة",
+         "statusOptions": {
+            "active": "نشط",
+            "expired": "منتهي الصلاحية",
+            "pending": "قيد الانتظار",
+            "cancelled": "ملغى"
+         },
+         "visaTypeOptions": {
+            "local": "محلي",
+            "employmentVisa": "تأشيرة عمل",
+            "visitVisa": "تأشيرة زيارة",
+            "goldenVisa": "الإقامة الذهبية",
+            "studentVisa": "تأشيرة طالب",
+            "dependentVisa": "تأشيرة معالة"
+         }
+      },
+      "review": {
+         "title": "المراجعة والتأكيد",
+         "basicInfoSection": "المعلومات الأساسية",
+         "workInfoSection": "معلومات العمل",
+         "residencySection": "تفاصيل الإقامة",
+         "editButton": "تعديل",
+         "labels": {
+            "memberName": "اسم العضو",
+            "emailAddress": "عنوان البريد الإلكتروني",
+            "phoneNumber": "رقم الهاتف",
+            "country": "البلد",
+            "dateOfBirth": "تاريخ الميلاد",
+            "gender": "الجنس",
+            "maritalStatus": "الحالة الاجتماعية",
+            "nationalId": "رقم الهوية / جواز السفر",
+            "address": "العنوان",
+            "attachedDocuments": "المستندات المرفقة",
+            "jobTitle": "المسمى الوظيفي",
+            "teams": "الفرق",
+            "role": "الدور",
+            "manager": "المدير",
+            "employmentType": "نوع التوظيف",
+            "startDate": "تاريخ البدء",
+            "workSchedule": "جدول العمل / ساعات العمل في الأسبوع",
+            "memberId": "معرف العضو",
+            "residencyStatus": "حالة الإقامة",
+            "countryOfResidency": "دولة الإقامة",
+            "residencyVisaType": "نوع التأشيرة / الإقامة",
+            "residencyVisaNumber": "رقم التأشيرة / الإقامة",
+            "issueDate": "تاريخ الإصدار",
+            "expiryDate": "تاريخ الانتهاء",
+            "emiratesIdDocument": "الهوية / وثيقة الإقامة"
+         },
+         "notProvided": "لم يتم تحديده",
+         "noDocuments": "لم يتم إرفاق مستندات"
+      },
+      "shift": {
+         "label": "نوبة العمل",
+         "placeholder": "اختر نوبة عمل...",
+         "loading": "جاري تحميل النوبات...",
+         "noShifts": "لا توجد نوبات متاحة",
+         "schedule": "جدول العمل",
+         "weekdays": {
+            "sun": "الأحد",
+            "mon": "الاثنين",
+            "tue": "الثلاثاء",
+            "wed": "الأربعاء",
+            "thu": "الخميس",
+            "fri": "الجمعة",
+            "sat": "السبت"
+         }
+      }
+   },
+   "invoices": {
+      "recordPayment": {
+         "title": "تسجيل الدفع",
+         "paymentMethod": "طريقة الدفع",
+         "selectPaymentMethod": "اختر طريقة الدفع",
+         "accountType": "نوع الحساب",
+         "selectAccountType": "اختر نوع الحساب",
+         "paymentMethodOptions": {
+            "cash": "نقد",
+            "bankTransfer": "تحويل بنكي",
+            "card": "بطاقة",
+            "cheque": "شيك"
+         },
+         "accountTypeOptions": {
+            "cash": "نقد",
+            "bank": "بنك"
+         }
+      },
+      "fields": {
+         "customerEmail": "البريد الإلكتروني",
+         "customerEmailPlaceholder": "أدخل البريد الإلكتروني",
+         "customerTrn": "رقم TRN",
+         "customerTrnPlaceholder": "أدخل رقم TRN"
+      },
+      "customerEdit": {
+         "edit": "تعديل العميل",
+         "save": "حفظ العميل",
+         "saving": "جاري الحفظ...",
+         "tooltip": "هذا سيقوم بتعديل بيانات العميل في النظام",
+         "success": "تم تحديث بيانات العميل بنجاح",
+         "error": "فشل تحديث بيانات العميل"
+      }
+   },
+   "legalCases": {
+      "wizard": {
+         "title": "إضافة قضية جديدة",
+         "steps": {
+            "basics": "أساسيات القضية",
+            "people": "الأشخاص والملفات",
+            "summary": "ملخص القضية"
+         },
+         "buttons": {
+            "back": "رجوع",
+            "continue": "متابعة",
+            "submit": "إنشاء قضية",
+            "processing": "جاري الإنشاء...",
+            "validating": "جاري التحقق...",
+            "createCase": "إنشاء قضية"
+         },
+         "messages": {
+            "validationError": "يرجى إصلاح الأخطاء قبل المتابعة",
+            "createSuccess": "تم إنشاء القضية بنجاح",
+            "deleteSuccess": "تم حذف القضية بنجاح",
+            "deleteError": "فشل حذف القضية"
+         }
+      },
+      "caseBasics": {
+         "title": "أساسيات القضية",
+         "description": "أضف التفاصيل الأساسية للقضية التي تقوم بإنشائها",
+         "caseTitle": "عنوان القضية",
+         "caseTitlePlaceholder": "أدخل عنوان القضية",
+         "caseNumber": "رقم القضية",
+         "caseNumberPlaceholder": "أدخل رقم القضية",
+         "clientName": "اسم العميل",
+         "clientNamePlaceholder": "أدخل اسم العميل",
+         "caseType": "نوع القضية",
+         "caseTypePlaceholder": "اختر نوع القضية",
+         "status": "الحالة",
+         "statusPlaceholder": "اختر الحالة",
+         "statusOptions": {
+            "open": "مفتوح",
+            "inProgress": "قيد المعالجة",
+            "closed": "مغلق",
+            "onHold": "معلق",
+            "cancelled": "ملغى"
+         },
+         "startDate": "تاريخ البدء",
+         "startDatePlaceholder": "حدد تاريخ البدء",
+         "endDate": "تاريخ الانتهاء",
+         "endDatePlaceholder": "حدد تاريخ الانتهاء"
+      },
+      "peopleAndFiles": {
+         "title": "الأشخاص والملفات",
+         "description": "أضف أعضاء الفريق وأرفق المستندات",
+         "people": "الأشخاص",
+         "person": "الشخص",
+         "addPerson": "إضافة شخص",
+         "addPeople": "إضافة أشخاص",
+         "selectPerson": "اختر شخص",
+         "role": "الدور",
+         "selectRole": "اختر الدور",
+         "roleOptions": {
+            "lawyer": "محامي",
+            "hr": "موارد بشرية",
+            "manager": "مدير",
+            "coordinator": "منسق",
+            "assistant": "مساعد",
+            "consultant": "مستشار"
+         },
+         "noPeopleAdded": "لم تتم إضافة أي أشخاص بعد",
+         "attachDocuments": "إرفاق مستندات"
+      },
+      "caseSummary": {
+         "title": "ملخص القضية",
+         "description": "أضف التفاصيل الأساسية للقضية التي تقوم بإنشائها",
+         "summary": "ملخص القضية",
+         "caseSummary": "ملخص القضية",
+         "summaryPlaceholder": "أدخل ملخص القضية",
+         "charactersRemaining": "{{count}} حرف متبقي"
+      },
+      "editCaseModal": {
+         "title": "تعديل تفاصيل القضية",
+         "statusOptions": {
+            "open": "مفتوح",
+            "inProgress": "قيد المعالجة",
+            "closed": "مغلق",
+            "onHold": "معلق",
+            "cancelled": "ملغى"
+         }
+      },
+      "addDocumentModal": {
+         "title": "إضافة مستند",
+         "validation": {
+            "atLeastOneDocument": "يرجى رفع مستند واحد على الأقل"
+         }
+      }
+   },
+   "uploadField": {
+      "dragDropText": "اختر ملف أو اسحبه وأفلته هنا.",
+      "defaultFormats": "تنسيقات JPEG و PNG و PDF و MP4",
+      "formatsUpTo": "التنسيقات، حتى",
+      "mb": "MB",
+      "browseButton": "استعراض ملف",
+      "noOptionsFound": "لم يتم العثور على خيارات",
+      "uploading": "جاري الرفع...",
+      "uploadComplete": "اكتمل الرفع",
+      "viewFile": "عرض الملف",
+      "sizeUnits": {
+         "bytes": "بايت",
+         "kb": "كيلوبايت",
+         "mb": "ميجابايت",
+         "gb": "جيجابايت"
+      }
+   },
+   "loginWarning": {
+      "title": "إشعار مهم",
+      "message": "يرجى توخي الحذر والانتباه أثناء استخدام النظام وأداء أي إجراءات. تأكد من دقة جميع البيانات المدخلة قبل الحفظ أو التأكيد.",
+      "message2": "قد تكون بعض الإجراءات غير قابلة للتراجع ويمكن أن تؤثر مباشرة على بيانات النظام أو التقارير أو سير العمل. المستخدمون مسؤولون عن مراجعة جميع التفاصيل قبل المتابعة.",
+      "message3": "إذا كان لديك أي أسئلة أو شكوك، يرجى استشارة مسؤول النظام أو الاتصال بالدعم الفني قبل المتابعة.",
+      "message4": "شكراً لتعاونك والتزامك بالاستخدام السليم للنظام.",
+      "understand": "فهمت"
+   }
+}

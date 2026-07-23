@@ -1,0 +1,137 @@
+{
+   "title": "Payrolls",
+   "generatePayroll": "Generate Payroll",
+   "viewPayroll": "View Payroll",
+   "processPayroll": "Process Payroll",
+   "addPayroll": "Create Payroll",
+   "createVoucher": "Create Voucher",
+   "searchPlaceholder": "Search by employee name...",
+   "noPayrolls": "No Payrolls Found",
+   "noPayrollsDesc": "There are no payroll records to display. Payrolls will appear here once they are generated.",
+   "loading": "Loading payrolls...",
+   "fields": {
+      "employee": "Employee",
+      "period": "Pay Period",
+      "baseSalary": "Base Salary",
+      "grossTotal": "Gross Total",
+      "allowances": "Allowances",
+      "deductions": "Deductions",
+      "netPay": "Net Pay",
+      "status": "Status",
+      "cycleType": "Cycle",
+      "createdAt": "Created",
+      "paymentDate": "Payment Date",
+      "paymentMethod": "Payment Method"
+   },
+   "details": {
+      "runType": "Run Type",
+      "financialDetails": "Financial Details",
+      "employerCost": "Employer Cost",
+      "notes": "Notes",
+      "warnings": "Warnings",
+      "print": "Print",
+      "status": {
+         "Draft": "Draft",
+         "Review": "Review",
+         "Approved": "Approved",
+         "Finalized": "Finalized"
+      }
+   },
+   "labels": {
+      "allEmployees": "All Employees",
+      "unknownEmployee": "Unknown Employee"
+   },
+   "status": {
+      "Draft": "Draft",
+      "Review": "Review",
+      "Approved": "Approved",
+      "Finalized": "Finalized",
+      "pending": "Pending",
+      "processed": "Processed",
+      "paid": "Paid",
+      "failed": "Failed"
+   },
+   "filters": {
+      "status": "Status",
+      "cycleType": "Cycle Type",
+      "allStatuses": "All Statuses",
+      "allCycles": "All Cycles",
+      "Monthly": "Monthly",
+      "Biweekly": "Biweekly",
+      "Weekly": "Weekly"
+   },
+   "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "periodStartDesc": "Period (Newest)",
+      "periodStartAsc": "Period (Oldest)",
+      "createdAtDesc": "Created (Newest)",
+      "createdAtAsc": "Created (Oldest)"
+   },
+   "actions": {
+      "approve": "Approve Payroll",
+      "createVoucher": "Create Voucher"
+   },
+   "modal": {
+      "createPayroll": {
+         "title": "Create Payroll",
+         "selectEmployee": "Select Employees",
+         "employeePlaceholder": "Search and select employees...",
+         "periodStart": "Period Start",
+         "periodEnd": "Period End",
+         "cycleType": "Cycle Type",
+         "notes": "Notes",
+         "notesPlaceholder": "Optional notes for this payroll run",
+         "create": "Create Payroll",
+         "cancel": "Cancel"
+      },
+      "createVoucher": {
+         "title": "Create Voucher from Payroll",
+         "description": "Create a payment voucher for this payroll record.",
+         "accountType": "Account Type",
+         "accountTypePlaceholder": "Select account type",
+         "accountTypeBank": "Bank",
+         "accountTypeCash": "Cash",
+         "bankAccount": "Bank Account",
+         "bankAccountPlaceholder": "Select bank account",
+         "cashAccount": "Cash Account",
+         "cashAccountPlaceholder": "Select cash account",
+         "financialAccount": "Financial Account",
+         "accountPlaceholder": "Select financial account...",
+         "valueDate": "Value Date",
+         "reference": "Reference",
+         "referencePlaceholder": "e.g., PAY-2025-02",
+         "notes": "Notes",
+         "notesPlaceholder": "Optional notes for this voucher",
+         "create": "Create Voucher",
+         "cancel": "Cancel"
+      },
+      "confirm": {
+         "approve": "Approve Payroll",
+         "approveDesc": "Are you sure you want to approve this payroll for {{name}}? This action cannot be undone.",
+         "confirm": "Approve",
+         "cancel": "Cancel"
+      }
+   },
+   "toast": {
+      "createSuccess": "Payroll created successfully",
+      "createError": "Failed to create payroll",
+      "approveSuccess": "Payroll approved successfully",
+      "approveError": "Failed to approve payroll",
+      "voucherSuccess": "Voucher created successfully",
+      "voucherError": "Failed to create voucher"
+   },
+   "error": {
+      "loadFailed": "Failed to load payrolls"
+   },
+   "noPermission": {
+      "title": "Access Restricted",
+      "description": "You don't have permission to view payroll information."
+   },
+   "messages": {
+      "generateSuccess": "Payroll generated successfully",
+      "processSuccess": "Payroll processed successfully",
+      "paySuccess": "Payment completed successfully",
+      "autoCreateNote": "Payrolls are created automatically on the 25th of each month."
+   }
+}

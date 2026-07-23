@@ -1,0 +1,569 @@
+/** @format */
+
+@import "tailwindcss";
+
+/* @custom-variant dark (&:is(.dark *)); */
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Ultralight.otf") format("opentype");
+   font-weight: 200;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Thin.otf") format("opentype");
+   font-weight: 100;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Light.otf") format("opentype");
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Regular.otf") format("opentype");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Medium.otf") format("opentype");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Semibold.otf") format("opentype");
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Bold.otf") format("opentype");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Heavy.otf") format("opentype");
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "SF Pro Rounded";
+   src: url("/fonts/SF-Pro-Rounded-Black.otf") format("opentype");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Tajawal";
+   src: url("/fonts/Tajawal-ExtraLight.ttf") format("truetype");
+   font-weight: 200;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Tajawal";
+   src: url("/fonts/Tajawal-Light.ttf") format("truetype");
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Tajawal";
+   src: url("/fonts/Tajawal-Regular.ttf") format("truetype");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Tajawal";
+   src: url("/fonts/Tajawal-Medium.ttf") format("truetype");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Tajawal";
+   src: url("/fonts/Tajawal-Bold.ttf") format("truetype");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Tajawal";
+   src: url("/fonts/Tajawal-ExtraBold.ttf") format("truetype");
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Tajawal";
+   src: url("/fonts/Tajawal-Black.ttf") format("truetype");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@theme inline {
+   --font-sf-pro-rounded: "SF Pro Rounded", -apple-system, BlinkMacSystemFont,
+      sans-serif;
+   --font-inter: "Inter", sans-serif;
+   --font-tajawal: "Tajawal", sans-serif;
+   --color-primary: var(--c-primary);
+   --color-primary-dark: var(--c-primary-dark);
+   --color-secondary: var(--c-secondary);
+   --color-background: var(--c-background);
+   --color-background-dark: var(--c-background-dark);
+   --color-text: var(--c-text);
+   --color-card: var(--c-card);
+   --color-card-dark: var(--c-card-dark);
+   --color-border: var(--c-border);
+   --color-input: var(--c-input);
+   --color-danger: var(--c-danger);
+   --color-success: var(--c-success);
+   --color-warning: var(--c-warning);
+   --color-overlay: var(--c-overlay);
+   --color-prospective: var(--c-prospective);
+   --color-info: var(--c-info);
+   --color-elevated: var(--c-elevated);
+   --color-icon: var(--c-icon);
+   --color-sidebar-ring: var(--sidebar-ring);
+   --color-sidebar-border: var(--sidebar-border);
+   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+   --color-sidebar-accent: var(--sidebar-accent);
+   --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+   --color-sidebar-primary: var(--sidebar-primary);
+   --color-sidebar-foreground: var(--sidebar-foreground);
+   --color-sidebar: var(--sidebar);
+   --color-chart-5: var(--chart-5);
+   --color-chart-4: var(--chart-4);
+   --color-chart-3: var(--chart-3);
+   --color-chart-2: var(--chart-2);
+   --color-chart-1: var(--chart-1);
+   --color-chart-payment: var(--c-chart-payment);
+   --color-chart-receipt: var(--c-chart-receipt);
+   --color-badge-error-bg: var(--c-badge-error-bg);
+   --color-badge-error-border: var(--c-badge-error-border);
+   --color-badge-error-text: var(--c-badge-error-text);
+   --color-badge-success-bg: var(--c-badge-success-bg);
+   --color-badge-success-border: var(--c-badge-success-border);
+   --color-badge-success-text: var(--c-badge-success-text);
+   --color-chart-attendance-late: var(--c-chart-attendance-late);
+   --color-chart-attendance-dayoff: var(--c-chart-attendance-dayoff);
+   --color-chart-attendance-ontime: var(--c-chart-attendance-ontime);
+   --color-chart-requests-attendance: var(--c-chart-requests-attendance);
+   --color-chart-requests-overtime: var(--c-chart-requests-overtime);
+   --color-chart-requests-timeoff: var(--c-chart-requests-timeoff);
+   --color-chart-members-active-bg: var(--c-chart-members-active-bg);
+   --color-chart-members-inactive-bg-start: var(
+      --c-chart-members-inactive-bg-start
+   );
+   --color-chart-members-inactive-bg-end: var(
+      --c-chart-members-inactive-bg-end
+   );
+   --color-ring: var(--ring);
+   --color-destructive: var(--destructive);
+   --color-accent-foreground: var(--accent-foreground);
+   --color-accent: var(--accent);
+   --color-muted-foreground: var(--muted-foreground);
+   --color-muted: var(--muted);
+   --color-secondary-foreground: var(--secondary-foreground);
+   --color-primary-foreground: var(--primary-foreground);
+   --color-popover-foreground: var(--popover-foreground);
+   --color-popover: var(--popover);
+   --color-card-foreground: var(--card-foreground);
+   --color-foreground: var(--foreground);
+   --color-icon: var(--c-icon-sub);
+   --color-icon-sub: var(--c-icon-sub);
+   --color-text-main: var(--c-text-main);
+   --color-text-strong: var(--c-text-strong);
+   --color-text-sub: var(--c-text-sub);
+   --color-text-soft: var(--c-text-soft);
+   --color-bg-weak: var(--c-bg-weak);
+   --color-bg-dark: var(--c-bg-dark);
+   --color-green-strong: var(--c-green-strong);
+   --color-yellow: var(--c-yellow);
+   --color-success-dark: var(--c-success-dark);
+   --color-error: var(--c-error);
+   --color-stroke-sub-300: var(--c-stroke-sub-300);
+   --color-faded: var(--c-faded);
+   --color-green: var(--c-green);
+   --color-information: var(--c-information);
+   --color-highlighted: var(--c-highlighted);
+
+   --radius-sm: calc(var(--radius) - 4px);
+   --radius-md: calc(var(--radius) - 2px);
+   --radius-lg: var(--radius);
+   --radius-xl: calc(var(--radius) + 4px);
+   --radius: 0.625rem;
+   --radius-16: 16px;
+
+   --shadow-subtle: 0 1px 2px 0 rgba(10, 13, 20, 0.03);
+   --border-soft: 1px solid var(--c-border);
+}
+
+.radius-16 {
+   border-radius: var(--radius-16);
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* Global font fallback that switches to Tajawal for Arabic/RTL */
+:root {
+   --font-base: var(--font-sf-pro-rounded);
+}
+
+html[lang="ar"],
+html[dir="rtl"] {
+   --font-base: var(--font-tajawal);
+}
+
+@layer base {
+   body,
+   p,
+   span,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   li,
+   a,
+   label,
+   input,
+   textarea,
+   button {
+      @apply text-sm font-medium leading-5;
+      font-family: var(--font-base), sans-serif;
+   }
+   button {
+      @apply cursor-pointer;
+   }
+   button:disabled {
+      @apply cursor-not-allowed;
+   }
+}
+
+/* Custom Scrollbar Styles */
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+   width: 6px;
+   height: 6px;
+}
+
+::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+   background: var(--color-primary);
+   border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: var(--color-primary-dark);
+}
+
+/* Firefox */
+* {
+   scrollbar-width: thin;
+   scrollbar-color: var(--color-primary) transparent;
+}
+
+/* Hide scrollbar but keep scrolling functionality */
+.scrollbar-hide {
+   /* Firefox */
+   scrollbar-width: none;
+   /* IE and Edge */
+   -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+   /* Chrome, Safari, Opera */
+   display: none;
+}
+
+/* Custom table body scrollbar - thin and subtle */
+.table-body-scrollable {
+   scrollbar-width: thin;
+   scrollbar-color: var(--color-border) transparent;
+}
+
+.table-body-scrollable::-webkit-scrollbar {
+   width: 6px;
+}
+
+.table-body-scrollable::-webkit-scrollbar-track {
+   background: transparent;
+   margin: 4px 0;
+}
+
+.table-body-scrollable::-webkit-scrollbar-thumb {
+   background: var(--color-border);
+   border-radius: 3px;
+   transition: background 0.2s;
+}
+
+.table-body-scrollable::-webkit-scrollbar-thumb:hover {
+   background: var(--color-text-soft);
+}
+
+/* Tajwal font for Arabic in settings */
+html[dir="rtl"] .settings-page,
+html[lang="ar"] .settings-page {
+   font-family: var(--font-tajawal), sans-serif;
+}
+
+html[dir="rtl"] .settings-page *,
+html[lang="ar"] .settings-page * {
+   font-family: inherit;
+}
+
+/* English font for English text in tables */
+.font-english,
+.font-english * {
+   font-family: var(--font-sf-pro-rounded), -apple-system, BlinkMacSystemFont,
+      sans-serif !important;
+}
+
+html[dir="rtl"] .font-english,
+html[lang="ar"] .font-english,
+html[dir="rtl"] .font-english *,
+html[lang="ar"] .font-english * {
+   font-family: var(--font-sf-pro-rounded), -apple-system, BlinkMacSystemFont,
+      sans-serif !important;
+}
+
+/* Tajwal font for Arabic in main pages */
+html[dir="rtl"] .main-page,
+html[lang="ar"] .main-page {
+   font-family: var(--font-tajawal), sans-serif;
+}
+
+html[dir="rtl"] .main-page *,
+html[lang="ar"] .main-page * {
+   font-family: inherit;
+}
+
+@keyframes pulse-glow {
+   0%,
+   100% {
+      opacity: 1;
+      transform: scale(1);
+      filter: drop-shadow(0 0 2px rgba(125, 82, 244, 0.5));
+   }
+   50% {
+      opacity: 0.9;
+      transform: scale(1.15);
+      filter: drop-shadow(0 0 6px rgba(125, 82, 244, 0.8));
+   }
+}
+
+.animate-unread-pulse {
+   animation: pulse-glow 1.5s ease-in-out infinite;
+}
+
+@keyframes fade-in {
+   from {
+      opacity: 0;
+      transform: translateY(-10px);
+   }
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+@keyframes progress {
+   0% {
+      width: 0%;
+      transform: translateX(0);
+   }
+   50% {
+      width: 70%;
+      transform: translateX(0);
+   }
+   100% {
+      width: 100%;
+      transform: translateX(0);
+   }
+}
+
+.animate-fade-in {
+   animation: fade-in 0.4s ease-out;
+}
+
+.animate-progress {
+   animation: progress 0.8s ease-out forwards;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   RESPONSIVE UTILITY CLASSES
+   Only handle mobile/tablet - current desktop values stay in components with xl:
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+   /* Fill utilities for SVG icons */
+   .fill-icon-sub {
+      fill: var(--c-icon-sub);
+   }
+   .fill-primary {
+      fill: var(--c-primary);
+   }
+   .fill-text-strong {
+      fill: var(--c-text-strong);
+   }
+   .fill-text-sub {
+      fill: var(--c-text-sub);
+   }
+   .fill-text-soft {
+      fill: var(--c-text-soft);
+   }
+   .fill-danger {
+      fill: var(--c-danger);
+   }
+   .fill-success {
+      fill: var(--c-success);
+   }
+   .fill-warning {
+      fill: var(--c-warning);
+   }
+   .fill-information {
+      fill: var(--c-information);
+   }
+
+   /* Layout - Stack on mobile, row on tablet */
+   .r-stack {
+      @apply flex flex-col md:flex-row;
+   }
+
+   /* Stack until desktop */
+   .r-stack-xl {
+      @apply flex flex-col;
+   }
+
+   /* Width patterns */
+   .r-w-responsive {
+      @apply w-full md:w-auto;
+   }
+
+   .r-modal-w {
+      @apply w-[95vw] md:w-[85vw];
+   }
+
+   .r-modal-w-md {
+      @apply w-full md:w-[80%];
+   }
+
+   .r-drawer-w {
+      @apply w-full md:w-100;
+   }
+
+   /* Height patterns */
+   .r-modal-h {
+      @apply max-h-[80vh] md:max-h-[85vh];
+   }
+
+   .r-modal-h-lg {
+      @apply h-[95vh];
+   }
+
+   /* Spacing - mobile/tablet only */
+   .r-p-sm {
+      @apply p-3 md:p-4;
+   }
+
+   .r-px-sm {
+      @apply px-4 md:px-5;
+   }
+
+   .r-py-sm {
+      @apply py-3 md:py-4;
+   }
+
+   .r-gap-sm {
+      @apply gap-2 md:gap-3;
+   }
+
+   .r-gap {
+      @apply gap-3 md:gap-4;
+   }
+
+   /* Visibility */
+   .r-hide-mobile {
+      @apply hidden md:block;
+   }
+
+   .r-hide-mobile-flex {
+      @apply hidden md:flex;
+   }
+
+   .r-show-mobile {
+      @apply block md:hidden;
+   }
+
+   /* Grids */
+   .r-grid-stats {
+      @apply grid grid-cols-1 sm:grid-cols-2;
+   }
+
+   .r-grid-form {
+      @apply grid grid-cols-1;
+   }
+
+   /* Buttons */
+   .r-btn-group {
+      @apply flex flex-col sm:flex-row gap-2;
+   }
+
+   .r-btn-full {
+      @apply w-full sm:w-auto;
+   }
+
+   /* Table */
+   .r-table-scroll {
+      @apply overflow-x-auto -mx-4;
+   }
+
+   /* Border radius */
+   .r-rounded {
+      @apply rounded-xl md:rounded-2xl;
+   }
+
+   /* Min-width - allow shrinking on mobile */
+   .r-min-w-0 {
+      @apply min-w-0 sm:min-w-40;
+   }
+}

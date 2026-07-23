@@ -1,0 +1,148 @@
+{
+   "title": "المساعدة والدعم",
+   "searchTickets": "البحث في التذاكر...",
+   "sortBy": "ترتيب حسب",
+   "export": "تصدير",
+   "addTicket": "إضافة تذكرة",
+   "tabs": {
+      "incoming": "الواردة",
+      "own": "خاصة بي",
+      "initiated": "تم البدء بها"
+   },
+   "filter": "تصفية",
+   "filterTickets": "تصفية التذاكر",
+   "resetAll": "إعادة تعيين الكل",
+   "reset": "إعادة تعيين",
+   "dateRange": "نطاق التاريخ",
+   "dateFrom": "من",
+   "dateTo": "إلى",
+   "selectStatus": "اختر الحالة",
+   "selectPriority": "اختر الأولوية",
+   "selectCategory": "اختر الفئة",
+   "selectType": "اختر النوع",
+   "selectChatStatus": "اختر حالة المحادثة",
+   "statusLabel": "الحالة",
+   "priorityLabel": "الأولوية",
+   "categoryLabel": "الفئة",
+   "typeLabel": "النوع",
+   "chatStatusLabel": "حالة المحادثة",
+   "cancel": "إلغاء",
+   "apply": "تطبيق",
+   "priority": {
+      "high": "عالية",
+      "medium": "متوسطة",
+      "low": "منخفضة",
+      "urgent_critical": "عاجلة / حرجة"
+   },
+   "category": {
+      "technical": "تقني",
+      "hr": "الموارد البشرية",
+      "legal": "قانوني",
+      "financial": "مالي",
+      "other": "أخرى",
+      "technical_support": "دعم فني",
+      "account_login": "الحساب وتسجيل الدخول",
+      "suggestions_feedback": "اقتراحات وملاحظات",
+      "complaints": "شكاوى",
+      "general_inquiry": "استفسار عام"
+   },
+   "type": {
+      "support": "دعم فني",
+      "complaint": "شكوى",
+      "suggestion": "اقتراح",
+      "bug_error": "خطأ برمجي",
+      "system_not_working": "النظام لا يعمل",
+      "request": "طلب",
+      "question": "سؤال",
+      "feature_request": "طلب ميزة",
+      "installation_issue": "مشكلة في التثبيت",
+      "performance_issue": "مشكلة في الأداء",
+      "other": "أخرى"
+   },
+   "table": {
+      "ticketId": "رقم التذكرة",
+      "subject": "الموضوع",
+      "category": "الفئة",
+      "requestedBy": "مقدم الطلب",
+      "submittedAt": "تاريخ الإرسال",
+      "status": "الحالة",
+      "chatStatus": {
+         "taken": "مستلمة",
+         "waiting": "قيد الانتظار",
+         "archived": "مؤرشفة"
+      }
+   },
+   "status": {
+      "resolved": "تم الحل",
+      "inProgress": "قيد المعالجة",
+      "open": "مفتوحة"
+   },
+   "actions": {
+      "viewDetails": "عرض تفاصيل التذكرة",
+      "openChat": "فتح المحادثة",
+      "initiateChat": "بدء المحادثة",
+      "joinRoom": "الانضمام إلى الغرفة",
+      "showChat": "عرض المحادثة",
+      "markAsResolved": "وضع علامة كمحلولة",
+      "delete": "حذف"
+   },
+   "pagination": {
+      "previous": "السابق",
+      "next": "التالي",
+      "page": "صفحة",
+      "of": "من",
+      "rowsPerPage": "صف لكل صفحة"
+   },
+   "modal": {
+      "title": "تذكرة جديدة",
+      "subject": "الموضوع",
+      "subjectPlaceholder": "اكتب عنواناً قصيراً",
+      "category": "الفئة",
+      "categoryPlaceholder": "اختر الفئة",
+      "priority": "الأولوية",
+      "priorityPlaceholder": "اختر الأولوية",
+      "type": "النوع",
+      "typePlaceholder": "اختر النوع",
+      "description": "الوصف",
+      "descriptionPlaceholder": "اكتب وصفاً لمشكلتك",
+      "cc": "نسخة إلى",
+      "ccPlaceholder": "أضف أشخاصًا للإشعار",
+      "loadingPeople": "جاري تحميل الأشخاص...",
+      "attachDocuments": "إرفاق مستندات",
+      "cancel": "إلغاء",
+      "submit": "إرسال التذكرة",
+      "submitting": "جاري الإرسال...",
+      "validation": {
+         "subjectRequired": "الموضوع مطلوب",
+         "subjectMin": "يجب أن يكون الموضوع 3 أحرف على الأقل",
+         "categoryRequired": "الفئة مطلوبة",
+         "priorityRequired": "الأولوية مطلوبة",
+         "typeRequired": "النوع مطلوب",
+         "descriptionRequired": "الوصف مطلوب",
+         "descriptionMin": "يجب أن يكون الوصف 5 أحرف على الأقل"
+      }
+   },
+   "details": {
+      "title": "تفاصيل التذكرة",
+      "ticketId": "رقم التذكرة",
+      "requestedBy": "مقدم الطلب",
+      "subject": "الموضوع",
+      "description": "الوصف",
+      "attachments": "المرفقات",
+      "category": "الفئة",
+      "priority": "الأولوية",
+      "type": "النوع",
+      "cc": "نسخة إلى",
+      "status": "الحالة",
+      "cancel": "إلغاء",
+      "markAsResolved": "وضع علامة كمحلولة",
+      "updating": "جاري التحديث..."
+   },
+   "chat": {
+      "ticketLabel": "التذكرة",
+      "backToTickets": "العودة إلى التذاكر",
+      "noChatStarted": "لم تبدأ أي محادثة لهذه التذكرة بعد.",
+      "notMember": "مدير آخر يراجع هذه التذكرة."
+   },
+   "loading": "جاري التحميل..."
+}

@@ -1,0 +1,1006 @@
+{
+	"select": "Select",
+	"cancel": "Cancel",
+	"save": "Save",
+	"none": "None",
+	"Invoice Profiles": "Invoice Profiles",
+	"app": {
+		"name": "BAK",
+		"title": "BAK Management System",
+		"hrms": "HRMS"
+	},
+	"appName": "BAK",
+	"nav": {
+		"dashboard": "Dashboard",
+		"members": "Members",
+		"contracts": "Contracts",
+		"requests": "Requests",
+		"projects": "Projects",
+		"payrolls": "Payrolls",
+		"reports": "Reports",
+		"vouchers": "Vouchers",
+		"legalCases": "Legal Cases & Issues",
+		"loansAdvances": "Invoices",
+		"communication": "Messages",
+		"calendar": "Calendar",
+		"settings": "Settings",
+		"helpSupport": "Help & Support",
+		"documentation": "Documentation",
+		"profile": "Member's Profile",
+		"roles": "Roles",
+		"roleDetails": "Role Details",
+		"permissions": "Permissions",
+		"documents": "Documents",
+		"home": "Home",
+		"termsAndConditions": "Terms & Conditions"
+	},
+	"contracts": {
+		"title": "Contracts",
+		"wizard": {
+			"title": "Add Contract",
+			"steps": {
+				"assignMember": "Assign Member",
+				"compensationAssets": "Compensation",
+				"policyLimits": "Policy & Limits",
+				"review": "Review"
+			},
+			"buttons": {
+				"back": "Back",
+				"continue": "Continue",
+				"addContract": "Add Contract",
+				"processing": "Processing...",
+				"validating": "Validating..."
+			},
+			"messages": {
+				"navigationError": "Please use the navigation buttons to move between steps",
+				"validationError": "An error occurred during validation",
+				"createSuccess": "Contract created successfully",
+				"terminateSuccess": "Contract terminated successfully",
+				"terminateError": "Failed to terminate contract"
+			}
+		},
+		"activeContract": "Active Contract",
+		"contractNearExpire": "Contract Near Expire",
+		"draftContract": "Draft Contract",
+		"expiredContract": "Expired Contract",
+		"terminatedContract": "Terminated Contract",
+		"id": "ID",
+		"contractName": "Contract Name",
+		"assignedTo": "Assigned To",
+		"statusLabel": "Status",
+		"status": {
+			"active": "Active",
+			"nearExpired": "Near Expired",
+			"expired": "Expired"
+		},
+		"createdAt": "Created At",
+		"contractDuration": "Contract Duration",
+		"contractAmount": "Contract Amount",
+		"searchPlaceholder": "Search Contract Name, Member Name",
+		"filters": {
+			"filter": "Filter",
+			"resetAll": "Reset All",
+			"reset": "Reset",
+			"amountRange": "Amount Range",
+			"minValue": "Min Value",
+			"maxValue": "Max Value",
+			"enterMinValue": "Enter min value",
+			"enterMaxValue": "Enter max value",
+			"selectStatus": "Select Contract Status",
+			"selectMember": "Select Member"
+		},
+		"assignMember": {
+			"title": "Assign Member",
+			"description": "Select the employee for this contract.",
+			"member": "Member",
+			"searchMember": "Search Member",
+			"contractName": "Contract Name",
+			"contractNamePlaceholder": "Enter Contract Name",
+			"contractType": "Contract Type",
+			"selectContractType": "Select Contract Type",
+			"startDate": "Start Date",
+			"startDatePlaceholder": "DD / MM / YYYY",
+			"endDate": "End Date",
+			"endDatePlaceholder": "DD / MM / YYYY",
+			"attachDocuments": "Attach Documents"
+		},
+		"review": {
+			"title": "Review & Confirm",
+			"description": "Check the summary of this contract and update anything if needed.",
+			"assignMemberSection": "Assign Member"
+		},
+		"compensation": {
+			"title": "Compensation",
+			"description": "Set salary, overtime rate.",
+			"baseSalary": "Base Salary",
+			"baseSalaryPlaceholder": "0.00",
+			"salaryCycle": "Salary Cycle",
+			"selectSalaryCycle": "Select Salary Cycle",
+			"overtimeRate": "Overtime rate / hour",
+			"overtimeRatePlaceholder": "0.00",
+			"overtimeHint": "Hourly overtime payment."
+		},
+		"assets": {
+			"title": "Assets",
+			"description": "Assign any required assets.",
+			"asset": "Asset",
+			"selectAsset": "Select Asset",
+			"addMore": "Add More"
+		},
+		"policyLimits": {
+			"title": "Policy & Limits",
+			"description": "Set notice period and leave policies.",
+			"days": "Days",
+			"noticePeriod": "Notice Period",
+			"enterNoticePeriod": "Enter Notice Period",
+			"sickLeave": "Sick Leave",
+			"enterSickLeave": "Enter Sick Leave",
+			"casualLeave": "Casual Leave",
+			"enterCasualLeave": "Enter Casual Leave",
+			"annualLeave": "Annual Leave",
+			"enterAnnualLeave": "Enter Annual Leave",
+			"absenceLimit": "Absence Limit",
+			"enterAbsenceLimit": "Enter Absence Limit"
+		},
+		"exitConfirmation": {
+			"title": "Exit contract creation?",
+			"description": "You haven't finished creating this contract. If you leave now, the contract won't be created.",
+			"confirm": "Discard Changes",
+			"cancel": "Stay & Continue"
+		},
+		"emptyState": {
+			"title": "No contracts yet",
+			"description": "Get started by creating your first contract for your team members."
+		},
+		"noResults": {
+			"title": "No contracts found",
+			"description": "Try adjusting your search or filters to find what you're looking for."
+		},
+		"terminateContractTitle": "Terminate Contract",
+		"terminateContractMessage": "Are you sure you want to terminate this contract? This action cannot be undone.",
+		"terminateSuccess": "Contract terminated successfully",
+		"terminateError": "Failed to terminate contract",
+		"terminate": {
+			"description": "Please provide the reason and effective date for contract termination.",
+			"terminationDate": "Termination Date",
+			"selectDate": "Select termination date",
+			"reason": "Reason",
+			"reasonPlaceholder": "Enter the reason for termination...",
+			"reasonRequired": "Reason is required",
+			"dateRequired": "Termination date is required",
+			"terminating": "Terminating..."
+		},
+		"loadingContracts": "Loading contracts..."
+	},
+	"actions": {
+		"add": "Add",
+		"addIndividualCustomer": "+ Add Individual Customer",
+		"create": "Create",
+		"createContract": "Create Contract",
+		"creatingContract": "Creating contract...",
+		"edit": "Edit",
+		"preview": "Preview",
+		"previewAndEdit": "Preview & Edit",
+		"terminate": "Terminate",
+		"delete": "Delete",
+		"save": "Save",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"search": "Search",
+		"filter": "Filter",
+		"sortBy": "Sort By",
+		"export": "Export",
+		"import": "Import",
+		"upload": "Upload",
+		"download": "Download",
+		"close": "Close",
+		"back": "Back",
+		"next": "Next",
+		"previous": "Previous",
+		"submit": "Submit",
+		"reset": "Reset",
+		"clear": "Clear",
+		"view": "View",
+		"duplicate": "Duplicate",
+		"archive": "Archive",
+		"restore": "Restore",
+		"custom": "Custom",
+		"showMore": "Show more",
+		"showLess": "Show less",
+		"refresh": "Refresh",
+		"apply": "Apply",
+		"applyNow": "Apply Now",
+		"done": "Done",
+		"viewDetails": "View Details",
+		"deleteRole": "Delete Role",
+		"optional": "Optional",
+		"addUpdate": "Add Update",
+		"update": "Update",
+		"saveChanges": "Save Changes"
+	},
+	"event": {
+		"addUpdateTitle": "Add Update",
+		"title": "Title",
+		"titlePlaceholder": "Enter title",
+		"date": "Date",
+		"description": "Description",
+		"descriptionPlaceholder": "Enter description"
+	},
+	"validation": {
+		"required": "This field is required",
+		"invalidStatus": "Invalid Status",
+		"maxLength": "Must be at most {length} characters",
+		"dateFormat": "Date must be in YYYY-MM-DD format"
+	},
+	"companySettings": {
+		"caseTypes": {
+			"helpers": {
+				"loading": "Loading case types...",
+				"empty": "No case types available"
+			}
+		}
+	},
+	"common": {
+		"yes": "Yes",
+		"no": "No",
+		"ok": "OK",
+		"loading": "Loading...",
+		"processing": "Processing...",
+		"noData": "No data available",
+		"status": {
+			"processing": "Processing..."
+		},
+		"error": "An error occurred",
+		"success": "Success",
+		"warning": "Warning",
+		"info": "Information",
+		"name": "Name",
+		"email": "Email",
+		"phone": "Phone",
+		"address": "Address",
+		"date": "Date",
+		"time": "Time",
+		"description": "Description",
+		"notes": "Notes",
+		"total": "Total",
+		"active": "Active",
+		"inactive": "Inactive",
+		"all": "All",
+		"none": "None",
+		"other": "Other",
+		"language": "Language",
+		"theme": "Theme",
+		"darkMode": "Dark Mode",
+		"lightMode": "Light Mode",
+		"switchingLanguage": "Switching Language...",
+		"pleaseWait": "Please wait"
+	},
+	"validationSummary": {
+		"title": "Please fix the highlighted fields",
+		"description": "Missing or invalid entries are marked below."
+	},
+	"unsavedChanges": {
+		"title": "Discard changes?",
+		"description": "You have unsaved changes. If you close this form, your changes will be lost.",
+		"confirm": "Discard",
+		"cancel": "Keep editing"
+	},
+	"printConfirmation": {
+		"title": "Did you print the invoice?",
+		"description": "Please confirm you have printed the invoice before closing.",
+		"confirm": "Yes, Close",
+		"cancel": "Not Yet"
+	},
+	"communication": {
+		"groupDetails": {
+			"title": "Create a group chat",
+			"uploadTitle": "Upload Image",
+			"uploadSubtitle": "Min 400x400px, PNG or JPEG",
+			"upload": "Upload",
+			"uploading": "Uploading...",
+			"create": "Create",
+			"creating": "Creating...",
+			"groupNameLabel": "Group Name",
+			"groupNamePlaceholder": "Enter Group Name",
+			"validation": {
+				"groupNameRequired": "Group name is required",
+				"fileType": "Please select a valid image file (PNG or JPEG)",
+				"fileSize": "Image size must be less than 10 MB",
+				"uploadError": "Failed to upload image"
+			}
+		},
+		"messages": {
+			"typing": "Typing...",
+			"voiceMessage": "Voice Message",
+			"attachment": "Attachment",
+			"reply": "Reply",
+			"you": "You",
+			"messagePlaceholder": "Message should be written here",
+			"attachFile": "Attach file",
+			"stopRecording": "Stop recording",
+			"startVoiceRecording": "Start voice recording",
+			"sendMessage": "Send message"
+		}
+	},
+	"loading": {
+		"general": "Loading...",
+		"pleaseWait": "Please wait...",
+		"loadingData": "Loading data..."
+	},
+	"filters": {
+		"loadingEmployees": "Loading employees...",
+		"loadingJobTitles": "Loading job titles...",
+		"loadingRoles": "Loading roles...",
+		"loadingTeams": "Loading teams..."
+	},
+	"messages": {
+		"confirmDelete": "Are you sure you want to delete this item?",
+		"deleteSuccess": "Item deleted successfully",
+		"saveSuccess": "Changes saved successfully",
+		"updateSuccess": "Updated successfully",
+		"createSuccess": "Created successfully",
+		"errorOccurred": "An error occurred. Please try again.",
+		"noPermission": "You don't have permission to perform this action",
+		"sessionExpired": "Your session has expired. Please log in again.",
+		"networkError": "Network error. Please check your connection.",
+		"attachment": "Attachment",
+		"reply": "Reply",
+		"voiceMessage": "Voice Message"
+	},
+	"permissions": {
+		"noAccess": "Access Denied",
+		"noAccessDescription": "You don't have permission to view this content. Contact your administrator if you believe this is an error."
+	},
+	"errors": {
+		"unauthorized": {
+			"title": "Access Denied",
+			"code": "403",
+			"message": "You don't have permission to access this page",
+			"description": "The page you're trying to access requires permissions that you don't currently have. Please contact your administrator if you need access.",
+			"goBack": "Go Back",
+			"goHome": "Go to Dashboard"
+		},
+		"notFound": {
+			"title": "Page Not Found",
+			"code": "404",
+			"message": "Oops! We can't find that page",
+			"description": "The page you're looking for might have been moved, deleted, or doesn't exist. Check the URL or navigate back to safety.",
+			"goBack": "Go Back",
+			"goHome": "Go to Dashboard"
+		}
+	},
+	"pagination": {
+		"showing": "Showing",
+		"of": "of",
+		"results": "results",
+		"page": "Page",
+		"rowsPerPage": "Rows per page",
+		"perPage": "/ page",
+		"goToPage": "Go to page",
+		"firstPage": "First page",
+		"lastPage": "Last page",
+		"nextPage": "Next page",
+		"previousPage": "Previous page",
+		"previous": "Previous",
+		"next": "Next",
+		"pageOf": "Page {{current}} of {{total}}"
+	},
+	"credit": "Credit",
+	"debit": "Debit",
+	"dateTime": {
+		"today": "Today",
+		"yesterday": "Yesterday",
+		"tomorrow": "Tomorrow",
+		"thisWeek": "This week",
+		"lastWeek": "Last week",
+		"thisMonth": "This month",
+		"lastMonth": "Last month",
+		"custom": "Custom",
+		"startDate": "Start date",
+		"endDate": "End date",
+		"selectDate": "Select date",
+		"selectTime": "Select time"
+	},
+	"auth": {
+		"login": "Login",
+		"logout": "Logout",
+		"loggingOut": "Logging out...",
+		"register": "Register",
+		"forgotPassword": "Forgot password?",
+		"resetPassword": "Reset password",
+		"changePassword": "Change password",
+		"currentPassword": "Current password",
+		"newPassword": "New password",
+		"confirmPassword": "Confirm password",
+		"rememberMe": "Remember me",
+		"username": "Username",
+		"password": "Password"
+	},
+	"comingSoon": {
+		"dashboard": "Dashboard content coming soon...",
+		"reports": "Reports content coming soon...",
+		"helpSupport": "Help & Support content coming soon...",
+		"contracts": "Contracts content coming soon...",
+		"requests": "Requests content coming soon...",
+		"legalCases": "Legal Cases content coming soon...",
+		"loansAdvances": "Invoices content coming soon...",
+		"communication": "Messages content coming soon..."
+	},
+	"expandable": {
+		"showMore": "Show more",
+		"showLess": "Show less"
+	},
+	"user": {
+		"mohabMarwan": "Mohab Marwan",
+		"hrManager": "HR Manager"
+	},
+	"aria": {
+		"close": "Close",
+		"search": "Search",
+		"more": "More",
+		"toggleLanguage": "Toggle language",
+		"selectLanguage": "Select language",
+		"breadcrumb": "breadcrumb",
+		"notifications": "Notifications",
+		"logo": "Logo",
+		"avatar": "Avatar"
+	},
+	"table": {
+		"noResults": "No results."
+	},
+	"memberPicker": {
+		"label": "Members",
+		"placeholder": "Search members...",
+		"searchPlaceholder": "Search Members...."
+	},
+	"sidebarGroups": {
+		"main": "Main",
+		"company": "Company",
+		"operations": "Operations",
+		"communication": "Messages",
+		"legal": "Usage Terms"
+	},
+	"charts": {
+		"invoices": {
+			"title": "Invoices",
+			"fullyPaid": "Fully Paid",
+			"pending": "Pending",
+			"draft": "Draft",
+			"vsLastMonth": "Vs Last Month",
+			"vsLastWeek": "Vs Last Week",
+			"check": "Check",
+			"draftMessage": "The remaining {{percentage}}% of the invoices are still in draft"
+		},
+		"vouchers": {
+			"title": "Vouchers",
+			"payment": "Payment Voucher",
+			"receipt": "Receipt Voucher",
+			"paymentVoucher": "Payment Voucher",
+			"receiptVoucher": "Receipt Voucher"
+		},
+		"attendance": {
+			"title": "Attendance Rate",
+			"lateArrival": "Late Arrival",
+			"dayOff": "Day Off",
+			"onTime": "On Time",
+			"vsLastWeek": "Vs Last Week"
+		},
+		"members": {
+			"title": "Members",
+			"active": "Active",
+			"inactive": "Inactive"
+		},
+		"requests": {
+			"title": "Today's Requests",
+			"attendance": "Attendance",
+			"overtime": "Overtime",
+			"timeOff": "Time Off",
+			"total": "Total Requests"
+		},
+		"break": {
+			"title": "Break Controls",
+			"start": "Start Break",
+			"stop": "Stop Break",
+			"idle": "Not on break",
+			"startSuccess": "Break started successfully",
+			"startError": "Failed to start break",
+			"stopSuccess": "Break ended successfully",
+			"stopError": "Failed to stop break"
+		},
+		"timePeriods": {
+			"thisWeek": "This Week",
+			"lastWeek": "Last Week",
+			"thisMonth": "This Month",
+			"lastMonth": "Last Month"
+		},
+		"upcomingCases": {
+			"title": "Cases Classification",
+			"totalCases": "Total Cases",
+			"caseLabelSingular": "Case",
+			"caseLabelPlural": "Cases"
+		},
+		"upcomingEvents": {
+			"title": "Upcoming Events",
+			"empty": "No upcoming events found"
+		}
+	},
+	"commandPalette": {
+		"buttonLabel": "Quick Search...",
+		"searchPlaceholder": "Tab to Start Searching...",
+		"quickActions": "Quick Actions",
+		"categories": {
+			"all": "All",
+			"members": "Members",
+			"invoices": "Invoices",
+			"vouchers": "Vouchers",
+			"cases": "Legal Cases",
+			"contracts": "Contracts",
+			"settings": "Settings"
+		},
+		"actions": {
+			"addNewMember": "Add New Member",
+			"requests": "Requests",
+			"messages": "Messages",
+			"settings": "Settings",
+			"dashboard": "Dashboard",
+			"members": "Members",
+			"contracts": "Contracts",
+			"vouchers": "Vouchers",
+			"legalCases": "Legal Cases",
+			"loansAdvances": "Loans & Advances",
+			"reports": "Reports",
+			"helpSupport": "Help & Support",
+			"profile": "Profile",
+			"generalSettings": "General Settings",
+			"peopleAccess": "People Access",
+			"companySettings": "Company Settings",
+			"assets": "Assets",
+			"serviceCatalog": "Service Catalog",
+			"invoiceProfiles": "Invoice Profiles",
+			"voucherTypes": "Voucher Types",
+			"expenseTypes": "Expense Types",
+			"incomeTypes": "Income Types",
+			"prettyCashNames": "Pretty Cash Names",
+			"banks": "Banks",
+			"createInvoice": "Create Invoice",
+			"createVoucher": "Create Voucher",
+			"createContract": "Create Contract"
+		},
+		"descriptions": {
+			"viewTeamMembers": "View and manage team members",
+			"manageContracts": "Manage employee contracts",
+			"viewRequests": "View and manage requests",
+			"paymentReceiptVouchers": "Payment and receipt vouchers",
+			"manageLegalCases": "Manage legal cases",
+			"employeeLoans": "Employee loans and advances",
+			"teamCommunication": "Team communication",
+			"viewReports": "View analytics and reports",
+			"helpSupport": "Get help and submit tickets",
+			"appSettings": "App settings and preferences",
+			"manageRoles": "Manage user roles",
+			"configurePermissions": "Configure permissions",
+			"manageJobTitles": "Manage job titles",
+			"manageTeams": "Manage teams",
+			"generalSettings": "General settings",
+			"managePermissions": "Manage roles and permissions",
+			"companyDetails": "Company details and configuration",
+			"manageAssets": "Manage company assets",
+			"manageServices": "Manage services",
+			"manageInvoiceProfiles": "Manage invoice profiles",
+			"manageVoucherTypes": "Manage voucher types",
+			"manageExpenseTypes": "Manage expense types",
+			"manageIncomeTypes": "Manage income types",
+			"managePrettyCash": "Manage pretty cash names",
+			"manageBanks": "Manage bank accounts",
+			"createMember": "Create a new team member",
+			"createInvoice": "Create a new invoice",
+			"createVoucher": "Create a new voucher",
+			"createContract": "Create a new contract"
+		},
+		"footer": {
+			"navigate": "To Navigate",
+			"select": "To Select",
+			"close": "To Close"
+		}
+	},
+	"Members": "Members",
+	"notifications": "Notifications",
+	"inboxSidebar": {
+		"title": "Inbox",
+		"searchPlaceholder": "Search chats...",
+		"createGroup": "Create group",
+		"chats": "Chats",
+		"groups": "Groups",
+		"startNewChat": "Start New Chat",
+		"noChatsFound": "No chats found",
+		"noChatsYet": "No chats yet",
+		"loadingGroups": "Loading groups...",
+		"noGroupsFound": "No groups found",
+		"noGroupsYet": "No groups yet"
+	},
+	"months": {
+		"january": "January",
+		"february": "February",
+		"march": "March",
+		"april": "April",
+		"may": "May",
+		"june": "June",
+		"july": "July",
+		"august": "August",
+		"september": "September",
+		"october": "October",
+		"november": "November",
+		"december": "December",
+		"jan": "Jan",
+		"feb": "Feb",
+		"mar": "Mar",
+		"apr": "Apr",
+		"may": "May",
+		"jun": "Jun",
+		"jul": "Jul",
+		"aug": "Aug",
+		"sep": "Sep",
+		"oct": "Oct",
+		"nov": "Nov",
+		"dec": "Dec"
+	},
+	"weekdays": {
+		"su": "Sun",
+		"mo": "Mon",
+		"tu": "Tue",
+		"we": "Wed",
+		"th": "Thu",
+		"fr": "Fri",
+		"sa": "Sat"
+	},
+	"export": {
+		"button": "Export",
+		"excel": "Export as Excel (.xlsx)",
+		"csv": "Export as CSV (.csv)",
+		"excelSuccess": "Excel file downloaded successfully",
+		"csvSuccess": "CSV file downloaded successfully",
+		"error": "Failed to export {{format}}"
+	},
+	"members": {
+		"title": "Total Members",
+		"active": "Active Members",
+		"inactive": "Inactive Members",
+		"wizard": {
+			"title": "Add Member",
+			"steps": {
+				"basic": "Basic Info",
+				"work": "Work Info",
+				"residency": "Residency Details",
+				"review": "Review"
+			},
+			"buttons": {
+				"back": "Back",
+				"continue": "Continue",
+				"addMember": "Add Member",
+				"edit": "Edit",
+				"processing": "Processing...",
+				"validating": "Validating...",
+				"uploading": "Uploading..."
+			},
+			"messages": {
+				"navigationError": "Please use the navigation buttons to move between steps.",
+				"startError": "Failed to start onboarding",
+				"saveWorkError": "Failed to save work information",
+				"saveResidencyError": "Failed to save residency information",
+				"finalizeError": "Failed to finalize onboarding",
+				"validationError": "An error occurred during validation",
+				"successFormat": "Member {{firstName}} {{lastName}} has been successfully added!"
+			}
+		},
+		"basicInfo": {
+			"title": "Basic Information",
+			"subtitle": "Core details needed to create the employee profile",
+			"personalDetailsHeader": "Personal Details",
+			"personalDetailsSubtitle": "Additional demographic information used for HR and compliance",
+			"uploadImageHeader": "Upload Image",
+			"uploadImageHelper": "Min 400x400px, PNG or JPEG",
+			"firstName": "First Name",
+			"firstNamePlaceholder": "Enter First Name",
+			"lastName": "Last Name",
+			"lastNamePlaceholder": "Enter Last Name",
+			"email": "Email Address",
+			"emailPlaceholder": "hello@alignui.com",
+			"phone": "Phone Number",
+			"phonePlaceholder": "Enter Phone Number",
+			"country": "Country",
+			"countryPlaceholder": "Search for a country",
+			"dateOfBirth": "Date of Birth",
+			"selectDate": "Select date",
+			"gender": "Gender",
+			"genderPlaceholder": "Choose Gender Type",
+			"maritalStatus": "Marital Status",
+			"maritalStatusPlaceholder": "Choose Marital Status",
+			"nationalId": "National ID/ Passport Number",
+			"nationalIdPlaceholder": "Enter National ID / Passport",
+			"address": "Address",
+			"addressPlaceholder": "Enter Address",
+			"attachDocuments": "Attach Documents",
+			"genderOptions": {
+				"male": "Male",
+				"female": "Female",
+				"other": "Other"
+			},
+			"maritalStatusOptions": {
+				"single": "Single",
+				"married": "Married",
+				"divorced": "Divorced",
+				"widowed": "Widowed"
+			},
+			"uploadButton": "Upload",
+			"changeButton": "Change",
+			"removeButton": "Remove"
+		},
+		"workInfo": {
+			"title": "Work Information",
+			"subtitle": "Set the member's role, reporting line, and workplace details",
+			"jobTitle": "Job Title",
+			"jobTitlePlaceholder": "Select Job Title",
+			"team": "Team",
+			"teamPlaceholder": "Select Team",
+			"role": "Role",
+			"rolePlaceholder": "Select Role",
+			"isManager": "Assign a Manager",
+			"manager": "Manager",
+			"managerPlaceholder": "Search Manager",
+			"hasWorkShift": "Assign a Work Shift",
+			"workShift": "Work Shift",
+			"employmentType": "Employment Type",
+			"employmentTypePlaceholder": "Select Employment Type",
+			"startDate": "Start Date",
+			"startDatePlaceholder": "Select Starting Date",
+			"workSchedule": "Work Schedule / Hours per week",
+			"workSchedulePlaceholder": "e.g., 40",
+			"probationPeriod": "Probation Period (days)",
+			"probationPeriodPlaceholder": "e.g., 90",
+			"memberId": "Member ID",
+			"memberIdPlaceholder": "Enter Member ID",
+			"employmentTypeOptions": {
+				"fullTime": "Full Time",
+				"partTime": "Part Time",
+				"contract": "Contract",
+				"intern": "Intern",
+				"temporary": "Temporary"
+			}
+		},
+		"residencyDetails": {
+			"title": "Residency Details",
+			"description": "Record visa, residency, and identification details",
+			"residencyStatus": "Residency Status",
+			"residencyStatusPlaceholder": "Select Residency Status",
+			"countryOfResidency": "Country of Residency",
+			"countryOfResidencyPlaceholder": "Search Country",
+			"visaType": "Residency / Visa Type",
+			"visaTypePlaceholder": "Select Residency / Visa Type",
+			"visaNumber": "Residency / Visa Number",
+			"visaNumberPlaceholder": "Enter Visa Number",
+			"issueDate": "Issue Date",
+			"issueDatePlaceholder": "Select Issue Date",
+			"expiryDate": "Expiry Date",
+			"expiryDatePlaceholder": "Select Expiry Date",
+			"emiratesIdUpload": "Emirates ID / Residence Document Upload",
+			"statusOptions": {
+				"active": "Active",
+				"expired": "Expired",
+				"pending": "Pending",
+				"cancelled": "Cancelled"
+			},
+			"visaTypeOptions": {
+				"local": "Local",
+				"employmentVisa": "Employment Visa",
+				"visitVisa": "Visit Visa",
+				"goldenVisa": "Golden Visa",
+				"studentVisa": "Student Visa",
+				"dependentVisa": "Dependent Visa"
+			}
+		},
+		"review": {
+			"title": "Review & Confirm",
+			"basicInfoSection": "Basic Information",
+			"workInfoSection": "Work Information",
+			"residencySection": "Residency Details",
+			"editButton": "Edit",
+			"labels": {
+				"memberName": "Member Name",
+				"emailAddress": "Email Address",
+				"phoneNumber": "Phone Number",
+				"country": "Country",
+				"dateOfBirth": "Date of Birth",
+				"gender": "Gender",
+				"maritalStatus": "Marital Status",
+				"nationalId": "National ID/ Passport Number",
+				"address": "Address",
+				"attachedDocuments": "Attached Documents",
+				"jobTitle": "Job Title",
+				"teams": "Teams",
+				"role": "Role",
+				"manager": "Manager",
+				"employmentType": "Employment Type",
+				"startDate": "Start Date",
+				"workSchedule": "Work Schedule / hours per week",
+				"memberId": "Member ID",
+				"residencyStatus": "Residency Status",
+				"countryOfResidency": "Country of Residency",
+				"residencyVisaType": "Residency / Visa Type",
+				"residencyVisaNumber": "Residency / Visa Number",
+				"issueDate": "Issue Date",
+				"expiryDate": "Expiry Date",
+				"emiratesIdDocument": "Emirates ID / Residence Document"
+			},
+			"notProvided": "Not provided",
+			"noDocuments": "No documents attached"
+		},
+		"shift": {
+			"label": "Work Shift",
+			"placeholder": "Select a shift...",
+			"loading": "Loading shifts...",
+			"noShifts": "No shifts available",
+			"schedule": "Work Schedule",
+			"weekdays": {
+				"sun": "Sun",
+				"mon": "Mon",
+				"tue": "Tue",
+				"wed": "Wed",
+				"thu": "Thu",
+				"fri": "Fri",
+				"sat": "Sat"
+			}
+		}
+	},
+	"invoices": {
+		"recordPayment": {
+			"title": "Record Payment",
+			"paymentMethod": "Payment Method",
+			"selectPaymentMethod": "Select Payment Method",
+			"accountType": "Account Type",
+			"selectAccountType": "Select Account Type",
+			"paymentMethodOptions": {
+				"cash": "Cash",
+				"bankTransfer": "Bank Transfer",
+				"card": "Card",
+				"cheque": "Cheque"
+			},
+			"accountTypeOptions": {
+				"cash": "Cash",
+				"bank": "Bank"
+			}
+		},
+		"fields": {
+			"customerEmail": "Email Address",
+			"customerEmailPlaceholder": "Enter email address",
+			"customerTrn": "TRN ID",
+			"customerTrnPlaceholder": "Enter TRN ID"
+		},
+		"customerEdit": {
+			"edit": "Edit Customer",
+			"save": "Save Customer",
+			"saving": "Saving...",
+			"tooltip": "This edits the customer details in the system",
+			"success": "Customer updated successfully",
+			"error": "Failed to update customer"
+		}
+	},
+	"legalCases": {
+		"wizard": {
+			"title": "Add New Case",
+			"steps": {
+				"basics": "Case Basics",
+				"people": "People & Files",
+				"summary": "Case Summary"
+			},
+			"buttons": {
+				"back": "Back",
+				"continue": "Continue",
+				"submit": "Create Case",
+				"processing": "Creating...",
+				"validating": "Validating...",
+				"createCase": "Create Case"
+			},
+			"messages": {
+				"validationError": "Please fix the errors before continuing",
+				"createSuccess": "Case created successfully",
+				"deleteSuccess": "Case deleted successfully",
+				"deleteError": "Failed to delete case"
+			}
+		},
+		"caseBasics": {
+			"title": "Case Basics",
+			"description": "Add the basic details of the case you're creating",
+			"caseTitle": "Case Title",
+			"caseTitlePlaceholder": "Enter Case Title",
+			"caseNumber": "Case Number",
+			"caseNumberPlaceholder": "Enter Case Number",
+			"clientName": "Client Name",
+			"clientNamePlaceholder": "Enter Client Name",
+			"caseType": "Case Type",
+			"caseTypePlaceholder": "Select case type",
+			"status": "Status",
+			"statusPlaceholder": "Select status",
+			"statusOptions": {
+				"open": "Open",
+				"inProgress": "In Progress",
+				"closed": "Closed",
+				"onHold": "On Hold",
+				"cancelled": "Cancelled"
+			},
+			"startDate": "Start Date",
+			"startDatePlaceholder": "Select start date",
+			"endDate": "End Date",
+			"endDatePlaceholder": "Select end date"
+		},
+		"peopleAndFiles": {
+			"title": "People & Files",
+			"description": "Add team members and attach documents",
+			"people": "People",
+			"person": "Person",
+			"addPerson": "Add Person",
+			"addPeople": "Add People",
+			"selectPerson": "Select person",
+			"role": "Role",
+			"selectRole": "Select role",
+			"roleOptions": {
+				"lawyer": "Lawyer",
+				"hr": "HR",
+				"manager": "Manager",
+				"coordinator": "Coordinator",
+				"assistant": "Assistant",
+				"consultant": "Consultant"
+			},
+			"noPeopleAdded": "No people added yet",
+			"attachDocuments": "Attach Documents"
+		},
+		"caseSummary": {
+			"title": "Case Summary",
+			"description": "Add the basic details of the case you're creating",
+			"summary": "Case Summary",
+			"caseSummary": "Case Summary",
+			"summaryPlaceholder": "Enter case summary",
+			"charactersRemaining": "{{count}} characters remaining"
+		},
+		"editCaseModal": {
+			"title": "Edit Case Details",
+			"statusOptions": {
+				"open": "Open",
+				"inProgress": "In Progress",
+				"closed": "Closed",
+				"onHold": "On Hold",
+				"cancelled": "Cancelled"
+			}
+		},
+		"addDocumentModal": {
+			"title": "Add Document",
+			"validation": {
+				"atLeastOneDocument": "Please upload at least one document"
+			}
+		}
+	},
+	"uploadField": {
+		"dragDropText": "Choose a file or drag & drop it here.",
+		"defaultFormats": "JPEG, PNG, PDF, and MP4 formats",
+		"formatsUpTo": "formats, up to",
+		"mb": "MB",
+		"browseButton": "Browse File",
+		"noOptionsFound": "No options found",
+		"uploading": "Uploading...",
+		"uploadComplete": "Upload complete",
+		"viewFile": "View file",
+		"sizeUnits": {
+			"bytes": "Bytes",
+			"kb": "KB",
+			"mb": "MB",
+			"gb": "GB"
+		}
+	},
+	"loginWarning": {
+		"title": "Important Notice",
+		"message": "Please exercise caution and attention while using the system and performing any actions. Ensure all entered data is accurate before saving or confirming.",
+		"message2": "Some actions may be irreversible and could directly affect system data, reports, or workflow. Users are responsible for reviewing all details before proceeding.",
+		"message3": "If you have any questions or uncertainties, please consult the system administrator or contact technical support before continuing.",
+		"message4": "Thank you for your cooperation and commitment to proper system usage.",
+		"understand": "I Understand"
+	}
+}

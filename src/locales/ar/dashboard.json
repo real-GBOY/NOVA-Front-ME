@@ -1,0 +1,47 @@
+{
+   "title": "لوحة التحكم",
+   "welcome": "مرحباً بعودتك",
+   "overview": "نظرة عامة",
+   "header": {
+      "avatarAlt": "صورة {{name}}",
+      "welcome": "مرحبًا بعودتك، {{name}}",
+      "fallbackName": "مستخدم",
+      "newRequests": "لديك اليوم {{count}} طلبات جديدة",
+      "dateRange": "08 ديسمبر - 15 ديسمبر 2025",
+      "dateRangeLabel": "حدد نطاق التاريخ",
+      "dateFrom": "من تاريخ",
+      "dateTo": "إلى تاريخ",
+      "dateRangeError": "لا يمكن أن يكون تاريخ الانتهاء قبل تاريخ البدء.",
+      "dateRangeRequired": "اختر تاريخ البداية وتاريخ النهاية.",
+      "export": "تصدير"
+   },
+   "attendanceRequests": {
+      "loading": "جاري تحميل طلبات الحضور...",
+      "error": "فشل تحميل طلبات الحضور."
+   },
+   "statistics": {
+      "totalMembers": "إجمالي الأعضاء",
+      "activeProjects": "المشاريع النشطة",
+      "pendingTasks": "المهام المعلقة",
+      "completedTasks": "المهام المكتملة",
+      "totalRevenue": "إجمالي الإيرادات",
+      "monthlyExpenses": "المصروفات الشهرية"
+   },
+   "charts": {
+      "projectProgress": "تقدم المشاريع",
+      "memberActivity": "نشاط الأعضاء",
+      "revenueOverview": "نظرة عامة على الإيرادات",
+      "taskCompletion": "معدل إتمام المهام"
+   },
+   "quickActions": {
+      "title": "إجراءات سريعة",
+      "addMember": "إضافة عضو جديد",
+      "createProject": "إنشاء مشروع",
+      "generateReport": "إنشاء تقرير",
+      "viewCalendar": "عرض التقويم"
+   },
+   "recentActivity": {
+      "title": "النشاط الأخير",
+      "noActivity": "لا يوجد نشاط حديث"
+   }
+}

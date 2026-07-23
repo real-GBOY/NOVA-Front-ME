@@ -1,0 +1,55 @@
+{
+   "title": "Terms and Conditions",
+   "subtitle": "Please read these terms and conditions carefully before using our service.",
+   "lastUpdated": "Last updated: January 2024",
+   "sections": {
+      "introduction": {
+         "title": "1. Introduction",
+         "content": "Welcome to our Human Resources Management System (HRMS). These Terms and Conditions govern your access to and use of our service. By accessing or using our service, you agree to be bound by these Terms and Conditions. If you disagree with any part of these terms, you may not access the service."
+      },
+      "acceptance": {
+         "title": "2. Acceptance of Terms",
+         "content": "By accessing and using this HRMS platform, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our service."
+      },
+      "useOfService": {
+         "title": "3. Use of Service",
+         "content": "You agree to use the service only for lawful purposes and in accordance with these Terms and Conditions. You agree not to:",
+         "items": {
+            "item1": "Violate any applicable laws or regulations",
+            "item2": "Infringe upon the rights of others",
+            "item3": "Transmit any harmful or malicious code",
+            "item4": "Attempt to gain unauthorized access to the system"
+         }
+      },
+      "userAccounts": {
+         "title": "4. User Accounts",
+         "content": "You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately of any unauthorized use of your account. We reserve the right to suspend or terminate accounts that violate these terms."
+      },
+      "privacy": {
+         "title": "5. Privacy and Data Protection",
+         "content": "Your privacy is important to us. We collect and process personal data in accordance with our Privacy Policy and applicable data protection laws. By using our service, you consent to the collection and use of information as described in our Privacy Policy."
+      },
+      "intellectualProperty": {
+         "title": "6. Intellectual Property",
+         "content": "All content, features, and functionality of the service are owned by us and are protected by international copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or create derivative works from our service without our express written permission."
+      },
+      "limitationOfLiability": {
+         "title": "7. Limitation of Liability",
+         "content": "To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from your use of the service."
+      },
+      "termination": {
+         "title": "8. Termination",
+         "content": "We reserve the right to terminate or suspend your access to the service immediately, without prior notice or liability, for any reason, including if you breach these Terms and Conditions."
+      },
+      "changesToTerms": {
+         "title": "9. Changes to Terms",
+         "content": "We reserve the right to modify or replace these Terms and Conditions at any time. If a revision is material, we will provide at least 30 days notice prior to any new terms taking effect. Your continued use of the service after any changes constitutes acceptance of the new terms."
+      },
+      "contactInformation": {
+         "title": "10. Contact Information",
+         "content": "If you have any questions about these Terms and Conditions, please contact us through the Help & Support section of the application or reach out to your system administrator."
+      }
+   }
+}
+
+

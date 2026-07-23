@@ -1,0 +1,2108 @@
+{
+   "title": "الإعدادات",
+   "table": {
+      "noResults": "لم يتم العثور على نتائج"
+   },
+   "general": {
+      "title": "الإعدادات العامة",
+      "language": "اللغة",
+      "theme": "المظهر",
+      "timezone": "المنطقة الزمنية",
+      "dateFormat": "تنسيق التاريخ",
+      "timeFormat": "تنسيق الوقت",
+      "currency": "العملة"
+   },
+   "profile": {
+      "title": "إعدادات الملف الشخصي",
+      "personalInfo": "المعلومات الشخصية",
+      "changeAvatar": "تغيير الصورة الشخصية",
+      "updateProfile": "تحديث الملف الشخصي"
+   },
+   "common": {
+      "cancel": "إلغاء",
+      "save": "حفظ"
+   },
+   "generalSettingsPage": {
+      "description": "إدارة معلوماتك الشخصية واللغة وإعدادات الأمان.",
+      "profile": {
+         "uploadTitle": "رفع صورة",
+         "uploadSubtitle": "دقة لا تقل عن 400x400 بكسل، PNG أو JPEG",
+         "upload": "رفع",
+         "uploading": "جاري الرفع...",
+         "change": "تغيير",
+         "remove": "إزالة",
+         "avatarAlt": "صورة الملف الشخصي"
+      },
+      "name": {
+         "firstLabel": "الاسم الأول",
+         "firstPlaceholder": "الاسم الأول",
+         "lastLabel": "اسم العائلة",
+         "lastPlaceholder": "اسم العائلة"
+      },
+      "contact": {
+         "emailLabel": "البريد الإلكتروني",
+         "emailPlaceholder": "mo*******@gmail.com",
+         "phoneLabel": "رقم الهاتف",
+         "phonePlaceholder": "54 231 8743"
+      },
+      "language": {
+         "label": "اللغة",
+         "placeholder": "اختر اللغة...",
+         "enUS": "الإنجليزية (الولايات المتحدة)",
+         "arAE": "العربية (الإمارات)"
+      },
+      "security": {
+         "title": "الأمان",
+         "current": "كلمة المرور الحالية",
+         "new": "كلمة المرور الجديدة",
+         "confirm": "تأكيد كلمة المرور الجديدة",
+         "placeholder": "••••••••"
+      }
+   },
+   "generalSettings": {
+      "emailUpdateSuccess": "تم تحديث البريد الإلكتروني بنجاح",
+      "phoneUpdateSuccess": "تم تحديث رقم الهاتف بنجاح",
+      "profileImageUpdateSuccess": "تم حفظ صورة الملف الشخصي بنجاح",
+      "profileImageUpdateError": "فشل حفظ صورة الملف الشخصي"
+   },
+   "generalSettingsModals": {
+      "verifyIdentity": {
+         "title": "تحقق من هويتك",
+         "emailLabel": "البريد الإلكتروني الجديد",
+         "emailPlaceholder": "أدخل عنوان بريدك الإلكتروني",
+         "description": "سيتم إرسال بريد إلكتروني إلى بريدك الإلكتروني الحالي مع رمز التحقق.",
+         "sendCode": "إرسال رمز التحقق",
+         "cancel": "إلغاء"
+      },
+      "verifyCode": {
+         "title": "تحقق من البريد الحالي",
+         "description": "يرجى إدخال الرمز الذي أرسلناه إليك:",
+         "submit": "إرسال",
+         "cancel": "إلغاء",
+         "resendPrompt": "لم تستلم الرمز؟",
+         "resend": "إعادة إرسال الرمز",
+         "resendAfter": "أعد إرسال الرمز بعد {{time}}"
+      },
+      "newMobile": {
+         "title": "رقم جوال جديد",
+         "description": "سيتم إرسال بريد إلكتروني إلى بريدك الإلكتروني الحالي مع رمز التحقق.",
+         "newLabel": "رقم الجوال الجديد",
+         "confirmLabel": "تأكيد رقم الجوال",
+         "placeholder": "(555) 000-0000",
+         "continue": "متابعة",
+         "cancel": "إلغاء",
+         "validation": {
+            "mismatch": "أرقام الجوال غير متطابقة"
+         }
+      },
+      "confirmMobile": {
+         "title": "تأكيد رقم الجوال الجديد",
+         "description": "يرجى إدخال الرمز الذي أرسلناه إليك:",
+         "confirm": "تأكيد التغيير",
+         "cancel": "إلغاء",
+         "resendPrompt": "لم تستلم الرمز؟",
+         "resend": "إعادة إرسال الرمز",
+         "resendAfter": "أعد إرسال الرمز بعد {{time}}"
+      }
+   },
+   "account": {
+      "title": "إعدادات الحساب",
+      "changePassword": "تغيير كلمة المرور",
+      "twoFactor": "المصادقة الثنائية",
+      "sessions": "الجلسات النشطة",
+      "deleteAccount": "حذف الحساب"
+   },
+   "notifications": {
+      "title": "إعدادات الإشعارات",
+      "email": "إشعارات البريد الإلكتروني",
+      "push": "إشعارات الدفع",
+      "sms": "إشعارات الرسائل القصيرة",
+      "preferences": "تفضيلات الإشعارات"
+   },
+   "notificationsSettings": {
+      "title": "إعدادات الإشعارات",
+      "description": "يجب كتابة شيء هنا عن الأشخاص والوصول",
+      "channels": {
+         "title": "القنوات",
+         "inApp": {
+            "label": "الإشعارات داخل التطبيق",
+            "description": "عرض التنبيهات داخل النظام (أيقونة الجرس). يُنصح بالاحتفاظ بها قيد التشغيل."
+         },
+         "email": {
+            "label": "إشعارات البريد الإلكتروني",
+            "description": "إرسال الإشعارات إلى عنوان البريد الإلكتروني المسجل للمستخدم."
+         }
+      },
+      "events": {
+         "title": "الأحداث",
+         "newRequest": {
+            "label": "تم إرسال طلب جديد",
+            "description": "إشعار المسؤولين عندما يقدم عضو طلب حضور أو إجازة أو ساعات إضافية."
+         },
+         "requestDecision": {
+            "label": "تم الموافقة على الطلب أو رفضه",
+            "description": "إشعار العضو والمسؤول عند اتخاذ قرار بشأن الطلب."
+         },
+         "contractEnding": {
+            "label": "انتهاء العقد قريباً",
+            "description": "إشعار الموارد البشرية/المسؤول قبل انتهاء العقد حتى يمكن تجديده أو إغلاقه في الوقت المناسب."
+         },
+         "announcement": {
+            "label": "تم نشر إعلان",
+            "description": "إشعار الأعضاء عند نشر إعلان رسمي جديد."
+         },
+         "newMessage": {
+            "label": "تم استلام رسالة جديدة",
+            "description": "إشعار المستخدمين عند استلامهم رسالة مباشرة."
+         }
+      },
+      "reminderTiming": {
+         "title": "توقيت التذكير",
+         "contractExpiry": {
+            "label": "تذكير انتهاء العقد",
+            "description": "اختر متى يتم تذكير المسؤولين قبل انتهاء العقد."
+         },
+         "pendingRequest": {
+            "label": "تذكير الطلب المعلق",
+            "description": "تذكير المسؤولين إذا بقي الطلب معلقاً لفترة طويلة."
+         },
+         "7days": "قبل 7 أيام",
+         "14days": "قبل 14 يوماً",
+         "30days": "قبل 30 يوماً",
+         "60days": "قبل 60 يوماً"
+      }
+   },
+   "privacy": {
+      "title": "إعدادات الخصوصية",
+      "dataSharing": "مشاركة البيانات",
+      "visibility": "رؤية الملف الشخصي",
+      "analytics": "التحليلات"
+   },
+   "rolesPermissions": {
+      "title": "الأدوار والصلاحيات",
+      "description": "يجب كتابة شيء هنا عن الأشخاص والوصول",
+      "manageRoles": "إدارة الأدوار",
+      "managePermissions": "إدارة الصلاحيات",
+      "addRole": "إضافة دور جديد",
+      "editRole": "تعديل الدور",
+      "deleteRole": "حذف الدور",
+      "searchPlaceholder": "البحث عن دور...",
+      "table": {
+         "roleName": "اسم الدور",
+         "description": "الوصف",
+         "jobTitles": "المسميات الوظيفية",
+         "noMembers": "عدد الأعضاء"
+      },
+      "actions": {
+         "edit": "تعديل",
+         "duplicate": "نسخ",
+         "delete": "حذف"
+      },
+      "modals": {
+         "addRole": "إضافة دور جديد",
+         "editRole": "تعديل الدور",
+         "deleteRole": "حذف الدور؟",
+         "deleteDescription": "سيتم إزالة هذا الدور بشكل دائم. سيخسر المستخدمون المعينون له جميع الصلاحيات ذات الصلة. لا يمكن التراجع عن هذا الإجراء.",
+         "deleteConfirm": "حذف الدور",
+         "leaveSetup": "مغادرة إعداد الدور؟",
+         "leaveDescription": "لم يتم حفظ تغييراتك بعد. إذا خرجت الآن، ستفقد تقدمك.",
+         "discardChanges": "تجاهل التغييرات",
+         "stayContinue": "البقاء والمتابعة",
+         "loadingRole": "جاري تحميل بيانات الدور..."
+      },
+      "messages": {
+         "deleteSuccess": "تم حذف الدور \"{{name}}\" بنجاح"
+      }
+   },
+   "peopleAccess": {
+      "title": "صلاحيات الأشخاص",
+      "jobTitles": "المسميات الوظيفية",
+      "teams": "الفرق",
+      "addNewRole": "إضافة دور جديد",
+      "addJobTitle": "إضافة مسمى وظيفي",
+      "addTeam": "إضافة فريق",
+      "searchJobTitle": "البحث في المسمى الوظيفي...",
+      "searchTeam": "البحث في الفريق...",
+      "description": "إدارة المسميات الوظيفية والفرق والأدوار لتنظيم القوى العاملة والتحكم في صلاحيات الوصول.",
+      "tableView": "عرض الجدول",
+      "gridView": "عرض الشبكة",
+      "modals": {
+         "leaveTeamSetup": "مغادرة إعداد الفريق؟",
+         "leaveJobTitleSetup": "مغادرة إعداد المسمى الوظيفي؟"
+      }
+   },
+   "jobTitles": {
+      "loadingJobTitles": "جاري تحميل المسميات الوظيفية...",
+      "loadingRoles": "جاري تحميل الأدوار...",
+      "filters": {
+         "filter": "تصفية",
+         "title": "تصفية",
+         "resetAll": "إعادة تعيين الكل",
+         "reset": "إعادة تعيين",
+         "roles": "الأدوار",
+         "selectRoles": "اختر الأدوار"
+      }
+   },
+   "roles": {
+      "loadingRoles": "جاري تحميل الأدوار...",
+      "loadingJobTitles": "جاري تحميل المسميات الوظيفية...",
+      "filters": {
+         "filter": "تصفية",
+         "title": "تصفية",
+         "resetAll": "إعادة تعيين الكل",
+         "reset": "إعادة تعيين",
+         "jobTitles": "المسميات الوظيفية",
+         "selectJobTitles": "اختر المسميات الوظيفية"
+      }
+   },
+   "teams": {
+      "loadingTeams": "جاري تحميل الفرق...",
+      "loadingJobTitles": "جاري تحميل المسميات الوظيفية...",
+      "filters": {
+         "filter": "تصفية",
+         "title": "تصفية",
+         "resetAll": "إعادة تعيين الكل",
+         "reset": "إعادة تعيين",
+         "jobTitles": "المسميات الوظيفية",
+         "selectJobTitles": "اختر المسميات الوظيفية"
+      }
+   },
+   "sidebar": {
+      "title": "الإعدادات",
+      "subtitle": "اختر من بين الفئات"
+   },
+   "headerActions": {
+      "search": "بحث",
+      "quickPreferences": "التفضيلات السريعة",
+      "notifications": "الإشعارات",
+      "openSettings": "فتح الإعدادات"
+   },
+   "wizard": {
+      "edit": "تعديل",
+      "back": "رجوع",
+      "continue": "متابعة",
+      "save": "حفظ",
+      "validating": "جاري التحقق...",
+      "steps": {
+         "basicInfo": "المعلومات الأساسية",
+         "roleInfo": "معلومات الدور",
+         "permissions": "الصلاحيات",
+         "review": "مراجعة",
+         "reviewConfirm": "مراجعة وتأكيد"
+      },
+      "validation": {
+         "roleNameRequired": "اسم الدور مطلوب",
+         "roleNameMin": "يجب أن يكون اسم الدور حرفين على الأقل",
+         "roleNameMax": "يجب أن يكون اسم الدور أقل من 50 حرفًا",
+         "descriptionMax": "يجب أن يكون الوصف أقل من 200 حرف",
+         "permissionIdRequired": "رقم الإذن مطلوب",
+         "permissionScopeRequired": "نطاق الإذن مطلوب",
+         "teamNameRequired": "اسم الفريق مطلوب",
+         "teamNameMin": "يجب أن يكون اسم الفريق حرفين على الأقل",
+         "teamNameMax": "يجب أن يكون اسم الفريق أقل من 50 حرفًا",
+         "jobTitleNameRequired": "اسم المسمى الوظيفي مطلوب",
+         "jobTitleNameMin": "يجب أن يكون اسم المسمى الوظيفي حرفين على الأقل",
+         "jobTitleNameMax": "يجب أن يكون اسم المسمى الوظيفي أقل من 50 حرفًا",
+         "rolesRequired": "مطلوب دور واحد على الأقل"
+      },
+      "role": {
+         "title": "معلومات الدور",
+         "subtitle": "حدد الاسم والأساسيات للدور الجديد.",
+         "roleName": "اسم الدور",
+         "roleNamePlaceholder": "مثال: مدير الموارد البشرية",
+         "roleDescription": "وصف الدور",
+         "roleDescriptionPlaceholder": "مثال: يدير بيانات الموظفين والموافقات.",
+         "assignJobTitle": "تعيين لمسمى وظيفي",
+         "assignJobTitleSubtitle": "أضف المسميات الوظيفية التي يجب أن تنتمي لهذا الدور.",
+         "jobTitleLabel": "المسمى الوظيفي",
+         "searchJobTitles": "البحث في المسميات الوظيفية"
+      },
+      "team": {
+         "title": "معلومات الفريق",
+         "subtitle": "حدد الاسم والأساسيات للفريق الجديد.",
+         "teamName": "اسم الفريق",
+         "teamNamePlaceholder": "مثال: فريق التسويق",
+         "teamDescription": "وصف الفريق",
+         "teamDescriptionPlaceholder": "مثال: يقود نمو العلامة التجارية، ويدير الحملات، وينتج محتوى إبداعياً.",
+         "jobTitleLabel": "المسمى الوظيفي",
+         "searchJobTitles": "البحث في المسميات الوظيفية"
+      },
+      "jobTitle": {
+         "title": "المعلومات الأساسية",
+         "subtitle": "حدد الاسم والأساسيات للمسمى الجديد.",
+         "jobTitleName": "اسم المسمى الوظيفي",
+         "jobTitleNamePlaceholder": "مثال: مصمم تجربة مستخدم، قائد مبيعات، مطور أول",
+         "description": "الوصف",
+         "descriptionPlaceholder": "مثال: صياغة واجهات بديهية، وإجراء أبحاث المستخدم، وإنشاء نماذج أولية",
+         "defaultRoles": "الأدوار الافتراضية",
+         "searchRoles": "البحث واختيار الأدوار"
+      },
+      "permissions": {
+         "title": "الصلاحيات",
+         "subtitle": "تحكم فيما يمكن لهذا الدور عرضه أو إنشاؤه أو تعديله أو الموافقة عليه أو حذفه.",
+         "categoriesTitle": "الفئات والصلاحيات",
+         "quickPresets": "إعدادات سريعة",
+         "searchPlaceholder": "البحث في الصلاحيات",
+         "loading": "جاري تحميل الصلاحيات...",
+         "noPermissions": "لم يتم العثور على صلاحيات",
+         "overviewTitle": "ملخص الصلاحيات",
+         "noPermissionsSelected": "لم يتم تحديد أي صلاحيات",
+         "assignedJobTitles": "المسميات الوظيفية المعينة",
+         "noJobTitlesAssigned": "لم يتم تعيين مسميات وظيفية"
+      },
+      "review": {
+         "title": "مراجعة وتأكيد",
+         "subtitle": "تحقق من الملخص وقم بتحديث أي شيء إذا لزم الأمر.",
+         "roleSubtitle": "تحقق من ملخص هذا الدور وقم بتحديث أي شيء إذا لزم الأمر.",
+         "teamSubtitle": "تحقق من ملخص هذا الفريق وقم بتحديث أي شيء إذا لزم الأمر.",
+         "jobTitleSubtitle": "تحقق من ملخص هذا المسمى الوظيفي وقم بتحديث أي شيء إذا لزم الأمر.",
+         "basicInfo": "المعلومات الأساسية",
+         "roleInfo": "معلومات الدور",
+         "roleName": "اسم الدور",
+         "roleDescription": "وصف الدور",
+         "assignedRoles": "الأدوار",
+         "noRolesAssigned": "لم يتم تعيين أدوار"
+      }
+   },
+   "messages": {
+      "saveSuccess": "تم حفظ الإعدادات بنجاح",
+      "updateSuccess": "تم تحديث الإعدادات بنجاح",
+      "resetSuccess": "تمت إعادة تعيين الإعدادات إلى الافتراضية",
+      "createSuccess": "تم الإنشاء بنجاح",
+      "errorOccurred": "حدث خطأ. يرجى المحاولة مرة أخرى."
+   },
+   "placeholder": {
+      "defaultTab": "هذا التبويب",
+      "comingSoon": "محتوى {{tab}} قريباً",
+      "description": "نحن نركز على تجربة الأشخاص والوصول أولاً. قم بربط بيانات API الخاصة بك لاستبدال هذا العنصر النائب بمجرد أن يصبح القسم جاهزاً."
+   },
+   "sidebarGroups": {
+      "general": "عام",
+      "company": "الشركة",
+      "serviceCatalog": "كتالوج الخدمات",
+      "financial": "المالية"
+   },
+   "tabs": {
+      "generalSettings": "الإعدادات العامة",
+      "peopleAccess": "الأشخاص والوصول",
+      "notifications": "الإشعارات",
+      "companySettings": "إعدادات الشركة",
+      "caseTypes": "أنواع القضايا",
+      "assets": "الأصول",
+      "requestsApprovals": "الطلبات والموافقات",
+      "serviceCatalog": "كتالوج الخدمات",
+      "invoiceProfiles": "ملفات الفواتير",
+      "voucherTypes": "أنواع القسائم",
+      "expenseTypes": "أنواع المصروفات",
+      "incomeTypes": "أنواع الدخل",
+      "prettyCashNames": "أسماء النثريات",
+      "banks": "البنوك"
+   },
+   "companySettings": {
+      "title": "معلومات الشركة",
+      "description": "يجب كتابة شيء هنا عن الأشخاص والوصول",
+      "tabs": {
+         "companyInformation": "معلومات الشركة",
+         "holidays": "العطلات",
+         "caseTypes": "أنواع القضايا",
+         "shifts": "الورديات"
+      },
+      "caseTypes": {
+         "title": "أنواع القضايا",
+         "description": "نظم التصنيفات التي تتعقبها لحالاتك القانونية.",
+         "table": {
+            "title": "أنواع القضايا الحالية",
+            "id": "المعرف",
+            "name": "اسم النوع",
+            "noResults": "لا توجد أنواع قضايا حتى الآن"
+         },
+         "form": {
+            "label": "اسم نوع القضية",
+            "placeholder": "أدخل اسم نوع القضية",
+            "button": "إضافة نوع",
+            "helper": "استخدم هذا الحقل لتعريف تصنيفات جديدة."
+         },
+         "helpers": {
+            "loading": "جاري تحميل أنواع القضايا...",
+            "empty": "أضف نوع قضية لتمكين هذا الاختيار."
+         }
+      },
+      "assets": {
+         "categories": {
+            "laptop": "حاسوب محمول",
+            "mobile": "جوال",
+            "tablet": "جهاز لوحي",
+            "other": "أخرى"
+         },
+         "conditions": {
+            "new": "جديد",
+            "good": "جيد",
+            "fair": "مقبول",
+            "poor": "ضعيف",
+            "damaged": "تالف"
+         }
+      },
+      "logo": {
+         "title": "شعار الشركة",
+         "requirements": "الحد الأدنى 400x400 بكسل، PNG أو JPEG",
+         "change": "تغيير",
+         "upload": "رفع"
+      },
+      "fields": {
+         "companyName": "اسم الشركة",
+         "location": "الموقع",
+         "address": "العنوان",
+         "dateFormat": "تنسيق التاريخ",
+         "weekStartDay": "يوم بداية الأسبوع",
+         "timeFormat": "تنسيق الوقت",
+         "defaultWorkingDays": "أيام العمل الافتراضية"
+      },
+      "placeholders": {
+         "companyName": "أدخل اسم الشركة",
+         "location": "أدخل موقع الشركة",
+         "address": "أدخل عنوان الشركة"
+      },
+      "location": {
+         "useCurrent": "استخدام الموقع الحالي"
+      },
+      "locationModal": {
+         "title": "الموقع",
+         "locationName": "اسم الموقع",
+         "address": "العنوان",
+         "latitude": "خط العرض",
+         "longitude": "خط الطول",
+         "allowedRadius": "نطاق المسموح (بالمتر)",
+         "confirmTitle": "حفظ الموقع؟",
+         "confirmMessage": "هل أنت متأكد أنك تريد حفظ هذا الموقع؟",
+         "instruction": "انقر أو اسحب العلامة لاختيار الموقع",
+         "radiusDescription": "يجب أن يكون الموظفون ضمن هذا النطاق لتسجيل الحضور",
+         "useCurrentLocation": "استخدام الموقع الحالي",
+         "saveLocation": "حفظ الموقع",
+         "placeholders": {
+            "locationName": "أدخل اسم الموقع",
+            "address": "أدخل عنوان موقعك"
+         }
+      },
+      "weekDays": {
+         "sunday": "الأحد",
+         "monday": "الاثنين",
+         "tuesday": "الثلاثاء",
+         "wednesday": "الأربعاء",
+         "thursday": "الخميس",
+         "friday": "الجمعة",
+         "saturday": "السبت"
+      },
+      "workingDays": {
+         "weekdays": "أيام الأسبوع",
+         "all": "كل الأيام",
+         "custom": "مخصص",
+         "selectWorkingDays": "اختر أيام العمل",
+         "selectAtLeastOne": "يرجى اختيار يوم عمل واحد على الأقل",
+         "daySelected": "يوم محدد",
+         "daysSelected": "أيام محددة"
+      },
+      "modals": {
+         "saveChanges": {
+            "title": "حفظ التغييرات؟",
+            "description": "هل أنت متأكد أنك تريد حفظ هذه التغييرات في إعدادات شركتك؟",
+            "confirm": "حفظ التغييرات"
+         },
+         "discardChanges": {
+            "title": "تجاهل التغييرات غير المحفوظة؟",
+            "description": "لديك تغييرات غير محفوظة. إذا غادرت الآن، سيتم فقدان تغييراتك.",
+            "confirm": "تجاهل التغييرات",
+            "cancel": "متابعة التعديل"
+         }
+      },
+      "holidays": {
+         "title": "العطلات",
+         "description": "إدارة عطلات الشركة وفترات الإجازة لمنظمتك",
+         "comingSoon": "قسم العطلات قريباً",
+         "searchPlaceholder": "البحث في العطلات...",
+         "addButton": "إضافة عطلة",
+         "loading": "جاري تحميل العطلات...",
+         "sort": {
+            "label": "ترتيب حسب",
+            "name": "الاسم",
+            "startDate": "تاريخ البدء",
+            "endDate": "تاريخ الانتهاء",
+            "duration": "المدة"
+         },
+         "table": {
+            "name": "الاسم",
+            "startDate": "تاريخ البدء",
+            "endDate": "تاريخ الانتهاء",
+            "duration": "المدة"
+         },
+         "duration": {
+            "oneDay": "يوم واحد",
+            "multipleDays": "{{count}} أيام"
+         },
+         "actions": {
+            "edit": "تعديل",
+            "delete": "حذف",
+            "more": "المزيد من الخيارات"
+         },
+         "modals": {
+            "addTitle": "إضافة عطلة",
+            "editTitle": "تعديل العطلة",
+            "deleteTitle": "حذف العطلة؟",
+            "deleteMessage": "هل أنت متأكد أنك تريد حذف \"{{name}}\"؟ هذا الإجراء لا يمكن التراجع عنه.",
+            "fields": {
+               "name": "اسم العطلة",
+               "startDate": "تاريخ البدء",
+               "endDate": "تاريخ الانتهاء",
+               "description": "الوصف"
+            },
+            "placeholders": {
+               "name": "أدخل اسم العطلة",
+               "description": "أدخل وصف العطلة"
+            },
+            "validation": {
+               "name": "اسم العطلة مطلوب",
+               "startDate": "تاريخ البدء مطلوب",
+               "endDate": "تاريخ الانتهاء مطلوب",
+               "endBeforeStart": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء"
+            }
+         },
+         "filters": {
+            "filter": "تصفية",
+            "title": "تصفية",
+            "resetAll": "إعادة تعيين الكل",
+            "reset": "إعادة تعيين",
+            "year": "السنة",
+            "selectYear": "اختر السنة",
+            "month": "الشهر",
+            "selectMonth": "اختر الشهر"
+         }
+      },
+      "shifts": {
+         "title": "الورديات",
+         "description": "إدارة الورديات وجداول العمل لمنظمتك",
+         "searchPlaceholder": "ابحث عن الورديات...",
+         "addButton": "إضافة وردية",
+         "sort": {
+            "label": "ترتيب حسب",
+            "name": "الاسم",
+            "timezone": "المنطقة الزمنية",
+            "workingDays": "أيام العمل"
+         },
+         "table": {
+            "name": "الاسم",
+            "description": "الوصف",
+            "timezone": "المنطقة الزمنية",
+            "workingDays": "أيام العمل",
+            "day": "يوم",
+            "days": "أيام",
+            "isDefault": "افتراضي",
+            "yes": "نعم",
+            "no": "لا"
+         },
+         "actions": {
+            "viewDetails": "عرض التفاصيل",
+            "edit": "تعديل",
+            "archive": "أرشفة",
+            "assignEmployees": "تعيين الموظفين",
+            "more": "المزيد من الخيارات"
+         },
+         "modal": {
+            "title": "إضافة وردية",
+            "editTitle": "تعديل الوردية",
+            "viewTitle": "تفاصيل الوردية",
+            "assignTitle": "تعيين الموظفين للوردية",
+            "name": "اسم الوردية",
+            "namePlaceholder": "أدخل اسم الوردية",
+            "description": "الوصف",
+            "descriptionPlaceholder": "أدخل وصف الوردية (اختياري)",
+            "timezone": "المنطقة الزمنية",
+            "workingDays": "أيام العمل",
+            "workingDaysHelp": "اختر الأيام التي تعمل فيها هذه الوردية.",
+            "startTime": "وقت البدء",
+            "endTime": "وقت الانتهاء",
+            "breakMinutes": "استراحة (بالدقائق)",
+            "schedule": "الجدول",
+            "break": "استراحة",
+            "minutes": "دقيقة",
+            "shiftName": "الوردية",
+            "selectEmployees": "اختر الموظفين",
+            "selectEmployeesPlaceholder": "اختر الموظفين للتعيين",
+            "searchEmployees": "ابحث عن الموظفين...",
+            "assignHelp": "سيتم تعيين الموظفين المحددين إلى هذه الوردية.",
+            "cancel": "إلغاء",
+            "close": "إغلاق",
+            "addButton": "إضافة وردية",
+            "saveButton": "حفظ التغييرات",
+            "assignButton": "تعيين الموظفين"
+         },
+         "weekdays": {
+            "sunday": "الأحد",
+            "monday": "الاثنين",
+            "tuesday": "الثلاثاء",
+            "wednesday": "الأربعاء",
+            "thursday": "الخميس",
+            "friday": "الجمعة",
+            "saturday": "السبت"
+         },
+         "validation": {
+            "atLeastOneDay": "يرجى اختيار يوم عمل واحد على الأقل",
+            "invalidTimeRange": "يجب أن يكون وقت البدء قبل وقت الانتهاء. يجب أن يكون وقت الانتهاء 23:59 أو أقل."
+         },
+         "assignmentsModal": {
+            "title": "{{shiftName}} - الموظفون المعينون",
+            "loading": "جاري تحميل الموظفين...",
+            "noEmployees": "لا يوجد موظفون معينون لهذه الوردية",
+            "noEmployeesDesc": "قم بتعيين الموظفين إلى هذه الوردية باستخدام خيار \"تعيين الموظفين\"."
+         },
+         "archiveModal": {
+            "title": "أرشفة الوردية",
+            "description": "هل أنت متأكد من أنك تريد أرشفة \"{{shiftName}}\"؟ لن تظهر هذه الوردية في القوائم العادية ولن يمكن تعيينها لموظفين جدد.",
+            "confirm": "أرشفة الوردية"
+         }
+      }
+   },
+   "assets": {
+      "title": "الأصول",
+      "description": "يجب كتابة شيء هنا عن الأشخاص والوصول",
+      "searchPlaceholder": "البحث في الأصول...",
+      "filter": "تصفية",
+
+      "reset": "إعادة تعيين",
+      "filterTitle": "تصفية الأصول",
+      "filterComingSoon": "خيارات التصفية قريباً",
+      "sortBy": "ترتيب حسب",
+      "addButton": "إضافة أصول",
+      "assign": "تعيين",
+      "loading": "جاري تحميل الأصول...",
+      "error": "خطأ في تحميل الأصول. يرجى المحاولة مرة أخرى.",
+      "resetAll": "إعادة تعيين الكل",
+      "cancel": "إلغاء",
+      "apply": "تطبيق",
+      "sort": {
+         "name": "اسم الأصل",
+         "nameAsc": "الاسم (أ-ي)",
+         "nameDesc": "الاسم (ي-أ)",
+         "category": "الفئة",
+         "status": "الحالة",
+         "condition": "الحالة",
+         "serialNumber": "الرقم التسلسلي"
+      },
+      "table": {
+         "assetName": "اسم الأصل",
+         "category": "الفئة",
+         "status": "الحالة",
+         "assignedTo": "مُعيَّن إلى",
+         "condition": "الحالة",
+         "serialNumber": "الرقم التسلسلي"
+      },
+      "actions": {
+         "assignToMember": "تعيين إلى عضو",
+         "viewAsset": "عرض الأصل",
+         "markAsReturned": "تمييز كمعاد",
+         "transferAsset": "نقل الأصل",
+         "deleteAsset": "حذف الأصل"
+      },
+      "validation": {
+         "member": "العضو مطلوب",
+         "assignedDate": "تاريخ الإسناد مطلوب",
+         "condition": "الحالة مطلوبة",
+         "newMember": "العضو الجديد مطلوب",
+         "returnDate": "تاريخ الإرجاع مطلوب"
+      },
+      "errors": {
+         "invalidCategory": "فئة غير صالحة: {category}",
+         "invalidData": "بيانات الأصل غير صالحة"
+      },
+      "deleteConfirm": {
+         "title": "حذف الأصل؟",
+         "description": "سيتم إزالة هذا الأصل بشكل دائم من النظام. لا يمكنك التراجع عن هذا الإجراء.",
+         "confirmButton": "حذف الأصل",
+         "cancelButton": "إلغاء"
+      },
+      "returnModal": {
+         "title": "إرجاع الأصل",
+         "returnDate": "تاريخ الإرجاع",
+         "conditionOnReturn": "الحالة عند الإرجاع",
+         "notes": "ملاحظات",
+         "sendToMaintenance": "إرسال إلى الصيانة",
+         "datePlaceholder": "يوم / شهر / سنة",
+         "selectCondition": "اختر الحالة",
+         "notesPlaceholder": "أضف ملاحظات",
+         "confirmButton": "تأكيد الإرجاع",
+         "cancelButton": "إلغاء"
+      },
+      "conditions": {
+         "new": "جديد",
+         "good": "جيد",
+         "fair": "مقبول",
+         "poor": "ضعيف",
+         "damaged": "تالف",
+         "needsRepair": "يحتاج إصلاح"
+      },
+      "transferModal": {
+         "title": "نقل الأصل",
+         "currentHolder": "الحامل الحالي",
+         "newMember": "عضو جديد",
+         "transferDate": "تاريخ النقل",
+         "conditionAtTransfer": "الحالة عند النقل",
+         "notes": "ملاحظات",
+         "selectUser": "اختر مستخدم...",
+         "selectCondition": "اختر الحالة",
+         "datePlaceholder": "يوم / شهر / سنة",
+         "notesPlaceholder": "أضف ملاحظات",
+         "confirmButton": "نقل الأصل",
+         "cancelButton": "إلغاء"
+      },
+      "viewModal": {
+         "addedAt": "تمت الإضافة في",
+         "requestReturn": "طلب الإرجاع",
+         "assignedTo": "مُعيَّن إلى",
+         "viewDetails": "عرض التفاصيل",
+         "contractName": "اسم العقد",
+         "serialNumber": "#الرقم التسلسلي",
+         "assignedDate": "تاريخ التعيين",
+         "conditionAtHandover": "الحالة عند التسليم",
+         "currentCondition": "الحالة الحالية",
+         "status": "الحالة",
+         "notes": "ملاحظات"
+      },
+      "assignModal": {
+         "title": "تعيين إلى عضو",
+         "member": "العضو",
+         "assignedDate": "تاريخ التعيين",
+         "conditionAtHandover": "الحالة عند التسليم",
+         "notes": "ملاحظات",
+         "selectMember": "اختر عضواً...",
+         "selectCondition": "اختر الحالة",
+         "datePlaceholder": "يوم / شهر / سنة",
+         "notesPlaceholder": "أضف ملاحظات",
+         "confirmButton": "تعيين الأصل",
+         "cancelButton": "إلغاء"
+      },
+      "addWizard": {
+         "title": "إضافة أصل",
+         "back": "رجوع",
+         "continue": "متابعة",
+         "save": "حفظ",
+         "assetInformation": {
+            "title": "معلومات الأصل",
+            "description": "التفاصيل الأساسية المطلوبة لإنشاء ملف الأصل.",
+            "uploadImage": "رفع صورة",
+            "imageRequirements": "الحد الأدنى 400x400 بكسل، PNG أو JPEG",
+            "upload": "رفع",
+            "assetName": "اسم الأصل",
+            "assetNamePlaceholder": "أدخل اسم الأصل",
+            "category": "الفئة",
+            "selectCategory": "اختر الفئة",
+            "serialNumber": "الرقم التسلسلي",
+            "serialNumberPlaceholder": "أدخل الرقم التسلسلي",
+            "condition": "الحالة",
+            "selectCondition": "اختر الحالة"
+         },
+         "review": {
+            "title": "مراجعة",
+            "description": "تحقق من ملخص هذا الأصل وقم بتحديث أي شيء إذا لزم الأمر.",
+            "assetInformation": "معلومات الأصل",
+            "edit": "تعديل",
+            "image": "الصورة"
+         },
+         "validation": {
+            "nameRequired": "اسم الأصل مطلوب",
+            "nameMin": "يجب أن يكون اسم الأصل حرفين على الأقل",
+            "nameMax": "يجب أن يكون اسم الأصل أقل من 50 حرفًا",
+            "categoryRequired": "الفئة مطلوبة",
+            "serialRequired": "الرقم التسلسلي مطلوب",
+            "conditionRequired": "الحالة مطلوبة",
+            "imageRequired": "صورة الأصل مطلوبة"
+         }
+      },
+      "emptyState": {
+         "title": "لا توجد أصول بعد",
+         "description": "ابدأ بإضافة أول أصل لك لتتبع وإدارة موارد الشركة."
+      },
+      "categories": {
+         "laptop": "حاسوب محمول",
+         "mobile": "جوال",
+         "tablet": "جهاز لوحي",
+         "monitor": "شاشة",
+         "keyboard": "لوحة مفاتيح",
+         "mouse": "فأرة",
+         "other": "أخرى"
+      },
+      "statuses": {
+         "available": "متاح",
+         "assigned": "مُعيَّن",
+         "maintenance": "صيانة",
+         "retired": "متقاعد"
+      },
+      "category": "الفئة",
+      "selectCategory": "اختر الفئة",
+      "status": "الحالة",
+      "selectStatus": "اختر الحالة",
+      "assignedTo": "مُعيَّن إلى",
+      "selectEmployee": "اختر الموظف"
+   },
+   "validation": {
+      "required": "هذا الحقل مطلوب",
+      "minValue": "يجب أن تكون القيمة على الأقل {{min}}",
+      "maxValue": "يجب ألا تتجاوز القيمة {{max}}",
+      "email": "يرجى إدخال بريد إلكتروني صالح",
+      "minLength": "يجب أن يكون النص {{min}} حرفًا على الأقل",
+      "maxLength": "يجب أن يكون النص أقل من {{max}} حرفًا",
+      "passwordLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+      "passwordMatch": "كلمات المرور غير متطابقة"
+   },
+   "serviceCatalog": {
+      "description": "يجب كتابة شيء هنا عن الأشخاص والوصول",
+      "validation": {
+         "codeFormat": "يجب أن يتبع الكود التنسيق: XXX-000 (مثال، DEP-001)"
+      },
+      "validationSummary": {
+         "title": "يرجى تصحيح الحقول المميزة",
+         "description": "تم تمييز الحقول الناقصة أو غير الصحيحة أدناه."
+      },
+      "searchPlaceholder": {
+         "departments": "البحث عن القسم...",
+         "categories": "البحث عن الفئة...",
+         "services": "البحث عن الخدمة..."
+      },
+      "filter": "تصفية",
+      "filterTitle": "تصفية",
+      "resetAll": "إعادة تعيين الكل",
+      "reset": "إعادة تعيين",
+      "cancel": "إلغاء",
+      "apply": "تطبيق",
+      "selectStatus": "اختر الحالة",
+      "selectCategory": "اختر الفئة",
+      "loading": "جاري تحميل الأقسام...",
+      "categories": {
+         "loading": "جاري تحميل الفئات..."
+      },
+      "services": {
+         "loading": "جاري تحميل الخدمات..."
+      },
+      "sortBy": "ترتيب حسب",
+      "sortOptions": {
+         "nameAsc": "الاسم (أ-ي)",
+         "nameDesc": "الاسم (ي-أ)",
+         "newest": "الأحدث أولاً",
+         "oldest": "الأقدم أولاً"
+      },
+      "tabs": {
+         "departments": "الأقسام",
+         "categories": "الفئات",
+         "services": "الخدمات"
+      },
+      "addButton": {
+         "departments": "إضافة قسم",
+         "categories": "إضافة فئة",
+         "services": "إضافة خدمة"
+      },
+      "table": {
+         "departmentId": "القسم - الرقم التعريفي",
+         "departmentName": "اسم القسم (EN)",
+         "categoryId": "الفئة - الرقم التعريفي",
+         "categoryNameEn": "اسم الفئة (EN)",
+         "department": "القسم",
+         "serviceId": "الخدمة - الرقم التعريفي",
+         "serviceName": "اسم الخدمة",
+         "category": "الفئة",
+         "serviceCharge": "رسوم الخدمة",
+         "govFees": "الرسوم الحكومية",
+         "vat": "قيمة ضريبة القيمة المضافة",
+         "vatPercentage": "نسبة ضريبة القيمة المضافة %",
+         "status": "الحالة",
+         "noResults": "لم يتم العثور على نتائج"
+      },
+      "status": {
+         "active": "نشط",
+         "inactive": "غير نشط"
+      },
+      "selected": "{{count}} محدد",
+      "departmentsSelected": "الأقسام المحددة",
+      "deleteDepartment": "حذف القسم",
+      "deleteDepartments": "حذف الأقسام",
+      "editDepartment": "تعديل القسم",
+      "categoriesSelected": "الفئات المحددة",
+      "deleteCategory": "حذف الفئة",
+      "deleteCategories": "حذف الفئات",
+      "editCategory": "تعديل الفئة",
+      "actions": {
+         "edit": "تعديل",
+         "delete": "حذف",
+         "more": "المزيد من الخيارات"
+      },
+      "pagination": {
+         "page": "صفحة",
+         "of": "من",
+         "perPage": "لكل صفحة",
+         "pageInfo": "صفحة {{current}} من {{total}}"
+      },
+      "modal": {
+         "addDepartmentTitle": "إضافة قسم",
+         "addDepartmentSuccess": "تمت إضافة القسم بنجاح!",
+         "updateDepartmentSuccess": "تم تحديث القسم بنجاح!",
+         "addDepartmentSuccessShort": "تمت الإضافة!",
+         "addDepartmentError": "فشل في إضافة القسم. يرجى المحاولة مرة أخرى.",
+         "departmentCode": "كود القسم",
+         "departmentCodePlaceholder": "أدخل كود القسم (مثال، DEP-001)",
+         "departmentNameEn": "اسم القسم (EN)",
+         "departmentNameEnPlaceholder": "أدخل اسم القسم بالإنجليزية",
+         "departmentNameAr": "اسم القسم (AR)",
+         "departmentNameArPlaceholder": "أدخل اسم القسم بالعربية",
+         "addCategoryTitle": "إضافة فئة",
+         "addCategorySuccess": "تمت إضافة الفئة بنجاح!",
+         "updateCategorySuccess": "تم تحديث الفئة بنجاح!",
+         "addCategorySuccessShort": "تمت الإضافة!",
+         "addCategoryError": "فشل في إضافة الفئة. يرجى المحاولة مرة أخرى.",
+         "categoryCode": "كود الفئة",
+         "categoryCodePlaceholder": "أدخل كود الفئة (مثال، CAT-001)",
+         "categoryNameEn": "اسم الفئة (EN)",
+         "categoryNameEnPlaceholder": "أدخل اسم الفئة بالإنجليزية",
+         "categoryNameAr": "اسم الفئة (AR)",
+         "categoryNameArPlaceholder": "أدخل اسم الفئة بالعربية",
+         "addServiceTitle": "إضافة خدمة",
+         "addServiceSuccess": "تمت إضافة الخدمة بنجاح!",
+         "updateServiceSuccess": "تم تحديث الخدمة بنجاح!",
+         "addServiceSuccessShort": "تمت الإضافة!",
+         "addServiceError": "فشل في إضافة الخدمة. يرجى المحاولة مرة أخرى.",
+         "serviceNameEn": "اسم الخدمة (EN)",
+         "serviceNameEnPlaceholder": "أدخل اسم الخدمة بالإنجليزية",
+         "serviceNameAr": "اسم الخدمة (AR)",
+         "serviceNameArPlaceholder": "أدخل اسم الخدمة بالعربية",
+         "department": "القسم",
+         "departmentPlaceholder": "اختر القسم",
+         "category": "الفئة",
+         "categoryPlaceholder": "اختر الفئة",
+         "serviceCharge": "رسوم الخدمة",
+         "serviceChargePlaceholder": "أدخل رسوم الخدمة",
+         "govFees": "الرسوم الحكومية",
+         "govFeesPlaceholder": "أدخل الرسوم الحكومية",
+         "vat": "قيمة ضريبة القيمة المضافة",
+         "vatPlaceholder": "أدخل قيمة ضريبة القيمة المضافة",
+         "vatPercentage": "نسبة ضريبة القيمة المضافة",
+         "vatPercentagePlaceholder": "أدخل نسبة ضريبة القيمة المضافة",
+         "status": "الحالة",
+         "statusPlaceholder": "اختر الحالة",
+         "cancel": "إلغاء",
+         "addDepartmentButton": "إضافة قسم",
+         "addCategoryButton": "إضافة فئة",
+         "addServiceButton": "إضافة خدمة",
+         "deleteDepartmentTitle": "حذف القسم؟",
+         "deleteDepartmentDescription": "سيتم حذف القسم نهائيًا، وسيفقد جميع المستخدمين المرتبطين به صلاحياتهم. يرجى ملاحظة أن هذا الإجراء لا رجعة فيه.",
+         "deleteDepartmentButton": "حذف القسم",
+         "deleteDepartmentSuccess": "تم حذف القسم بنجاح",
+         "deleteDepartmentsSuccess": "تم حذف الأقسام بنجاح",
+         "deleteDepartmentError": "فشل حذف القسم",
+         "deleteCategoryTitle": "حذف الفئة؟",
+         "deleteCategoryDescription": "سيتم إزالة الفئة نهائيًا. سيتم إعادة تعيين جميع الإعدادات والتفضيلات المرتبطة بها إلى الوضع الافتراضي. لا يمكن التراجع عن هذا الإجراء.",
+         "deleteCategoryButton": "حذف الفئة",
+         "deleteCategorySuccess": "تم حذف الفئة بنجاح",
+         "deleteCategoriesSuccess": "تم حذف الفئات بنجاح",
+         "deleteCategoryError": "فشل حذف الفئة",
+         "deleteServiceTitle": "حذف الخدمة؟",
+         "deleteServiceDescription": "سيتم إزالة الخدمة نهائيًا. سيتم إعادة تعيين جميع الإعدادات والتفضيلات المرتبطة بها إلى الوضع الافتراضي. لا يمكن التراجع عن هذا الإجراء.",
+         "deleteServiceButton": "حذف الخدمة",
+         "deleteServiceSuccess": "تم حذف الخدمة بنجاح",
+         "deleteServicesSuccess": "تم حذف الخدمات بنجاح",
+         "deleteServiceError": "فشل حذف الخدمة"
+      },
+      "floatingBar": {
+         "selectedCount": "{{count}} محدد",
+         "editDepartment": "تعديل القسم",
+         "deleteDepartment": "حذف القسم",
+         "deleteDepartments": "حذف الأقسام",
+         "editCategory": "تعديل الفئة",
+         "deleteCategory": "حذف الفئة",
+         "deleteCategories": "حذف الفئات",
+         "editService": "تعديل الخدمة",
+         "deleteService": "حذف الخدمة",
+         "deleteServices": "حذف الخدمات",
+         "servicesSelected": "الخدمات المحددة"
+      },
+      "dependency": {
+         "cannotDelete": "لا يمكن الحذف - يحتوي على تبعيات",
+         "category": "فئة",
+         "categories": "فئات",
+         "service": "خدمة",
+         "services": "خدمات"
+      }
+   },
+   "voucherTypes": {
+      "title": "أنواع القسائم",
+      "description": "يجب كتابة شيء هنا عن الأشخاص والوصول",
+      "searchPlaceholder": "البحث عن النوع...",
+      "filter": "تصفية",
+      "filterTitle": "تصفية",
+      "resetAll": "إعادة تعيين الكل",
+      "reset": "إعادة تعيين",
+      "cancel": "إلغاء",
+      "apply": "تطبيق",
+      "selectStatus": "اختر الحالة",
+      "loading": "جاري تحميل أنواع القسائم...",
+      "sortBy": "ترتيب حسب",
+      "addButton": "إضافة نوع قسيمة",
+      "sortOptions": {
+         "nameAsc": "الاسم (أ-ي)",
+         "nameDesc": "الاسم (ي-أ)",
+         "newest": "الأحدث أولاً",
+         "oldest": "الأقدم أولاً"
+      },
+      "table": {
+         "name": "اسم نوع القسيمة",
+         "direction": "الاتجاه",
+         "description": "الوصف",
+         "status": "الحالة"
+      },
+      "direction": {
+         "to": "إلى (المستلم)",
+         "from": "من (المصدر)",
+         "both": "كلاهما"
+      },
+      "status": {
+         "active": "نشط",
+         "inactive": "غير نشط",
+         "fullyPaid": "مدفوع بالكامل"
+      },
+      "actions": {
+         "label": "الإجراءات",
+         "edit": "تعديل نوع القسيمة",
+         "delete": "حذف نوع القسيمة"
+      },
+      "floatingBar": {
+         "selected": "أنواع القسائم المحددة",
+         "edit": "تعديل نوع القسيمة",
+         "delete": "حذف نوع القسيمة",
+         "deleteMultiple": "حذف أنواع القسائم"
+      },
+      "modal": {
+         "title": "إضافة نوع قسيمة",
+         "name": "اسم نوع القسيمة",
+         "namePlaceholder": "أدخل اسم نوع القسيمة",
+         "direction": "الاتجاه",
+         "directionPlaceholder": "اختر الاتجاه",
+         "description": "الوصف",
+         "descriptionPlaceholder": "أدخل الوصف",
+         "status": "الحالة",
+         "statusPlaceholder": "اختر الحالة",
+         "cancel": "إلغاء",
+         "addButton": "إضافة نوع قسيمة",
+         "editTitle": "تعديل نوع القسيمة",
+         "updateButton": "تحديث نوع القسيمة"
+      },
+      "deleteModal": {
+         "title": "حذف نوع القسيمة؟",
+         "message": "سيتم حذف نوع القسيمة بشكل دائم من حسابك. سيؤدي هذا الإجراء أيضًا إلى إزالة جميع البيانات المرتبطة ولا يمكن التراجع عنه.",
+         "confirmButton": "حذف نوع القسيمة",
+         "cancelButton": "إلغاء"
+      },
+      "toast": {
+         "deleteSuccess": "تم حذف نوع القسيمة بنجاح",
+         "deleteMultipleSuccess": "تم حذف أنواع القسائم بنجاح",
+         "deleteError": "فشل حذف نوع القسيمة",
+         "createSuccess": "تم إضافة نوع القسيمة بنجاح",
+         "updateSuccess": "تم تحديث نوع القسيمة بنجاح",
+         "saveError": "فشل حفظ نوع القسيمة"
+      }
+   },
+   "vouchers": {
+      "title": "القسائم",
+      "loading": "جاري تحميل القسائم...",
+      "errorLoading": "فشل تحميل القسائم",
+      "tabs": {
+         "payment": "قسائم الدفع",
+         "receipt": "قسائم الاستلام"
+      },
+      "searchPlaceholder": "البحث عن قسيمة الدفع...",
+      "filter": "تصفية",
+      "filterTitle": "تصفية",
+      "resetAll": "إعادة تعيين الكل",
+      "reset": "إعادة تعيين",
+      "sortBy": "ترتيب حسب",
+      "addPayment": "إضافة دفعة",
+      "addReceipt": "إضافة استلام",
+      "sortOptions": {
+         "dateCreated": "تاريخ الإنشاء",
+         "lastUpdated": "آخر تحديث",
+         "amountHigh": "المبلغ (من الأعلى إلى الأدنى)",
+         "amountLow": "المبلغ (من الأدنى إلى الأعلى)"
+      },
+      "table": {
+         "paymentCode": "رمز الدفع",
+         "from": "من",
+         "to": "إلى",
+         "dateCreated": "تاريخ الإنشاء",
+         "amount": "المبلغ",
+         "status": "الحالة"
+      },
+      "status": {
+         "active": "نشط",
+         "inactive": "غير نشط",
+         "approved": "موافق عليه",
+         "draft": "مسودة",
+         "pendingApproval": "بانتظار الموافقة",
+         "cancelled": "ملغي"
+      },
+      "statuses": {
+         "active": "نشط",
+         "inactive": "غير نشط",
+         "approved": "موافق عليه",
+         "draft": "مسودة",
+         "pendingApproval": "بانتظار الموافقة",
+         "cancelled": "ملغي",
+         "rejected": "مرفوض"
+      },
+      "filters": {
+         "from": "من",
+         "to": "إلى",
+         "fromAccount": "من الحساب",
+         "toAccount": "إلى الحساب",
+         "fromCustomer": "من العميل",
+         "toCustomer": "إلى العميل",
+         "fromAgent": "من الوكيل",
+         "toAgent": "إلى الوكيل",
+         "selectAccount": "اختر الحساب",
+         "selectCustomer": "اختر العميل",
+         "selectAgent": "اختر الوكيل",
+         "status": "الحالة",
+         "selectStatus": "اختر الحالة",
+         "dateRange": "نطاق التاريخ",
+         "startDate": "تاريخ البداية",
+         "endDate": "تاريخ النهاية",
+         "amountRange": "نطاق المبلغ",
+         "minAmount": "الحد الأدنى",
+         "maxAmount": "الحد الأقصى",
+         "enterMinAmount": "أدخل الحد الأدنى",
+         "enterMaxAmount": "أدخل الحد الأقصى"
+      },
+      "actions": {
+         "viewDetails": "عرض التفاصيل",
+         "edit": "تعديل",
+         "delete": "حذف",
+         "approve": "الموافقة على القسيمة"
+      },
+      "modal": {
+         "addTitle": "إضافة قسيمة دفع",
+         "editTitle": "تعديل قسيمة الدفع",
+         "voucherDetails": "تفاصيل القسيمة",
+         "paymentCode": "رمز الدفع",
+         "paymentCodePlaceholder": "Invoice-98234",
+         "amount": "المبلغ",
+         "amountPlaceholder": "0.00",
+         "from": "من",
+         "fromPlaceholder": "Global Mail Services",
+         "to": "إلى",
+         "toPlaceholder": "Global Mail Services",
+         "dateCreated": "تاريخ الإنشاء",
+         "status": "الحالة",
+         "cancel": "إلغاء",
+         "save": "حفظ القسيمة",
+         "update": "تحديث القسيمة"
+      },
+      "details": {
+         "title": "تفاصيل القسيمة",
+         "print": "طباعة",
+         "paymentCode": "رمز الدفع",
+         "from": "من",
+         "to": "إلى",
+         "amount": "المبلغ",
+         "totalAmount": "المبلغ الإجمالي",
+         "dateCreated": "تاريخ الإنشاء",
+         "type": "النوع",
+         "paymentVoucher": "قسيمة دفع",
+         "receiptVoucher": "قسيمة استلام",
+         "expenseType": "نوع المصروف",
+         "incomeType": "نوع الدخل",
+         "paymentMethod": "طريقة الدفع",
+         "referenceNumber": "رقم المرجع",
+         "bankName": "اسم البنك",
+         "transactionDetails": "تفاصيل المعاملة",
+         "customerName": "اسم العميل",
+         "dueDate": "تاريخ الاستحقاق",
+         "commission": "العمولة",
+         "tax": "الضريبة",
+         "remarks": "ملاحظات",
+         "linkedInvoices": "الفواتير المرتبطة",
+         "invoiceNumber": "رقم الفاتورة",
+         "pending": "معلق",
+         "pay": "دفع"
+      },
+      "deleteModal": {
+         "title": "حذف القسيمة؟",
+         "message": "هل أنت متأكد من حذف هذه القسيمة؟ لا يمكن التراجع عن هذا الإجراء.",
+         "confirmButton": "حذف القسيمة",
+         "cancelButton": "إلغاء"
+      },
+      "errorModal": {
+         "title": "خطأ",
+         "okButton": "موافق"
+      }
+   },
+   "prettyCashNames": {
+      "title": "أسماء النثريات",
+      "description": "إدارة أسماء النثريات وأرصدتها.",
+      "searchPlaceholder": "البحث عن الاسم...",
+      "filter": "تصفية",
+      "filterTitle": "تصفية",
+      "resetAll": "إعادة تعيين الكل",
+      "reset": "إعادة تعيين",
+      "cancel": "إلغاء",
+      "apply": "تطبيق",
+      "selectStatus": "اختر الحالة",
+      "loading": "جاري تحميل أسماء النثريات...",
+      "sortBy": "ترتيب حسب",
+      "addButton": "إضافة اسم نثرية",
+      "sortOptions": {
+         "nameAsc": "الاسم (أ-ي)",
+         "nameDesc": "الاسم (ي-أ)",
+         "statusActive": "النشط أولاً",
+         "statusInactive": "غير النشط أولاً",
+         "newest": "الأحدث أولاً",
+         "oldest": "الأقدم أولاً"
+      },
+      "table": {
+         "name": "اسم النثرية",
+         "balance": "الرصيد",
+         "status": "الحالة"
+      },
+      "status": {
+         "active": "نشط",
+         "inactive": "غير نشط",
+         "fullyPaid": "مدفوع بالكامل"
+      },
+      "actions": {
+         "label": "الإجراءات",
+         "edit": "تعديل اسم النثرية",
+         "delete": "حذف اسم النثرية",
+         "viewHistory": "عرض السجل",
+         "exportHistory": "تصدير السجل"
+      },
+      "history": {
+         "title": "سجل الحساب",
+         "loading": "جاري تحميل السجل...",
+         "tabs": {
+            "incoming": "الوارد",
+            "outgoing": "الصادر",
+            "transactions": "المعاملات",
+            "activityLogs": "سجل النشاط"
+         },
+         "filters": {
+            "from": "من",
+            "to": "إلى",
+            "selectDate": "اختر التاريخ",
+            "reset": "إعادة تعيين الفلاتر"
+         },
+         "sourceTypes": {
+            "allSources": "جميع المصادر",
+            "paymentVoucher": "سند صرف",
+            "receiptVoucher": "سند قبض",
+            "invoicePayment": "دفعة فاتورة"
+         },
+         "columns": {
+            "date": "التاريخ",
+            "source": "المصدر",
+            "description": "الوصف",
+            "amount": "المبلغ",
+            "type": "النوع"
+         },
+         "empty": {
+            "incoming": "لا توجد معاملات واردة",
+            "outgoing": "لا توجد معاملات صادرة",
+            "transactions": "لا توجد معاملات",
+            "logs": "لم يتم تسجيل أي نشاط بعد"
+         },
+         "export": {
+            "success": "تم تصدير السجل بنجاح",
+            "error": "فشل تصدير السجل"
+         }
+      },
+      "floatingBar": {
+         "selected": "أسماء النثريات المحددة",
+         "edit": "تعديل اسم النثرية",
+         "delete": "حذف اسم النثرية",
+         "deleteMultiple": "حذف أسماء النثريات"
+      },
+      "modal": {
+         "title": "إضافة اسم نثرية",
+         "name": "اسم النثرية",
+         "namePlaceholder": "أدخل اسم النثرية",
+         "balance": "الرصيد",
+         "balancePlaceholder": "أدخل الرصيد",
+         "status": "الحالة",
+         "statusPlaceholder": "اختر الحالة",
+         "cancel": "إلغاء",
+         "addButton": "إضافة اسم نثرية",
+         "editTitle": "تعديل اسم النثرية",
+         "updateButton": "تحديث اسم النثرية"
+      },
+      "deleteModal": {
+         "title": "حذف اسم النثرية؟",
+         "message": "سيتم حذف اسم النثرية بشكل دائم من حسابك. سيؤدي هذا الإجراء أيضًا إلى إزالة جميع البيانات المرتبطة ولا يمكن التراجع عنه.",
+         "confirmButton": "حذف اسم النثرية",
+         "cancelButton": "إلغاء"
+      },
+      "toast": {
+         "deleteSuccess": "تم حذف اسم النثرية بنجاح",
+         "deleteMultipleSuccess": "تم حذف أسماء النثريات بنجاح",
+         "deleteError": "فشل حذف اسم النثرية",
+         "createSuccess": "تم إضافة اسم النثرية بنجاح",
+         "updateSuccess": "تم تحديث اسم النثرية بنجاح",
+         "saveError": "فشل حفظ اسم النثرية"
+      }
+   },
+   "expenseTypes": {
+      "title": "أنواع المصروفات",
+      "description": "يجب كتابة شيء هنا عن الأشخاص والوصول",
+      "searchPlaceholder": "البحث عن نوع المصروف...",
+      "filter": "تصفية",
+      "filterTitle": "تصفية",
+      "resetAll": "إعادة تعيين الكل",
+      "reset": "إعادة تعيين",
+      "cancel": "إلغاء",
+      "apply": "تطبيق",
+      "selectStatus": "اختر الحالة",
+      "loading": "جاري تحميل أنواع المصروفات...",
+      "sortBy": "ترتيب حسب",
+      "addButton": "إضافة نوع مصروف",
+      "sortOptions": {
+         "nameAsc": "الاسم (أ-ي)",
+         "nameDesc": "الاسم (ي-أ)",
+         "statusActive": "النشط أولاً",
+         "statusInactive": "غير النشط أولاً",
+         "newest": "الأحدث أولاً",
+         "oldest": "الأقدم أولاً"
+      },
+      "table": {
+         "name": "اسم نوع المصروف",
+         "description": "الوصف",
+         "status": "الحالة",
+         "noDescription": "لا يوجد وصف"
+      },
+      "status": {
+         "active": "نشط",
+         "inactive": "غير نشط"
+      },
+      "actions": {
+         "label": "الإجراءات",
+         "edit": "تعديل نوع المصروف",
+         "delete": "حذف نوع المصروف"
+      },
+      "floatingBar": {
+         "selected": "أنواع المصروفات المحددة",
+         "edit": "تعديل نوع المصروف",
+         "delete": "حذف نوع المصروف",
+         "deleteMultiple": "حذف أنواع المصروفات"
+      },
+      "modal": {
+         "title": "إضافة نوع مصروف",
+         "name": "اسم نوع المصروف",
+         "namePlaceholder": "أدخل اسم نوع المصروف",
+         "category": "الفئة",
+         "categoryPlaceholder": "أدخل الفئة",
+         "description": "الوصف",
+         "descriptionPlaceholder": "أدخل الوصف",
+         "status": "الحالة",
+         "statusPlaceholder": "اختر الحالة",
+         "cancel": "إلغاء",
+         "addButton": "إضافة نوع مصروف",
+         "editTitle": "تعديل نوع المصروف",
+         "updateButton": "تحديث نوع المصروف"
+      },
+      "deleteModal": {
+         "title": "حذف نوع المصروف؟",
+         "description": "هل أنت متأكد أنك تريد حذف نوع المصروف هذا؟ لا يمكن التراجع عن هذا الإجراء.",
+         "confirmButton": "حذف نوع المصروف"
+      },
+      "selected": "تم تحديد {{count}} نوع مصروف",
+      "toast": {
+         "deleteSuccess": "تم حذف نوع المصروف بنجاح",
+         "deleteMultipleSuccess": "تم حذف أنواع المصروفات بنجاح",
+         "deleteError": "فشل حذف نوع المصروف",
+         "createSuccess": "تم إضافة نوع المصروف بنجاح",
+         "updateSuccess": "تم تحديث نوع المصروف بنجاح",
+         "saveError": "فشل حفظ نوع المصروف"
+      }
+   },
+   "invoiceProfiles": {
+      "description": "إدارة ملفات الفواتير للعملاء والوكلاء. إضافة وتعديل وتنظيم معلومات الاتصال وتفاصيل الفوترة.",
+      "tabs": {
+         "customers": "العملاء",
+         "agents": "الوكلاء"
+      },
+      "searchPlaceholder": {
+         "customers": "البحث عن العملاء...",
+         "agents": "البحث عن الوكلاء..."
+      },
+      "filter": "تصفية",
+      "sortBy": "ترتيب حسب",
+      "sortOptions": {
+         "nameAsc": "الاسم (أ-ي)",
+         "nameDesc": "الاسم (ي-أ)",
+         "newest": "الأحدث أولاً",
+         "oldest": "الأقدم أولاً"
+      },
+      "addButton": {
+         "customers": "إضافة عميل",
+         "agents": "إضافة وكيل"
+      },
+      "customers": {
+         "filter": "تصفية",
+         "filterTitle": "تصفية",
+         "resetAll": "إعادة تعيين الكل",
+         "reset": "إعادة تعيين",
+         "cancel": "إلغاء",
+         "apply": "تطبيق",
+         "selectStatus": "اختر الحالة",
+         "loading": "جارٍ تحميل العملاء...",
+         "sortBy": "ترتيب حسب",
+         "table": {
+            "status": "الحالة"
+         },
+         "status": {
+            "active": "نشط",
+            "inactive": "غير نشط"
+         }
+      },
+      "agents": {
+         "filter": "تصفية",
+         "filterTitle": "تصفية",
+         "resetAll": "إعادة تعيين الكل",
+         "reset": "إعادة تعيين",
+         "cancel": "إلغاء",
+         "apply": "تطبيق",
+         "selectStatus": "اختر الحالة",
+         "loading": "جارٍ تحميل الوكلاء...",
+         "sortBy": "ترتيب حسب",
+         "table": {
+            "status": "الحالة"
+         },
+         "status": {
+            "active": "نشط",
+            "inactive": "غير نشط"
+         }
+      },
+      "status": {
+         "active": "نشط",
+         "inactive": "غير نشط"
+      },
+      "selected": "محدد",
+      "customersSelected": "العملاء المحددون",
+      "agentsSelected": "الوكلاء المحددون",
+      "deleteCustomer": "حذف العميل",
+      "deleteCustomers": "حذف العملاء",
+      "editCustomer": "تعديل العميل",
+      "deleteAgent": "حذف الوكيل",
+      "deleteAgents": "حذف الوكلاء",
+      "editAgent": "تعديل الوكيل",
+      "actions": {
+         "label": "الإجراءات",
+         "edit": "تعديل",
+         "delete": "حذف"
+      },
+      "table": {
+         "customerName": "اسم العميل",
+         "agentName": "اسم الوكيل",
+         "agentCode": "رمز الوكيل",
+         "type": "النوع",
+         "trnId": "الرقم الضريبي/الهوية",
+         "contactNumber": "رقم الاتصال",
+         "email": "البريد الإلكتروني",
+         "status": "الحالة",
+         "noResults": "لم يتم العثور على نتائج"
+      },
+      "pagination": {
+         "page": "صفحة",
+         "of": "من"
+      },
+      "modal": {
+         "addCustomerTitle": "إضافة عميل",
+         "customerName": "اسم العميل",
+         "customerNamePlaceholder": "أدخل اسم العميل",
+         "type": "النوع",
+         "typePlaceholder": "اختر نوع العميل",
+         "typeIndividual": "فرد",
+         "typeCompany": "شركة",
+         "trnId": "الرقم الضريبي/الهوية",
+         "trnIdPlaceholder": "أدخل الرقم الضريبي/رقم الهوية",
+         "contactNumber": "رقم الاتصال",
+         "contactNumberPlaceholder": "(555) 000-0000",
+         "emailAddress": "عنوان البريد الإلكتروني",
+         "emailAddressPlaceholder": "hello@alignui.com",
+         "status": "الحالة",
+         "statusPlaceholder": "اختر الحالة",
+         "cancel": "إلغاء",
+         "addCustomerButton": "إضافة عميل",
+         "editCustomerTitle": "تعديل العميل",
+         "updateCustomerButton": "تحديث العميل",
+         "addAgentTitle": "إضافة وكيل",
+         "agentName": "اسم الوكيل",
+         "agentNamePlaceholder": "أدخل اسم الوكيل",
+         "agentNumber": "رقم الوكيل",
+         "agentNumberPlaceholder": "أدخل رقم الوكيل (مثل: AGT-2201)",
+         "address": "العنوان",
+         "addressPlaceholder": "أدخل العنوان",
+         "notes": "ملاحظات",
+         "notesPlaceholder": "أضف ملاحظات",
+         "addAgentButton": "إضافة وكيل",
+         "editAgentTitle": "تعديل الوكيل",
+         "updateAgentButton": "تحديث الوكيل"
+      },
+      "deleteModal": {
+         "customers": {
+            "singleTitle": "حذف العميل؟",
+            "multipleTitle": "حذف العملاء؟",
+            "singleDescription": "سيتم حذف هذا العميل نهائيًا. سيتم أيضًا إزالة أي سجلات مرتبطة ولا يمكن التراجع عن هذا الإجراء.",
+            "multipleDescription": "سيتم حذف العملاء المحددين نهائيًا. سيتم أيضًا إزالة أي سجلات مرتبطة ولا يمكن التراجع عن هذا الإجراء.",
+            "confirmSingle": "حذف العميل",
+            "confirmMultiple": "حذف العملاء",
+            "cancel": "إلغاء"
+         },
+         "agents": {
+            "singleTitle": "حذف الوكيل؟",
+            "multipleTitle": "حذف الوكلاء؟",
+            "singleDescription": "سيتم حذف هذا الوكيل نهائيًا. سيتم أيضًا إزالة أي سجلات مرتبطة ولا يمكن التراجع عن هذا الإجراء.",
+            "multipleDescription": "سيتم حذف الوكلاء المحددين نهائيًا. سيتم أيضًا إزالة أي سجلات مرتبطة ولا يمكن التراجع عن هذا الإجراء.",
+            "confirmSingle": "حذف الوكيل",
+            "confirmMultiple": "حذف الوكلاء",
+            "cancel": "إلغاء"
+         }
+      },
+      "toast": {
+         "customers": {
+            "deleteSuccess": "تم حذف {{name}} بنجاح",
+            "deleteMultipleSuccess": "تم حذف {{count}} من العملاء بنجاح",
+            "deleteError": "فشل حذف العميل",
+            "createSuccess": "تم إضافة {{name}} بنجاح",
+            "updateSuccess": "تم تحديث {{name}} بنجاح",
+            "saveError": "فشل حفظ العميل"
+         },
+         "agents": {
+            "deleteSuccess": "تم حذف {{name}} بنجاح",
+            "deleteMultipleSuccess": "تم حذف {{count}} من الوكلاء بنجاح",
+            "deleteError": "فشل حذف الوكيل",
+            "createSuccess": "تم إضافة {{name}} بنجاح",
+            "updateSuccess": "تم تحديث {{name}} بنجاح",
+            "saveError": "فشل حفظ الوكيل"
+         }
+      },
+      "dependency": {
+         "cannotDelete": "لا يمكن الحذف - توجد فواتير",
+         "invoice": "فاتورة",
+         "invoices": "فواتير",
+         "customerHasInvoices": "لا يمكن حذف العميل لوجود فواتير مرتبطة",
+         "agentHasInvoices": "لا يمكن حذف الوكيل لوجود فواتير مرتبطة"
+      }
+   },
+   "banks": {
+      "title": "البنوك",
+      "description": "إدارة حساباتك المصرفية وأرصدتها.",
+      "searchPlaceholder": "البحث في البنوك...",
+      "filter": "تصفية",
+      "filterTitle": "تصفية",
+      "resetAll": "إعادة تعيين الكل",
+      "reset": "إعادة تعيين",
+      "cancel": "إلغاء",
+      "apply": "تطبيق",
+      "selectStatus": "اختر الحالة",
+      "loading": "جاري تحميل البنوك...",
+      "sortBy": "ترتيب حسب",
+      "addButton": "إضافة بنك",
+      "sortOptions": {
+         "nameAsc": "الاسم (أ-ي)",
+         "nameDesc": "الاسم (ي-أ)",
+         "statusActive": "النشط أولاً",
+         "statusInactive": "غير النشط أولاً",
+         "newest": "الأحدث أولاً",
+         "oldest": "الأقدم أولاً"
+      },
+      "table": {
+         "name": "اسم البنك",
+         "shortCode": "الرمز المختصر",
+         "balance": "الرصيد",
+         "status": "الحالة"
+      },
+      "status": {
+         "active": "نشط",
+         "inactive": "غير نشط"
+      },
+      "actions": {
+         "label": "الإجراءات",
+         "edit": "تعديل البنك",
+         "delete": "حذف البنك",
+         "viewHistory": "عرض السجل",
+         "exportHistory": "تصدير السجل"
+      },
+      "history": {
+         "title": "سجل الحساب",
+         "loading": "جاري تحميل السجل...",
+         "tabs": {
+            "incoming": "الوارد",
+            "outgoing": "الصادر",
+            "transactions": "المعاملات",
+            "activityLogs": "سجل النشاط"
+         },
+         "filters": {
+            "from": "من",
+            "to": "إلى",
+            "selectDate": "اختر التاريخ",
+            "reset": "إعادة تعيين الفلاتر"
+         },
+         "sourceTypes": {
+            "allSources": "جميع المصادر",
+            "paymentVoucher": "سند صرف",
+            "receiptVoucher": "سند قبض",
+            "invoicePayment": "دفعة فاتورة"
+         },
+         "columns": {
+            "date": "التاريخ",
+            "source": "المصدر",
+            "description": "الوصف",
+            "amount": "المبلغ",
+            "type": "النوع"
+         },
+         "empty": {
+            "incoming": "لا توجد معاملات واردة",
+            "outgoing": "لا توجد معاملات صادرة",
+            "transactions": "لا توجد معاملات",
+            "logs": "لم يتم تسجيل أي نشاط بعد"
+         },
+         "export": {
+            "success": "تم تصدير السجل بنجاح",
+            "error": "فشل تصدير السجل"
+         }
+      },
+      "floatingBar": {
+         "selected": "البنوك المحددة",
+         "edit": "تعديل البنك",
+         "delete": "حذف البنك",
+         "deleteMultiple": "حذف البنوك"
+      },
+      "modal": {
+         "title": "إضافة بنك",
+         "name": "اسم البنك",
+         "namePlaceholder": "أدخل اسم البنك",
+         "shortCode": "الرمز المختصر",
+         "shortCodePlaceholder": "أدخل الرمز المختصر",
+         "balance": "الرصيد",
+         "balancePlaceholder": "أدخل الرصيد",
+         "status": "الحالة",
+         "statusPlaceholder": "اختر الحالة",
+         "cancel": "إلغاء",
+         "addButton": "إضافة بنك",
+         "editTitle": "تعديل البنك",
+         "updateButton": "تحديث البنك"
+      },
+      "deleteModal": {
+         "title": "حذف البنك؟",
+         "message": "سيتم حذف البنك بشكل دائم من حسابك. سيؤدي هذا الإجراء أيضًا إلى إزالة جميع البيانات المرتبطة ولا يمكن التراجع عنه.",
+         "confirmButton": "حذف البنك",
+         "cancelButton": "إلغاء"
+      },
+      "toast": {
+         "deleteSuccess": "تم حذف البنك بنجاح",
+         "deleteMultipleSuccess": "تم حذف البنوك بنجاح",
+         "deleteError": "فشل حذف البنك",
+         "createSuccess": "تم إضافة البنك بنجاح",
+         "updateSuccess": "تم تحديث البنك بنجاح",
+         "saveError": "فشل حفظ البنك"
+      }
+   },
+   "incomeTypes": {
+      "title": "أنواع الدخل",
+      "description": "إدارة أنواع الدخل الخاصة بك.",
+      "searchPlaceholder": "البحث عن أنواع الدخل...",
+      "sortBy": "ترتيب حسب",
+      "sortOptions": {
+         "nameAsc": "الاسم (أ-ي)",
+         "nameDesc": "الاسم (ي-أ)",
+         "newest": "الأحدث أولاً",
+         "oldest": "الأقدم أولاً"
+      },
+      "addButton": "إضافة نوع دخل",
+      "loading": "جاري تحميل أنواع الدخل...",
+      "table": {
+         "name": "اسم نوع الدخل",
+         "incomeCode": "رمز الدخل",
+         "glCode": "رمز GL"
+      },
+      "actions": {
+         "label": "الإجراءات",
+         "edit": "تعديل نوع الدخل",
+         "delete": "حذف نوع الدخل"
+      },
+      "floatingBar": {
+         "selected": "أنواع الدخل المحددة",
+         "edit": "تعديل نوع الدخل",
+         "delete": "حذف نوع الدخل",
+         "deleteMultiple": "حذف أنواع الدخل"
+      },
+      "modal": {
+         "title": "إضافة نوع دخل",
+         "name": "اسم نوع الدخل",
+         "namePlaceholder": "أدخل اسم نوع الدخل",
+         "glCode": "رمز GL",
+         "glCodePlaceholder": "أدخل رمز GL",
+         "cancel": "إلغاء",
+         "addButton": "إضافة نوع دخل",
+         "editTitle": "تعديل نوع الدخل",
+         "updateButton": "تحديث نوع الدخل"
+      },
+      "deleteModal": {
+         "title": "حذف نوع الدخل؟",
+         "message": "هل أنت متأكد أنك تريد حذف نوع الدخل هذا؟ لا يمكن التراجع عن هذا الإجراء.",
+         "confirm": "حذف",
+         "cancel": "إلغاء",
+         "deleting": "جاري الحذف..."
+      },
+      "toast": {
+         "deleteSuccess": "تم حذف نوع الدخل بنجاح",
+         "deleteMultipleSuccess": "تم حذف أنواع الدخل بنجاح",
+         "deleteError": "خطأ في حذف نوع الدخل",
+         "createSuccess": "تم إنشاء نوع الدخل بنجاح",
+         "updateSuccess": "تم تحديث نوع الدخل بنجاح",
+         "saveError": "خطأ في حفظ نوع الدخل"
+      }
+   },
+   "legalCases": {
+      "title": "القضايا والمشاكل القانونية",
+      "loading": "جاري تحميل القضايا...",
+      "searchPlaceholder": "البحث عن عنوان القضية، الرقم، أو الشخص...",
+      "filter": "تصفية",
+      "filterTitle": "تصفية القضايا",
+      "resetAll": "إعادة تعيين الكل",
+      "reset": "إعادة تعيين",
+      "selectStatus": "اختر الحالة",
+      "lawyer": "المحامي",
+      "selectLawyer": "اختر المحامي",
+      "dateRange": "نطاق التاريخ",
+      "dateFrom": "من",
+      "dateTo": "إلى",
+      "sortBy": "ترتيب حسب",
+      "addCase": "إضافة قضية",
+      "addNewCase": "إضافة قضية جديدة",
+      "noCasesFound": "لم يتم العثور على قضايا.",
+      "sortOptions": {
+         "dateCreated": "تاريخ الإنشاء",
+         "lastUpdated": "آخر تحديث",
+         "caseNumber": "رقم القضية",
+         "title": "العنوان"
+      },
+      "table": {
+         "caseNo": "رقم القضية",
+         "caseTitle": "عنوان القضية",
+         "type": "النوع",
+         "dateCreated": "تاريخ الإنشاء",
+         "lastUpdated": "آخر تحديث",
+         "status": "الحالة"
+      },
+      "status": {
+         "open": "مفتوحة",
+         "inProgress": "قيد التنفيذ",
+         "onHold": "معلقة",
+         "closed": "مغلقة",
+         "pending": "معلق",
+         "cancelled": "ملغاة",
+         "in_progress": "قيد التنفيذ"
+      },
+      "actions": {
+         "more": "المزيد",
+         "changeStatus": "تغيير الحالة",
+         "viewDetails": "عرض التفاصيل",
+         "editCase": "تعديل القضية",
+         "delete": "حذف"
+      },
+      "deleteModal": {
+         "title": "حذف القضية؟",
+         "message": "هل أنت متأكد من حذف هذه القضية؟ لا يمكن التراجع عن هذا الإجراء.",
+         "bulkTitle": "حذف القضايا؟",
+         "bulkMessage": "هل أنت متأكد من حذف {count} قضية؟ لا يمكن التراجع عن هذا الإجراء.",
+         "confirmButton": "حذف القضية",
+         "bulkConfirmButton": "حذف القضايا",
+         "cancelButton": "إلغاء"
+      },
+      "confirmDelete": {
+         "title": "حذف القضية؟",
+         "description": "هل أنت متأكد من حذف القضية {caseNumber}؟ لا يمكن التراجع عن هذا الإجراء.",
+         "confirmButton": "حذف القضية",
+         "cancelButton": "إلغاء"
+      },
+      "confirmBulkDelete": {
+         "title": "حذف القضايا؟",
+         "description": "هل أنت متأكد من حذف {count} قضية؟ لا يمكن التراجع عن هذا الإجراء.",
+         "confirmButton": "حذف القضايا",
+         "cancelButton": "إلغاء"
+      },
+      "toast": {
+         "deleteSuccess": "تم حذف القضية بنجاح",
+         "deleteError": "فشل حذف القضية",
+         "statusUpdateSuccess": "تم تحديث حالة القضية بنجاح",
+         "statusUpdateError": "فشل تحديث حالة القضية"
+      },
+      "closeCaseModal": {
+         "title": "إغلاق القضية؟",
+         "description": "هل أنت متأكد أنك تريد إغلاق القضية \"{{caseTitle}}\"؟ سيؤدي ذلك إلى وضع علامة على القضية كمغلقة.",
+         "confirm": "إغلاق القضية",
+         "cancel": "إلغاء"
+      },
+      "changeStatusModal": {
+         "title": "تغيير حالة القضية",
+         "description": "اختر حالة جديدة للقضية {{caseNumber}}.",
+         "fieldLabel": "الحالة",
+         "placeholder": "اختر الحالة",
+         "confirm": "تحديث الحالة"
+      },
+      "addCaseModal": {
+         "title": "إضافة قضية جديدة",
+         "editTitle": "تعديل القضية: {case}"
+      },
+      "addPeopleModal": {
+         "title": "إضافة أشخاص",
+         "cancel": "إلغاء",
+         "add": "إضافة",
+         "remove": "إزالة",
+         "searchPlaceholder": "ابحث بالاسم",
+         "suggested": "أشخاص مقترحون",
+         "noResults": "لم يتم العثور على أشخاص",
+         "emptyState": "اكتب للبحث عن أشخاص",
+         "currentUser": "أنت",
+         "rolePlaceholder": "اختر الدور",
+         "defaultRole": "موظف",
+         "validation": {
+            "required": "يرجى اختيار شخص واحد على الأقل"
+         }
+      },
+      "editEventModal": {
+         "modalTitle": "تعديل الحدث",
+         "title": "العنوان",
+         "titlePlaceholder": "عنوان الحدث",
+         "date": "التاريخ",
+         "description": "الوصف",
+         "descriptionPlaceholder": "أضف ملاحظات أو سياق"
+      },
+      "editSummaryModal": {
+         "title": "تعديل ملخص القضية",
+         "label": "ملخص القضية",
+         "placeholder": "أدخل ملخص القضية...",
+         "previousLabel": "الملخص السابق",
+         "addLabel": "إضافة إلى الملخص",
+         "addPlaceholder": "أدخل محتوى الملخص الإضافي...",
+         "cancel": "إلغاء",
+         "update": "تحديث",
+         "validation": {
+            "required": "ملخص القضية مطلوب"
+         }
+      },
+      "addDocumentModal": {
+         "title": "إضافة مستند",
+         "fileLabel": "المستند",
+         "eventLabel": "ربط بحدث",
+         "noEvent": "لا يوجد حدث"
+      },
+      "details": {
+         "back": "رجوع",
+         "closeCase": "إغلاق القضية",
+         "caseType": "نوع القضية",
+         "caseNumber": "رقم القضية/السنة",
+         "lawyerName": "اسم المحامي",
+         "client": "العميل",
+         "caseInformation": "معلومات القضية",
+         "documents": "المستندات",
+         "activityLog": "سجل النشاط",
+         "noActivity": "لم يتم تسجيل أي نشاط بعد.",
+         "peopleInvolved": "الأشخاص المشاركون",
+         "addPeople": "إضافة أشخاص",
+         "noPeopleAssigned": "لم يتم تعيين أي أشخاص بعد.",
+         "unknown": "غير معروف",
+         "searchDocument": "البحث في المستندات",
+         "filter": "تصفية",
+         "addDocuments": "إضافة مستندات",
+         "noDocumentsAvailable": "لا توجد مستندات متاحة",
+         "preview": "معاينة",
+         "download": "تحميل"
+      }
+   },
+   "invoices": {
+      "title": "الفواتير",
+      "tabs": {
+         "all": "الكل",
+         "draft": "مسودة",
+         "pending": "معلقة",
+         "partially_paid": "مدفوعة جزئياً",
+         "fully_paid": "مدفوعة بالكامل",
+         "cancelled": "ملغاة",
+         "void": "باطلة"
+      },
+      "searchPlaceholder": "البحث عن العميل أو رقم الفاتورة",
+      "filters": {
+         "filter": "تصفية",
+         "title": "تصفية الفواتير",
+         "resetAll": "إعادة تعيين الكل",
+         "reset": "إعادة تعيين",
+         "dateRange": "نطاق التاريخ",
+         "dateFrom": "من تاريخ",
+         "dateTo": "إلى تاريخ",
+         "customer": "العميل",
+         "selectCustomer": "اختر العميل",
+         "agent": "الوكيل",
+         "selectAgent": "اختر الوكيل",
+         "status": "الحالة",
+         "selectStatus": "اختر الحالة"
+      },
+      "export": {
+         "title": "تصدير الفواتير",
+         "dateRange": "نطاق التاريخ",
+         "dateFrom": "من تاريخ",
+         "dateTo": "إلى تاريخ",
+         "status": "الحالة",
+         "selectStatus": "اختر الحالة",
+         "allStatuses": "كل الحالات",
+         "formatLabel": "صيغة الملف",
+         "formatPlaceholder": "اختر الصيغة",
+         "formatExcel": "إكسل (.xlsx)",
+         "formatCsv": "CSV (.csv)",
+         "noData": "لا توجد فواتير مطابقة للتصفية المحددة",
+         "successExcel": "تم تنزيل ملف إكسل بنجاح",
+         "successCsv": "تم تنزيل ملف CSV بنجاح",
+         "error": "فشل تصدير الفواتير"
+      },
+      "filter": "تصفية",
+      "sortBy": "ترتيب حسب",
+      "addInvoice": "إضافة فاتورة",
+      "loadingInvoices": "جاري تحميل الفواتير...",
+      "loadingDetails": "جاري تحميل تفاصيل الفاتورة...",
+      "errorLoadingInvoices": "خطأ في تحميل الفواتير. يرجى المحاولة مرة أخرى.",
+      "sortOptions": {
+         "dateCreated": "تاريخ الإنشاء",
+         "lastUpdated": "آخر تحديث",
+         "amountHigh": "المبلغ (من الأعلى إلى الأدنى)",
+         "amountLow": "المبلغ (من الأدنى إلى الأعلى)"
+      },
+      "kpi": {
+         "totalInvoices": "إجمالي الفواتير",
+         "totalAmount": "المبلغ الإجمالي",
+         "totalDue": "إجمالي المستحق",
+         "paidInvoices": "الفواتير المدفوعة",
+         "pendingInvoices": "الفواتير المعلقة",
+         "draftInvoices": "فواتير المسودة"
+      },
+      "table": {
+         "invoiceNumber": "رقم الفاتورة",
+         "customer": "العميل",
+         "dateCreated": "تاريخ الإنشاء",
+         "lastUpdated": "آخر تحديث",
+         "amount": "المبلغ",
+         "status": "الحالة"
+      },
+      "status": {
+         "draft": "مسودة",
+         "pending": "معلقة",
+         "partiallyPaid": "مدفوعة جزئياً",
+         "fullyPaid": "مدفوعة بالكامل",
+         "cancelled": "ملغاة",
+         "void": "باطلة",
+         "refunded": "مستردة",
+         "overdue": "متأخرة"
+      },
+      "actions": {
+         "viewDetails": "عرض التفاصيل",
+         "editInvoice": "تعديل الفاتورة",
+         "voidInvoice": "إبطال الفاتورة",
+         "bulkPayment": "دفعة مجمعة",
+         "delete": "حذف"
+      },
+      "bulkPayment": {
+         "selectedLabel": "فواتير محددة"
+      },
+      "paymentMethods": {
+         "cash": "نقداً",
+         "bank_transfer": "تحويل بنكي",
+         "card": "بطاقة",
+         "cheque": "شيك"
+      },
+      "bulkPaymentModal": {
+         "title": "دفعة مجمعة",
+         "customerLabel": "العميل",
+         "customerFallback": "العميل المحدد",
+         "totalBalanceLabel": "إجمالي الرصيد المستحق",
+         "invoiceCountLabel": "فواتير",
+         "moreLabel": "المزيد",
+         "amountLabel": "مبلغ الدفع",
+         "amountPlaceholder": "أدخل المبلغ",
+         "overpayHint": "المبلغ يتجاوز إجمالي الرصيد المستحق.",
+         "paymentDateLabel": "تاريخ الدفع",
+         "paymentDatePlaceholder": "اختر التاريخ",
+         "paymentMethodLabel": "طريقة الدفع",
+         "paymentMethodPlaceholder": "اختر الطريقة",
+         "accountTypeLabel": "نوع الحساب",
+         "accountTypePlaceholder": "اختر نوع الحساب",
+         "accountLabelCash": "حساب نقدي",
+         "accountLabelBank": "حساب بنكي",
+         "accountPlaceholderCash": "اختر حساباً نقدياً",
+         "accountPlaceholderBank": "اختر حساباً بنكياً",
+         "referenceNumberLabel": "رقم المرجع",
+         "referenceNumberPlaceholder": "أدخل رقم المرجع",
+         "remarksLabel": "ملاحظات",
+         "remarksPlaceholder": "أضف ملاحظة",
+         "payFullAmount": "دفع كامل المبلغ",
+         "confirmTitle": "تأكيد الدفعة المجمعة؟",
+         "confirmDescription": "أنت على وشك تسجيل دفعة بقيمة {{amount}} على {{count}} فواتير.",
+         "confirmButton": "تسجيل الدفعة",
+         "errors": {
+            "noSelection": "يرجى اختيار فاتورة واحدة على الأقل لتطبيق دفعة مجمعة.",
+            "missingCustomer": "بعض الفواتير المحددة تفتقد معلومات العميل.",
+            "multiCustomer": "يجب تطبيق الدفعات المجمعة على فواتير عميل واحد فقط.",
+            "invalidStatus": "تتضمن الفواتير المحددة حالات لا يمكن استقبال المدفوعات عليها.",
+            "noValidInvoices": "لا توجد فواتير صالحة محددة للدفعة المجمعة.",
+            "unknownCustomer": "تعذر تحديد العميل للدفعة المجمعة."
+         }
+      },
+      "accountTypes": {
+         "cash": "نقداً",
+         "bank": "بنك"
+      },
+      "voidModal": {
+         "title": "إبطال الفاتورة",
+         "invoiceLabel": "الفاتورة",
+         "invoiceFallback": "الفاتورة المحددة",
+         "noteLabel": "ملاحظة",
+         "notePlaceholder": "اشرح سبب إبطال هذه الفاتورة.",
+         "noteCounter": "{{current}}/{{max}} حرفًا",
+         "confirmTitle": "إبطال هذه الفاتورة؟",
+         "confirmDescription": "لا يمكن التراجع عن هذا الإجراء. سيتم وضع الفاتورة كـ باطلة.",
+         "confirmButton": "إبطال الفاتورة",
+         "validation": {
+            "required": "الملاحظة مطلوبة لإبطال الفاتورة.",
+            "maxLength": "يجب ألا تزيد الملاحظة عن {{max}} حرفًا."
+         }
+      },
+      "deleteModal": {
+         "title": "حذف الفاتورة؟",
+         "message": "سيؤدي حذف الفاتورة إلى حذف جميع السجلات، مما يمنع المزيد من الإجراءات. قد يتم الاحتفاظ بملخص للمرجع.",
+         "confirmButton": "حذف الفاتورة",
+         "cancelButton": "إلغاء"
+      },
+      "toast": {
+         "createSuccess": "تم إنشاء الفاتورة بنجاح",
+         "updateSuccess": "تم تحديث الفاتورة بنجاح",
+         "deleteSuccess": "تم حذف الفاتورة بنجاح",
+         "saveError": "فشل حفظ الفاتورة",
+         "deleteError": "فشل حذف الفاتورة",
+         "voidSuccess": "تم إبطال الفاتورة بنجاح",
+         "voidError": "فشل إبطال الفاتورة",
+         "bulkPaymentSuccess": "تم تسجيل الدفعة المجمعة بنجاح",
+         "bulkPaymentError": "فشل تسجيل الدفعة المجمعة"
+      }
+   },
+   "loading": {
+      "general": "جاري التحميل...",
+      "assets": "جاري تحميل الأصول...",
+      "holidays": "جاري تحميل العطلات...",
+      "roles": "جاري تحميل الأدوار...",
+      "jobTitles": "جاري تحميل المسميات الوظيفية...",
+      "teams": "جاري تحميل الفرق...",
+      "shifts": "جاري تحميل الورديات...",
+      "employees": "جاري تحميل الموظفين...",
+      "services": "جاري تحميل الخدمات...",
+      "categories": "جاري تحميل الفئات...",
+      "departments": "جاري تحميل الأقسام..."
+   }
+}

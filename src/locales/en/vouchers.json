@@ -1,0 +1,62 @@
+{
+	"title": "Vouchers",
+	"paymentVouchers": "Payment Vouchers",
+	"receiptVouchers": "Receipt Vouchers",
+	"totalVouchers": "Total Vouchers",
+	"totalAmount": "Total Amount",
+	"addPayment": "Add Payment",
+	"addVoucher": "Add Voucher",
+	"paymentCode": "Payment Code",
+	"from": "From",
+	"to": "To",
+	"dateCreated": "Date Created",
+	"amount": "Amount",
+	"status": "Status",
+	"active": "Active",
+	"inactive": "Inactive",
+	"searchPlaceholder": "Search payment voucher...",
+	"viewDetails": "View Details",
+	"delete": "Delete",
+	"deleteTitle": "Remove Voucher?",
+	"deleteDescription": "Removing a voucher deletes all records, preventing further actions. A summary may be kept for reference.",
+	"deleteConfirm": "Delete Voucher",
+	"cancel": "Cancel",
+	"saveVoucher": "Save Voucher",
+	"voucherDetails": "Voucher Details",
+	"paymentVoucher": "Payment Voucher",
+	"receiptVoucher": "Receipt Voucher",
+	"type": "Type",
+	"details": {
+		"print": "Print",
+		"paymentCode": "Payment Code",
+		"from": "From",
+		"to": "To",
+		"expenseType": "Expense Type",
+		"incomeType": "Income Type",
+		"paymentMethod": "Payment Method",
+		"referenceNumber": "Reference Number",
+		"bankName": "Bank Name",
+		"transactionDetails": "Transaction Details",
+		"customerName": "Customer Name",
+		"amount": "Amount",
+		"totalAmount": "Total Amount",
+		"commission": "Commission",
+		"tax": "Tax",
+		"remarks": "Remarks",
+		"linkedInvoices": "Linked Invoices",
+		"invoiceNumber": "Invoice Number",
+		"pending": "Pending",
+		"pay": "Pay"
+	},
+	"loading": "Loading vouchers...",
+	"actions": {
+		"approve": "Approve"
+	},
+	"errorModal": {
+		"title": "Error",
+		"okButton": "OK"
+	},
+	"deleteModal": {
+		"cancelButton": "Cancel"
+	}
+}

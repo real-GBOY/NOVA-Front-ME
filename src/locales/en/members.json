@@ -1,0 +1,830 @@
+{
+   "title": "Members",
+   "addMember": "Add Member",
+   "edit": "Edit",
+   "addMember.shift": {
+      "label": "Work Shift",
+      "placeholder": "Select a Shift (Optional)",
+      "loading": "Loading shifts...",
+      "noShifts": "No shifts available",
+      "schedule": "Schedule"
+   },
+   "editMember": "Edit Member",
+   "deleteMember": "Delete Member",
+   "memberDetails": "Member Details",
+   "searchMembers": "Search by name, email, job title…",
+   "filters": {
+      "all": "All Members",
+      "active": "Active",
+      "inactive": "Inactive",
+      "role": "Role",
+      "department": "Filter by Department",
+      "filter": "Filter",
+      "sortBy": "Sort by",
+      "title": "Filter",
+      "resetAll": "Reset All",
+      "jobTitle": "Job Title",
+      "reset": "Reset",
+      "selectJobTitle": "Select job title",
+      "dateRange": "Date Range",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "permissions": "Permissions",
+      "selectPermissionType": "Select permission type",
+      "status": "Status",
+      "selectStatus": "Select status",
+      "selectRole": "Select role",
+      "datePlaceholder": "DD / MM / YYYY",
+      "invited": "Invited",
+      "override": "Override",
+      "default": "Default",
+      "issueDate": "Issue Date"
+   },
+   "sort": {
+      "recentlyAdded": "Recently added",
+      "recentlyAddedDescription": "Show the latest joined members at the top",
+      "nameAsc": "Name (A-Z)",
+      "nameAscDescription": "Alphabetical order by member name",
+      "nameDesc": "Name (Z-A)",
+      "nameDescDescription": "Reverse alphabetical order",
+      "role": "Role",
+      "roleDescription": "Sort by the member's role name",
+      "status": "Status (Active first)",
+      "statusDescription": "Show active members before inactive"
+   },
+   "options": {
+      "gender": {
+         "male": "Male",
+         "female": "Female"
+      },
+      "maritalStatus": {
+         "single": "Single",
+         "married": "Married",
+         "divorced": "Divorced",
+         "widowed": "Widowed"
+      },
+      "religion": {
+         "muslim": "Muslim",
+         "christian": "Christian"
+      },
+      "contractType": {
+         "fullTime": "Full Time",
+         "partTime": "Part Time"
+      }
+   },
+   "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "fullName": "Full Name",
+      "name": "Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "mobile": "Mobile Number",
+      "role": "Role",
+      "department": "Department",
+      "position": "Position",
+      "jobTitle": "Job Title",
+      "contact": "Contact",
+      "contactNumber": "Contact Number",
+      "joiningDate": "Joining Date",
+      "joinedAt": "Joined At",
+      "joinedDate": "Joined Date",
+      "status": "Status",
+      "salary": "Salary",
+      "avatar": "Profile Picture",
+      "permissions": "Permissions",
+      "permissionsStatus": "Permissions Status",
+      "employmentStatus": "Employment Status (Active/Inactive)",
+      "gender": "Gender",
+      "dob": "Date of Birth",
+      "age": "Age",
+      "nationality": "Nationality",
+      "maritalStatus": "Marital Status",
+      "location": "Country/City",
+      "religion": "Religion",
+      "team": "Team",
+      "manager": "Manager",
+      "memberId": "Member's ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "issueDate": "Issue Date",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State / Province / Region",
+      "country": "Country",
+      "zipCode": "ZIP Code",
+      "secondaryAddress": "Secondary Address",
+      "notProvided": "Not Provided",
+      "contractType": "Contract Type",
+      "employmentType": "Employment Type",
+      "probationPeriod": "Probation Period",
+      "workHours": "Work Hours per Week"
+   },
+   "table": {
+      "memberName": "Member Name",
+      "jobTitle": "Job Title",
+      "contact": "Contact",
+      "joinedAt": "Joined At",
+      "permissions": "Permissions",
+      "status": "Status",
+      "role": "Role",
+      "actions": "Actions",
+      "membersSelected": "Members Selected",
+      "noResults": "No results found"
+   },
+   "kpi": {
+      "totalMembers": "Total Members",
+      "totalTeams": "Total Teams",
+      "active": "Active",
+      "inactive": "Inactive",
+      "overridden": "Overridden",
+      "overriddenTooltip": "Number of users with custom permissions"
+   },
+   "permissions": {
+      "default": "Default",
+      "override": "Override",
+      "resetPermissions": "Reset Permissions",
+      "resetConfirm": "Are you sure you want to reset permissions for {{name}}?",
+      "resetSuccess": "Permissions reset successfully",
+      "overridePermissions": "Override Permissions",
+      "overrideTitle": "Override Member Permissions",
+      "overrideDescription": "Customize permissions for {{name}}. Changes override their role's default permissions.",
+      "searchPermissions": "Search permissions...",
+      "loadingPermissions": "Loading permissions...",
+      "noPermissionsFound": "No permissions found",
+      "saveChanges": "Save Changes",
+      "resetToDefault": "Reset to Default",
+      "resetting": "Resetting...",
+      "updateSuccess": "Permissions updated successfully",
+      "updateError": "Failed to update permissions",
+      "resetError": "Failed to reset permissions"
+   },
+   "actions": {
+      "editDetails": "Edit Details",
+      "sendMessage": "Send a Message",
+      "resetPermissions": "Reset Permissions",
+      "overridePermissions": "Override Permissions",
+      "delete": "Delete",
+      "deactivate": "Deactivate",
+      "resendInvitation": "Resend Invitation",
+      "moreOptions": "More options",
+      "viewProfile": "View Profile",
+      "deleteMembers": "Deactivate Members",
+      "cancel": "Cancel"
+   },
+   "pagination": {
+      "page": "Page",
+      "of": "of",
+      "perPage": "/ page"
+   },
+   "modals": {
+      "resetPermissions": {
+         "title": "Reset Member Permissions?",
+         "description": "This will remove all custom or overridden permissions and restore the member's default access based on their role.",
+         "confirmButton": "Reset Permissions",
+         "cancelButton": "Cancel"
+      },
+      "resendInvitation": {
+         "title": "Resend Invitation?",
+         "description": "Resend the onboarding invitation to {{name}}.",
+         "confirmButton": "Resend Invitation",
+         "cancelButton": "Cancel"
+      },
+      "deleteMember": {
+         "title": "Deactivate Member?",
+         "description": "This will deactivate the member's account and revoke their system access. Their activity history may remain for audit purposes.",
+         "confirmButton": "Deactivate Member",
+         "cancelButton": "Cancel"
+      }
+   },
+   "export": {
+      "title": "Export Members Data",
+      "scope": {
+         "title": "Export Scope",
+         "selected": "Selected Members",
+         "selectedDesc": "Export only the members currently selected in the table.",
+         "all": "All Members",
+         "allDesc": "Export the full directory list."
+      },
+      "dataIncluded": {
+         "title": "Data Included",
+         "subtitle": "Name and job title will always be shown"
+      },
+      "fileFormat": {
+         "title": "File Format"
+      }
+   },
+   "noResults": {
+      "title": "No results found",
+      "description": "We couldn’t find any members that match your search. Try adjusting your keywords or filters."
+   },
+   "emptyState": {
+      "title": "No members yet",
+      "description": "Start building your workspace by adding your first team member. Once added, you can assign job titles, roles, and permissions."
+   },
+   "messages": {
+      "addSuccess": "Member added successfully",
+      "updateSuccess": "Member updated successfully",
+      "deleteSuccess": "Member deactivated successfully",
+      "invitationResent": "Invitation resent successfully",
+      "invitationResendFailed": "Failed to resend invitation. Please try again.",
+      "deleteConfirm": "Are you sure you want to deactivate {{name}}?",
+      "noMembers": "No members found",
+      "loadingMembers": "Loading members...",
+      "editMemberComingSoon": "Edit member functionality coming soon"
+   },
+   "error": "Failed to load member details. Please try again.",
+   "memberNotFound": "Member not found",
+   "backToMembers": "Back to Members",
+   "payroll": {
+      "title": "Payroll",
+      "searchPlaceholder": "Search Payrolls",
+      "addPayItem": "Add Pay Item",
+      "editPayItem": "Edit Pay Item",
+      "export": "Export",
+      "table": {
+         "payrollItem": "Payroll Item",
+         "type": "Type",
+         "amount": "Amount",
+         "effectiveDate": "Effective Date",
+         "notes": "Notes"
+      },
+      "types": {
+         "Base": "Base Salary",
+         "Allowance": "Allowance",
+         "Overtime": "Overtime",
+         "Deduction": "Deduction",
+         "Bonus": "Bonus",
+         "Base Salary": "Base Salary",
+         "Over-Time": "Over-Time"
+      },
+      "form": {
+         "itemName": "Item Name",
+         "componentType": "Type",
+         "amount": "Amount",
+         "effectiveDate": "Effective Date",
+         "notes": "Notes",
+         "selectType": "Select Type",
+         "reason": "Reason",
+         "reasonPlaceholder": "Explain why you are editing this item"
+      },
+      "actions": {
+         "edit": "Edit",
+         "delete": "Delete",
+         "save": "Save",
+         "cancel": "Cancel",
+         "add": "Add",
+         "update": "Update"
+      },
+      "messages": {
+         "addSuccess": "Payroll item added successfully",
+         "updateSuccess": "Payroll item updated successfully",
+         "deleteSuccess": "Payroll item deleted successfully",
+         "deleteConfirmTitle": "Delete Payroll Item?",
+         "deleteConfirmDescription": "Are you sure you want to delete this payroll item? This action cannot be undone.",
+         "confirmDelete": "Delete"
+      },
+      "tooltips": {
+         "systemItem": "You can't edit items added by the system"
+      },
+      "sort": {
+         "newest": "Newest First",
+         "oldest": "Oldest First",
+         "amountHighToLow": "Amount (High to Low)",
+         "amountLowToHigh": "Amount (Low to High)"
+      }
+   },
+   "profile": {
+      "contractStatusValues": {
+         "active": "Active",
+         "expired": "Expired",
+         "terminated": "Terminated"
+      },
+      "breadcrumb": {
+         "members": "Members",
+         "memberProfile": "Member's Profile"
+      },
+      "hero": {
+         "backToMembers": "Back to members",
+         "lastUpdated": "Last Updated",
+         "lastUpdatedValue": "Few seconds ago",
+         "pagination": "{{current}} of {{total}}",
+         "sendMessage": "Send Message",
+         "previousMember": "Previous member",
+         "nextMember": "Next member"
+      },
+      "summary": {
+         "absenceDays": "Absence Days",
+         "overtime": "Overtime",
+         "lateArrivals": "Late Arrivals",
+         "pendingRequests": "Pending Requests",
+         "contractStatus": "Contract Status",
+         "noContractYet": "No contract yet",
+         "pendingRequestsValue": "{{count}} Request",
+         "pendingRequestsValue_plural": "{{count}} Requests",
+         "overtimeValue": "{{hours}} Hours",
+         "lateArrivalsValue": "{{count}} Time",
+         "lateArrivalsValue_plural": "{{count}} Times",
+         "badges": {
+            "low": "Low",
+            "medium": "Medium",
+            "high": "High",
+            "endsIn": "Ends in {{days}} Days"
+         },
+         "contract": {
+            "extendDuration": "Extend Duration"
+         }
+      },
+      "tabs": {
+         "profile": "Profile Information",
+         "contract": "Contract",
+         "shift": "Shift",
+         "time": "Time Management",
+         "documents": "Documents",
+         "assets": "Assets",
+         "residency": "Residency",
+         "payroll": "Payroll"
+      },
+      "payroll": {
+         "title": "Payroll",
+         "searchPlaceholder": "Search Payrolls",
+         "addPayItem": "Add Pay Item",
+         "editPayItem": "Edit Pay Item",
+         "export": "Export",
+         "table": {
+            "payrollItem": "Payroll Item",
+            "type": "Type",
+            "amount": "Amount",
+            "effectiveDate": "Effective Date",
+            "notes": "Notes"
+         },
+         "types": {
+            "Base Salary": "Base Salary",
+            "Bonus": "Bonus",
+            "Deduction": "Deduction",
+            "Over-Time": "Over-Time"
+         },
+         "form": {
+            "itemName": "Item Name",
+            "componentType": "Type",
+            "amount": "Amount",
+            "effectiveDate": "Effective Date",
+            "notes": "Notes",
+            "selectType": "Select Type",
+            "reason": "Reason",
+            "reasonPlaceholder": "Explain why you are editing this item"
+         },
+         "actions": {
+            "edit": "Edit",
+            "delete": "Delete",
+            "save": "Save",
+            "cancel": "Cancel",
+            "add": "Add",
+            "update": "Update"
+         },
+         "messages": {
+            "addSuccess": "Payroll item added successfully",
+            "updateSuccess": "Payroll item updated successfully",
+            "deleteSuccess": "Payroll item deleted successfully",
+            "deleteConfirmTitle": "Delete Payroll Item?",
+            "deleteConfirmDescription": "Are you sure you want to delete this payroll item? This action cannot be undone.",
+            "confirmDelete": "Delete"
+         }
+      },
+      "validation": {
+         "required": "The {{field}} field is required."
+      },
+      "contract": {
+         "noContractFound": "This user doesn't have a contract yet",
+         "duration": {
+            "title": "Contract Duration",
+            "terminate": "Terminate",
+            "extend": "Extend",
+            "extendDuration": "Extend Duration",
+            "expired": "Expired",
+            "terminated": "Terminated",
+            "daysRemaining": "{{days}} Days Remaining",
+            "contractTerminated": "Contract is terminated, you must create a new one"
+         },
+         "extendModal": {
+            "title": "Extend Contract Duration",
+            "newEndDate": "New End Date",
+            "selectNewDate": "Select new end date",
+            "currentEndDate": "Current end date",
+            "selectDate": "Please select a new end date",
+            "futureDateRequired": "New end date must be in the future",
+            "afterCurrentDate": "New end date must be after the current end date",
+            "success": "Contract extended successfully",
+            "error": "Failed to extend contract",
+            "cancel": "Cancel",
+            "extend": "Extend Contract",
+            "extending": "Extending..."
+         },
+         "clause": {
+            "title": "Contract Clauses",
+            "editTitle": "Edit Contract Clauses",
+            "updateButton": "Update Clauses",
+            "updating": "Updating...",
+            "updateSuccess": "Contract clauses updated successfully",
+            "updateError": "Failed to update contract clauses",
+            "noticePeriod": "Notice Period",
+            "casualLeave": "Casual Leave",
+            "absenceLimit": "Absence Limit",
+            "absenceLimitValue": "{{days}} days",
+            "absenceLimitPerYear": "{{days}} Days per Year",
+            "sickLeave": "Sick Leave",
+            "annualLeave": "Annual Leave",
+            "autoTermination": "Auto-Termination on Absence Limit"
+         },
+         "documents": {
+            "title": "Contract Documents",
+            "addFiles": "Add Files",
+            "uploadTitle": "Upload Contract Files",
+            "uploadLabel": "Attach Contract Files",
+            "uploadAction": "Upload Files",
+            "uploadingAction": "Uploading...",
+            "uploadSuccess": "Contract files uploaded successfully",
+            "uploadError": "Failed to upload contract files",
+            "uploadEmptyError": "Please upload at least one file",
+            "fileName": "{{name}} Contract {{year}}",
+            "fileSizeSample": "2.4 MB · PDF",
+            "readyForDownload": "Ready to download",
+            "noDocuments": "No contract documents uploaded yet"
+         }
+      },
+      "details": {
+         "personal": {
+            "title": "Personal Details"
+         },
+         "work": {
+            "title": "Work Information"
+         },
+         "address": {
+            "title": "Address Information"
+         },
+         "compensation": {
+            "title": "Compensation & Employment"
+         },
+         "contact": {
+            "title": "Contact Information"
+         }
+      },
+      "actions": {
+         "search": "Search",
+         "settings": "Open settings",
+         "notifications": "Notifications"
+      },
+      "timeOff": {
+         "table": {
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "timeOffType": "Time Off Type",
+            "reason": "Reason",
+            "attachment": "Attachment"
+         },
+         "status": {
+            "pending": "Pending",
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "completed": "Completed"
+         },
+         "actions": {
+            "approve": "Approve",
+            "reject": "Reject"
+         }
+      },
+      "overtime": {
+         "table": {
+            "requestedDate": "Requested Date",
+            "overtimeDate": "Overtime Date",
+            "duration": "Duration",
+            "overtime": "Overtime",
+            "reason": "Reason"
+         },
+         "status": {
+            "pending": "Pending",
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "completed": "Completed"
+         },
+         "actions": {
+            "approve": "Approve",
+            "reject": "Reject"
+         }
+      },
+      "assets": {
+         "table": {
+            "assetName": "Asset Name",
+            "assignedDate": "Assigned Date",
+            "assetType": "Asset Type",
+            "serialNumber": "Serial Number",
+            "status": "Status"
+         },
+         "status": {
+            "active": "Active",
+            "inactive": "Inactive",
+            "returned": "Returned",
+            "pending": "Pending"
+         },
+         "actions": {
+            "approve": "Approve",
+            "reject": "Reject"
+         },
+         "searchPlaceholder": "Search logs",
+         "filterTitle": "Filter Assets",
+         "filter": "Filter",
+         "resetAll": "Reset All",
+         "reset": "Reset",
+         "cancel": "Cancel",
+         "apply": "Apply",
+         "selectStatus": "Select Status",
+         "assetType": "Asset Type",
+         "selectType": "Select Type",
+         "dateRange": "Date Range",
+         "dateFrom": "From",
+         "dateTo": "To",
+         "statusOptions": {
+            "active": "Active",
+            "inactive": "Inactive",
+            "returned": "Returned",
+            "pending": "Pending"
+         }
+      },
+      "residency": {
+         "title": "Residency Details",
+         "permitNumber": "Permit Number",
+         "permitType": "Permit Type",
+         "issueDate": "Issue Date",
+         "expiryDate": "Expiry Date",
+         "country": "Country",
+         "status": "Status",
+         "document": "Document",
+         "additionalDocuments": "Additional Documents",
+         "attachmentsTitle": "Residency Attachments",
+         "noAttachments": "No residency documents uploaded yet",
+         "addFiles": "Add Files",
+         "uploadTitle": "Upload Residency Files",
+         "uploadLabel": "Attach Residency Files",
+         "uploadAction": "Upload Files",
+         "uploadingAction": "Uploading...",
+         "uploadSuccess": "Residency files uploaded successfully",
+         "uploadError": "Failed to upload residency files",
+         "uploadEmptyError": "Please upload at least one file",
+         "noResidencyFound": "No residency information found for this member",
+         "editTitle": "Edit Residency Permit"
+      }
+   },
+   "basicInfo": {
+      "countryPlaceholder": "Search for a country"
+   },
+   "stats": {
+      "totalMembers": "Total Members",
+      "activeMembers": "Active Members",
+      "newThisMonth": "New This Month"
+   },
+   "timeManagement": {
+      "tabs": {
+         "attendance": "Attendance",
+         "timeOff": "Time Off",
+         "overtime": "Overtime",
+         "shift": "Shift",
+         "history": "History"
+      },
+      "header": {
+         "searchLogs": "Search logs",
+         "filter": "Filter",
+         "dateRange": "Nov 01 - Nov 30 2025"
+      },
+      "errors": {
+         "employeeNotFound": "Employee ID not found"
+      },
+      "addButtons": {
+         "addAttendance": "Add Attendance",
+         "addTimeOff": "Add Time Off",
+         "addVacation": "Add Vacation",
+         "addHourLeave": "Add Hour Leave",
+         "addOvertime": "Add Overtime"
+      },
+      "checkActions": {
+         "checkIn": "Check In",
+         "checkOut": "Check Out",
+         "location": "Location",
+         "selectLocation": "Select location",
+         "noLocations": "No office locations available",
+         "comment": "Comment",
+         "commentPlaceholder": "Optional comment",
+         "cancel": "Cancel",
+         "confirm": "Confirm",
+         "submitting": "Submitting...",
+         "validation": {
+            "location": "Please select a location"
+         },
+         "toast": {
+            "checkInSuccess": "Check-in recorded successfully",
+            "checkOutSuccess": "Check-out recorded successfully",
+            "error": "Failed to record attendance"
+         }
+      },
+      "schedule": {
+         "clockIn": "Clock-in",
+         "clockOut": "Clock-out",
+         "duration": "Duration",
+         "legendTitle": "Color Legend",
+         "overtimeApproved": "Overtime Approved",
+         "dayOffApproved": "Day Off Approved",
+         "noData": "No schedule data available"
+      },
+      "timeOff": {
+         "noData": "No time off requests available"
+      },
+      "overtime": {
+         "noData": "No overtime requests available"
+      },
+      "history": {
+         "summaryTitle": "Time-Off Summary",
+         "totalAllocated": "Total Allocated",
+         "totalUsed": "Total Used",
+         "totalRemaining": "Total Remaining",
+         "totalPending": "Total Pending",
+         "balancesTitle": "Balances by Type",
+         "usedAllocated": "used / allocated",
+         "used": "used",
+         "allocated": "allocated",
+         "noBalances": "No balances available",
+         "requestsTitle": "Request History",
+         "noRequests": "No requests available",
+         "hourCountersTitle": "Hour Leave Counters",
+         "noHourCounters": "No hour counters available",
+         "nursingTitle": "Nursing Status",
+         "nursingActive": "Active",
+         "nursingInactive": "Inactive",
+         "nursingApprovedAt": "Approved At",
+         "nursingEndDate": "Ends At"
+      },
+      "attendanceModal": {
+         "title": "Add Attendance Log",
+         "date": "Date",
+         "clockIn": "Clock In",
+         "clockOut": "Clock Out",
+         "attendanceType": "Attendance Type",
+         "selectAttendanceType": "Select Attendance Type",
+         "cancel": "Cancel",
+         "addLog": "Add Log",
+         "datePlaceholder": "DD / MM / YYYY",
+         "timePlaceholder": "--:--",
+         "adding": "Adding...",
+         "types": {
+            "workingTime": "Working-Time",
+            "overtime": "Overtime",
+            "late": "Late",
+            "absence": "Absence",
+            "dayOff": "Day Off",
+            "break": "Break",
+            "earlyLeave": "Early Leave",
+            "requestedDayOff": "Requested Day Off"
+         },
+         "validation": {
+            "date": "Please select a date",
+            "futureDate": "Cannot add attendance for a future date",
+            "clockIn": "Please enter clock in time",
+            "clockOut": "Please enter clock out time",
+            "attendanceType": "Please select attendance type"
+         },
+         "toast": {
+            "success": "Attendance log added successfully",
+            "error": "Failed to add attendance log"
+         }
+      },
+      "overtimeModal": {
+         "title": "Add Overtime",
+         "requestedDate": "Requested Date",
+         "overtimeDate": "Overtime Date",
+         "clockIn": "Clock In",
+         "clockOut": "Clock Out",
+         "reason": "Reason",
+         "reasonPlaceholder": "Write reason for time off here",
+         "cancel": "Cancel",
+         "addOvertime": "Add Overtime",
+         "datePlaceholder": "DD / MM / YYYY",
+         "timePlaceholder": "--:--",
+         "adding": "Adding...",
+         "validation": {
+            "requestedDate": "Please select requested date",
+            "overtimeDate": "Please select overtime date",
+            "clockIn": "Please enter start time",
+            "clockOut": "Please enter end time"
+         },
+         "toast": {
+            "success": "Overtime added successfully",
+            "error": "Failed to add overtime"
+         }
+      },
+      "timeOffModal": {
+         "title": "Add Time Off Request",
+         "vacationType": "Vacation Type",
+         "selectVacationType": "Select Vacation Type",
+         "loadingTypes": "Loading vacation types...",
+         "startDate": "Start Date",
+         "endDate": "End Date",
+         "requestDate": "Request Date",
+         "startTime": "Start Time",
+         "endTime": "End Time",
+         "reason": "Reason",
+         "reasonPlaceholder": "Write reason for time off request",
+         "startDatePlaceholder": "DD / MM / YYYY",
+         "endDatePlaceholder": "DD / MM / YYYY",
+         "requestDatePlaceholder": "DD / MM / YYYY",
+         "cancel": "Cancel",
+         "addRequest": "Add Request",
+         "adding": "Adding...",
+         "validation": {
+            "vacationType": "Please select a vacation type",
+            "startDate": "Please select start date",
+            "endDate": "Please select end date",
+            "requestDate": "Please select request date",
+            "startTime": "Please enter start time",
+            "endTime": "Please enter end time",
+            "endTimeBeforeStartTime": "End time must be after start time",
+            "endDateBeforeStart": "End date cannot be before start date",
+            "reason": "Please provide a reason"
+         },
+         "toast": {
+            "success": "Time off request added successfully",
+            "error": "Failed to add time off request"
+         }
+      }
+   },
+   "placeholders": {
+      "contract": {
+         "title": "Contract Information",
+         "description": "This is a placeholder area for the member's contract information. You can replace it later with the actual contract fields, history, and actions."
+      },
+      "documents": {
+         "title": "Documents",
+         "count": "{{count}} items",
+         "description": "This is a placeholder area for the member's documents list. Attach contracts, IDs, and any HR files here later."
+      },
+      "assets": {
+         "title": "Assets",
+         "count": "{{count}} items",
+         "description": "This is a placeholder area for the member's assigned assets such as laptops, phones, and access cards."
+      }
+   },
+   "documents": {
+      "searchPlaceholder": "Search Document",
+      "filter": "Filter",
+      "addDocuments": "Add Documents",
+      "download": "Download",
+      "moreOptions": "More options",
+      "view": "View",
+      "unknownSize": "Unknown size",
+      "uploading": "Uploading...",
+      "uploadSuccess": "{{name}} uploaded successfully",
+      "uploadError": "Failed to upload {{name}}",
+      "defaultType": "Employee Document"
+   },
+   "loading": {
+      "general": "Loading...",
+      "members": "Loading members...",
+      "assets": "Loading assets...",
+      "documents": "Loading documents...",
+      "contracts": "Loading contract information...",
+      "profile": "Loading profile..."
+   },
+   "shift": {
+      "title": "Work Shift",
+      "description": "View and manage the employee's work shift schedule",
+      "shiftName": "Shift Name",
+      "timezone": "Timezone",
+      "type": "Type",
+      "defaultShift": "Default Shift",
+      "weeklySchedule": "Weekly Schedule",
+      "workingHours": "Working Hours",
+      "breakTime": "Break Time",
+      "minutes": "min",
+      "noSchedule": "No schedule available",
+      "noShiftAssigned": "No Shift Assigned",
+      "noShiftDescription": "This employee is not currently assigned to any shift. Assign a shift to manage their work schedule.",
+      "assignShift": "Assign Shift",
+      "changeShift": "Change Shift",
+      "changeShiftAction": "Change Shift",
+      "assign": "Assign",
+      "selectShiftError": "Please select a shift",
+      "assignSuccess": "Shift assigned to {{name}} successfully",
+      "assignError": "Failed to assign shift to {{name}}",
+      "modalDescription": "Select a shift to assign to {{name}}",
+      "noShiftsAvailable": "No shifts available. Create a shift in company settings first.",
+      "default": "Default",
+      "current": "Current",
+      "workingDays": "working days",
+      "weekdays": {
+         "sunday": "Sunday",
+         "monday": "Monday",
+         "tuesday": "Tuesday",
+         "wednesday": "Wednesday",
+         "thursday": "Thursday",
+         "friday": "Friday",
+         "saturday": "Saturday"
+      }
+   }
+}
