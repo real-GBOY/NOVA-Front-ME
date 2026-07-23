@@ -374,7 +374,7 @@ export async function enqueueTestPush(input?: {
 	}
 
 	const title = input?.title || "Test push";
-	const body = input?.body || "Hello from Amer";
+	const body = input?.body || "Hello from Nova";
 	const type = input?.type || "test";
 	const payload = input?.payload ?? {};
 	const actions = input?.actions ?? null;

@@ -1,11 +1,11 @@
 {
    "Invoice Profiles": "ملفات الفواتير",
    "app": {
-      "name": "BAK",
-      "title": "نظام إدارة BAK",
-      "hrms": "نظام إدارة الموارد البشرية"
+      "name": "Nova",
+      "title": "نظام إدارة Nova",
+      "hrms": "تخطيط موارد المؤسسات"
    },
-   "appName": "BAK",
+   "appName": "Nova",
    "nav": {
       "dashboard": "لوحة التحكم",
       "members": "الأعضاء",

@@ -5,11 +5,11 @@
 	"none": "None",
 	"Invoice Profiles": "Invoice Profiles",
 	"app": {
-		"name": "BAK",
-		"title": "BAK Management System",
-		"hrms": "HRMS"
+		"name": "Nova",
+		"title": "Nova Management System",
+		"hrms": "ERP"
 	},
-	"appName": "BAK",
+	"appName": "Nova",
 	"nav": {
 		"dashboard": "Dashboard",
 		"members": "Members",

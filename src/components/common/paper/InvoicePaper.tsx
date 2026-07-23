@@ -140,7 +140,7 @@ const InvoicePaper = forwardRef<HTMLDivElement, InvoicePaperProps>(
                <div className="flex-1 flex flex-col gap-1 text-[11px]">
                   <div className="flex gap-2">
                      <span className="w-14 text-gray-500">Email:</span>
-                     <span className="font-medium">info@bakamergov.com</span>
+                     <span className="font-medium">info@novagov.com</span>
                   </div>
                   <div className="flex gap-2">
                      <span className="w-14 text-gray-500">Tel:</span>
@@ -148,7 +148,7 @@ const InvoicePaper = forwardRef<HTMLDivElement, InvoicePaperProps>(
                   </div>
                   <div className="flex gap-2">
                      <span className="w-14 text-gray-500">Website:</span>
-                     <span className="font-medium">www.bakamergov.com</span>
+                     <span className="font-medium">www.novagov.com</span>
                   </div>
                </div>
                <div className="flex items-start justify-end">

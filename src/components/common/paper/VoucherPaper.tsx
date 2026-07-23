@@ -80,7 +80,7 @@ const VoucherPaper = forwardRef<HTMLDivElement, VoucherPaperProps>(
                   <div className="flex gap-2 items-start">
                      <span className="w-16 text-text-sub shrink-0">Email:</span>
                      <span className="font-semibold text-text-strong">
-                        info@bakamergov.com
+                        info@novagov.com
                      </span>
                   </div>
                   <div className="flex gap-2 items-start">
@@ -94,7 +94,7 @@ const VoucherPaper = forwardRef<HTMLDivElement, VoucherPaperProps>(
                         Website:
                      </span>
                      <span className="font-semibold text-text-strong">
-                        www.bakamergov.com
+                        www.novagov.com
                      </span>
                   </div>
                </div>

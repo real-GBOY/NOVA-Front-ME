@@ -1,6 +1,6 @@
-# Amer HRMS — Frontend 🖥️
+# Nova ERP — Frontend 🖥️
 
-A React + TypeScript single-page application for the Amer HR Management System — covering employee records, attendance, payroll, invoicing, legal cases, internal chat, and more. Built with Vite, Tailwind CSS v4, and TanStack Query.
+A React + TypeScript single-page application for the Nova HR Management System — covering employee records, attendance, payroll, invoicing, legal cases, internal chat, and more. Built with Vite, Tailwind CSS v4, and TanStack Query.
 
 ## 📋 Table of Contents
 
