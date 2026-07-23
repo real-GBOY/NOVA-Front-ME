@@ -3,7 +3,6 @@
 import { useEffect, useState, useMemo } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useTranslation } from "@/hooks/useTranslation";
-import { useOfficeLocation } from "@/hooks/officeLocations/useOfficeLocation";
 import { useGetEmployeeDetails } from "@/hooks/employees/employee.queries";
 import { usePermissions } from "@/contexts/PermissionContext";
 import { getCurrentUserId } from "@/utils/auth";
@@ -37,15 +36,7 @@ function MainSidebar({ className = "", onNavigate }: MainSidebarProps) {
       currentUserId ?? 0,
       { enabled: !!currentUserId }
    );
-   const { useGetOfficeLocationById } = useOfficeLocation();
-
-   const { data: officeLocation } = useGetOfficeLocationById(1, {
-      staleTime: Infinity,
-      gcTime: Infinity,
-      cacheTime: Infinity,
-   });
-   const sidebarTitle = officeLocation?.name || t("app.hrms");
-   const logoSrc = officeLocation?.logoUrl || SYNERGY_LOGO;
+   const logoSrc = SYNERGY_LOGO;
 
    // Derive user info from employee details
    const userName = currentUserDetails
@@ -206,8 +197,8 @@ function MainSidebar({ className = "", onNavigate }: MainSidebarProps) {
          className={`bg-bg-weak h-full flex flex-col ${className}`.trim()}>
          <SidebarHeader
             imageSrc={logoSrc}
-            title={sidebarTitle}
-            imageAlt={sidebarTitle}
+            title="MGMT"
+            imageAlt={t("app.hrms")}
             onClose={onNavigate}
          />
          <SidebarContent

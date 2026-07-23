@@ -43,16 +43,20 @@ function SidebarHeader({
          {imageSrc && (
             <img src={imageSrc} alt={displayImageAlt} className="w-9 h-9 rounded-full" />
          )}
-         <div className="flex flex-col gap-0.5 min-w-0">
-            <p className="text-lg md:text-xl font-semibold text-text-strong truncate">
-               {renderColoredText(title)}
-            </p>
-            {subtitle && (
-               <p className="text-text-soft text-xs font-normal leading-4">
-                  {subtitle}
-               </p>
-            )}
-         </div>
+         {(title || subtitle) && (
+            <div className="flex flex-col gap-0.5 min-w-0">
+               {title && (
+                  <p className="text-lg md:text-xl font-semibold text-text-strong truncate">
+                     {renderColoredText(title)}
+                  </p>
+               )}
+               {subtitle && (
+                  <p className="text-text-soft text-xs font-normal leading-4">
+                     {subtitle}
+                  </p>
+               )}
+            </div>
+         )}
          {onClose && (
             <button
                onClick={onClose}

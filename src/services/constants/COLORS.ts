@@ -2,8 +2,8 @@
 
 export const MAIN_COLORS = {
    light: {
-      primary: "#019645",
-      "primary-dark": "#D0142C",
+      primary: "#7D52F4",
+      "primary-dark": "#5B3DC4",
       background: "#ffffff",
       "icon-sub": "#5C5C5C",
       "text-gray": "#5C5C5C",
@@ -48,9 +48,9 @@ export const MAIN_COLORS = {
    },
 
    dark: {
-      // Core Brand Colors - Slightly desaturated, maintaining brand identity
-      primary: "#1AAC54", // Lighter, less saturated green (from #019645)
-      "primary-dark": "#E4344A", // Lighter, less saturated red (from #D0142C)
+      // Core Brand Colors - Purple, matching the light theme
+      primary: "#9B7AFF", // Lighter purple for dark backgrounds
+      "primary-dark": "#7D52F4", // Deeper purple for hover states
 
       // Backgrounds - Dark gray system
       background: "#1A1A1A", // Slightly lighter than pure black
