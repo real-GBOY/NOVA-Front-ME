@@ -1,6 +1,7 @@
 /** @format */
 
 import { forwardRef } from "react";
+import { SYNERGY_LOGO } from "@/components/constants";
 
 // Map invoice status to stamp image
 const getStatusStamp = (status?: string) => {
@@ -110,7 +111,7 @@ const InvoicePaper = forwardRef<HTMLDivElement, InvoicePaperProps>(
                {/* Logo */}
                <div className="w-14 h-14 rounded-lg overflow-hidden flex items-center justify-center">
                   <img
-                     src="/icons/6be7484c1fb25b0fcb0ecb5300c2821f5d13f3e8.png"
+                     src={SYNERGY_LOGO}
                      className="w-full h-full object-contain"
                      alt="Logo"
                   />
@@ -118,7 +119,7 @@ const InvoicePaper = forwardRef<HTMLDivElement, InvoicePaperProps>(
                {/* Company Name English */}
                <div className="flex flex-col flex-1">
                   <h3 className="font-bold text-lg leading-tight">
-                     BAB AL KARAMA
+                     MGMT
                   </h3>
                   <p className="font-medium text-xs text-gray-600 mt-0.5">
                      Government Transactions Center One Person Company L.L.C
@@ -127,7 +128,7 @@ const InvoicePaper = forwardRef<HTMLDivElement, InvoicePaperProps>(
                {/* Company Name Arabic */}
                <div className="flex flex-col items-end text-right">
                   <h3 className="font-bold text-lg leading-tight font-cairo">
-                     باب الكرامة
+                     MGMT
                   </h3>
                   <p className="text-xs text-gray-500 mt-0.5">
                      لإنجاز المعاملات الحكومية شركة الشخص الواحد ش.ذ.م.م
@@ -153,9 +154,9 @@ const InvoicePaper = forwardRef<HTMLDivElement, InvoicePaperProps>(
                </div>
                <div className="flex items-start justify-end">
                   <img
-                     src="/icons/govLogo.png"
+                     src={SYNERGY_LOGO}
                      className="w-20 h-24 object-contain"
-                     alt="Government of Dubai"
+                     alt="Logo"
                   />
                </div>
             </div>

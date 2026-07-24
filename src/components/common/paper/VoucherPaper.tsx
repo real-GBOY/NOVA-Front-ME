@@ -1,6 +1,7 @@
 /** @format */
 
 import { forwardRef } from "react";
+import { SYNERGY_LOGO } from "@/components/constants";
 
 interface VoucherPaperProps {
    voucherType: "payment" | "receipt";
@@ -49,7 +50,7 @@ const VoucherPaper = forwardRef<HTMLDivElement, VoucherPaperProps>(
                {/* Logo Placeholder */}
                <div className="w-14 h-14 bg-bg-weak rounded-lg overflow-hidden flex items-center justify-center">
                   <img
-                     src="/icons/6be7484c1fb25b0fcb0ecb5300c2821f5d13f3e8.png"
+                     src={SYNERGY_LOGO}
                      className="w-full h-full object-contain"
                      alt="Logo"
                   />
@@ -57,7 +58,7 @@ const VoucherPaper = forwardRef<HTMLDivElement, VoucherPaperProps>(
                {/* Company Name English */}
                <div className="flex flex-col flex-1">
                   <h3 className="font-bold text-lg leading-tight text-text-strong">
-                     BAB AL KARAMA
+                     MGMT
                   </h3>
                   <p className="font-semibold text-xs leading-relaxed text-text-strong mt-0.5">
                      Government Transactions Center One Person Company L.L.C
@@ -66,7 +67,7 @@ const VoucherPaper = forwardRef<HTMLDivElement, VoucherPaperProps>(
                {/* Company Name Arabic */}
                <div className="flex flex-col items-end text-right">
                   <h3 className="font-bold text-lg leading-tight text-text-strong font-cairo">
-                     باب الكرامة
+                     MGMT
                   </h3>
                   <p className="font-semibold text-xs leading-relaxed text-text-sub mt-0.5">
                      لإنجاز المعاملات الحكومية شركة الشخص الواحد ش.ذ.م.م
@@ -100,9 +101,9 @@ const VoucherPaper = forwardRef<HTMLDivElement, VoucherPaperProps>(
                </div>
                <div className="flex items-center justify-end">
                   <img
-                     src="/icons/govLogo.png"
+                     src={SYNERGY_LOGO}
                      className="w-24 h-32 object-cover"
-                     alt="Dubai Logo"
+                     alt="Logo"
                   />
                </div>
             </div>
