@@ -2,7 +2,7 @@
 
 import IconButton from "@/designSystem/IconButton";
 import Button from "@/designSystem/Button";
-import { GearOutline, FileText } from "@/Icons";
+import { GearOutline } from "@/Icons";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "@/hooks/useTranslation";
 import { authService } from "@/services/authService";
@@ -68,12 +68,6 @@ function HeaderActions() {
 				<QuickSearchButton
 					ariaLabel={t("actions.search")}
 					onClick={handleSearchClick}
-				/>
-				<IconButton
-					Icon={FileText}
-					ariaLabel="Documentation"
-					variant='ghost'
-					onClick={() => navigate("/dashboard/documentation")}
 				/>
 				<IconButton
 					Icon={GearOutline}

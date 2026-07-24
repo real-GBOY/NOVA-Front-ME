@@ -3,8 +3,7 @@
 import Button from "@/designSystem/Button";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useLanguage } from "@/hooks/useLanguage";
-import { useNavigate } from "react-router-dom";
-import { Search2Line, AddLine, FileText } from "@/Icons";
+import { Search2Line, AddLine } from "@/Icons";
 import SortDropdown, { SortOption } from "@/designSystem/SortDropdown";
 import HelpSupportFilterDropdown, { TicketFilters } from "./HelpSupportFilterDropdown";
 import { TicketMeta } from "@/types/tickets";
@@ -45,9 +44,7 @@ function HelpSupportToolbar<OptionId extends string>({
    showIncomingUnreadBadge = true,
 }: HelpSupportToolbarProps<OptionId>) {
    const { t } = useTranslation("helpSupport");
-   const { t: tCommon } = useTranslation("common");
    const { isRTL } = useLanguage();
-   const navigate = useNavigate();
 
    const getTabClassName = (isActive: boolean) =>
       `!px-4 !py-1 !text-sm !font-medium !rounded-md !transition-colors ${
@@ -154,14 +151,6 @@ function HelpSupportToolbar<OptionId extends string>({
                   onSelect={onSortChange}
                   className="w-full sm:w-auto"
                />
-               <Button
-                  onClick={() => navigate("/dashboard/documentation")}
-                  className="w-full sm:w-auto flex items-center justify-start gap-2 px-3 py-2 text-xs sm:text-sm whitespace-nowrap border border-border hover:bg-bg-weak">
-                  <FileText className="fill-current" size={20} />
-                  <p className="text-sm tracking-tight whitespace-nowrap">
-                     {tCommon("nav.documentation")}
-                  </p>
-               </Button>
                {onAddTicketClick && (
                   <Button
                      onClick={onAddTicketClick}

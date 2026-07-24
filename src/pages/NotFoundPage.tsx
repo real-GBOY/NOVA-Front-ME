@@ -2,72 +2,74 @@
 
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "@/hooks/useTranslation";
-import { Button } from "@/designSystem/ui/button";
-import FileSearchIcon from "@/Icons/file-search";
 
 /**
  * NotFoundPage (404)
  *
- * Beautiful error page shown when a route doesn't exist.
+ * Retro pixel-art / arcade style error page shown when a route doesn't exist.
  */
 export function NotFoundPage() {
    const navigate = useNavigate();
    const { t } = useTranslation("common");
 
-   const handleGoBack = () => {
-      if (window.history.length > 1) {
-         navigate(-1);
-      } else {
-         navigate("/dashboard");
-      }
-   };
-
    const handleGoHome = () => {
       navigate("/dashboard");
    };
 
-   return (
-      <div className="flex min-h-screen w-full items-center justify-center bg-background p-6">
-         <div className="flex max-w-md flex-col items-center text-center">
-            {/* Decorative background gradient */}
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-               <div className="absolute top-1/4 left-1/2 -translate-x-1/2 size-[600px] rounded-full bg-gradient-to-br from-warning/5 via-warning/10 to-transparent blur-3xl" />
-            </div>
+   const handleTryAgain = () => {
+      window.location.reload();
+   };
 
-            {/* Error code badge */}
-            <div className="relative mb-8 flex items-center justify-center">
-               <div className="flex size-28 items-center justify-center rounded-full bg-warning/10 ring-8 ring-warning/5">
-                  <FileSearchIcon size={48} className="fill-warning" />
-               </div>
+   return (
+      <div
+         dir="ltr"
+         className="pixel-grid-bg relative flex min-h-screen w-full items-center justify-center overflow-hidden p-10 font-vt323">
+         <div className="relative z-[2] flex max-w-[720px] flex-col items-center gap-7 text-center">
+            {/* Floating pixel blocks */}
+            <div className="animate-pixel-floaty flex items-end gap-2.5">
+               <div className="h-[70px] w-[22px] bg-white shadow-[0_0_0_6px_#000000]" />
+               <div className="h-[70px] w-[22px] bg-white shadow-[0_0_0_6px_#000000]" />
+               <div className="h-[70px] w-[22px] bg-white shadow-[0_0_0_6px_#000000]" />
+               <div className="h-[70px] w-[22px] bg-white shadow-[0_0_0_6px_#000000]" />
             </div>
 
             {/* Error code */}
-            <span className="mb-10 text-7xl font-bold tracking-tight text-warning/80">
+            <h1 className="m-0 font-press-start text-7xl leading-none tracking-[4px] text-white [text-shadow:4px_4px_0_rgba(255,255,255,0.2),8px_8px_0_rgba(255,255,255,0.1)]">
                {t("errors.notFound.code")}
-            </span>
-
-            {/* Title */}
-            <h1 className="mb-3 text-2xl font-semibold text-text-strong">
-               {t("errors.notFound.message")}
             </h1>
 
+            {/* Title */}
+            <p className="m-0 font-press-start text-lg leading-[1.8] tracking-[1px] text-white uppercase">
+               {t("errors.notFound.title")}
+            </p>
+
             {/* Description */}
-            <p className="mb-8 text-text-sub leading-relaxed">
-               {t("errors.notFound.description")}
+            <p className="m-0 text-2xl leading-[1.6] text-[#a3a3a3]">
+               {t("errors.notFound.descriptionLine1")}
+               <br />
+               {t("errors.notFound.descriptionLine2")}
             </p>
 
             {/* Actions */}
-            <div className="flex gap-3">
-               <Button
-                  variant="outline"
-                  onClick={handleGoBack}
-                  className="min-w-[120px]">
-                  {t("errors.notFound.goBack")}
-               </Button>
-               <Button onClick={handleGoHome} className="min-w-[140px]">
-                  {t("errors.notFound.goHome")}
-               </Button>
+            <div className="mt-2 flex flex-wrap items-center justify-center gap-4">
+               <button
+                  type="button"
+                  onClick={handleGoHome}
+                  className="cursor-pointer border-[3px] border-white bg-white px-7 py-[18px] font-press-start text-base text-black uppercase shadow-[6px_6px_0_#666666]">
+                  &#9664; {t("errors.notFound.home")}
+               </button>
+               <button
+                  type="button"
+                  onClick={handleTryAgain}
+                  className="cursor-pointer border-[3px] border-white bg-transparent px-7 py-[18px] font-press-start text-base text-white uppercase shadow-[6px_6px_0_#666666]">
+                  {t("errors.notFound.tryAgain")}
+               </button>
             </div>
+
+            {/* Blinking prompt */}
+            <p className="animate-pixel-blink m-0 mt-5 font-press-start text-sm text-[#666666] uppercase">
+               {t("errors.notFound.pressStart")}
+            </p>
          </div>
       </div>
    );

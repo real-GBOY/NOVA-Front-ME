@@ -218,7 +218,7 @@ function MainSidebar({ className = "", onNavigate }: MainSidebarProps) {
             />
             <div className="px-4 py-2 border-t border-border">
                <p className="text-xs text-text-soft text-center">
-                  © {new Date().getFullYear()} DigitMask
+                  © {new Date().getFullYear()} Nova
                </p>
             </div>
          </div>

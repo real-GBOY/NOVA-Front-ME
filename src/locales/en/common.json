@@ -25,7 +25,6 @@
 		"calendar": "Calendar",
 		"settings": "Settings",
 		"helpSupport": "Help & Support",
-		"documentation": "Documentation",
 		"profile": "Member's Profile",
 		"roles": "Roles",
 		"roleDetails": "Role Details",
@@ -363,10 +362,11 @@
 		"notFound": {
 			"title": "Page Not Found",
 			"code": "404",
-			"message": "Oops! We can't find that page",
-			"description": "The page you're looking for might have been moved, deleted, or doesn't exist. Check the URL or navigate back to safety.",
-			"goBack": "Go Back",
-			"goHome": "Go to Dashboard"
+			"descriptionLine1": "Looks like this level hasn't been built yet.",
+			"descriptionLine2": "The page you're looking for went out of bounds.",
+			"home": "Home",
+			"tryAgain": "Try Again",
+			"pressStart": "Press Start to Continue"
 		}
 	},
 	"pagination": {

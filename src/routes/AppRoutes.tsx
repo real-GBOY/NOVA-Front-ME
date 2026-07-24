@@ -30,7 +30,6 @@ import PermissionRoute from "./PermissionRoute";
 import ProtectedRoute from "./ProtectedRoute";
 import PublicRoute from "./PublicRoute";
 import PayrollsPage from "@/pages/dashboard/payrolls";
-import DocumentationPage from "@/pages/dashboard/documentation";
 
 function AppRoutes() {
    return (
@@ -127,7 +126,6 @@ function AppRoutes() {
                      <Route path="ticket/:ticketId" element={<TicketChatPage />} />
                   </Route>
                   <Route path="terms-and-conditions" element={<TermsAndConditionsPage />} />
-                  <Route path="documentation" element={<DocumentationPage />} />
                </Route>
             </Route>
 
