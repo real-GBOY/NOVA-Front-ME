@@ -4,7 +4,7 @@ import { getRuntimeEnv } from "@/config/runtimeEnv";
 const endPoints = {
    baseurl: getRuntimeEnv(
       "VITE_API_BASE_URL",
-      import.meta.env.VITE_API_BASE_URL || "https://api.bakcrm.com/api/v1",
+      import.meta.env.VITE_API_BASE_URL || "http://51.21.254.175/api/v1",
    ),
    bucketUrl: getRuntimeEnv(
       "VITE_BUCKET_URL",
