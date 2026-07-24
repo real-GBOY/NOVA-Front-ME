@@ -76,18 +76,18 @@ function PasswordStrengthIndicator({
 	};
 
 	return (
-		<div className={`flex flex-col gap-3 ${className}`}>
+		<div className={`flex flex-col gap-3 font-vt323 ${className}`}>
 			{/* Strength Bar */}
 			<div className="flex flex-col gap-1.5">
 				<div className="flex items-center justify-between">
-					<span className="text-xs text-text-sub">
+					<span className="font-vt323! font-normal! text-base text-[#555555]">
 						{t("passwordStrength.label")}
 					</span>
-					<span className="text-xs font-medium text-text-sub">
+					<span className="font-vt323! font-normal! text-base text-black">
 						{getStrengthLabel()}
 					</span>
 				</div>
-				<div className="h-1.5 w-full bg-border rounded-full overflow-hidden">
+				<div className="h-2 w-full border border-black/20 bg-white overflow-hidden">
 					<div
 						className={`h-full transition-all duration-300 ease-out ${getStrengthColor()}`}
 						style={{ width: `${strengthPercentage}%` }}
@@ -102,16 +102,16 @@ function PasswordStrengthIndicator({
 					return (
 						<div
 							key={req.key}
-							className="flex items-center gap-2 text-xs transition-colors duration-200">
+							className="flex items-center gap-2 text-sm transition-colors duration-200">
 							<CheckCircle
 								size={14}
 								className={`shrink-0 transition-colors duration-200 ${
-									isFulfilled ? "text-success" : "text-text-soft"
+									isFulfilled ? "text-success" : "text-[#999999]"
 								}`}
 							/>
 							<span
-								className={`transition-colors duration-200 ${
-									isFulfilled ? "text-text-strong" : "text-text-soft"
+								className={`font-vt323! font-normal! transition-colors duration-200 ${
+									isFulfilled ? "text-black" : "text-[#999999]"
 								}`}>
 								{req.label}
 							</span>

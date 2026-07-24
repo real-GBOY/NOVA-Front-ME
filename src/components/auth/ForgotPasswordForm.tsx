@@ -49,22 +49,22 @@ function ForgotPasswordForm() {
 	const isLoading = isSubmitting || requestPasswordResetMutation.isPending;
 
 	return (
-		<form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-			<div className="space-y-6">
+		<form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
+			<div className="space-y-8">
 				<div className="flex flex-col items-center gap-4">
-					<div className="flex justify-center mb-2">
+					<div className="flex justify-center mb-2 border-[3px] border-black bg-white p-1">
 						<img
-							src="https://i.postimg.cc/FRZj99kX/2.png"
+							src="https://i.postimg.cc/P5qXfsDy/image.png"
 							alt="Logo"
-							className="h-16 w-auto object-contain rounded-xl"
+							className="h-14 w-auto object-contain"
 						/>
 					</div>
-					<div className="space-y-2 w-full">
+					<div className="space-y-3 w-full">
 						<div>
-							<h2 className="text-2xl font-semibold text-text-main text-center">
+							<h2 className="font-press-start text-lg leading-loose tracking-[2px] text-black text-center uppercase">
 								{t("auth:forgotPasswordTitle")}
 							</h2>
-							<p className="text-sm text-text-main mt-1 text-center">
+							<p className="font-vt323! font-normal! text-lg text-[#555555] mt-1 text-center">
 								{t("auth:forgotPasswordDescription")}
 							</p>
 						</div>
@@ -72,14 +72,14 @@ function ForgotPasswordForm() {
 				</div>
 
 				<div className="grid gap-2">
-					<Label htmlFor="email" className="text-text-main">
+					<Label htmlFor="email" className="font-vt323! font-normal! text-lg! text-black!">
 						{t("auth:emailAddress")}
 					</Label>
 					<Input
 						id="email"
 						type="email"
 						placeholder={t("auth:emailPlaceholder")}
-						className="bg-background/30 border-border text-text-strong/80 focus-visible:ring-0"
+						className="rounded-none! border-[3px]! border-black! bg-white! font-vt323! font-normal! text-lg! text-black! placeholder:text-[#999999]! focus-visible:ring-0! h-12!"
 						{...register("email")}
 						disabled={isLoading}
 					/>
@@ -91,7 +91,7 @@ function ForgotPasswordForm() {
 				<Button
 					type="submit"
 					disabled={isLoading}
-					className="w-full text-text-main">
+					className="w-full rounded-none! border-[3px]! border-black! bg-black! text-white! hover:bg-black/85! font-press-start! text-sm! uppercase! h-12! shadow-[6px_6px_0_#c4c4c4]!">
 					{isLoading ? t("auth:resetting") : t("auth:resetPassword")}
 				</Button>
 			</div>
@@ -99,7 +99,7 @@ function ForgotPasswordForm() {
 			<div className="flex flex-col gap-1 items-center">
 				<Link
 					to="/login"
-					className="text-sm underline-offset-4 hover:underline text-primary hover:text-primary/80 transition-colors">
+					className="font-vt323! font-normal! text-sm underline-offset-4 hover:underline text-[#555555] hover:text-black transition-colors">
 					{t("auth:backToLogin")}
 				</Link>
 			</div>

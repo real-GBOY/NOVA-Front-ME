@@ -2,10 +2,9 @@
 
 import { Outlet, useLocation, useSearchParams } from "react-router-dom";
 import { useMemo } from "react";
-import type { ElementType } from "react";
+import type { CSSProperties, ElementType } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { AuthIcon, CheckCircle } from "@/Icons";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
 import {
    Card,
    CardContent,
@@ -14,13 +13,24 @@ import {
    CardTitle,
 } from "@/designSystem/ui/card";
 import { Separator } from "@/designSystem/ui/separator";
-import FloatingLines from "@/designSystem/FloatingLines";
+import { MAIN_COLORS } from "@/services/constants/COLORS";
 
 type AuthHeader = {
    title: string;
    description: string;
    Icon: ElementType;
 };
+
+// Auth flow always renders in light mode, regardless of the app-wide theme
+// toggle. Re-declaring the light color tokens here shadows the ones the
+// global ColorsProvider writes onto <html>, without touching that shared
+// state (the dashboard keeps whatever theme the user picked).
+const lightModeVars = Object.fromEntries(
+   Object.entries(MAIN_COLORS.light).map(([key, value]) => [`--c-${key}`, value])
+) as CSSProperties;
+const forcedLightStyle: CSSProperties = { ...lightModeVars, colorScheme: "light" };
+
+const LOGO_SRC = "https://i.postimg.cc/P5qXfsDy/image.png";
 
 function AuthLayout() {
    const { t } = useTranslation("auth");
@@ -69,66 +79,45 @@ function AuthLayout() {
       }
    }, [pathname, t, email]);
 
-   const cardBase =
-      "w-full max-w-[440px] rounded-40 z-1 backdrop-blur-xl";
-   const cardClass = isLoginLike
-      ? `${cardBase} bg-background/80 border border-border/20 shadow-[0_24px_70px_-24px_rgba(0,0,0,0.7)] backdrop-blur-2xl`
-      : `${cardBase} border border-transparent bg-background shadow-[0_16px_40px_-20px_rgba(0,0,0,0.16)] p-2`;
-
    return (
-      <div className="min-h-screen flex items-center justify-center p-4 relative">
-         <div className="w-screen h-screen z-0 absolute inset-0">
-            <FloatingLines
-               enabledWaves={["top", "middle", "bottom"]}
-               // Array - specify line count per wave; Number - same count for all waves
-               lineCount={[10, 15, 20]}
-               // Array - specify line distance per wave; Number - same distance for all waves
-               lineDistance={[8, 6, 4]}
-               bendRadius={5.0}
-               bendStrength={-0.5}
-               interactive={true}
-               parallax={true}
-            />
-         </div>
-
-         <Card className={cardClass}>
+      <div
+         dir="ltr"
+         style={forcedLightStyle}
+         className="pixel-grid-bg-light relative flex min-h-screen items-center justify-center p-4 font-vt323">
+         <Card className="relative z-1 w-full max-w-[440px] rounded-none! border-[3px]! border-black! bg-white! py-0! shadow-[8px_8px_0_#c4c4c4]">
             {!isLoginLike && !isResetPassword && (
                <>
-                  <CardHeader className="items-center text-center gap-2 flex flex-col">
+                  <CardHeader className="items-center text-center gap-3 flex flex-col px-8 pt-8">
                      <div className="w-full flex justify-center">
-                        <div className="bg-background border border-border rounded-full shadow-subtle h-16 w-16 overflow-hidden flex items-center justify-center">
+                        <div className="bg-white border-[3px] border-black h-16 w-16 overflow-hidden flex items-center justify-center">
                            <img
-                              src="/icons/2 (1).png"
+                              src={LOGO_SRC}
                               alt="Logo"
                               className="h-full w-full object-contain"
                            />
                         </div>
                      </div>
 
-                     <div className="flex flex-col gap-1 items-center">
-                        <CardTitle className="text-2xl font-medium text-text-strong leading-8">
+                     <div className="flex flex-col gap-3 items-center">
+                        <CardTitle className="font-press-start text-lg leading-loose tracking-[2px] text-black uppercase">
                            {header.title}
                         </CardTitle>
-                        <CardDescription className="text-base text-text-sub leading-6">
+                        <CardDescription className="font-vt323! font-normal! text-lg leading-snug text-[#555555]">
                            {header.description}
                         </CardDescription>
                      </div>
                   </CardHeader>
-                  <Separator />
+                  <Separator className="bg-black/15!" />
                </>
             )}
-            <CardContent className={isLoginLike ? "p-8" : "pt-6"}>
+            <CardContent className="p-8!">
                <Outlet />
             </CardContent>
          </Card>
-         <div className="absolute bottom-11 left-11 right-11 flex items-center gap-3 text-text-main">
-            <p className="text-sm flex-1">
+         <div className="absolute bottom-11 left-11 right-11 z-1 flex items-center gap-3 text-lg text-[#666666]">
+            <p className="font-vt323! font-normal! flex-1">
                © 2025 {t("appName", { ns: "common" })}
             </p>
-            <LanguageSwitcher
-               variant="select"
-               className="[&_select]:bg-background/90 [&_select]:text-text-strong [&_select]:border-border [&_select]:shadow-subtle [&_select]:backdrop-blur-sm"
-            />
          </div>
       </div>
    );

@@ -83,7 +83,7 @@ function ResetPasswordForm() {
 				<p className="text-sm text-danger">{t("auth:invalidResetLink")}</p>
 				<Link
 					to="/forgot-password"
-					className="text-sm text-primary hover:underline">
+					className="font-vt323! font-normal! text-sm text-[#555555] hover:text-black hover:underline">
 					{t("auth:requestNewLink")}
 				</Link>
 			</div>
@@ -91,22 +91,22 @@ function ResetPasswordForm() {
 	}
 
 	return (
-		<form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-			<div className="space-y-6">
+		<form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
+			<div className="space-y-8">
 				<div className="flex flex-col items-center gap-4">
-					<div className="flex justify-center mb-2">
+					<div className="flex justify-center mb-2 border-[3px] border-black bg-white p-1">
 						<img
-							src="https://i.postimg.cc/FRZj99kX/2.png"
+							src="https://i.postimg.cc/P5qXfsDy/image.png"
 							alt="Logo"
-							className="h-16 w-auto object-contain rounded-xl"
+							className="h-14 w-auto object-contain"
 						/>
 					</div>
-					<div className="space-y-2 w-full">
+					<div className="space-y-3 w-full">
 						<div>
-							<h2 className="text-2xl font-semibold text-text-main text-center">
+							<h2 className="font-press-start text-lg leading-loose tracking-[2px] text-black text-center uppercase">
 								{t("auth:resetPasswordTitle")}
 							</h2>
-							<p className="text-sm text-text-main mt-1 text-center">
+							<p className="font-vt323! font-normal! text-lg text-[#555555] mt-1 text-center">
 								{t("auth:resetPasswordDescription")}
 							</p>
 						</div>
@@ -114,7 +114,7 @@ function ResetPasswordForm() {
 				</div>
 
 				<div className="grid gap-2">
-					<Label htmlFor="password" className="text-text-main">
+					<Label htmlFor="password" className="font-vt323! font-normal! text-lg! text-black!">
 						{t("auth:newPassword")}
 					</Label>
 					<div className="relative">
@@ -123,13 +123,13 @@ function ResetPasswordForm() {
 							type={showPassword ? "text" : "password"}
 							placeholder={t("auth:passwordPlaceholder")}
 							{...register("password")}
-							className="bg-background/30 border-border text-text-strong/80 focus-visible:ring-0 pr-12"
+							className="rounded-none! border-[3px]! border-black! bg-white! font-vt323! font-normal! text-lg! text-black! placeholder:text-[#999999]! focus-visible:ring-0! h-12! pr-12!"
 							disabled={isLoading}
 						/>
 						<button
 							type="button"
 							onClick={() => setShowPassword(!showPassword)}
-							className="absolute right-3 top-1/2 -translate-y-1/2 text-text-soft hover:text-text-sub transition-colors"
+							className="absolute right-3 top-1/2 -translate-y-1/2 text-[#999999] hover:text-black transition-colors"
 							aria-label={showPassword ? "Hide password" : "Show password"}>
 							<EyeLine size={20} />
 						</button>
@@ -142,7 +142,7 @@ function ResetPasswordForm() {
 				<PasswordStrengthIndicator password={watchedPassword} />
 
 				<div className="grid gap-2">
-					<Label htmlFor="confirmPassword" className="text-text-main">
+					<Label htmlFor="confirmPassword" className="font-vt323! font-normal! text-lg! text-black!">
 						{t("auth:confirmPassword")}
 					</Label>
 					<div className="relative">
@@ -151,13 +151,13 @@ function ResetPasswordForm() {
 							type={showConfirmPassword ? "text" : "password"}
 							placeholder={t("auth:confirmPasswordPlaceholder")}
 							{...register("confirmPassword")}
-							className="bg-background/30 border-border text-text-strong/80 focus-visible:ring-0 pr-12"
+							className="rounded-none! border-[3px]! border-black! bg-white! font-vt323! font-normal! text-lg! text-black! placeholder:text-[#999999]! focus-visible:ring-0! h-12! pr-12!"
 							disabled={isLoading}
 						/>
 						<button
 							type="button"
 							onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-							className="absolute right-3 top-1/2 -translate-y-1/2 text-text-soft hover:text-text-sub transition-colors"
+							className="absolute right-3 top-1/2 -translate-y-1/2 text-[#999999] hover:text-black transition-colors"
 							aria-label={
 								showConfirmPassword ? "Hide password" : "Show password"
 							}>
@@ -174,7 +174,7 @@ function ResetPasswordForm() {
 				<Button
 					type="submit"
 					disabled={isLoading}
-					className="w-full text-text-main">
+					className="w-full rounded-none! border-[3px]! border-black! bg-black! text-white! hover:bg-black/85! font-press-start! text-sm! uppercase! h-12! shadow-[6px_6px_0_#c4c4c4]!">
 					{isLoading ? t("auth:resetting") : t("auth:setNewPassword")}
 				</Button>
 			</div>
@@ -182,7 +182,7 @@ function ResetPasswordForm() {
 			<div className="flex items-center justify-center">
 				<Link
 					to="/login"
-					className="text-sm underline-offset-4 hover:underline text-primary hover:text-primary/80 transition-colors">
+					className="font-vt323! font-normal! text-sm underline-offset-4 hover:underline text-[#555555] hover:text-black transition-colors">
 					{t("auth:backToLogin")}
 				</Link>
 			</div>

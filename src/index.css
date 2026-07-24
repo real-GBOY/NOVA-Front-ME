@@ -469,6 +469,14 @@ html[lang="ar"] .main-page * {
    background-size: 24px 24px;
 }
 
+.pixel-grid-bg-light {
+   background-color: #ffffff;
+   background-image:
+      linear-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+   background-size: 24px 24px;
+}
+
 /* ═══════════════════════════════════════════════════════════════════════════
    RESPONSIVE UTILITY CLASSES
    Only handle mobile/tablet - current desktop values stay in components with xl:

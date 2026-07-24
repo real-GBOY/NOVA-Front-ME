@@ -83,7 +83,7 @@ function CompletePasswordForm() {
 		return (
 			<div className="flex flex-col gap-4 items-center text-center">
 				<p className="text-sm text-danger">{t("auth:invalidInviteLink")}</p>
-				<p className="text-sm text-text-sub">
+				<p className="font-vt323! font-normal! text-sm text-[#555555]">
 					{t("auth:invalidInviteLinkDescription")}
 				</p>
 			</div>
@@ -91,25 +91,25 @@ function CompletePasswordForm() {
 	}
 
 	return (
-		<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-6 w-full">
+		<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-8 w-full">
 			<div className="flex flex-col gap-2">
-				<Label htmlFor="password" className="text-sm font-medium text-text-strong">
+				<Label htmlFor="password" className="font-vt323! font-normal! text-lg! text-black!">
 					{t("auth:yourPassword")}
 				</Label>
-				<div className="relative flex items-center gap-3 rounded-xl border border-border bg-background px-4 py-3 shadow-subtle transition-all focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/15">
-					<Lock2LineAuth size={20} className="text-text-soft shrink-0" />
+				<div className="relative flex items-center gap-3 border-[3px] border-black bg-white px-4 py-3 transition-all">
+					<Lock2LineAuth size={20} className="text-[#999999] shrink-0" />
 					<Input
 						id="password"
 						type={showPassword ? "text" : "password"}
 						placeholder={t("auth:passwordPlaceholder")}
 						{...register("password")}
-						className="flex-1 border-0 bg-transparent px-0 py-0 text-sm text-text-strong placeholder:text-text-soft focus-visible:ring-0 focus-visible:ring-offset-0 shadow-none"
+						className="flex-1 border-0! bg-transparent! px-0! py-0! font-vt323! font-normal! text-lg! text-black! placeholder:text-[#999999]! focus-visible:ring-0! focus-visible:ring-offset-0! shadow-none!"
 						disabled={isLoading}
 					/>
 					<button
 						type="button"
 						onClick={() => setShowPassword(!showPassword)}
-						className="shrink-0 text-text-soft hover:text-text-sub transition-colors"
+						className="shrink-0 text-[#999999] hover:text-black transition-colors"
 						aria-label={showPassword ? "Hide password" : "Show password"}>
 						<EyeLine size={20} />
 					</button>
@@ -125,23 +125,23 @@ function CompletePasswordForm() {
 			<div className="flex flex-col gap-2">
 				<Label
 					htmlFor="confirmPassword"
-					className="text-sm font-medium text-text-strong">
+					className="font-vt323! font-normal! text-lg! text-black!">
 					{t("auth:confirmPassword")}
 				</Label>
-				<div className="relative flex items-center gap-3 rounded-xl border border-border bg-background px-4 py-3 shadow-subtle transition-all focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/15">
-					<Lock2LineAuth size={20} className="text-text-soft shrink-0" />
+				<div className="relative flex items-center gap-3 border-[3px] border-black bg-white px-4 py-3 transition-all">
+					<Lock2LineAuth size={20} className="text-[#999999] shrink-0" />
 					<Input
 						id="confirmPassword"
 						type={showConfirmPassword ? "text" : "password"}
 						placeholder={t("auth:confirmPasswordPlaceholder")}
 						{...register("confirmPassword")}
-						className="flex-1 border-0 bg-transparent px-0 py-0 text-sm text-text-strong placeholder:text-text-soft focus-visible:ring-0 focus-visible:ring-offset-0 shadow-none"
+						className="flex-1 border-0! bg-transparent! px-0! py-0! font-vt323! font-normal! text-lg! text-black! placeholder:text-[#999999]! focus-visible:ring-0! focus-visible:ring-offset-0! shadow-none!"
 						disabled={isLoading}
 					/>
 					<button
 						type="button"
 						onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-						className="shrink-0 text-text-soft hover:text-text-sub transition-colors"
+						className="shrink-0 text-[#999999] hover:text-black transition-colors"
 						aria-label={
 							showConfirmPassword ? "Hide password" : "Show password"
 						}>
@@ -158,17 +158,17 @@ function CompletePasswordForm() {
 			<Button
 				type="submit"
 				disabled={isLoading}
-				className="h-11 w-full rounded-xl text-sm font-semibold shadow-[0_10px_30px_-12px_rgba(0,0,0,0.25)] hover:scale-[1.01] active:scale-[0.99]">
+				className="h-12! w-full rounded-none! border-[3px]! border-black! bg-black! text-white! hover:bg-black/85! font-press-start! text-sm! uppercase! shadow-[6px_6px_0_#c4c4c4]!">
 				{isLoading ? t("auth:continuing") : t("auth:continue")}
 			</Button>
 
 			<div className="flex flex-col gap-1 items-center">
-				<p className="text-sm text-text-sub text-center">
+				<p className="font-vt323! font-normal! text-sm text-[#555555] text-center">
 					{t("auth:dontHaveAccess")}
 				</p>
 				<Link
 					to="/forgot-password"
-					className="text-sm text-text-strong hover:text-primary underline transition-colors">
+					className="font-vt323! font-normal! text-sm text-black hover:text-[#555555] underline transition-colors">
 					{t("auth:tryAnotherMethod")}
 				</Link>
 			</div>

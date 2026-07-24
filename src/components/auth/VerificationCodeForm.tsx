@@ -57,22 +57,22 @@ function VerificationCodeForm() {
 	const isCodeComplete = code.every((digit) => digit !== "");
 
 	return (
-		<form onSubmit={handleSubmit} className="space-y-6">
-			<div className="space-y-6">
+		<form onSubmit={handleSubmit} className="space-y-8">
+			<div className="space-y-8">
 				<div className="flex flex-col items-center gap-4">
-					<div className="flex justify-center mb-2">
+					<div className="flex justify-center mb-2 border-[3px] border-black bg-white p-1">
 						<img
-							src="https://i.postimg.cc/FRZj99kX/2.png"
+							src="https://i.postimg.cc/P5qXfsDy/image.png"
 							alt="Logo"
-							className="h-16 w-auto object-contain rounded-xl"
+							className="h-14 w-auto object-contain"
 						/>
 					</div>
-					<div className="space-y-2 w-full">
+					<div className="space-y-3 w-full">
 						<div>
-							<h2 className="text-2xl font-semibold text-text-main text-center">
+							<h2 className="font-press-start text-lg leading-loose tracking-[2px] text-black text-center uppercase">
 								{t("enterVerificationCode")}
 							</h2>
-							<p className="text-sm text-text-main mt-1 text-center">
+							<p className="font-vt323! font-normal! text-lg text-[#555555] mt-1 text-center">
 								{t("verificationCodeDescription", {
 									email: "your email",
 								})}
@@ -93,7 +93,7 @@ function VerificationCodeForm() {
 							onChange={(e) => handleChange(index, e.target.value)}
 							onKeyDown={(e) => handleKeyDown(index, e)}
 							onPaste={index === 0 ? handlePaste : undefined}
-							className="flex-1 h-12 min-w-0 rounded-xl border border-border bg-background/30 text-text-strong/80 text-center text-lg font-medium focus-visible:outline-none focus-visible:ring-0"
+							className="flex-1 h-12 min-w-0 rounded-none border-[3px] border-black bg-white text-black text-center text-lg font-vt323 focus-visible:outline-none focus-visible:ring-0"
 						/>
 					))}
 				</div>
@@ -101,20 +101,20 @@ function VerificationCodeForm() {
 				<Button
 					type="submit"
 					disabled={!isCodeComplete}
-					className="w-full text-text-main disabled:cursor-not-allowed disabled:opacity-60">
+					className="w-full rounded-none! border-[3px]! border-black! bg-black! text-white! hover:bg-black/85! font-press-start! text-sm! uppercase! h-12! shadow-[6px_6px_0_#c4c4c4]! disabled:cursor-not-allowed disabled:opacity-60">
 					{t("submitCode")}
 				</Button>
 			</div>
 
 			<div className="flex flex-col gap-1 items-center">
-				<p className="text-sm text-text-sub text-center">
+				<p className="font-vt323! font-normal! text-sm text-[#666666] text-center">
 					{t("experiencingIssues")}
 				</p>
 				<button
 					type="button"
 					onClick={() => {
 					}}
-					className="text-sm underline-offset-4 hover:underline text-primary hover:text-primary/80 transition-colors">
+					className="font-vt323! font-normal! text-sm underline-offset-4 hover:underline text-[#555555] hover:text-black transition-colors">
 					{t("resendCode")}
 				</button>
 			</div>
